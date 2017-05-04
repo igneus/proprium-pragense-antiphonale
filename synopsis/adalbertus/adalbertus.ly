@@ -9,12 +9,6 @@
 
 \markup{in i. vesperis}
 
-\markup\justify{
-  Antiphona super psalmos,
-  responsorium \italic{O presul} de matutino,
-  antiphona ad Magnificat.
-}
-
 \include "a_benedic.ly"
 \include "a_oqualem.ly"
 
