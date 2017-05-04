@@ -5,39 +5,6 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f f d c } \bar "" \melisma { c f } f \bar "" f g \bar "" a \melisma { g f } \bar "" \melisma { g a g } \melisma { f e } e \bar ""
-    e \melisma { g a } \bar "" a \melisma { a c' } a \bar "" \melisma { g f } \melisma { g a g } \melisma { f e } e \bar ""
-    f \bar "" \melisma { d d } \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
-    e g a \bar "" a a a \bar "" g \bar "" f \melisma { g a g } \bar "" \melisma { f e } e \bar ""
-    \melisma { f f } d f \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar ""
-    e f \bar "" \melisma { g f e f } \melisma { d c } \bar ""
-    d d \bar "" f e \bar "" \melisma { g g } f \bar "" f \melisma { g a g } e \melisma { f e d c } \bar ""
-    d \melisma { d e f } e e \bar "||"
-
-    a g a c' \melisma { g g } e \bar "||"
-  }
-  \addlyrics {
-    O qua -- lem di -- es i -- ste ce -- le -- bris
-    no -- bis in -- iun -- xit le -- ti -- ci -- am
-    in sanc -- ti mar -- ti -- ris A -- dal -- ber -- ti tran -- si -- tu
-    con -- gau -- dent an -- ge -- li et ar -- chan -- ge -- li
-    o -- mnes -- que ci -- ues ce -- li -- ci
-    ter -- ra o -- mnis
-    lau -- de de -- i plau -- dat mul -- ti -- pli -- ci
-    a -- e -- u -- ia
-
-    E -- u -- o -- u -- a -- e
-  }
-  \header {
-    quid = "antiphona"
-    modus = "4"
-    fontes = "kol1"
-  }
-}
-
-\score {
-  \transpose c c' {
-    \plainchant
     \melisma { f^"a" e d c } \bar "" \melisma { d f } f \bar "" f g \bar "" a \melisma { g f } \bar "" \melisma { g a g } \melisma { f e } e \bar ""
     e^"b" \melisma { g a } \bar "" \melisma { a a } \melisma { a c' a } g \bar "" \melisma { g f } \melisma { g a g } \melisma { f e } e \bar ""
     \melisma { f^"c" f } \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
@@ -95,5 +62,38 @@
   }
   \header {
     fontes = "nic 265r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f f d c } \bar "" \melisma { c f } f \bar "" f g \bar "" a \melisma { g f } \bar "" \melisma { g a g } \melisma { f e } e \bar ""
+    e \melisma { g a } \bar "" a \melisma { a c' } a \bar "" \melisma { g f } \melisma { g a g } \melisma { f e } e \bar ""
+    f \bar "" \melisma { d d } \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
+    e g a \bar "" a a a \bar "" g \bar "" f \melisma { g a g } \bar "" \melisma { f e } e \bar ""
+    \melisma { f f } d f \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar ""
+    e f \bar "" \melisma { g f e f } \melisma { d c } \bar ""
+    d d \bar "" f e \bar "" \melisma { g g } f \bar "" f \melisma { g a g } e \melisma { f e d c } \bar ""
+    d \melisma { d e f } e e \bar "||"
+
+    a g a c' \melisma { g g } e \bar "||"
+  }
+  \addlyrics {
+    O qua -- lem di -- es i -- ste ce -- le -- bris
+    no -- bis in -- iun -- xit le -- ti -- ci -- am
+    in sanc -- ti mar -- ti -- ris A -- dal -- ber -- ti tran -- si -- tu
+    con -- gau -- dent an -- ge -- li et ar -- chan -- ge -- li
+    o -- mnes -- que ci -- ues ce -- li -- ci
+    ter -- ra o -- mnis
+    lau -- de de -- i plau -- dat mul -- ti -- pli -- ci
+    a -- e -- u -- ia
+
+    E -- u -- o -- u -- a -- e
+  }
+  \header {
+    quid = "antiphona"
+    modus = "4"
+    fontes = "kol1"
   }
 }
