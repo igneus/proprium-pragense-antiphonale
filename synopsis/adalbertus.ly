@@ -10,13 +10,13 @@
 \score {
   \transpose c c' {
     \plainchant
-    f \melisma { g f } \melisma{ g a } \bar "" b a \bar "" f g f \bar ""
-    \melisma { a b } c' \melisma { a b } \bar "" \melisma { c' c' b a g f } \bar "" g \melisma { g a g } f f \bar ""
-    f \bar "" \melisma { a a } \bar "" c' \bar "" c' a g c' \melisma { d' c' } \bar ""
-    c' \bar "" c' d' e' \bar "" f' \melisma { e' d' c' } \melisma { a c' } c' \bar ""
-    c' \melisma { c' d' } \melisma { d' c' a } \melisma { b c' } a \bar "" c' \melisma { b a } \bar "" g f \bar ""
-    d f \bar "" g f f \bar "" g \melisma { f g } a \bar ""
-    \melisma { c' c' } \melisma { a b c' } c' \melisma { f e d c } \bar "" g \melisma { g a g } f f \bar "||"
+    f^"a" \melisma { g f } \melisma{ g a } \bar "" b a \bar "" f g f \bar ""
+    \melisma { a^"b" b } c' \melisma { a b } \bar "" \melisma { c' c' b a g f } \bar "" g \melisma { g a g } f f \bar ""
+    f^"c" \bar "" \melisma { a a } \bar "" c' \bar "" c' a g c' \melisma { d' c' } \bar ""
+    c'^"d" \bar "" c' d' e' \bar "" f' \melisma { e' d' c' } \melisma { a c' } c' \bar ""
+    c'^"e" \melisma { c' d' } \melisma { d' c' a } \melisma { b c' } a \bar "" c' \melisma { b a } \bar "" g f \bar ""
+    d^"f" f \bar "" g f f \bar "" g \melisma { f g } a \bar ""
+    \melisma { c'^"g" c' } \melisma { a b c' } c' \melisma { f e d c } \bar "" g \melisma { g a g } f f \bar "||"
 
     a a f \melisma { g a } g f \bar "||"
   }
@@ -35,6 +35,25 @@
     quid = "antiphona"
     modus = "6+5"
     fontes = "kol1 280r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f'^"d" \melisma { e' d' c' } \melisma { a b } c' \bar ";"
+    c'^"e" \melisma { bes a } \bar ";"
+    c^"f" f g f f \bar ""
+  }
+  \addlyrics {
+    de -- sti -- na -- uit
+    xris -- ti
+    tu -- a ex -- ti -- tit
+  }
+  \header {
+    quid = "antiphona"
+    modus = "6+5"
+    fontes = "nic 264v"
   }
 }
 
@@ -154,14 +173,14 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f e d c } \bar "" \melisma { d f } f \bar "" f g \bar "" a \melisma { g f } \bar "" \melisma { g a g } \melisma { f e } e \bar ""
-    e \melisma { g a } \bar "" \melisma { a a } \melisma { a c' a } g \bar "" \melisma { g f } \melisma { g a g } \melisma { f e } e \bar ""
-    \melisma { f f } \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
-    e \melisma { g g } a \bar "" a a a \bar "" g \bar "" f \melisma { g a g } \bar "" \melisma { f e } e \bar ""
-    \melisma { f f } d f \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar ""
-    e f \bar "" \melisma { g f e f } \melisma { d c } \bar ""
-    d d \bar "" f e \bar "" \melisma { g g } f \bar "" f \melisma { g a g } e \melisma { f d c } \bar ""
-    d \melisma { d f } e e \bar "||"
+    \melisma { f^"a" e d c } \bar "" \melisma { d f } f \bar "" f g \bar "" a \melisma { g f } \bar "" \melisma { g a g } \melisma { f e } e \bar ""
+    e^"b" \melisma { g a } \bar "" \melisma { a a } \melisma { a c' a } g \bar "" \melisma { g f } \melisma { g a g } \melisma { f e } e \bar ""
+    \melisma { f^"c" f } \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
+    e^"d" \melisma { g g } a \bar "" a a a \bar "" g \bar "" f \melisma { g a g } \bar "" \melisma { f e } e \bar ""
+    \melisma { f^"e" f } d f \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar ""
+    e^"f" f \bar "" \melisma { g f e f } \melisma { d c } \bar ""
+    d^"g" d \bar "" f e \bar "" \melisma { g g } f \bar "" f \melisma { g a g } e \melisma { f d c } \bar ""
+    d^"h" \melisma { d f } e e \bar "||"
 
     a g a c' \melisma { g g } e \bar "||"
   }
@@ -181,5 +200,26 @@
     quid = "antiphona"
     modus = "4"
     fontes = "cbre 310v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c^"a" f } f \bar ";"
+    a \melisma { g f} \bar ";"
+    \melisma { a^"b" \strophicus a } \melisma { a c' } a \bar ";"
+    f^"g" \melisma { g a g } e \melisma { f e d c }
+  }
+  \addlyrics {
+    qua -- lem
+    is -- te
+    in -- iun -- xit
+    mul -- ti -- pli -- ci
+  }
+  \header {
+    quid = "antiphona"
+    modus = "4"
+    fontes = "nic 265r"
   }
 }
