@@ -6,11 +6,7 @@
   scoreTitleMarkup = \markup\small{
     \fill-line {
       " "
-      \concat{
-        \fromproperty #'header:quid
-        " modus: " \fromproperty #'header:modus
-        " fontes: " \fromproperty #'header:fontes
-      }
+      \fromproperty #'header:fontes
     }
   }
 }

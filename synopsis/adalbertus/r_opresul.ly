@@ -62,8 +62,6 @@
     et fi -- li -- o et spi -- ri -- tu -- i
   }
   \header {
-    quid = "responsorium"
-    modus = ""
     fontes = "pint 27r"
   }
 }

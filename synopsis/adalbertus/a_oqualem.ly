@@ -77,8 +77,6 @@
     O qua -- lem
   }
   \header {
-    quid = "antiphona"
-    modus = "4"
     fontes = "nic 265r, pint 27r"
   }
 }
@@ -96,8 +94,6 @@
     mul -- ti -- pli -- ci
   }
   \header {
-    quid = "antiphona"
-    modus = "4"
     fontes = "nic 265r"
   }
 }

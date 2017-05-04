@@ -46,8 +46,6 @@
     tu -- a ex -- ti -- tit
   }
   \header {
-    quid = "antiphona"
-    modus = "6+5"
     fontes = "nic 264v"
   }
 }
