@@ -71,10 +71,10 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { c^"a" f } f \bar ";"
+    \melisma { f e d c } \melisma { c^"a" f } f \bar ";"
   }
   \addlyrics {
-    qua -- lem
+    O qua -- lem
   }
   \header {
     quid = "antiphona"
