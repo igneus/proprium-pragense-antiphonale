@@ -50,3 +50,20 @@
     fontes = "kol1"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d a } \melisma { g a } \melisma { g f e } \bar ";"
+    \melisma { a c' } \melisma { c' b } \melisma { g a } \melisma { a b a } a a \melisma { a g a g } \melisma { f e } \melisma { c d } \bar ";"
+  }
+  \addlyrics {
+    Pre -- ci -- bus
+    et fi -- li -- o et spi -- ri -- tu -- i
+  }
+  \header {
+    quid = "responsorium"
+    modus = ""
+    fontes = "pint 27r"
+  }
+}

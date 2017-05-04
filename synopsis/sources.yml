@@ -16,3 +16,9 @@ cbre:
   siglum: CZ-Pn XV A 10
   name: Vesperarium svatovítské
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XV_A_10_____0MGV3O0-cs"
+pint:
+  siglum: CZ-PLm 504 C 004
+  name: Antiphonarium Plsnense
+  year: 1616
+  uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-ZMP___504_C_004___107P3BA-cs"
+  notice: only contains antiphon incipits/intonations and verses for responsories

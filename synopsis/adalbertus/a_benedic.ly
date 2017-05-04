@@ -29,7 +29,7 @@
   \header {
     quid = "antiphona"
     modus = "6+5"
-    fontes = "kol1 280r"
+    fontes = "kol1 280r, pint 27r"
   }
 }
 

@@ -6,8 +6,8 @@
 
 %{
 \score {
-  \relative c' {
-    \choralniRezim
+  \transpose c c' {
+    \plainchant
 
   }
   \addlyrics {
@@ -16,7 +16,7 @@
   \header {
     quid = "antiphona"
     modus = ""
-    id = ""
+    fontes = ""
   }
 }
 %}

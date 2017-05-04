@@ -72,12 +72,25 @@
   \transpose c c' {
     \plainchant
     \melisma { c^"a" f } f \bar ";"
-    a \melisma { g f} \bar ";"
+  }
+  \addlyrics {
+    qua -- lem
+  }
+  \header {
+    quid = "antiphona"
+    modus = "4"
+    fontes = "nic 265r, pint 27r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a^"a" \melisma { g f} \bar ";"
     \melisma { a^"b" \strophicus a } \melisma { a c' } a \bar ";"
     f^"g" \melisma { g a g } e \melisma { f e d c }
   }
   \addlyrics {
-    qua -- lem
     is -- te
     in -- iun -- xit
     mul -- ti -- pli -- ci
