@@ -3,18 +3,22 @@
 kol1:
   siglum: CZ-Pn XII A 22
   name: Kolínský antifonář - I. díl
+  year: -1477
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XII_A_22____0YK1T6C-cs"
 kol2:
   siglum: CZ-Pn XII A 21
   name: Kolínský antifonář - II. díl
+  year: 1470-1499
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XII_A_21____30TXYP6-cs"
 nic:
   siglum: CZ-Pn XII A 24
   name: Zimní antifonář plzeňského faráře Mikuláše
+  year: 1412
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XII_A_24____3UQDTL9-cs"
 cbre:
   siglum: CZ-Pn XV A 10
   name: Vesperarium svatovítské
+  year: 1370-1380
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XV_A_10_____0MGV3O0-cs"
 pint:
   siglum: CZ-PLm 504 C 004
