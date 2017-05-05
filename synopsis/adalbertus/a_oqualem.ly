@@ -70,14 +70,14 @@
     \plainchant
     \melisma { f f d c } \bar "" \melisma { c f } f \bar "" f g \bar "" a \melisma { g f } \bar "" \melisma { g a g } \melisma { f e } e \bar ""
     e \melisma { g a } \bar "" a \melisma { a c' } a \bar "" \melisma { g f } \melisma { g a g } \melisma { f e } e \bar ""
-    f \bar "" \melisma { d d } \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
+    f \bar "" \melisma { d \strophicus d } \melisma { d c } \bar "" d \melisma { d e } e \bar "" e \melisma { f \strophicus f } \melisma { g f } \melisma { d c } \bar "" d \melisma { d e } e \bar ""
     e g a \bar "" a a a \bar "" g \bar "" f \melisma { g a g } \bar "" \melisma { f e } e \bar ""
-    \melisma { f f } d f \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar ""
+    \melisma { f \strophicus f } d f \bar "" d \melisma { d c } \bar "" d \melisma { d e } e \bar ""
     e f \bar "" \melisma { g f e f } \melisma { d c } \bar ""
-    d d \bar "" f e \bar "" \melisma { g g } f \bar "" f \melisma { g a g } e \melisma { f e d c } \bar ""
+    d d \bar "" f e \bar "" \melisma { g \strophicus g } f \bar "" f \melisma { g a g } e \melisma { f e d c } \bar ""
     d \melisma { d e f } e e \bar "||"
 
-    a g a c' \melisma { g g } e \bar "||"
+    a g a c' \melisma { g \strophicus g } e \bar "||"
   }
   \addlyrics {
     O qua -- lem di -- es i -- ste ce -- le -- bris
@@ -94,6 +94,6 @@
   \header {
     quid = "antiphona"
     modus = "4"
-    fontes = "kol1"
+    fontes = "kol1 281r"
   }
 }

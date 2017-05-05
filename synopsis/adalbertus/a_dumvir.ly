@@ -5,7 +5,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { g f f } \bar "" f \bar "" \melisma { g a } g \bar "" \melisma { g a } g \bar "" g g g \melisma { g a } g \bar ""
+    \melisma { g f \strophicus f } \bar "" f \bar "" \melisma { g a } g \bar "" \melisma { g a } g \bar "" g g g \melisma { g a } g \bar ""
     g g \bar "" g g g \melisma { g a } g \bar "" \melisma { g f } \melisma { a c' } a \bar "" g g \bar ""
     g g \bar "" g \melisma { a g f } a \melisma { a c' a } \bar "" g g \bar ""
     \melisma { g f } \bar "" e \melisma { f g } g \bar ""

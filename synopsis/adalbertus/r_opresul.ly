@@ -49,7 +49,7 @@
   \header {
     quid = "responsorium"
     modus = "2+1"
-    fontes = "kol1"
+    fontes = "kol1 280v"
   }
 }
 

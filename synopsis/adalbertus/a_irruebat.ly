@@ -7,7 +7,7 @@
     \plainchant
     g a \melisma { g a c' } c' \bar "" c' \bar "" c' \melisma { c' b } \bar "" \melisma { a c' a } g g \bar ""
     g \bar "" g a c' b \bar "" a g \melisma { a g f } g \melisma { g a } \bar "" \melisma { e f g f e d } d \bar ""
-    \melisma { g g } g \bar "" a g f \bar "" a \melisma { a c' a } g \melisma { g f e d } \bar "" e \melisma { f g } g g \bar "||"
+    \melisma { g \strophicus g } g \bar "" a g f \bar "" a \melisma { a c' a } g \melisma { g f e d } \bar "" e \melisma { f g } g g \bar "||"
 
     \melisma { c' c' c' b } c' \bar "" \melisma { a g } \bar "||"
   }

@@ -5,7 +5,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    c \bar "" \melisma { d f } f \bar "" \melisma { f e } d \bar "" \melisma { d f } d \bar "" e \melisma { f g } \bar "" \melisma { g f e } d \melisma { d f } \bar "" d c \bar "" c \bar "" d e f \bar "" \melisma { g f e } \bar "" \melisma { d e } \bar "" e \melisma { f e d c } \bar "" d \melisma { d e f } e e \bar "||" a g a c' \melisma { g g } e \bar "||"
+    c \bar "" \melisma { d f } f \bar "" \melisma { f e } d \bar "" \melisma { d f } d \bar "" e \melisma { f g } \bar "" \melisma { g f e } d \melisma { d f } \bar "" d c \bar "" c \bar "" d e f \bar "" \melisma { g f e } \bar "" \melisma { d e } \bar "" e \melisma { f e d c } \bar "" d \melisma { d e f } e e \bar "||" a g a c' \melisma { g \strophicus g } e \bar "||"
   }
   \addlyrics {
      Qui qui -- dem vic -- tor  xri -- sti se -- met tra -- di -- dit de -- o et lu -- cra -- tus est  in e -- o a -- e -- u -- ia  E -- u -- o -- u -- a -- e

@@ -27,7 +27,7 @@
     \melisma { d e } \melisma { g a g b a g b g d e g a g b a g b g g f a g a b c' } \melisma { b a g a } \bar "" g \bar "||"
 
     g \bar "" \melisma { b a g } \bar "" \melisma { b c' d' } d' \bar "" d' \melisma { b c' d' } d' \bar "" d' \melisma { b a g } \bar "" \melisma { a g a b c' b } \melisma { a g } g \bar ""
-    g \melisma { e d e } \melisma { g a } g \bar "" g \bar "" \melisma { c' b a b b } g \bar "" \melisma { b c' d' } d' \bar "" \melisma { d' b c' b a g a } d \melisma { e f g f } \melisma { a g } \bar "||"
+    g \melisma { e d e } \melisma { g a } g \bar "" g \bar "" \melisma { c' b a b \strophicus b } g \bar "" \melisma { b c' d' } d' \bar "" \melisma { d' b c' b a g a } d \melisma { e f g f } \melisma { a g } \bar "||"
 
     g \bar "||"
 

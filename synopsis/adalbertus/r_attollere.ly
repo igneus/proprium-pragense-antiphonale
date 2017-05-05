@@ -6,18 +6,18 @@
   \transpose c c' {
     \plainchant
     g g \melisma { e f g f } \melisma { g d } \bar "" \melisma { d g f g a } g \bar "" \melisma { f a c' b a c' g } \melisma { f g } g \bar ""
-    g g \melisma { g a } a \bar "" \melisma { a c' c' } a \bar "" a \melisma { a g a g f a g c' } \melisma { g a g } \bar ""
+    g g \melisma { g a } a \bar "" \melisma { a c' \strophicus c' } a \bar "" a \melisma { a g a g f a g c' } \melisma { g a g } \bar ""
     a \melisma { g a } \melisma { a c' d' } c' \bar "" d' \melisma { c' b a c' } \bar "" g \melisma { a g } \bar "" \melisma { f g } g \melisma { g a c' a c' } \bar "" \melisma { a g } \bar "|"
 
     \melisma { g f e f } \bar "" d \bar "" \melisma { d g f g a } g \bar "" f \melisma { f a c' b a c' g } \melisma { f g } g \bar ""
-    g \bar "" g \bar "" \melisma { g a } \melisma { a c' } a \bar "" \melisma { a a } \melisma { a g a g f f g a g a b } \bar "" \melisma { g f } f \bar ""
-    a \melisma { g a } \bar "" \melisma { g a c' } d' \melisma { c' b a } \melisma { c' c' } \bar "" g \melisma { a g } \melisma { f g } \melisma { g a c' a b } \melisma { a g } \bar ""
+    g \bar "" g \bar "" \melisma { g a } \melisma { a c' } a \bar "" \melisma { a \strophicus a } \melisma { a g a g f f g a g a b } \bar "" \melisma { g f } f \bar ""
+    a \melisma { g a } \bar "" \melisma { g a c' } d' \melisma { c' b a } \melisma { c' \strophicus c' } \bar "" g \melisma { a g } \melisma { f g } \melisma { g a c' a b } \melisma { a g } \bar ""
     d f g \bar "" \melisma { g f e d e f e } \melisma { d c } c \bar "" c \melisma { c g } \melisma { g f g f e f f a c' b c' d' c' d' c' c' b a g } \bar ""
     \melisma { g f e f } \melisma { d g f g a g } \bar "" \melisma { f a c' b a d' d' c' b a g } \melisma { a c' a } \melisma { g a g } g \bar "" a \melisma { a g f g a c' a c' g } \melisma { g a g } g \bar "||"
 
     \melisma { a c' } \bar "" c' \melisma { c' g } \bar "" \melisma { a c' } \bar "" c' c' \melisma { c' a } \bar "" \melisma { c' d' } c' c' \bar ""
     c' \melisma { c' a } \melisma { b c' } \melisma { a c' } \bar "" g \melisma { g a } \melisma { g f } \bar ""
-    f \melisma { a c' } c' c' \bar "" \melisma { c' c' } \melisma { c' d' } c' \bar ""
+    f \melisma { a c' } c' c' \bar "" \melisma { c' \strophicus c' } \melisma { c' d' } c' \bar ""
     c' \melisma { b a } \melisma { b c' } \melisma { a c' } \bar "" g \melisma { g a b c' a } \melisma { a g } \bar ""
     g \bar "" \melisma { f g } g \bar "" g g \bar ""
     g \melisma { g a } \bar "" g g \bar "" a a \bar ""
