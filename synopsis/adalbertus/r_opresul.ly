@@ -5,21 +5,22 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d d \tli c \sli a, } \bar "" \melisma { c d } d \bar "" \melisma { f e } d \bar "" d \melisma { f \sli d \tli c d f g \tli f \sli d f \mli c \sli a, } c d \bar ""
-    d \melisma { d a } \melisma { a g f g a b } a \bar "" \melisma { a g f e } \melisma { c e f \sli d } d \bar "" d \melisma { d g } \melisma { g a f e d c } \melisma { e f d } c d \bar ""
-    d d \melisma { d c a, } \bar "" \melisma { c d } \melisma { d f g f e d f e d f d } \melisma { c d } \bar "" \melisma { d f e f } \melisma { e d } \bar ""
-    \melisma { a f } \melisma { a g } \bar "" \melisma { e d f c d e f d } \melisma { c d } \bar "" \melisma { d f e f } \melisma { e d } \bar ""
+    \melisma { d^"a" d \tli c \sli a, } \bar "" \melisma { c d } d \bar "" \melisma { f e } d \bar "" d \melisma { f \sli d \tli c d f g \tli f \sli d f \mli c \sli a, } c d \bar ""
+    d^"b" \melisma { d a } \melisma { a g f g a b } a \bar "" \melisma { a g f e } \melisma { c e f \sli d } d \bar "" d \melisma { d g } \melisma { g a f e d c } \melisma { e f d } c d \bar ""
+    d^"c" d \melisma { d c a, } \bar "" \melisma { c d } \melisma { d f g f e d f e d f d } \melisma { c d } \bar "" \melisma { d f e f } \melisma { e d } \bar ""
+    \melisma { a^"d" f } \melisma { a g } \bar "" \melisma { e d f c d e f d } \melisma { c d } \bar "" \melisma { d f e f } \melisma { e d } \bar ""
     \melisma { d f d c e f g f f g a a g f e } d \bar "" \melisma { f e } \bar "" \melisma { d f d c d } \melisma { d c } \bar "|"
-    c \bar "" \melisma { d f d } \bar "" c \bar "" c \melisma { d f } \melisma { f a b a g f g } g \bar "" \melisma { f a b a g a g f a d a b a g a g f a d f e f g } \melisma { c d } \bar "" \melisma { d e f d } d \bar ""
+
+    c^"e" \bar "" \melisma { d f d } \bar "" c \bar "" c \melisma { d f } \melisma { f a b a g f g } g \bar "" \melisma { f a b a g a g f a d a b a g a g f a d f e f g } \melisma { c d } \bar "" \melisma { d e f d } d \bar ""
     d \melisma { f d c d f g f g d } \melisma { d f d } d \bar "||"
 
-    \melisma { d a } \melisma { g a } \melisma { g f e d } \bar "" g a \bar "" \melisma { a c' } \melisma { c' b } \bar ""
+    \melisma { d^"f" a } \melisma { g a } \melisma { g f e d } \bar "" g a \bar "" \melisma { a c' } \melisma { c' b } \bar ""
     \melisma { g a } \melisma { a b a } a \bar "" \melisma { g f } \melisma { g a } \melisma { a g } \melisma { a c' } a a \bar ""
     \melisma { a g a g } \melisma { f e } \bar "" \melisma { c d } \melisma { d e f d } d \bar "||"
 
     c \bar "" \melisma { d f d } \bar "||"
 
-    \melisma { d a } \melisma { g a } \melisma { g f e d } \bar "" \melisma { g a } a \bar "" \melisma { a c' b } \bar "" \melisma { g a } \melisma { a b a } a \bar ""
+    \melisma { d^"g" a } \melisma { g a } \melisma { g f e d } \bar "" \melisma { g a } a \bar "" \melisma { a c' b } \bar "" \melisma { g a } \melisma { a b a } a \bar ""
     a \bar "" \melisma { a g a g } \melisma { a g } \melisma { f e } \melisma { c d } \bar "" \melisma { d e f d } d \bar "||"
 
     c \bar "||"
@@ -30,6 +31,7 @@
     si -- gno -- rum vir -- tu -- te cla -- re
     au -- di vo -- ces nos -- tras
     co -- ram te fu -- sas
+
     Et fac nos e -- ter -- na -- li cho -- ro iun -- gi
     a -- e -- u -- ia
 
@@ -54,8 +56,8 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d a } \melisma { g a } \melisma { g f e } \bar ";"
-    \melisma { a c' } \melisma { c' b } \melisma { g a } \melisma { a b a } a a \melisma { a g a g } \melisma { f e } \melisma { c d } \bar ";"
+    \melisma { d^"f" a } \melisma { g a } \melisma { g f e } \bar ";"
+    \melisma { a^"g" c' } \melisma { c' b } \melisma { g a } \melisma { a b a } a a \melisma { a g a g } \melisma { f e } \melisma { c d } \bar ";"
   }
   \addlyrics {
     Pre -- ci -- bus
