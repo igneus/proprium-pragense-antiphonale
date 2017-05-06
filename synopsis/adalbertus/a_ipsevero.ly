@@ -29,3 +29,18 @@
     fontes = "kol1 282r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a \strophicus a } g \melisma { a b c' } a a g \bar ";"
+    a a \melisma { a c' a }
+  }
+  \addlyrics {
+    ir -- ru -- en -- tem \markup\italic{quid} vis
+    sang -- ui -- ne
+  }
+  \header {
+    fontes = "cbre 310v"
+  }
+}

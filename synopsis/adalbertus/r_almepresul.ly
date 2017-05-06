@@ -10,29 +10,31 @@
   deducimus, responsorium \upright{O presul} hic in matutino non esse
   canendum (ut in breviariis pragensibus praescribitur),
   sed post tertia lectione sine responsorio Te Deum subsequere.
+  Sed contra est quod \bold{cbre,} omnes tres responsoria in matutino
+  habens, secundo responsorio doxologiam tamen subiungitur.
 }
 
 \score {
   \transpose c c' {
     \plainchant
-    g \melisma { a g } \bar "" \melisma { a b c' b a g f } \melisma { a g } \bar "" \melisma { g e f g } \bar "" \melisma { f e d } \melisma { e f g f } \bar "" \melisma { a g } \bar ""
-    g d' \bar "" \melisma { d' c' d' c' b a c' b c' } d' \bar "" d' \melisma { b c' b a g } \melisma { a g a b c' b a } \bar "" \melisma { a g } \bar ""
-    \melisma { g a b a b } c' \bar "" \melisma { b a g a } g \bar "" a \melisma { a g a g f e d } \melisma { e f } g \bar ""
-    \melisma { g e f g } \melisma { f e d } \bar "" \melisma { d e } g \bar "" \melisma { a g } \melisma { f g } g \bar ""
-    d a \bar "" \melisma { c' b a g a } g \bar ""
+    g^"a" \melisma { a g } \bar "" \melisma { a b c' b a g f } \melisma { a g } \bar "" \melisma { g e f g } \bar "" \melisma { f e d } \melisma { e f g f } \bar "" \melisma { a g } \bar ""
+    g^"b" d' \bar "" \melisma { d' c' d' c' b a c' b c' } d' \bar "" d' \melisma { b c' b a g } \melisma { a g a b c' b a } \bar "" \melisma { a g } \bar ""
+    \melisma { g^"c" a b a b } c' \bar "" \melisma { b a g a } g \bar "" a \melisma { a g a g f e d } \melisma { e f } g \bar ""
+    \melisma { g^"d" e f g } \melisma { f e d } \bar "" \melisma { d e } g \bar "" \melisma { a g } \melisma { f g } g \bar ""
+    d^"e" a \bar "" \melisma { c' b a g a } g \bar ""
     \melisma { a g } \melisma { f e d } \bar "" \melisma { e f g f } \melisma { a g } \bar "|"
 
-    g d' \bar "" \melisma { d' c' d' c' b a c' b c' } d' \bar "" \melisma { d' b c' b a } g \melisma { a g a b c' b a } g \bar ""
-    f \melisma { g a } \bar "" \melisma { g a b c' } \melisma { b a } \bar "" g \melisma { f g } g \bar ""
+    g^"f" d' \bar "" \melisma { d' c' d' c' b a c' b c' } d' \bar "" \melisma { d' b c' b a } g \melisma { a g a b c' b a } g \bar ""
+    f^"g" \melisma { g a } \bar "" \melisma { g a b c' } \melisma { b a } \bar "" g \melisma { f g } g \bar ""
     \melisma { d e } \melisma { g a g b a g b g d e g a g b a g b g g f a g a b c' } \melisma { b a g a } \bar "" g \bar "||"
 
-    g \bar "" \melisma { b a g } \bar "" \melisma { b c' d' } d' \bar "" d' \melisma { b c' d' } d' \bar "" d' \melisma { b a g } \bar "" \melisma { a g a b c' b } \melisma { a g } g \bar ""
-    g \melisma { e d e } \melisma { g a } g \bar "" g \bar "" \melisma { c' b a b \strophicus b } g \bar "" \melisma { b c' d' } d' \bar "" \melisma { d' b c' b a g a } d \melisma { e f g f } \melisma { a g } \bar "||"
+    g^"h" \bar "" \melisma { b a g } \bar "" \melisma { b c' d' } d' \bar "" d' \melisma { b c' d' } d' \bar "" d' \melisma { b a g } \bar "" \melisma { a g a b c' b } \melisma { a g } g \bar ""
+    g^"i" \melisma { e d e } \melisma { g a } g \bar "" g \bar "" \melisma { c' b a b \strophicus b } g \bar "" \melisma { b c' d' } d' \bar "" \melisma { d' b c' b a g a } d \melisma { e f g f } \melisma { a g } \bar "||"
 
     g \bar "||"
 
-    g \bar "" \melisma { b a g } \melisma { b c' d' } \bar "" d' \melisma { b c' d' } \bar "" d' \bar "" \melisma { b a g } \melisma { a g a b c' b a } g \bar ""
-    g \bar "" \melisma { c' b a b } \bar "" g \melisma { b c' d' } d' \bar "" \melisma { d' b c' b a g a d e f g f } \melisma { a g } \bar "||"
+    g^"j" \bar "" \melisma { b a g } \melisma { b c' d' } \bar "" d' \melisma { b c' d' } \bar "" d' \bar "" \melisma { b a g } \melisma { a g a b c' b a } g \bar ""
+    g^"k" \bar "" \melisma { c' b a b } \bar "" g \melisma { b c' d' } d' \bar "" \melisma { d' b c' b a g a d e f g f } \melisma { a g } \bar "||"
 
     g d' \bar "||"
   }
@@ -61,5 +63,24 @@
   \header {
     quid = "responsorium"
     fontes = "kol1 283r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"a" e d } \melisma { e f g f g } \melisma { a g } \bar ";"
+    d^"e" g \bar ";"
+    \melisma { d'^"f" c' d' c' b a c' b c' d' } d' \bar ";"
+    \melisma { b^"j" c' b a g } \melisma { a g a b c' } \melisma { b a g } \melisma { a^"k" g } \melisma { c' b } \melisma { a b } \melisma { g b c' d' } d' \melisma { d' b c' b a g a d f g f } f
+  }
+  \addlyrics {
+    be -- a -- te
+    ma -- la
+    pa -- cis
+    fi -- li -- o et spi -- ri -- tu -- i sanc -- to
+  }
+  \header {
+    fontes = "cbre 311v"
   }
 }

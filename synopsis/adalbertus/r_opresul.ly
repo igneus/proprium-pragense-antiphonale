@@ -56,6 +56,31 @@
 \score {
   \transpose c c' {
     \plainchant
+    d^"a" \melisma { f e d c d d f g f e d f f c a, } c d \bar ";"
+    d^"b" \melisma { d a } \melisma { a g f g a bes } a \melisma { a g f } \melisma { c e f d } d d \melisma { d g } \melisma { g a f e c } \melisma { e f d } \melisma { c d } d \bar ";"
+    \melisma { c^"c" \strophicus c } \melisma { d f g f e d f e d d f d } \melisma { c d } \bar ";"
+    \melisma { d^"d" e f e f } \melisma { e d } \melisma { d f d c e f g f f g a a g f g f e } c \melisma { d c } \melisma { d f d c } \melisma { d c } \bar ";"
+    \melisma { d^"e" e f e f } \melisma { e d } \bar ";"
+    \melisma { g^"f" a } \melisma { a bes a } a \bar ";"
+    \melisma { a^"g" c' } \melisma { c' b } \melisma { g a } \melisma { a bes a }
+  }
+  \addlyrics {
+    a -- dal -- ber -- te
+    bo -- he -- mo -- rum pa -- tro -- ne glo -- ri -- o -- sis -- si -- me
+    vir -- tu -- te
+    no -- stras co -- ram te fu -- sas
+    iun -- gi
+    ad -- es -- to
+    et fi -- li -- o
+  }
+  \header {
+    fontes = "cbre 311v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"f" a } \melisma { g a } \melisma { g f e } \bar ";"
     \melisma { a^"g" c' } \melisma { c' b } \melisma { g a } \melisma { a b a } a a \melisma { a g a g } \melisma { f e } \melisma { c d } \bar ";"
   }

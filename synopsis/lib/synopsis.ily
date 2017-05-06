@@ -3,6 +3,7 @@
 \include "modern_gregorian.ily"
 \include "modern_gregorian_ext.ily"
 \include "layout.ily"
+\include "utils.ily"
 
 %{
 \score {

@@ -29,3 +29,18 @@
     fontes = "kol1 281v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f \strophicus f } \bar ";"
+    \melisma { g \strophicus g } a g g \melisma { g a } a \melisma { a b c' b } \melisma { a g } % nejiste deleni: abcb/ag nebo ab/cbag ?
+  }
+  \addlyrics {
+    \markup\italic{Cum}
+    dul -- cis -- si -- mo ie -- su dul -- cem
+  }
+  \header {
+    fontes = "cbre 310v"
+  }
+}
