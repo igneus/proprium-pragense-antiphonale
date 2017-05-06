@@ -38,7 +38,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f e d c } \melisma { c^"a" f } f \bar ";"
+    \melisma { f e d c } \melisma { c^"a" f } f
   }
   \addlyrics {
     O qua -- lem

@@ -4,7 +4,7 @@
 
 \header {
   title = "S. Adalberti, episcopi et martyris"
-  fontes = "kol1 280r; nic 264v; cbre 310r; pint 27r"
+  fontes = "cbre 310r; nic 264v; kol1 280r; pint 27r"
 }
 
 \markup{in i. vesperis}
@@ -14,12 +14,9 @@
 
 \markup{ad matutinum}
 
-\markup\italic{
-  Hoc invitatorium in breviariis ecclesiae pragensis typis impressis
-  non invenitur.
-}
-
 \include "i_hodie.ly"
+
+\markup{in nocturno}
 
 \include "a_dumvir.ly"
 \include "a_irruebat.ly"

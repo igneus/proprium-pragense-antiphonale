@@ -2,6 +2,13 @@
 
 \include "../lib/synopsis.ily"
 
+\markup\justify\italic{
+  Hoc invitatorium in breviariis ecclesiae pragensis typis impressis
+  atque manu scriptis (etiam cbre310)
+  non invenitur, sed invitatorium de communi martyrum tempore paschali
+  \upright{Alleluia. Regem martyrum} praescribitur.
+}
+
 \score {
   \transpose c c' {
     \plainchant
