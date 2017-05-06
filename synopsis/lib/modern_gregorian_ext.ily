@@ -23,7 +23,7 @@ strophicus = {
     % standard notehead
     \musicglyph #"noteheads.s2"
     % add "tail"
-    \raise #0.3
-    \override #'(filled . #t) \path #0.25 #strophicusTailPath
+    \raise #0.4
+    \override #'(filled . #t) \path #0.1 #strophicusTailPath
   }
 }
