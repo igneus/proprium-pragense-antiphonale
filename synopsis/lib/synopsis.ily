@@ -15,7 +15,19 @@
   }
   \header {
     quid = "antiphona"
-    modus = ""
+    fontes = ""
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+
+  }
+  \addlyrics {
+
+  }
+  \header {
     fontes = ""
   }
 }
