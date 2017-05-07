@@ -57,12 +57,7 @@
     \melisma { g g f e f } \melisma { d \strophicus d } e
     \melisma { g^"f" d } \melisma { d e f } e \bar ";"
     \melisma { e^"g" \strophicus e } \melisma { g a } \melisma { c' b a g } \melisma { a b c' b } \melisma { a \strophicus a } \melisma { c' b a g \strophicus g } \bar ";"
-    c^"h" d \bar ";"
-    \melisma { g g f e } \melisma { d e } \melisma { f e } e \bar ""
-    \melisma { g a } \bar "" \melisma { b c' b } \melisma { a g a b } b \bar ""
-    \melisma { c' \strophicus c' } \bar "" \melisma { a g } \melisma { e d } \melisma { e f e } e \bar ";"
-    \melisma { c'^"j" c' b a g } \melisma { a c' b } \bar ";"
-    \melisma { d^"k" c } \melisma { d e f e d } e \bar "" \melisma { f f e d g g f e d c d } e \melisma { f e d } \bar "" \melisma { d \strophicus d } \melisma { d e } e e \bar "||"
+    c^"h" d
   }
   \addlyrics {
     pon -- ti -- fex
@@ -72,9 +67,49 @@
     cen -- tup -- lum
     et vi -- tam e -- ter -- nam
     gre -- gem
+  }
+  \header {
+    fontes = "cbre 312v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g g f e } \melisma { d e } \melisma { f e } e \bar ""
+    \melisma { g a } \bar "" \melisma { b c' b } \melisma { a g a b } b \bar ""
+    \melisma { c' \strophicus c' }
+  }
+  \addlyrics {
     pre -- fu -- i -- sti
     quem fo -- ui -- sti
-    quem do -- cu -- i -- sti
+    quem
+  }
+  \header {
+    fontes = "cbre 312v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a g } \melisma { e d } \melisma { e f e } e
+  }
+  \addlyrics {
+    do -- cu -- i -- sti
+  }
+  \header {
+    fontes = "cbre 312v; nic 268r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c'^"j" c' b a g } \melisma { a c' b } \bar ";"
+    \melisma { d^"k" c } \melisma { d e f e d } e \bar "" \melisma { f f e d g g f e d c d } e \melisma { f e d } \bar "" \melisma { d \strophicus d } \melisma { d e } e e \bar "||"
+  }
+  \addlyrics {
     tu -- o
     \lyrit pre -- cla -- ris or -- ba -- re \lyrrev a -- e -- u -- ia % opisovacsky nesmysl
   }

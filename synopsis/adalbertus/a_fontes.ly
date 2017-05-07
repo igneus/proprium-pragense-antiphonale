@@ -35,6 +35,21 @@
 \score {
   \transpose c c' {
     \plainchant
+    d \melisma { d e } e \bar ";"
+    \melisma { g a } a \melisma { a \strophicus a } \melisma { a c' } \melisma { a \strophicus a } a g
+  }
+  \addlyrics {
+    do -- mi -- no
+    be -- a -- tum A -- dal -- ber -- tum
+  }
+  \header {
+    fontes = "nic 267v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { e f \strophicus f } d \bar "" c \melisma { d e f e } \melisma { d e } e \bar ""
     f d^"?" \melisma { d c } d \melisma { e f } e e \bar ""
     \melisma { e d e f e } e f d \melisma { d c } \bar "" d \melisma { d e f } e \bar ""

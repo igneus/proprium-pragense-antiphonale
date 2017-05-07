@@ -32,3 +32,18 @@
     fontes = "kol1 281v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \hideNotes a a a a \unHideNotes \bar ";" % rozdil jen v textu, noty stejne
+    \melisma { g a g } \melisma { f e } \melisma { e d c }
+  }
+  \addlyrics {
+    \lyrit so -- lem -- pni -- bus \lyrrev
+    do -- mi -- num
+  }
+  \header {
+    fontes = "nic 265v"
+  }
+}

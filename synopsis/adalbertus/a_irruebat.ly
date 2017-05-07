@@ -27,11 +27,27 @@
 \score {
   \transpose c c' {
     \plainchant
-    c' c' \melisma { c' b } \melisma { a \strophicus a } a \melisma { a c' a } g g \bar ";"
+    c' c' \melisma { c' b } \melisma { a \strophicus a } a \melisma { a c' a } g g
+  }
+  \addlyrics {
+    \set stanza = #"cbre"
+    in e -- um \lyrit ig -- ne -- us sic -- co \lyrrev
+  }
+  \addlyrics {
+    \set stanza = #"nic"
+    _ _ _ _ _ _ \lyrit ssi -- cho \lyrrev
+  }
+  \header {
+    fontes = "cbre 310v; nic 266r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     a g \melisma { a g f } a \melisma { a c' a }
   }
   \addlyrics {
-    in e -- um \lyrit ig -- ne -- us sic -- co \lyrrev
     pe -- ne -- tra -- li -- a
   }
   \header {

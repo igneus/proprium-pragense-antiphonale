@@ -33,11 +33,35 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { g f \strophicus f } \bar ";"
-    \melisma { g \strophicus g } a g g \melisma { g a } a \melisma { a b c' b } \melisma { a g } % nejiste deleni: abcb/ag nebo ab/cbag ?
+    \melisma { g f \strophicus f }
   }
   \addlyrics {
     \markup\italic{Cum}
+  }
+  \header {
+    fontes = "cbre 310v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f } a \melisma { a c' }
+  }
+  \addlyrics {
+    a -- ni -- me
+  }
+  \header {
+    fontes = "nic 265v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g \strophicus g } a g g \melisma { g a } a \melisma { a b c' b } \melisma { a g } % nejiste deleni: abcb/ag nebo ab/cbag ?
+  }
+  \addlyrics {
     dul -- cis -- si -- mo ie -- su dul -- cem
   }
   \header {

@@ -27,3 +27,29 @@
     fontes = "cbre 312v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f g g
+  }
+  \addlyrics {
+    in ce -- lum
+  }
+  \header {
+    fontes = "nic 268v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f e } d \melisma { e f g } \melisma { g f } a \melisma { a c' a } \melisma { g f e d }
+  }
+  \addlyrics {
+    do -- mi -- ne sus -- ci -- pe me
+  }
+  \header {
+    fontes = "nic 268v"
+  }
+}

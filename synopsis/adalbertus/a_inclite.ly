@@ -44,17 +44,54 @@
   }
 }
 
-%{
 \score {
   \transpose c c' {
     \plainchant
-
+    f \melisma { e f g f e } d d
   }
   \addlyrics {
-
+    e -- gre -- gi -- e
   }
   \header {
-    fontes = ""
+    fontes = "nic 268v"
   }
 }
-%}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { g a } a \melisma { g \strophicus g } \melisma { g a } \melisma { g f } e e
+  }
+  \addlyrics {
+    bo -- e -- mo -- rum Ad -- al -- ber -- te
+  }
+  \header {
+    fontes = "nic 268v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { f e }
+  }
+  \addlyrics {
+    me -- tis
+  }
+  \header {
+    fontes = "nic 268v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d \melisma { d e f e^"?" } \melisma { d c } d \melisma { d e f } e e
+  }
+  \addlyrics {
+    hu -- ius vi -- te de -- cur -- sum
+  }
+  \header {
+    fontes = "nic 268v"
+  }
+}

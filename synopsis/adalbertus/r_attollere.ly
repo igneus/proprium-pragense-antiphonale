@@ -57,30 +57,214 @@
 \score {
   \transpose c c' {
     \plainchant
-    g^"b" \melisma { g \strophicus g } g \melisma { g a } \bar ";"
-    a^"c" \melisma { g a } \melisma { g a c' d' } c' \bar ";" % prirazeni not slabikam ne zcela jiste
-    \melisma { f g } g \melisma { g a c' a b } \melisma { a g } \bar ";"
-    \melisma { a^"e" a g a g f f g a b \strophicus b } \melisma { g f } f \bar ";"
-    c^"g" \melisma { c g } \melisma { g a g a g f g a c' b c' d' d' c' b a g } \bar ";"
-    \melisma { a \strophicus a } \melisma { a g f g a c' b a } \melisma { c' g g a g } g \bar ";"
-    c'^"i" c' \melisma { c' \strophicus c' } \bar ";"
-    c'^"j" \melisma { b a } \melisma { b c' } \melisma { a c' } \bar ";"
-    g^"k" \melisma { a c' } c' c' \bar ";"
-    \melisma { g^"p" a c' b g a c' a } \melisma { g a f } \melisma { g a } \melisma { a c' b c' d' c' b a } \melisma { a c' a g a a g }
+    g^"b" \melisma { g \strophicus g } g \melisma { g a }
   }
   \addlyrics {
     a -- dal -- ber -- te
+  }
+  \header {
+    fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"b" \melisma { g \strophicus g } g a
+  }
+  \addlyrics {
+    a -- dal -- ber -- te
+  }
+  \header {
+    fontes = "nic 266r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a^"c" \melisma { g a } \melisma { g a c' d' } c' % prirazeni not slabikam ne zcela jiste
+  }
+  \addlyrics {
     qua -- li -- ta -- te
+  }
+  \header {
+    fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"c" g } g \melisma { g a c' a b } \melisma { a g } \bar ";"
+  }
+  \addlyrics {
     dis -- si -- mi -- les
+  }
+  \header {
+    fontes = "cbre 311r; nic 266r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"e" a }
+  }
+  \addlyrics {
+    te
+  }
+  \header {
+    fontes = "nic 266r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"e" a g a g f f g a b \strophicus b } \melisma { g f } f
+  }
+  \addlyrics {
     tantum -- mo -- do % dve slabiky spojeny, protoze nelze s urcitosti zjistit rozdeleni not
+  }
+  \header {
+    fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    % rozdil oproti kol1 spociva jen v b; to vypada pripsane pozdeji
+    a \melisma { a g a g f f g a g } \melisma { a bes g f } f
+  }
+  \addlyrics {
+    tan -- tum -- mo -- do
+  }
+  \header {
+    fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c^"g" \melisma { c g } \melisma { g a g a g f g a c' b c' d' d' c' b a g }
+  }
+  \addlyrics {
     di -- lu -- e
+  }
+  \header {
+    fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c^"g" \melisma { c g } \melisma { g a g a g f g f a c' b c' d' c' d' c' b a g }
+  }
+  \addlyrics {
+    di -- lu -- e
+  }
+  \header {
+    fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"g" f e f } \melisma { d f g a g }
+  }
+  \addlyrics {
+    pre -- cum
+  }
+  \header {
+    fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a \strophicus a } \melisma { a g f g a c' b a } \melisma { c' g g a g } g \bar ";"
+    c'^"i" c' \melisma { c' \strophicus c' }
+  }
+  \addlyrics {
     al -- le -- lu -- ia
     co -- na -- mur
+  }
+  \header {
+    fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"j" \melisma { b a } \melisma { b c' } \melisma { a c' }
+  }
+  \addlyrics {
     con -- tra -- ri -- i
+  }
+  \header {
+    fontes = "cbre 311r; nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"k" \melisma { a c' } c' c' \bar ";"
+  }
+  \addlyrics {
     pre -- di -- ca -- re
+  }
+  \header {
+    fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"m" g g g
+    g^"n" g g g \melisma { g a } g
+    g^"o" f g g g g
+  }
+  \addlyrics {
+    quip -- pe fe -- lix
+    glo -- ri -- fi -- cat pal -- ma
+    noc con -- tra in -- fe -- lix
+  }
+  \header {
+    fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"p" a c' b g a c' a } \melisma { g a f } \melisma { g a } \melisma { a c' b c' d' c' b a } \melisma { a c' a g a a g }
+  }
+  \addlyrics {
     con -- sci -- en -- ci -- a
   }
   \header {
     fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"p" c' a g a b a } \melisma { g a f } \melisma { g a } \melisma { a c' c' d' c' b a } \melisma { a b a g a a g }
+  }
+  \addlyrics {
+    con -- sci -- en -- ci -- a
+  }
+  \header {
+    fontes = "nic 266v"
   }
 }

@@ -44,3 +44,16 @@
     fontes = "cbre 310v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d \melisma { d e f } e e
+  }
+  \addlyrics {
+    a -- e -- u -- ia
+  }
+  \header {
+    fontes = "nic 266r"
+  }
+}

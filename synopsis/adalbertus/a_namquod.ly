@@ -24,6 +24,30 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a g } f \bar "" a \melisma { c' d' } c' \bar "" d' \melisma { f' e' d' } c' \bar ""
+    d' \melisma { c' d' } a \bar "" \melisma { bes a g } f \bar ""
+    \melisma { a b } c' b \bar "" \melisma { c' d' } \melisma { c' b } a \melisma { b a g f } \bar ""
+    g \melisma { g a g } f f \bar "||"
+
+    c' c' d' b c' a \bar "||"
+  }
+  \addlyrics {
+    Nam quod ac -- ce -- pit ta -- len -- tum
+    do -- mi -- no su -- o
+    red -- di -- dit du -- pli -- ca -- tum
+    a -- e -- u -- ia
+
+    E -- u -- o -- u -- a -- e
+  }
+  \header {
+    quid = "antiphona"
+    fontes = "nic 267v"
+  }
+}
+
 \markup\italic{
   Textus \upright{alleluia} in \bold{cbre} deest, sed valde certum
   est hoc tantum scribae errorem esse.

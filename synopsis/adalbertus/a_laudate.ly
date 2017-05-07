@@ -45,27 +45,120 @@
 \score {
   \transpose c c' {
     \plainchant
-    g^"a" \melisma { g a } \melisma { b a g } \bar ";"
-    g^"b" \melisma { a g } g \bar ";"
-    c'^"c" \melisma { d' e' } \melisma { e' c' d' g f } \bar ";"
-    g^"d" \melisma { f d } \melisma { f g } \melisma { a g } \melisma { f g } \bar ";"
-    a^"h" c' \melisma { c' b } \melisma { a g } \bar ";"
-    f^"i" \melisma { e d } d \bar ";"
-    c'^"j" \melisma { d' e' } \bar ";"
-    f^"k" a \melisma { c' b } \melisma { a g }
+    g^"a" \melisma { g a } \melisma { b a g }
   }
   \addlyrics {
     do -- mi -- num
-    ce -- lo -- rum
-    qui uo -- bis
-    de bo -- he -- mi -- a
-    sed pru -- zi -- e
-    bra -- chi -- is
-    de -- um
-    per va -- ri -- a
-    tor -- men -- to -- rum
   }
   \header {
     fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"a" \melisma { g a } \melisma { a g }
+  }
+  \addlyrics {
+    do -- mi -- num
+  }
+  \header {
+    fontes = "nic 267v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"b" \melisma { a g } g
+  }
+  \addlyrics {
+    ce -- lo -- rum
+  }
+  \header {
+    fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e^"b" \melisma { f g } g
+  }
+  \addlyrics {
+    vir -- tu -- tes
+  }
+  \header {
+    fontes = "nic 267v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"c" \melisma { d' e' } \melisma { e' c' d' g f }
+  }
+  \addlyrics {
+    qui uo -- bis
+  }
+  \header {
+    fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"c" \melisma { d' e' } \melisma { e' d' c' d' g f }
+  }
+  \addlyrics {
+    qui uo -- bis
+  }
+  \header {
+    fontes = "nic 267v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"d" \melisma { f d } \melisma { f g } \melisma { a g } \melisma { f g } \bar ";"
+    a^"h" c' \melisma { c' b } \melisma { a g } \bar ";"
+    f^"i" \melisma { e d } d
+  }
+  \addlyrics {
+    de bo -- he -- mi -- a
+    sed pru -- zi -- e
+    bra -- chi -- is
+  }
+  \header {
+    fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"j" \melisma { d' e' }
+  }
+  \addlyrics {
+    de -- um
+  }
+  \header {
+    fontes = "cbre 312r; nic 267v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"k" a \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
+    per va -- ri -- a
+  }
+  \header {
+    fontes = "cbre 312r; nic 267v"
   }
 }

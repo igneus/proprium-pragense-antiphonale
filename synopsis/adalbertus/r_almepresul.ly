@@ -3,7 +3,7 @@
 \include "../lib/synopsis.ily"
 
 \markup\justify\italic{
-  In \bold{kol1} tantum duo responsoria ponuntur in matutino et
+  In \bold{kol1} et \bold{nic} tantum duo responsoria ponuntur in matutino et
   tertium responsorium \upright{O presul} ponitur in primis vesperis.
   Ex eo, quod secundo responsorio doxologia subiungitur,
   ut mos est pro ultimo responsorio cuiusque nocturni,
@@ -69,14 +69,49 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f^"a" e d } \melisma { e f g f g } \melisma { a g } \bar ";"
-    d^"e" g \bar ";"
+    \melisma { d'^"b" \strophicus d' } \melisma { b c' b a g } \melisma { a g a b c' b a } g
+  }
+  \addlyrics {
+    ad -- al -- ber -- te
+  }
+  \header {
+    fontes = ""
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"a" e d } \melisma { e f g f g } \melisma { a g }
+  }
+  \addlyrics {
+    be -- a -- te
+  }
+  \header {
+    fontes = "cbre 311v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"e" g
+  }
+  \addlyrics {
+    ma -- la
+  }
+  \header {
+    fontes = "cbre 311v; nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d'^"f" c' d' c' b a c' b c' d' } d' \bar ";"
     \melisma { b^"j" c' b a g } \melisma { a g a b c' } \melisma { b a g } \melisma { a^"k" g } \melisma { c' b } \melisma { a b } \melisma { g b c' d' } d' \melisma { d' b c' b a g a d f g f } f
   }
   \addlyrics {
-    be -- a -- te
-    ma -- la
     pa -- cis
     fi -- li -- o et spi -- ri -- tu -- i sanc -- to
   }
