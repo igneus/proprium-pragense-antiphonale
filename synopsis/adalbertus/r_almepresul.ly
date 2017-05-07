@@ -119,3 +119,18 @@
     fontes = "cbre 311v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { b^"j" c' b a g } \melisma { a g a b c' b a } g
+    g^"k" g \melisma { c' b a b g } \melisma { b c' d' } d'
+  }
+  \addlyrics {
+    Fi -- li -- o
+    et Spi -- ri -- tu -- i
+  }
+  \header {
+    fontes = "pint 27v"
+  }
+}

@@ -40,4 +40,5 @@
 
 \include "a_eleuatis.ly"
 \include "a_beate.ly"
+\include "a_sancte.ly"
 \include "a_inclite.ly"

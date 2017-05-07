@@ -48,6 +48,19 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a bes a g } f a \melisma { c' d' c' } c' d' \melisma { f' e' d' c' d' } \melisma { c' \strophicus c' }
+  }
+  \addlyrics {
+    Nam quod ac -- ce -- pit ta -- len -- tum
+  }
+  \header {
+    fontes = "pint 27v"
+  }
+}
+
 \markup\italic{
   Textus \upright{alleluia} in \bold{cbre} deest, sed valde certum
   est hoc tantum scribae errorem esse.

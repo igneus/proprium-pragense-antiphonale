@@ -24,7 +24,7 @@
   }
   \header {
     quid = "antiphona"
-    fontes = "cbre 312v"
+    fontes = "cbre 312v; pint 27v"
   }
 }
 

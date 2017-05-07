@@ -22,7 +22,7 @@
   }
   \header {
     quid = "antiphona"
-    fontes = "kol1 284r; nic 267r"
+    fontes = "kol1 284r; nic 267r; pint 27v"
   }
 }
 
