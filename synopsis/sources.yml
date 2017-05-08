@@ -5,6 +5,11 @@ cbre:
   name: Vesperarium svatovítské
   year: 1370-1380
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XV_A_10_____0MGV3O0-cs"
+hr4:
+  siglum: CZ-HKm Hr-4
+  name: Antifonář latinský - zimní část
+  year: -1470
+  uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-MVCHK_HR_4_II_A_4_2F5P07D-cs"
 kol1:
   siglum: CZ-Pn XII A 22
   name: Kolínský antifonář - I. díl

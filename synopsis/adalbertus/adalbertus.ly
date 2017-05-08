@@ -4,7 +4,7 @@
 
 \header {
   title = "S. Adalberti, episcopi et martyris"
-  fontes = "cbre 310r; nic 264v; kol1 280r; pint 27r"
+  fontes = "cbre 310r; nic 264v; kol1 280r; hr4; pint 27r"
 }
 
 \markup{in i. vesperis}

@@ -67,16 +67,77 @@
 \score {
   \transpose c c' {
     \plainchant
-    f'^"d" \melisma { e' d' c' } \melisma { a b } c' \bar ";"
-    c'^"e" \melisma { bes a } \bar ";"
-    c^"f" f g f f \bar ""
+    f'^"d" \melisma { e' d' c' } \melisma { a b } c'
   }
   \addlyrics {
     de -- sti -- na -- uit
+  }
+  \header {
+    fontes = "nic 264v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"e" \melisma { c' d' } \melisma { d' c' a b c' } \melisma { b a }
+  }
+  \addlyrics {
+    a -- dal -- ber -- tus
+  }
+  \header {
+    fontes = "hr4 197r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"e" \melisma { bes a }
+  }
+  \addlyrics {
     xris -- ti
+  }
+  \header {
+    fontes = "nic 264v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c^"f" f g f f
+  }
+  \addlyrics {
     tu -- a ex -- ti -- tit
   }
   \header {
     fontes = "nic 264v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c^"f" \melisma { d f } \melisma { f g } f f
+  }
+  \addlyrics {
+    tu -- a ex -- ti -- tit
+  }
+  \header {
+    fontes = "hr4 197r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' \melisma { a c' } c' \melisma { f e d c } g \melisma { g a g } f f
+  }
+  \addlyrics {
+    a -- e -- u -- ia a -- e -- u -- ia
+  }
+  \header {
+    fontes = "hr4 197r"
   }
 }

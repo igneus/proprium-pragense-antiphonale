@@ -39,7 +39,7 @@
     \markup\italic{Cum}
   }
   \header {
-    fontes = "cbre 310v"
+    fontes = "cbre 310v; hr4 197v"
   }
 }
 
@@ -59,12 +59,25 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { g \strophicus g } a g g \melisma { g a } a \melisma { a b c' b } \melisma { a g } % nejiste deleni: abcb/ag nebo ab/cbag ?
+    \melisma { g \strophicus g } a g g \melisma { g a } a
   }
   \addlyrics {
-    dul -- cis -- si -- mo ie -- su dul -- cem
+    dul -- cis -- si -- mo ie -- su
   }
   \header {
     fontes = "cbre 310v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a b c' b } \melisma { a g } % v cbre nejiste deleni: abcb/ag nebo ab/cbag ?
+  }
+  \addlyrics {
+    dul -- cem
+  }
+  \header {
+    fontes = "cbre 310v; hr4 197v"
   }
 }
