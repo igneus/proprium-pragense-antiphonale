@@ -26,3 +26,15 @@ pint:
   year: 1616
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-ZMP___504_C_004___107P3BA-cs"
   notice: only contains antiphon incipits/intonations and verses for responsories
+pvi1:
+  siglum: CZ-Pak P6/1
+  name: Antifonář Arnošta z Pardubic - I. díl
+  year: 1364
+pvi2:
+  siglum: CZ-Pak P6/2
+  name: Antifonář Arnošta z Pardubic - II. díl
+  year: 1364
+pvi3:
+  siglum: CZ-Pak P6/3
+  name: Antifonář Arnošta z Pardubic - III. díl
+  year: 1364
