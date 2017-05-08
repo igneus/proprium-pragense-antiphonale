@@ -1,5 +1,10 @@
 ---
 # bibliography of the sources
+cbre:
+  siglum: CZ-Pn XV A 10
+  name: Vesperarium svatovítské
+  year: 1370-1380
+  uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XV_A_10_____0MGV3O0-cs"
 kol1:
   siglum: CZ-Pn XII A 22
   name: Kolínský antifonář - I. díl
@@ -15,11 +20,6 @@ nic:
   name: Zimní antifonář plzeňského faráře Mikuláše
   year: 1412
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XII_A_24____3UQDTL9-cs"
-cbre:
-  siglum: CZ-Pn XV A 10
-  name: Vesperarium svatovítské
-  year: 1370-1380
-  uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XV_A_10_____0MGV3O0-cs"
 pint:
   siglum: CZ-PLm 504 C 004
   name: Antiphonarium Plsnense
