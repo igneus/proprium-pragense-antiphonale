@@ -5,7 +5,12 @@
 \score {
   \transpose c c' {
     \plainchant
-    f c d \bar "" \melisma { d a c' } a \bar "" a \melisma { g a c' b a b } \melisma { c' a } \bar "" a \melisma { g f } \bar "" g \melisma { f e } \bar "" \melisma { d f } f \bar "" f g \bar "" \melisma { f a } \melisma { a g } f \melisma { e d } \bar "" \melisma { e f g } g \bar "" \melisma { e d } c \melisma { c d } \bar "" d \bar "" d \bar "||" \melisma { a a g f g a g } \bar "||"
+    f c d \bar "" \melisma { d a c' } a \bar ""
+    a \melisma { g a c' b a b } \melisma { c' a } \bar "" a \melisma { g f } \bar "" g \melisma { f e } \bar "" \melisma { d f } f \bar ""
+    f g \bar "" \melisma { f a } \melisma { a g } f \melisma { e d } \bar "" \melisma { e f g }
+    g \bar "" \melisma { e d } c \melisma { c d } \bar "" d \bar "" d \bar "||"
+
+    \melisma { a a g f g a g } \bar "||"
   }
   \addlyrics {
     Ha -- be -- o e -- nim

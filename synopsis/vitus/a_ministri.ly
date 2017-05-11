@@ -5,7 +5,13 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d c a, } c c \bar "" \melisma { d e } e d \bar "" c \bar "" d \bar "" e \melisma { e d g \strophicus g } e \bar "" \melisma { f e } d \bar "" f \melisma { d c } d \bar "" f \melisma { f e } d d \bar "" f g a \melisma { g f } \bar "" \melisma { g f e } \bar "" f \melisma { d c } d \bar "" f e e \bar "" e \bar "" f \bar "" \melisma { g f } f \bar "" f e \melisma { d f c a, } \bar "" c f c \melisma { c d } \bar "" d \bar "||" \melisma { f f f f c d d } \bar "||"
+    \melisma { d c a, } c c \bar "" \melisma { d e } e d \bar ""
+    c \bar "" d \bar "" e \melisma { e d g \strophicus g } e \bar "" \melisma { f e } d \bar "" f \melisma { d c } d \bar "" f \melisma { f e } d d \bar ""
+    f g a \melisma { g f } \bar "" \melisma { g f e } \bar "" f \melisma { d c } d \bar "" f e e \bar ""
+    e \bar "" f \bar "" \melisma { g f } f \bar "" f e \melisma { d f c a, } \bar ""
+    c f c \melisma { c d } \bar "" d \bar "||"
+
+    \melisma { f f f f c d d } \bar "||"
   }
   \addlyrics {
     Mi -- ni -- stri pre -- si -- dis

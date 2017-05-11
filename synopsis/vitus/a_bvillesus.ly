@@ -5,7 +5,14 @@
 \score {
   \transpose c c' {
     \plainchant
-    f f g \bar "" \melisma { a g f } g \bar "" \melisma { g a } f f \bar "" f \bar "" g a \bar "" \melisma { a c' } \melisma { g a } \melisma { a g f } \bar "" f \melisma { g \strophicus g } a a \bar "" a a g \bar "" f \bar "" g f f \bar "" f g \bar "" \melisma { a b } a \bar "" f g \bar "" a \bar "" a a g \melisma { a c' } a \bar "" g \bar "" f \bar "" g \bar "" a \melisma { g f } g \bar "" f \bar "" f \bar "" g f \melisma { d f } f \bar "||" a a f \melisma { g a } g f \bar "||"
+    f f g \bar "" \melisma { a g f } g \bar ""
+    \melisma { g a } f f \bar "" f \bar "" g a \bar "" \melisma { a c' } \melisma { g a } \melisma { a g f } \bar "" f \melisma { g \strophicus g } a a \bar ""
+    a a g \bar "" f \bar "" g f f \bar ""
+    f g \bar "" \melisma { a b } a \bar "" f g \bar "" a \bar "" a a g \melisma { a c' } a \bar ""
+    g \bar "" f \bar "" g \bar "" a \melisma { g f } g \bar ""
+    f \bar "" f \bar "" g f \melisma { d f } f \bar "||"
+
+    a a f \melisma { g a } g f \bar "||"
   }
   \addlyrics {
     Be -- a -- tus vi -- tus
