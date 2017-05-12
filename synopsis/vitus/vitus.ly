@@ -4,19 +4,28 @@
 
 \header {
   title = "S. Viti, martyris"
-  fontes = "kol1 1r"
+  fontes = "kol1 1r; hr3 33r"
 }
 
 \markup{in i. vesperis}
 
+\include "a_orauit.ly"
+
 \markup{ad matutinum}
 
+\include "i_adoremus.ly"
+
 \markup{in i. nocturno}
+
+\include "a_bvdixit.ly"
+\include "a_ipseest.ly"
+\include "a_acuius.ly"
 
 \include "r_tempore.ly"
 \include "r_svdixitpatri.ly"
 \include "r_bveleuans.ly"
 
+\markup{in ii. nocturno}
 
 \include "a_svpresidi.ly"
 \include "a_habeoenim.ly"

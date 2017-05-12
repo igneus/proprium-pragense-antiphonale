@@ -16,7 +16,7 @@
     in -- du -- et me sto -- lam im -- mor -- ta -- lem
     quam te -- ne -- bre com -- pre -- hen -- de -- re non pos -- sunt
 
-    E -- u -- o -- u -- a -- e
+    Eu -- o -- u -- a -- e
   }
   \header {
     fontes = "kol1 7r"
