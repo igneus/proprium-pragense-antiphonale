@@ -37,6 +37,6 @@
     Et
   }
   \header {
-    fontes = "kol1 5r"
+    fontes = "kol2 5r"
   }
 }

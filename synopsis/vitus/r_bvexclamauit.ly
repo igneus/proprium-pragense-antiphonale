@@ -35,6 +35,6 @@
     Ac -- ce
   }
   \header {
-    fontes = "kol1 4r"
+    fontes = "kol2 4r"
   }
 }

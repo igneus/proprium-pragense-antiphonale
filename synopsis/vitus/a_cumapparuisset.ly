@@ -25,6 +25,6 @@
     Bn.dictus
   }
   \header {
-    fontes = "kol1 7v"
+    fontes = "kol2 7v"
   }
 }

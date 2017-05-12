@@ -19,6 +19,6 @@
     Eu -- o -- u -- a -- e
   }
   \header {
-    fontes = "kol1 7r"
+    fontes = "kol2 7r"
   }
 }

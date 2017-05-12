@@ -31,6 +31,6 @@
     Euouae
   }
   \header {
-    fontes = "kol1 8r"
+    fontes = "kol2 8r"
   }
 }

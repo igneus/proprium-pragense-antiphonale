@@ -39,6 +39,6 @@
     Il -- lu
   }
   \header {
-    fontes = "kol1 3v"
+    fontes = "kol2 3v"
   }
 }

@@ -56,7 +56,7 @@
     vs -- que in di -- em
   }
   \header {
-    fontes = "kol1 1r"
+    fontes = "kol2 1r"
   }
 }
 
@@ -69,7 +69,7 @@
     E -- rat \lyrit e -- nim \lyrrev sanc -- tus vi -- tus
   }
   \header {
-    fontes = "kol1 1r"
+    fontes = "kol2 1r"
   }
 }
 
@@ -82,7 +82,7 @@
     di -- e noc -- tu -- que
   }
   \header {
-    fontes = "kol1 1r"
+    fontes = "kol2 1r"
   }
 }
 
@@ -95,6 +95,6 @@
     ap -- pa -- rens
   }
   \header {
-    fontes = "kol1 1r"
+    fontes = "kol2 1r"
   }
 }

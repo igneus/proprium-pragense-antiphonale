@@ -39,6 +39,6 @@
     Be -- a
   }
   \header {
-    fontes = "kol1 6r"
+    fontes = "kol2 6r"
   }
 }

@@ -44,6 +44,6 @@
     Sa -- ne
   }
   \header {
-    fontes = "kol1 1v"
+    fontes = "kol2 1v"
   }
 }

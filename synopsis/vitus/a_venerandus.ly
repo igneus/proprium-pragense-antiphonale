@@ -23,6 +23,6 @@
     Euouae
   }
   \header {
-    fontes = "kol1 4v"
+    fontes = "kol2 4v"
   }
 }

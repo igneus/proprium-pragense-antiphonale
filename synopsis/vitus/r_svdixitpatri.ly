@@ -39,6 +39,6 @@
     Tra -- di
   }
   \header {
-    fontes = "kol1 1r"
+    fontes = "kol2 1r"
   }
 }

@@ -23,6 +23,6 @@
     Euo -- u -- ae
   }
   \header {
-    fontes = "kol1 7r"
+    fontes = "kol2 7r"
   }
 }

@@ -42,6 +42,6 @@
     Ex -- au
   }
   \header {
-    fontes = "kol1 3r"
+    fontes = "kol2 3r"
   }
 }

@@ -25,6 +25,6 @@
     Euo -- u -- ae
   }
   \header {
-    fontes = "kol1 6v"
+    fontes = "kol2 6v"
   }
 }
