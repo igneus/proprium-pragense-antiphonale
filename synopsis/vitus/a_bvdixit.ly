@@ -25,6 +25,6 @@
     B.tus_v.
   }
   \header {
-    fontes = "hr3 33r"
+    fontes = "hr3 33r; pint 44v"
   }
 }

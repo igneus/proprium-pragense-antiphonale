@@ -38,6 +38,21 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g a c' } g \melisma { e d } g
+    a e \melisma { f e } \melisma { d \strophicus d }
+  }
+  \addlyrics {
+    San -- cte Ui -- te
+    prae -- ti -- o -- se % praetiose sic
+  }
+  \header {
+    fontes = "pint 45r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c' d' f' } c'
   }
   \addlyrics {

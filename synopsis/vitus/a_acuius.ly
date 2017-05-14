@@ -22,3 +22,16 @@
     fontes = "hr3 33v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c \melisma { e f } g g a b \melisma { a g \strophicus g }
+  }
+  \addlyrics {
+    A cu -- ius cha -- ri -- ta -- te
+  }
+  \header {
+    fontes = "pint 44v"
+  }
+}

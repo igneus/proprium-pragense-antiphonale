@@ -100,12 +100,25 @@
 \score {
   \transpose c c' {
     \plainchant
+    d d d \melisma { d f } d
+  }
+  \addlyrics {
+    im -- pe -- di -- men -- tis
+  }
+  \header {
+    fontes = "pint 42v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f^"l" e d f } \melisma { d c }
   }
   \addlyrics {
     hu -- ius
   }
   \header {
-    fontes = "hr3 36r"
+    fontes = "hr3 36r; pint 42v"
   }
 }

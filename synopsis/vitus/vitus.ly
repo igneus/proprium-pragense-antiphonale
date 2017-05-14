@@ -4,10 +4,14 @@
 
 \header {
   title = "S. Viti, martyris"
-  fontes = "kol2 1r; hr3 33r"
+  fontes = "kol2 1r; hr3 33r; pint 42v"
 }
 
 \markup{in i. vesperis}
+
+\markup\italic {
+  \bold{pint} habet etiam intonationes antiphonarum (de communibus variis sumptarum) in primis vesperis
+}
 
 \include "a_orauit.ly"
 

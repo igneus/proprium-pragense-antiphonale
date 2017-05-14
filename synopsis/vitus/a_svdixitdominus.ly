@@ -30,6 +30,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g a } \melisma { g \strophicus g }
+  }
+  \addlyrics {
+    di -- xit
+  }
+  \header {
+    fontes = "pint 45r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f e } c
   }
   \addlyrics {

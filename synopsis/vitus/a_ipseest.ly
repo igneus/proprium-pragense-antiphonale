@@ -20,3 +20,16 @@
     fontes = "hr3 33r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c d f \melisma { f e^"d?" } d f g \melisma { f g a } \melisma { a \strophicus a }
+  }
+  \addlyrics {
+    Ip -- se est e -- nim Ag -- nus de -- i
+  }
+  \header {
+    fontes = "pint 44v"
+  }
+}

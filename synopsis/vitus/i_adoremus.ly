@@ -24,3 +24,29 @@
     fontes = "hr3 33r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c \melisma { c d } \melisma { d e f e } \melisma { f d }
+  }
+  \addlyrics {
+    A -- do -- re -- mus
+  }
+  \header {
+    fontes = "pint 43r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c d } \melisma { e g f } \melisma { e d }
+  }
+  \addlyrics {
+    mar -- ti -- rum
+  }
+  \header {
+    fontes = "pint 43r"
+  }
+}

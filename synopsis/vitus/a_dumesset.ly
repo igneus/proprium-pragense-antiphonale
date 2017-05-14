@@ -36,7 +36,7 @@
     \lyrit Cum \lyrrev
   }
   \header {
-    fontes = "hr3 36v"
+    fontes = "hr3 36v; pint 45r"
   }
 }
 

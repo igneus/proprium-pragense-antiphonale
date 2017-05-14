@@ -113,7 +113,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f g a g } \melisma { g f e d } \melisma { d f e d c d f d } \melisma { f e g a } \melisma { f e } \melisma { d c d f e f } \melisma { e d }
+    \melisma { f^"h" g a g } \melisma { g f e d } \melisma { d f e d c d f d } \melisma { f e g a } \melisma { f e } \melisma { d c d f e f } \melisma { e d }
   }
   \addlyrics {
     gau -- di -- o pe -- ci -- e -- runt
@@ -126,12 +126,12 @@
 \score {
   \transpose c c' {
     \plainchant
-
+    f^"k" \melisma { g a } \melisma { a c' } a a
   }
   \addlyrics {
-
+    ho -- no -- ri -- fi -- ce
   }
   \header {
-    fontes = "hr3 36v"
+    fontes = "pint 44v"
   }
 }
