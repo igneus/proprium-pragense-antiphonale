@@ -36,7 +36,20 @@
     Ue -- ne -- ran -- dus
   }
   \header {
-    fontes = "hr3 35v"
+    fontes = "hr3 35v; olm 61v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a c' } \melisma { c' b }
+  }
+  \addlyrics {
+    pa -- tri
+  }
+  \header {
+    fontes = "olm 61v"
   }
 }
 
@@ -50,5 +63,18 @@
   }
   \header {
     fontes = "hr3 35v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f f f
+  }
+  \addlyrics {
+    iu -- sto -- rum
+  }
+  \header {
+    fontes = "olm 61v"
   }
 }

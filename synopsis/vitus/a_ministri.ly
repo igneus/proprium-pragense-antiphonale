@@ -31,14 +31,51 @@
   \transpose c c' {
     \plainchant
     \melisma { d e } d d
-    c d e \melisma { e g } e
   }
   \addlyrics {
     pre -- si -- dis
-    ut in in -- fan -- tem
   }
   \header {
     fontes = "hr3 35v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c d e \melisma { e g } e
+  }
+  \addlyrics {
+    ut in in -- fan -- tem
+  }
+  \header {
+    fontes = "hr3 35v; olm 62r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f e d }
+  }
+  \addlyrics {
+    sunt
+  }
+  \header {
+    fontes = "olm 62r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f f f
+  }
+  \addlyrics {
+    e -- o -- rum
+  }
+  \header {
+    fontes = "olm 62r"
   }
 }
 
@@ -61,5 +98,18 @@
   }
   \header {
     fontes = "hr3 35v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d f c \melisma { c d } d
+  }
+  \addlyrics {
+    a -- re -- fac -- ta est
+  }
+  \header {
+    fontes = "olm 62r"
   }
 }

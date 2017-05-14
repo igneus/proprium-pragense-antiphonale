@@ -30,6 +30,11 @@ nic:
   name: Zimní antifonář plzeňského faráře Mikuláše
   year: 1412
   uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NMP___XII_A_24____3UQDTL9-cs"
+olm:
+  siglum: CZ-OLm K 14892
+  name: Antifonář
+  year: 138x
+  uri: "http://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-VMO___K_14892_____2I4Z3A2-cs"
 pint:
   siglum: CZ-PLm 504 C 004
   name: Antiphonarium Plsnense

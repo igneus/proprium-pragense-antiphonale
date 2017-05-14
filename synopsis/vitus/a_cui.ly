@@ -56,3 +56,44 @@
     fontes = "hr3 37r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f f f \melisma { f g } \melisma { g f } f
+  }
+  \addlyrics {
+    per -- se -- ue -- ra -- ue -- ro
+  }
+  \header {
+    fontes = "olm 64r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { b a g }
+  }
+  \addlyrics {
+    me
+  }
+  \header {
+    fontes = "olm 64r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { g a b } a
+    a c' \melisma { b a } \melisma { g f } g a f f
+  }
+  \addlyrics {
+    te -- ne -- bre
+    com -- pre -- hen -- de -- re non pos -- sunt
+  }
+  \header {
+    fontes = "olm 64r"
+  }
+}

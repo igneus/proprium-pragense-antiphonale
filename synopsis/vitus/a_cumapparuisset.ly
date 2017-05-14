@@ -38,7 +38,7 @@
     Cum ap -- pa -- ru -- is -- set
   }
   \header {
-    fontes = "hr3 37v"
+    fontes = "hr3 37v; olm 64v"
   }
 }
 
@@ -51,7 +51,20 @@
     xri -- stus
   }
   \header {
-    fontes = "hr3 37v"
+    fontes = "hr3 37v; olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d' e' } \melisma { c' b } \melisma { a b c' b a g a c' } \melisma { g f }
+  }
+  \addlyrics {
+    sanc -- to vi -- to
+  }
+  \header {
+    fontes = "olm 64v"
   }
 }
 
@@ -65,6 +78,45 @@
   }
   \header {
     fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d' e' f' e' d' } \melisma { c' d' c' }
+  }
+  \addlyrics {
+    u -- na
+  }
+  \header {
+    fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g \melisma { g c' } g g a a \melisma { g f } f a a a \melisma { a c' a }
+  }
+  \addlyrics {
+    an -- ge -- lo -- rum in car -- ce -- re \lyrit ca -- nen -- ci -- um \lyrrev
+  }
+  \header {
+    fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c' d' } \melisma { d' c' } \melisma { a g f }
+  }
+  \addlyrics {
+    do -- mi -- nus
+  }
+  \header {
+    fontes = "olm 65r"
   }
 }
 

@@ -32,6 +32,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    c' \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
+    Be -- a -- tus
+  }
+  \header {
+    fontes = "olm 63v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f a c' \melisma { c' b } \melisma { a g } \melisma { a c' }
   }
   \addlyrics {
@@ -39,6 +52,19 @@
   }
   \header {
     fontes = "hr3 37r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { g a } c' \melisma { c' b } a c'
+  }
+  \addlyrics {
+    dy -- o -- cle -- ci -- a -- no
+  }
+  \header {
+    fontes = "olm 63v"
   }
 }
 
@@ -58,12 +84,51 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { c' d' e' f' e' d' c' d' } \melisma { d' c' } c' \melisma { c' b a g } a \melisma { g f } f
+    \melisma { c' d' e' f' e' d' c' d' } \melisma { d' c' }
   }
   \addlyrics {
-    nos -- ter qui nos do -- cu -- it
+    nos -- ter
   }
   \header {
     fontes = "hr3 37r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' \melisma { c' b a g } a \melisma { g f } f
+  }
+  \addlyrics {
+    qui nos do -- cu -- it
+  }
+  \header {
+    fontes = "hr3 37r; olm 63v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' d' e' d'
+  }
+  \addlyrics {
+    po -- tes -- ta -- te
+  }
+  \header {
+    fontes = "olm 63v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a g \melisma { g f e d } f \melisma { g a }
+  }
+  \addlyrics {
+    sim -- pli -- ci -- ta -- te
+  }
+  \header {
+    fontes = "olm 63v"
   }
 }

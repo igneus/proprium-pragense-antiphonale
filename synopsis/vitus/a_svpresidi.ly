@@ -39,3 +39,31 @@
     fontes = "hr3 34v"
   }
 }
+
+
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d' c' \melisma { c' d' } \melisma { a g } g
+  }
+  \addlyrics {
+    non con -- sen -- ci -- o
+  }
+  \header {
+    fontes = "olm 61r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a c' g \melisma { g f e d } f \melisma { g a }
+  }
+  \addlyrics {
+    ve -- ne -- ra -- ci -- o -- nem
+  }
+  \header {
+    fontes = "olm 61r"
+  }
+}

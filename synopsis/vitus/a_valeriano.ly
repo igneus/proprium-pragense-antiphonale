@@ -50,3 +50,16 @@
     fontes = "hr3 34v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a \melisma { c' b } \melisma { b c' }
+  }
+  \addlyrics {
+    a -- do -- ro
+  }
+  \header {
+    fontes = "olm 61v"
+  }
+}

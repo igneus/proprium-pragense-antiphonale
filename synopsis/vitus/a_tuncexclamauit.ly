@@ -39,6 +39,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { e g } \melisma { a g e }
+  }
+  \addlyrics {
+    pre -- ses
+  }
+  \header {
+    fontes = "olm 62r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e g } a
+  }
+  \addlyrics {
+    he -- u
+  }
+  \header {
+    fontes = "olm 63r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { b c' } a \melisma { g e } g f e
   }
   \addlyrics {
@@ -46,5 +72,18 @@
   }
   \header {
     fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g \melisma { a b c' } a \melisma { g f }
+  }
+  \addlyrics {
+    \lyrit nec \lyrrev do -- lo -- re
+  }
+  \header {
+    fontes = "olm 63r"
   }
 }

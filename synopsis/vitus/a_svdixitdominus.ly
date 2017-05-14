@@ -30,6 +30,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    c' \melisma { g a } c' \melisma { c' b }
+  }
+  \addlyrics {
+    me -- us ihe -- sus
+  }
+  \header {
+    fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g a } \melisma { g \strophicus g }
   }
   \addlyrics {
@@ -63,5 +76,26 @@
   }
   \header {
     fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f f \melisma { g a } a a f g f c
+    d d d \melisma { f e } d d
+    f f g \melisma { f g } f \melisma { e d } c \melisma { c d } d d \bar "||"
+
+    \melisma { f f } \melisma { c d } d \bar "||"
+  }
+  \addlyrics {
+    cu -- ius ius -- su an -- ge -- lus \lyrit me -- us \lyrrev
+    de o -- mni -- bus pe -- nis
+    \lyrit me \lyrrev po -- ten -- tis -- si -- me li -- be -- ra -- uit
+
+    Euou -- a -- e
+  }
+  \header {
+    fontes = "olm 64v"
   }
 }

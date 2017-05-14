@@ -52,3 +52,18 @@
     fontes = "hr3 34v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e f \melisma { g a } \melisma { a g } f \melisma { e d } \melisma { e f g } f
+    \melisma { e d } c \melisma { d e f } d d % divisio syllabarum incertum
+  }
+  \addlyrics {
+    cu -- i fi -- de -- li -- ter ser -- uit
+    a -- ni -- ma me -- a
+  }
+  \header {
+    fontes = "olm 61r"
+  }
+}

@@ -35,3 +35,16 @@
     fontes = "pint 44v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d' \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
+    il -- la -- ta
+  }
+  \header {
+    fontes = "olm 61r"
+  }
+}
