@@ -4,7 +4,7 @@
 
 \header {
   title = "S. Viti, martyris"
-  fontes = "kol2 1r; hr3 33r; olm 61r; pint 42v"
+  fontes = "kol2 1r; hr1 15v; hr3 33r; olm 61r; pint 42v"
 }
 
 \markup{in i. vesperis}

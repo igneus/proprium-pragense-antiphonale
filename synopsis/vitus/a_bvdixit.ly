@@ -28,3 +28,35 @@
     fontes = "hr3 33r; pint 44v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' g \melisma { a b } \melisma { a b }
+  }
+  \addlyrics {
+    co -- gno -- sce -- res
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g \melisma { a b } a g \melisma { f e } d
+    e \melisma { f g } f e \bar "||"
+
+    \melisma { c' c' c' } \melisma { a b } a g \bar "||"
+  }
+  \addlyrics {
+    e -- ius mi -- chi cul -- tu
+    con -- sen -- ti -- res.
+
+    Ps._de_m.ri.
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}

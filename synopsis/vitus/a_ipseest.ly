@@ -24,12 +24,64 @@
 \score {
   \transpose c c' {
     \plainchant
-    c d f \melisma { f e^"d?" } d f g \melisma { f g a } \melisma { a \strophicus a }
+    c d f \melisma { f e } \melisma { d c }
   }
   \addlyrics {
-    Ip -- se est e -- nim Ag -- nus de -- i
+    Ip -- se est e -- nim
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c d f \melisma { f e^"d?" } d
+  }
+  \addlyrics {
+    Ip -- se est e -- nim
   }
   \header {
     fontes = "pint 44v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f g a bes } a
+  }
+  \addlyrics {
+    de -- i
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f g a } \melisma { a \strophicus a }
+  }
+  \addlyrics {
+    de -- i
+  }
+  \header {
+    fontes = "pint 44v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f } \melisma { g a g } \melisma { f e }
+  }
+  \addlyrics {
+    pec -- ca -- ta
+  }
+  \header {
+    fontes = "hr1 16r"
   }
 }

@@ -34,6 +34,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d f } \melisma { f e } d e c
+  }
+  \addlyrics {
+    O -- ra -- uit sanc -- tus
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d f } \melisma { d \strophicus d }
   }
   \addlyrics {
@@ -41,5 +54,48 @@
   }
   \header {
     fontes = "pint 43r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f g e f d } \melisma { c d }
+    \melisma { f e } \melisma { d c } \melisma { d e }
+  }
+  \addlyrics {
+    ihe -- su
+    do -- mi -- ni
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a c' } \melisma { b g } \melisma { a b } \melisma { b \strophicus b } g
+    d' \melisma { d' e' } \melisma { c' \strophicus c' } \melisma { g a }
+  }
+  \addlyrics {
+    re -- spi -- ce in me
+    et con -- fir -- ma
+  }
+  \header {
+    fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d e } g \melisma { a b } a
+  }
+  \addlyrics {
+    per -- fi -- ce -- re
+  }
+  \header {
+    fontes = "hr1 16r"
   }
 }
