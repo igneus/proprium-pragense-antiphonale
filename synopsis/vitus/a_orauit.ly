@@ -30,3 +30,16 @@
     fontes = "hr3 33r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d f } \melisma { d \strophicus d }
+  }
+  \addlyrics {
+    Vi -- tus
+  }
+  \header {
+    fontes = "pint 43r"
+  }
+}
