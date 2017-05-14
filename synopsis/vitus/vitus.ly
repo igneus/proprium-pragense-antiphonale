@@ -10,7 +10,7 @@
 \markup{in i. vesperis}
 
 \markup\italic {
-  \bold{pint} habet etiam intonationes antiphonarum (de communibus variis sumptarum) in primis vesperis
+  \bold{pint} habet etiam intonationes antiphonarum (de communibus variis sumptarum) ad psalmos in primis vesperis
 }
 
 \include "a_orauit.ly"
