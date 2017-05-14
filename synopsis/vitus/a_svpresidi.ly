@@ -26,3 +26,16 @@
     fontes = "kol2 2v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' c' \melisma { c' d' } \melisma { c' b } g
+  }
+  \addlyrics {
+    non con -- sen -- ci -- o
+  }
+  \header {
+    fontes = "hr3 34v"
+  }
+}

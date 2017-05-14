@@ -26,3 +26,55 @@
     fontes = "kol2 8r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a
+  }
+  \addlyrics {
+    \lyrit Cum \lyrrev
+  }
+  \header {
+    fontes = "hr3 36v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f g a g g
+  }
+  \addlyrics {
+    in cu -- bi -- cu -- lo
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c' d' b c' a } a
+  }
+  \addlyrics {
+    sanc -- ti
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f g \melisma { g \strophicus g }
+  }
+  \addlyrics {
+    di -- ce -- bant
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}

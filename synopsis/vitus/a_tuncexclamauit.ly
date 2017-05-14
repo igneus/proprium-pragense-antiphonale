@@ -22,3 +22,29 @@
     fontes = "kol2 5r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e g a } \melisma { g f } e e
+  }
+  \addlyrics {
+    pre -- ses di -- cens
+  }
+  \header {
+    fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { b c' } a \melisma { g e } g f e
+  }
+  \addlyrics {
+    do -- lo -- re tor -- que -- or
+  }
+  \header {
+    fontes = "hr3 36r"
+  }
+}

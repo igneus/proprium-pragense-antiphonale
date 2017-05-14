@@ -26,3 +26,29 @@
     fontes = "kol2 4v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g \melisma { g f d } f \melisma { g a }
+  }
+  \addlyrics {
+    Ue -- ne -- ran -- dus
+  }
+  \header {
+    fontes = "hr3 35v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f } f f
+  }
+  \addlyrics {
+    iu -- sto -- rum
+  }
+  \header {
+    fontes = "hr3 35v"
+  }
+}

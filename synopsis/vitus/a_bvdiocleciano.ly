@@ -28,3 +28,29 @@
     fontes = "kol2 6v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f a c' \melisma { c' b } \melisma { a g } \melisma { a c' }
+  }
+  \addlyrics {
+    dy -- o -- cle -- ci -- a -- no
+  }
+  \header {
+    fontes = "hr3 37r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c' d' e' f' e' d' c' d' } \melisma { d' c' } c' \melisma { c' b a g } a \melisma { g f } f
+  }
+  \addlyrics {
+    nos -- ter qui nos do -- cu -- it
+  }
+  \header {
+    fontes = "hr3 37r"
+  }
+}

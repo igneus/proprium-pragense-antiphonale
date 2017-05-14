@@ -26,3 +26,29 @@
     fontes = "kol2 7v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f e } c
+  }
+  \addlyrics {
+    e -- ius
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f g f g \melisma { f e }
+  }
+  \addlyrics {
+    po -- ten -- tis -- si -- me
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}

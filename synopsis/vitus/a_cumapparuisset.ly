@@ -12,7 +12,7 @@
     g \bar "" \melisma { a b } \melisma { g f } f \bar "" \melisma { a \strophicus a } a a \melisma { a c' } \bar "" g g \bar ""
     c' c' \melisma { d' e' } d' \bar "" \melisma { d' e' } \melisma { c' b } \melisma { a g f } \bar "" \melisma { a c' g } \melisma { a g } \bar "" \melisma { f e } \melisma { f g } g \bar "||"
 
-    \melisma { c' c' c' d' e' c' b } \bar "||"
+    \melisma { c' c' c' b c' a g } \bar "||"
   }
   \addlyrics {
     Cum ap -- pa -- ru -- is -- set
@@ -26,5 +26,67 @@
   }
   \header {
     fontes = "kol2 7v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g \strophicus g } d \melisma { f g a } g g g
+  }
+  \addlyrics {
+    Cum ap -- pa -- ru -- is -- set
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g a c' d' } c'
+  }
+  \addlyrics {
+    xri -- stus
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d' \melisma { e' f' e' d' c' d' c' }
+  }
+  \addlyrics {
+    u -- na
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\markup\justify\italic{
+  Circa finem antiphonae (ante israhel) scriba antiquus clavem omittisse videtur.
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c' b } c' \melisma { d' e' } d' \melisma { d' e' } \melisma { c' b } \melisma { a g }
+    \melisma { a c' g } \melisma { a g } g \melisma { a b } b \bar "||"
+
+    e' e' d' e' c' b \bar "||"
+  }
+  \addlyrics {
+    be -- ne -- dic -- tus do -- mi -- nus
+    de -- us i -- sra -- hel
+
+    E -- u -- o -- u -- a -- e
+  }
+  \header {
+    fontes = "hr3 37v"
   }
 }

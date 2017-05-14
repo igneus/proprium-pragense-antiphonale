@@ -34,3 +34,55 @@
     fontes = "kol2 8r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c' d' f' } c'
+  }
+  \addlyrics {
+    mar -- tir
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f' e' \melisma { d' e' f' e' } \melisma { d' c' }
+  }
+  \addlyrics {
+    gu -- ber -- nan -- do
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e' g' } \melisma { a' g' } \melisma { e' f' } g'
+  }
+  \addlyrics {
+    de -- lic -- to -- rum
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a c' c' d' e' f' } \melisma { e' f' e' d' c' b } \melisma { d' c' } c'
+  }
+  \addlyrics {
+    se -- cu -- lo -- rum
+  }
+  \header {
+    fontes = "hr3 37v"
+  }
+}

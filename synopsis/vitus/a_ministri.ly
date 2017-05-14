@@ -26,3 +26,40 @@
     fontes = "kol2 4v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d e } d d
+    c d e \melisma { e g } e
+  }
+  \addlyrics {
+    pre -- si -- dis
+    ut in in -- fan -- tem
+  }
+  \header {
+    fontes = "hr3 35v"
+  }
+}
+
+\markup\italic{
+  In \bold{hr3} textus antiphonae est brevior et non secundo,
+  sed quarto tono ascribitur:
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f g a g \melisma { a g f } f \melisma { d c } \melisma { d e } f e e \bar "||"
+
+    a g a c' g e \bar "||"
+  }
+  \addlyrics {
+    a -- re -- fac -- ta sunt bra -- chi -- a e -- o -- rum
+
+    E -- u -- o -- u -- a -- e
+  }
+  \header {
+    fontes = "hr3 35v"
+  }
+}

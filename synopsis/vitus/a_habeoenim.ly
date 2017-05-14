@@ -24,3 +24,31 @@
     fontes = "kol2 2v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a \melisma { g a b c' b a b } \melisma { c' a }
+  }
+  \addlyrics {
+    do -- mi -- num
+  }
+  \header {
+    fontes = "hr3 34v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g a } a f \melisma { e d } \melisma { f g } f
+    \melisma { f e } d \melisma { c d } d d \bar "||"
+  }
+  \addlyrics {
+    fi -- de -- li -- ter ser -- uit
+    a -- ni -- ma me -- a
+  }
+  \header {
+    fontes = "hr3 34v"
+  }
+}

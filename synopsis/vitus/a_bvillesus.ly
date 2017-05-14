@@ -28,3 +28,29 @@
     fontes = "kol2 7r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a bes } a
+  }
+  \addlyrics {
+    au -- rum
+  }
+  \header {
+    fontes = "hr3 37r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a g g
+  }
+  \addlyrics {
+    in -- uen -- ta
+  }
+  \header {
+    fontes = "hr3 37r"
+  }
+}

@@ -5,18 +5,18 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d f g f } f \bar "" \melisma { f g f } g \bar "" \melisma { g a g f g a g a b } a \bar ""
-    f \melisma { g a } a \bar "" \melisma { a g f } g \bar "" \melisma { g a f e d } \melisma { d f g d f d d c } \bar ""
-    d \bar "" \melisma { e f g } \bar "" \melisma { d f e d c d d c } \bar "" \melisma { f g a g f g } \melisma { g f } \bar "" f \melisma { g a } \bar ""
-    \melisma { a g } \bar "" g \melisma { g a f e d } \melisma { d f g d f d d c } \bar "" d \melisma { e f g } \melisma { d e f e d c d } \melisma { d c } \bar ""
-    \melisma { f g a g a } \melisma { g f } \bar "" \melisma { g a } \melisma { a g a f g } \melisma { d f d c } c \bar "" \melisma { f g a } \melisma { g a g } \melisma { f g a g f g } \melisma { g f } \bar "|"
+    \melisma { d^"a" f g f } f \bar "" \melisma { f g f } g \bar "" \melisma { g a g f g a g a b } a \bar ""
+    f^"b" \melisma { g a } a \bar "" \melisma { a g f } g \bar "" \melisma { g a f e d } \melisma { d f g d f d d c } \bar ""
+    d^"c" \bar "" \melisma { e f g } \bar "" \melisma { d f e d c d d c } \bar "" \melisma { f g a g f g } \melisma { g f } \bar "" f \melisma { g a } \bar ""
+    \melisma { a^"d" g } \bar "" g \melisma { g a f e d } \melisma { d f g d f d d c } \bar "" d \melisma { e f g } \melisma { d e f e d c d } \melisma { d c } \bar ""
+    \melisma { f^"e" g a g a } \melisma { g f } \bar "" \melisma { g a } \melisma { a g a f g } \melisma { d f d c } c \bar "" \melisma { f g a } \melisma { g a g } \melisma { f g a g f g } \melisma { g f } \bar "|"
 
-    \melisma { a g \strophicus g } g \melisma { g a g f g } \melisma { g f } \bar "" \melisma { a g f } g \melisma { g a f e d f } \bar ""
-    \melisma { c d f g f a g a g f e d d f e f } c \bar "" \melisma { d f e f } \melisma { e d } \bar "||"
+    \melisma { a^"f" g \strophicus g } g \melisma { g a g f g } \melisma { g f } \bar "" \melisma { a g f } g \melisma { g a f e d f } \bar ""
+    \melisma { c^"g" d f g f a g a g f e d d f e f } c \bar "" \melisma { d f e f } \melisma { e d } \bar "||"
 
-    a \bar "" a a \melisma { a g a g f } \bar "" g \bar "" g g \melisma { g a } g \bar ""
-    g g \bar "" g \melisma { a f } \melisma { g a } \melisma { g a } \bar "" \melisma { a b a } a \bar ""
-    g \bar "" \melisma { g a } a a \bar ""
+    a^"h" \bar "" a a \melisma { a g a g f } \bar "" g \bar "" g g \melisma { g a } g \bar ""
+    g^"i" g \bar "" g \melisma { a f } \melisma { g a } \melisma { g a } \bar "" \melisma { a b a } a \bar ""
+    g^"j" \bar "" \melisma { g a } a a \bar ""
     a a \bar "" a \bar "" a a \melisma { a g a g } \bar "" \melisma { a f } \bar "" \melisma { f g a g a c' a } \melisma { a g f e g a } \melisma { g f } \bar "||"
 
     \melisma { a g } g \bar "||"
@@ -31,7 +31,7 @@
     Il -- lu -- mi -- na o -- cu -- los
     pa -- tris me -- i
 
-    Vi vi -- de -- ant et con -- fun -- dan -- tur
+    Vt vi -- de -- ant et con -- fun -- dan -- tur
     o -- mnes i -- ni -- mi -- ci me -- i
     et le -- ten -- tur
     o -- mnes qui no -- ue -- runt te do -- mi -- ne
@@ -40,5 +40,83 @@
   }
   \header {
     fontes = "kol2 3v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"a" a g f f g a } a
+  }
+  \addlyrics {
+    di -- xit
+  }
+  \header {
+    fontes = "hr3 35r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"c" g a g a g f g } \melisma { g f }
+  }
+  \addlyrics {
+    na -- to
+  }
+  \header {
+    fontes = "hr3 35r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"d" \melisma { e f g } \melisma { d f e d c d } \melisma { d c }
+  }
+  \addlyrics {
+    ne -- ga -- ue -- rat
+  }
+  \header {
+    fontes = "hr3 35r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"f" g } g \melisma { g a g } \melisma { g f }
+  }
+  \addlyrics {
+    Il -- lu -- mi -- na
+  }
+  \header {
+    fontes = "hr3 35r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c^"g" d f g f a g a f e d d f e f } \melisma { d \strophicus d } \melisma { d e f e f } \melisma { e d }
+  }
+  \addlyrics {
+    pa -- tris me -- i
+  }
+  \header {
+    fontes = "hr3 35r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"j" f } \melisma { g a } a a
+  }
+  \addlyrics {
+    et le -- ten -- tur
+  }
+  \header {
+    fontes = "hr3 35r"
   }
 }
