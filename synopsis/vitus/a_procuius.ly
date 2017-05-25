@@ -30,7 +30,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { g \rasura a c' \finrasura } \melisma { a c' } a g g g
+    \melisma { g \rasura { a c' } } \melisma { a c' } a g g g
   }
   \addlyrics {
     Pro cu -- ius no -- mi -- ne
@@ -56,7 +56,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    g \melisma { \rasura d' b \finrasura d' e' } d'
+    g \melisma { \rasura { d' b } d' e' } d'
   }
   \addlyrics {
     tor -- men -- ta
@@ -69,7 +69,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    d' c' \melisma { d' \rasura e' \finrasura }
+    d' c' \melisma { d' \rasura { e' } }
   }
   \addlyrics {
     pro -- mit -- tis
@@ -82,7 +82,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    e' \melisma { \rasura c' \finrasura d' } c' c'^"+" % post syllabam ultimam rasura inlegibilis
+    e' \melisma { \rasura { c' } d' } c' c'^"+" % post syllabam ultimam rasura inlegibilis
   }
   \addlyrics {
     de -- si -- de -- ro
@@ -95,7 +95,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    a \melisma { c' b } \melisma { a \rasura g \finrasura } g
+    a \melisma { c' b } \melisma { a \rasura { g } } g
   }
   \addlyrics {
     per -- ci -- pi -- am
@@ -121,7 +121,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { \rasura b \finrasura c' } d' \melisma { c' \rasura b } a \melisma { g \rasura a g \finrasura }
+    \melisma { \rasura { b } c' } d' \melisma { c' \rasura { b } a \melisma { g \rasura { a g } }
   }
   \addlyrics {
     po -- li -- ci -- tus est
@@ -160,7 +160,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    e \melisma { f \rasura g \finrasura } \melisma { g a \rasura g f \finrasura } a \melisma { \rasura a \finrasura c' } g g
+    e \melisma { f \rasura { g } } \melisma { g a \rasura { g f } } a \melisma { \rasura { a } c' } g g
   }
   \addlyrics {
     si -- ne fi -- ne man -- su -- ram

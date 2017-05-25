@@ -166,7 +166,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    c' g \melisma { f \rasura e d \finrasura } f g
+    c' g \melisma { f \rasura { e d } } f g
   }
   \addlyrics {
     sim -- pli -- ci -- ta -- te

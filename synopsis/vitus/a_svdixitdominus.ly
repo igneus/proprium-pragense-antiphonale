@@ -74,7 +74,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    a \melisma { g \rasura f \finrasura } \melisma { \rasura f e \finrasura f d }
+    a \melisma { g \rasura { f } } \melisma { \rasura { f e } f d }
   }
   \addlyrics {
     me -- cum est
@@ -113,7 +113,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    f g \melisma { f g } f \melisma { e \rasura d \finrasura } d \melisma { c \rasura d \finrasura } d d
+    f g \melisma { f g } f \melisma { e \rasura { d } } d \melisma { c \rasura { d } } d d
   }
   \addlyrics {
     po -- ten -- tis -- si -- me li -- be -- ra -- uit

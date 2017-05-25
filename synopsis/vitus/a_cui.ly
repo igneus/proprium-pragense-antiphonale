@@ -60,7 +60,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    f \melisma { \rasura f \finrasura d \rasura d c \finrasura } \melisma { c \rasura f \finrasura }
+    f \melisma { \rasura { f } d \rasura { d c } } \melisma { c \rasura { f } }
   }
   \addlyrics {
     Cu -- i si
@@ -140,7 +140,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f \rasura f d d c \finrasura }
+    \melisma { f \rasura { f d d c } }
   }
   \addlyrics {
     quam
@@ -168,7 +168,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    f \melisma { g \rasura a bes \finrasura } a % nota: rasura, quae notam b delevit, signum bemol ad eam pertinens pepercit
+    f \melisma { g \rasura { a bes } } a % nota: rasura, quae notam b delevit, signum bemol ad eam pertinens pepercit
     b a a g g a f f
   }
   \addlyrics {

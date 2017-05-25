@@ -32,7 +32,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { \rasura g \finrasura a } f f
+    \melisma { \rasura { g } a } f f
   }
   \addlyrics {
     il -- le -- sus
@@ -45,7 +45,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a c' } \melisma { \rasura g \finrasura a } \melisma { \rasura a \finrasura g \rasura f \finrasura }
+    \melisma { a c' } \melisma { \rasura { g } a } \melisma { \rasura { a } g \rasura { f } }
   }
   \addlyrics {
     cli -- ba -- ni
@@ -126,7 +126,7 @@
   \transpose c c' {
     \plainchant
     a g e
-    f f g f \melisma { \rasura d \finrasura f } f
+    f f g f \melisma { \rasura { d } f } f
   }
   \addlyrics {
     in -- uen -- ta

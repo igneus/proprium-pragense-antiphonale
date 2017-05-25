@@ -45,7 +45,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    g d \melisma { f \rasura g a \finrasura } \melisma { g a } g g
+    g d \melisma { f \rasura { g a } } \melisma { g a } g g
   }
   \addlyrics {
     Cum ap -- pa -- ru -- is -- set
@@ -110,7 +110,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f a \rasura c' d' \finrasura } c' c' c'
+    \melisma { f a \rasura { c' d' } } c' c' c'
   }
   \addlyrics {
     fac -- ta est uox
@@ -224,8 +224,8 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { c' b } c' \melisma { d' e' } d' \melisma { d' e' } \melisma { c' \rasura b \finrasura } \melisma { a g \rasura f \finrasura }
-    \melisma { a c' g } \melisma { a g } e \melisma { f \rasura g \finrasura } g \bar "||"
+    \melisma { c' b } c' \melisma { d' e' } d' \melisma { d' e' } \melisma { c' \rasura { b } } \melisma { a g \rasura { f } }
+    \melisma { a c' g } \melisma { a g } e \melisma { f \rasura { g } } g \bar "||"
   }
   \addlyrics {
     be -- ne -- dic -- tus do -- mi -- nus

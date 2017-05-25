@@ -92,7 +92,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { c' e' \rasura g' a' \finrasura }
+    \melisma { c' e' \rasura { g' a' } }
   }
   \addlyrics {
     ut
@@ -105,7 +105,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a' g' } \melisma { f' \rasura g' \finrasura } g'
+    \melisma { a' g' } \melisma { f' \rasura { g' } } g'
   }
   \addlyrics {
     me -- ri -- tis
@@ -174,7 +174,7 @@
     % ktere zustaly dobre zretelne, a dilem jde o noty ne vyskrabane,
     % ale preskrtane
     g' \melisma { e' d' } c' e' f' \melisma { g' a' } g'
-    \melisma { g' \rasura f' e' \finrasura } c' \melisma { a \rasura c' d' f' \finrasura } \melisma { c' \rasura c' c' \finrasura } \melisma { b a } a
+    \melisma { g' \rasura { f' e' } } c' \melisma { a \rasura { c' d' f' } } \melisma { c' \rasura { c' c' } } \melisma { b a } a
   }
   \addlyrics {
     pla -- ce -- re ua -- le -- a -- mus

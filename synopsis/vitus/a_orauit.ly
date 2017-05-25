@@ -60,7 +60,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f e \rasura f d \finrasura } d
+    \melisma { f e \rasura { f d } } d
   }
   \addlyrics {
     pa -- ter
@@ -89,7 +89,7 @@
   \transpose c c' {
     \plainchant
     \melisma { f e } d \melisma { d f }
-    \melisma { \rasura e d \finrasura e f d } d
+    \melisma { \rasura { e d } e f d } d
   }
   \addlyrics {
     do -- mi -- ni
