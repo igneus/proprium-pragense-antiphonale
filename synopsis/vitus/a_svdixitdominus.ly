@@ -27,6 +27,24 @@
   }
 }
 
+\markup\justify{
+  Sequens ratio cantandi Sanctus introducta est manu valde posteriori;
+  manu scribae scriptum est ut supra.
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d c } d
+  }
+  \addlyrics {
+    Sanc -- tus
+  }
+  \header {
+    fontes = "pvi2 211v"
+  }
+}
+
 \score {
   \transpose c c' {
     \plainchant
@@ -56,13 +74,26 @@
 \score {
   \transpose c c' {
     \plainchant
+    a \melisma { g \rasura f \finrasura } \melisma { \rasura f e \finrasura f d }
+  }
+  \addlyrics {
+    me -- cum est
+  }
+  \header {
+    fontes = "pvi2 211v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f e } c
   }
   \addlyrics {
     e -- ius
   }
   \header {
-    fontes = "hr3 37v"
+    fontes = "hr3 37v; pvi2 211v"
   }
 }
 
@@ -76,6 +107,19 @@
   }
   \header {
     fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f g \melisma { f g } f \melisma { e \rasura d \finrasura } d \melisma { c \rasura d \finrasura } d d
+  }
+  \addlyrics {
+    po -- ten -- tis -- si -- me li -- be -- ra -- uit
+  }
+  \header {
+    fontes = "pvi2 211v"
   }
 }
 

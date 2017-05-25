@@ -60,6 +60,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    f \melisma { \rasura f \finrasura d \rasura d c \finrasura } \melisma { c \rasura f \finrasura }
+  }
+  \addlyrics {
+    Cu -- i si
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f f f \melisma { f g } \melisma { g f } f
   }
   \addlyrics {
@@ -67,6 +80,21 @@
   }
   \header {
     fontes = "olm 64r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f f f g f g
+    \melisma { a g } f g f
+  }
+  \addlyrics {
+    per -- se -- ue -- ra -- ue -- ro
+    fi -- de -- li -- ter
+  }
+  \header {
+    fontes = "pvi2 210v"
   }
 }
 
@@ -86,6 +114,45 @@
 \score {
   \transpose c c' {
     \plainchant
+    a
+  }
+  \addlyrics {
+    me
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    bes bes
+  }
+  \addlyrics {
+    sto -- lam
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f \rasura f d d c \finrasura }
+  }
+  \addlyrics {
+    quam
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f \melisma { g a b } a
     a c' \melisma { b a } \melisma { g f } g a f f
   }
@@ -95,5 +162,20 @@
   }
   \header {
     fontes = "olm 64r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { g \rasura a bes \finrasura } a % nota: rasura, quae notam b delevit, signum bemol ad eam pertinens pepercit
+    b a a g g a f f
+  }
+  \addlyrics {
+    te -- ne -- bre
+    com -- pre -- hen -- de -- re non pos -- sunt
+  }
+  \header {
+    fontes = "pvi2 210v"
   }
 }

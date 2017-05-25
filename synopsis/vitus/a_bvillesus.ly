@@ -32,6 +32,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { \rasura g \finrasura a } f f
+  }
+  \addlyrics {
+    il -- le -- sus
+  }
+  \header {
+    fontes = "pvi2 211r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a c' } \melisma { \rasura g \finrasura a } \melisma { \rasura a \finrasura g \rasura f \finrasura }
+  }
+  \addlyrics {
+    cli -- ba -- ni
+  }
+  \header {
+    fontes = "pvi2 211r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     a a g g g f f
   }
   \addlyrics {
@@ -51,7 +77,7 @@
     au -- rum
   }
   \header {
-    fontes = "hr3 37r; olm 64v"
+    fontes = "hr3 37r; olm 64v; pvi2 211r"
   }
 }
 
@@ -93,5 +119,20 @@
   }
   \header {
     fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a g e
+    f f g f \melisma { \rasura d \finrasura f } f
+  }
+  \addlyrics {
+    in -- uen -- ta
+    in me i -- ni -- qui -- tas
+  }
+  \header {
+    fontes = "pvi2 211r"
   }
 }

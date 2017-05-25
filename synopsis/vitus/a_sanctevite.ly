@@ -53,13 +53,26 @@
 \score {
   \transpose c c' {
     \plainchant
+    d' a \melisma { bes a } g
+  }
+  \addlyrics {
+    pre -- ci -- o -- se
+  }
+  \header {
+    fontes = "pvi2 212v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c' d' f' } c'
   }
   \addlyrics {
     mar -- tir
   }
   \header {
-    fontes = "hr3 37v"
+    fontes = "hr3 37v; pvi2 212v"
   }
 }
 
@@ -79,6 +92,45 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { c' e' \rasura g' a' \finrasura }
+  }
+  \addlyrics {
+    ut
+  }
+  \header {
+    fontes = "pvi2 212v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a' g' } \melisma { f' \rasura g' \finrasura } g'
+  }
+  \addlyrics {
+    me -- ri -- tis
+  }
+  \header {
+    fontes = "pvi2 212v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g' g' g' } \melisma { e' f' e' d' } c'
+  }
+  \addlyrics {
+    con -- ces -- sa
+  }
+  \header {
+    fontes = "pvi2 212v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { e' g' } \melisma { a' g' } \melisma { e' f' } g'
   }
   \addlyrics {
@@ -92,6 +144,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { e' g' } \melisma { a' g' } \melisma { e' g' } g'
+  }
+  \addlyrics {
+    de -- lic -- to -- rum
+  }
+  \header {
+    fontes = "pvi2 212v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a c' c' d' e' f' } \melisma { e' f' e' d' c' b } \melisma { d' c' } c'
   }
   \addlyrics {
@@ -99,5 +164,23 @@
   }
   \header {
     fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    % drasticke razury; zaznamenavam jen ty nemnohe,
+    % ktere zustaly dobre zretelne, a dilem jde o noty ne vyskrabane,
+    % ale preskrtane
+    g' \melisma { e' d' } c' e' f' \melisma { g' a' } g'
+    \melisma { g' \rasura f' e' \finrasura } c' \melisma { a \rasura c' d' f' \finrasura } \melisma { c' \rasura c' c' \finrasura } \melisma { b a } a
+  }
+  \addlyrics {
+    pla -- ce -- re ua -- le -- a -- mus
+    re -- gi se -- cu -- lo -- rum
+  }
+  \header {
+    fontes = "pvi2 212v"
   }
 }

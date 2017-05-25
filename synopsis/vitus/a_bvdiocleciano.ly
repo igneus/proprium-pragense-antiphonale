@@ -38,7 +38,7 @@
     Be -- a -- tus
   }
   \header {
-    fontes = "olm 63v"
+    fontes = "olm 63v; pvi2 210r"
   }
 }
 
@@ -78,6 +78,36 @@
   }
   \header {
     fontes = "pint 44v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f a c' c' \melisma { a b } a
+  }
+  \addlyrics {
+    dy -- o -- cle -- ci -- a -- no
+  }
+  \header {
+    fontes = "pvi2 210r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { g c' d' } c' \melisma { c' d' } c' \bar ""
+    c' \melisma { c' bes a g } a g f \bar ""
+    g f a c' d' c'
+  }
+  \addlyrics {
+    ma -- gis -- ter nos -- ter
+    qui nos do -- cu -- it
+    na -- tu -- ra bo -- nus est
+  }
+  \header {
+    fontes = "pvi2 210r"
   }
 }
 
@@ -130,5 +160,18 @@
   }
   \header {
     fontes = "olm 63v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' g \melisma { f \rasura e d \finrasura } f g
+  }
+  \addlyrics {
+    sim -- pli -- ci -- ta -- te
+  }
+  \header {
+    fontes = "pvi2 210r"
   }
 }

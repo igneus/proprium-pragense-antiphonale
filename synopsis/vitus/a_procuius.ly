@@ -30,6 +30,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g \rasura a c' \finrasura } \melisma { a c' } a g g g
+  }
+  \addlyrics {
+    Pro cu -- ius no -- mi -- ne
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g \melisma { d' c' d' e' } d'
   }
   \addlyrics {
@@ -43,6 +56,58 @@
 \score {
   \transpose c c' {
     \plainchant
+    g \melisma { \rasura d' b \finrasura d' e' } d'
+  }
+  \addlyrics {
+    tor -- men -- ta
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d' c' \melisma { d' \rasura e' \finrasura }
+  }
+  \addlyrics {
+    pro -- mit -- tis
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e' \melisma { \rasura c' \finrasura d' } c' c'^"+" % post syllabam ultimam rasura inlegibilis
+  }
+  \addlyrics {
+    de -- si -- de -- ro
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a \melisma { c' b } \melisma { a \rasura g \finrasura } g
+  }
+  \addlyrics {
+    per -- ci -- pi -- am
+  }
+  \header {
+    fontes = "pvi2 210v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' d' \melisma { c' b } a
   }
   \addlyrics {
@@ -50,6 +115,19 @@
   }
   \header {
     fontes = "olm 64r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { \rasura b \finrasura c' } d' \melisma { c' \rasura b } a \melisma { g \rasura a g \finrasura }
+  }
+  \addlyrics {
+    po -- li -- ci -- tus est
+  }
+  \header {
+    fontes = "pvi2 210v"
   }
 }
 
@@ -76,5 +154,18 @@
   }
   \header {
     fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e \melisma { f \rasura g \finrasura } \melisma { g a \rasura g f \finrasura } a \melisma { \rasura a \finrasura c' } g g
+  }
+  \addlyrics {
+    si -- ne fi -- ne man -- su -- ram
+  }
+  \header {
+    fontes = "pvi2 210v"
   }
 }

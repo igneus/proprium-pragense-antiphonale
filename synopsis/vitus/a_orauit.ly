@@ -53,7 +53,20 @@
     Vi -- tus
   }
   \header {
-    fontes = "pint 43r"
+    fontes = "pint 43r; pvi2 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f e \rasura f d \finrasura } d
+  }
+  \addlyrics {
+    pa -- ter
+  }
+  \header {
+    fontes = "pvi 197v"
   }
 }
 
@@ -75,6 +88,21 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f e } d \melisma { d f }
+    \melisma { \rasura e d \finrasura e f d } d
+  }
+  \addlyrics {
+    do -- mi -- ni
+    me -- i
+  }
+  \header {
+    fontes = "pvi 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a c' } \melisma { b g } \melisma { a b } \melisma { b \strophicus b } g
     d' \melisma { d' e' } \melisma { c' \strophicus c' } \melisma { g a }
   }
@@ -90,6 +118,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { a c' } g \melisma { a c' } c' g
+  }
+  \addlyrics {
+    re -- spi -- ce in me
+  }
+  \header {
+    fontes = "pvi2 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' d' c' g
+  }
+  \addlyrics {
+    pre -- ua -- le -- at
+  }
+  \header {
+    fontes = "pvi2 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d e } g \melisma { a b } a
   }
   \addlyrics {
@@ -97,5 +151,24 @@
   }
   \header {
     fontes = "hr1 16r"
+  }
+}
+
+\markup\justify{
+  Videtur a manu prima scriptum eodem modo ut in \bold{hr3} aliisque
+  fontibus, sed postea mutatum, probabiliter propter accentum grammaticum
+  non in unum cadentem cum melodico.
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d e } \melisma { g a c' } a a
+  }
+  \addlyrics {
+    per -- fi -- ce -- re
+  }
+  \header {
+    fontes = "pvi2 197v"
   }
 }

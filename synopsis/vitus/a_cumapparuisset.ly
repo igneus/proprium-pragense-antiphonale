@@ -45,13 +45,39 @@
 \score {
   \transpose c c' {
     \plainchant
+    g d \melisma { f \rasura g a \finrasura } \melisma { g a } g g
+  }
+  \addlyrics {
+    Cum ap -- pa -- ru -- is -- set
+  }
+  \header {
+    fontes = "pvi2 212r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a \melisma { g g g } \melisma { g f }
+  }
+  \addlyrics {
+    do -- mi -- nus
+  }
+  \header {
+    fontes = "pvi2 212r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g a c' d' } c'
   }
   \addlyrics {
     xri -- stus
   }
   \header {
-    fontes = "hr3 37v; olm 64v"
+    fontes = "hr3 37v; olm 64v; pvi2 212r"
   }
 }
 
@@ -65,6 +91,32 @@
   }
   \header {
     fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a bes c' bes a g a } \melisma { g f }
+  }
+  \addlyrics {
+    ui -- to
+  }
+  \header {
+    fontes = "pvi2 212r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f a \rasura c' d' \finrasura } c' c' c'
+  }
+  \addlyrics {
+    fac -- ta est uox
+  }
+  \header {
+    fontes = "pvi2 212r"
   }
 }
 
@@ -97,6 +149,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d' e' } \melisma { f' e' d' c' }
+  }
+  \addlyrics {
+    v -- na
+  }
+  \header {
+    fontes = "pvi2 212r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g \melisma { g c' } g g a a \melisma { g f } f a a a \melisma { a c' a }
   }
   \addlyrics {
@@ -104,6 +169,19 @@
   }
   \header {
     fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g \melisma { a bes } g^"+?" f
+  }
+  \addlyrics {
+    in car -- ce -- re
+  }
+  \header {
+    fontes = "pvi2 212r"
   }
 }
 
@@ -140,5 +218,22 @@
   }
   \header {
     fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c' b } c' \melisma { d' e' } d' \melisma { d' e' } \melisma { c' \rasura b \finrasura } \melisma { a g \rasura f \finrasura }
+    \melisma { a c' g } \melisma { a g } e \melisma { f \rasura g \finrasura } g \bar "||"
+  }
+  \addlyrics {
+    be -- ne -- dic -- tus do -- mi -- nus
+    de -- us i -- sra -- hel
+
+    E -- u -- o -- u -- a -- e
+  }
+  \header {
+    fontes = "pvi2 212r"
   }
 }
