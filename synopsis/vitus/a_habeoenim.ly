@@ -28,6 +28,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d a bes } a
+  }
+  \addlyrics {
+    e -- nim
+  }
+  \header {
+    fontes = "hr1 18r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a \melisma { g a c' b a b } \melisma { b a }
+  }
+  \addlyrics {
+    do -- mi -- num
+  }
+  \header {
+    fontes = "hr1 18r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     a \melisma { g a b c' b a b } \melisma { c' a }
   }
   \addlyrics {
@@ -65,5 +91,18 @@
   }
   \header {
     fontes = "olm 61r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e f g } f
+  }
+  \addlyrics {
+    ser -- uit
+  }
+  \header {
+    fontes = "hr1 18r"
   }
 }

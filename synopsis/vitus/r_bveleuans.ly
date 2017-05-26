@@ -62,7 +62,7 @@
     Be -- a -- tus
   }
   \header {
-    fontes = "hr3 34r"
+    fontes = "hr3 34r; hr1 17v"
   }
 }
 
@@ -82,6 +82,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    c'^"d" c' \melisma { c' d' } \melisma { d' c' b a g a g }
+  }
+  \addlyrics {
+    ut ui -- de -- ant
+  }
+  \header {
+    fontes = "hr1 17v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a^"e" \melisma { c' a } a \melisma { a b a g a }
+  }
+  \addlyrics {
+    in no -- mi -- ne
+  }
+  \header {
+    fontes = "hr1 17v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"e" f g d d e f e f } \melisma { d c d f d }
   }
   \addlyrics {
@@ -89,6 +115,19 @@
   }
   \header {
     fontes = "hr3 34r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"e" f g d e f e } \melisma { d c d e d }
+  }
+  \addlyrics {
+    no -- stri
+  }
+  \header {
+    fontes = "hr1 17v"
   }
 }
 
@@ -108,6 +147,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { a^"f" g f g a b } \melisma { g f } \melisma { f a b a g f g f e d f } \melisma { d f f } \melisma { g a }
+  }
+  \addlyrics {
+    pre -- si -- dis hu -- ius
+  }
+  \header {
+    fontes = "hr1 17v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"g" \melisma { f g bes } \melisma { bes bes a g a g }
+  }
+  \addlyrics {
+    ut cre -- dant
+  }
+  \header {
+    fontes = "hr1 17v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g^"g" a c' d' } c' c'
   }
   \addlyrics {
@@ -115,6 +180,19 @@
   }
   \header {
     fontes = "hr3 34r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c'^"h" b a } a \melisma { g a } \melisma { f g a g } \melisma { g f }
+  }
+  \addlyrics {
+    fi -- li -- um tu -- um
+  }
+  \header {
+    fontes = "hr1 17v"
   }
 }
 
@@ -134,6 +212,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    f \melisma { d f } f f \melisma { g a f } \melisma { f \strophicus f } \melisma { f g a }
+  }
+  \addlyrics {
+    in u -- ni -- ta -- te san -- cti
+  }
+  \header {
+    fontes = "hr1 17v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g f } f \melisma { f g b } \melisma { a g a b a g } \melisma { g a g f g f }
   }
   \addlyrics {
@@ -141,5 +232,20 @@
   }
   \header {
     fontes = "hr3 34r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"j" g bes } bes \melisma { bes bes a g a g } \melisma { a b c' d' } \melisma { c' b a } \melisma { a g a } f \melisma { f g a g } \melisma { g f }
+    f^"k" \melisma { d f } \melisma { g a f } \melisma { f e } \melisma { f g a }
+  }
+  \addlyrics {
+    Glo -- ri -- a pa -- tri et fi -- li -- o
+    et spi -- ri -- tu -- i
+  }
+  \header {
+    fontes = "hr1 17v"
   }
 }
