@@ -121,7 +121,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { \rasura { b } c' } d' \melisma { c' \rasura { b } a \melisma { g \rasura { a g } }
+    \melisma { \rasura { b } c' } d' \melisma { c' \rasura { b } } a \melisma { g \rasura { a g } }
   }
   \addlyrics {
     po -- li -- ci -- tus est
