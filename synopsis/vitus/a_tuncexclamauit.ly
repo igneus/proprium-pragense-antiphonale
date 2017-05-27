@@ -52,6 +52,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { e g } \melisma { a g }
+  }
+  \addlyrics {
+    pre -- ses
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f } f
+  }
+  \addlyrics {
+    di -- cens
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { e g } a
   }
   \addlyrics {
@@ -65,13 +91,39 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { b c' } a \melisma { g e } g f e
+    \melisma { e f } \melisma { g a }
   }
   \addlyrics {
-    do -- lo -- re tor -- que -- or
+    he -- u
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { b c' } a \melisma { g e }
+  }
+  \addlyrics {
+    do -- lo -- re
   }
   \header {
     fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a c' } a \melisma { g f }
+  }
+  \addlyrics {
+    do -- lo -- re
+  }
+  \header {
+    fontes = "plf 1r"
   }
 }
 

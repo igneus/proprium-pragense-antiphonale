@@ -97,6 +97,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    g \melisma { g a } c' \melisma { c' b } a \melisma { c' a }
+  }
+  \addlyrics {
+    dy -- o -- cle -- ci -- a -- no
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f \melisma { g c' d' } c' \melisma { c' d' } c' \bar ""
     c' \melisma { c' bes a g } a g f \bar ""
     g f a c' d' c'
@@ -127,6 +140,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d' d' d' f' e' c' d' } c'
+  }
+  \addlyrics {
+    nos -- ter
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' \melisma { c' b a g } a \melisma { g f } f
   }
   \addlyrics {
@@ -147,6 +173,19 @@
   }
   \header {
     fontes = "hr1 20v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' \melisma { c' b g } a
+  }
+  \addlyrics {
+    qui nos do... % antiphona caret fine
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 

@@ -66,7 +66,7 @@
     pa -- ter
   }
   \header {
-    fontes = "pvi 197v"
+    fontes = "pvi2 197v"
   }
 }
 
@@ -96,7 +96,7 @@
     me -- i
   }
   \header {
-    fontes = "pvi 197v"
+    fontes = "pvi2 197v"
   }
 }
 

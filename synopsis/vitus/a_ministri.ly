@@ -30,6 +30,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d^"a" c a, } b, \melisma { c d }
+  }
+  \addlyrics {
+    Mi -- ni -- stri
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"a" f } d d
+  }
+  \addlyrics {
+    pre -- si -- dis
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"a" e } d d
   }
   \addlyrics {
@@ -56,13 +82,52 @@
 \score {
   \transpose c c' {
     \plainchant
+    c c d \melisma { f g } f
+  }
+  \addlyrics {
+    ut in in -- fan -- tem
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e \melisma { f e } d d
+  }
+  \addlyrics {
+    tem -- pta -- ue -- runt
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e g a g
+  }
+  \addlyrics {
+    a -- re -- fac -- ta
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f e d }
   }
   \addlyrics {
     sunt
   }
   \header {
-    fontes = "olm 62r"
+    fontes = "olm 62r; plf 1r"
   }
 }
 
@@ -75,7 +140,7 @@
     e -- o -- rum
   }
   \header {
-    fontes = "olm 62r"
+    fontes = "olm 62r; plf 1r"
   }
 }
 

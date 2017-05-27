@@ -45,6 +45,8 @@
 \include "a_ministri.ly"
 \include "a_tuncexclamauit.ly"
 
+\include "a_magus.ly"
+
 \include "r_dumseconsignaret.ly"
 \include "r_bvdeuictis.ly"
 \include "r_dumcomplesset.ly"
