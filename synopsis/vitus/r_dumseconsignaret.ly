@@ -44,6 +44,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { c^"a" d } d \melisma { d e f e d e } \melisma { e d }
+  }
+  \addlyrics {
+    con -- si -- gna -- ret
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"b" f g a } g
   }
   \addlyrics {
@@ -51,6 +64,19 @@
   }
   \header {
     fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"c" a b } \melisma { a b } a a
+  }
+  \addlyrics {
+    vi -- ui -- fi -- ce
+  }
+  \header {
+    fontes = "hr1 19v"
   }
 }
 
@@ -70,7 +96,33 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a g } \melisma { a b } g \melisma { e g e e d e g }
+    \melisma { a^"c" g f } \melisma { g f a } \melisma { d e d e } e
+  }
+  \addlyrics {
+    ia -- cta -- tus est
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e^"d" \strophicus e } \melisma { c d } d d \melisma { d e } \melisma { c d } \melisma { d e c d }
+  }
+  \addlyrics {
+    in me -- di -- o cli -- ba -- ni
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"e" g } \melisma { a b } g \melisma { e g e e d e g }
   }
   \addlyrics {
     ap -- pa -- ru -- it
@@ -78,6 +130,25 @@
   \header {
     fontes = "hr3 36r"
   }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"e" e } c d \melisma { d g f g } \melisma { g f } \melisma { g a } f \melisma { d e d c d e d }
+    f^"f" f \melisma { g a }
+  }
+  \addlyrics {
+    Et su -- bi -- to ap -- pa -- ru -- it
+    an -- ge -- lus
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\markup{
+  \bold{hr1:} g: \italic{omnem} (loco \italic{grauem} )
 }
 
 \score {
@@ -116,6 +187,19 @@
   }
   \header {
     fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"i" \melisma { d e f e } \melisma { e d }
+  }
+  \addlyrics {
+    cli -- ba -- ni
+  }
+  \header {
+    fontes = "hr1 19v"
   }
 }
 

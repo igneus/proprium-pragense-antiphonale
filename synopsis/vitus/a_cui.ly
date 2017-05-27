@@ -140,6 +140,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    a bes
+  }
+  \addlyrics {
+    sto -- lam
+  }
+  \header {
+    fontes = "hr1 20v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f \rasura { f d d c } }
   }
   \addlyrics {
@@ -162,6 +175,21 @@
   }
   \header {
     fontes = "olm 64r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { g a b } a
+    \melisma { a b } c' \melisma { b a } \melisma { g f } g \melisma { g a g } f f
+  }
+  \addlyrics {
+    te -- ne -- bre
+    com -- pre -- hen -- de -- re non pos -- sunt
+  }
+  \header {
+    fontes = "hr1 20v"
   }
 }
 

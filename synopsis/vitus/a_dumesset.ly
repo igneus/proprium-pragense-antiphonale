@@ -56,6 +56,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    f \melisma { a c' b a g } \melisma { a b } \melisma { a g }
+  }
+  \addlyrics {
+    cir -- cum -- stan -- tes
+  }
+  \header {
+    fontes = "hr1 21v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c' d' b c' a } a
   }
   \addlyrics {

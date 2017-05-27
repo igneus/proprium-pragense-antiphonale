@@ -45,6 +45,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { a b } \melisma { g a } \melisma { a g f }
+  }
+  \addlyrics {
+    cli -- ba -- ni
+  }
+  \header {
+    fontes = "hr1 21r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a c' } \melisma { \rasura { g } a } \melisma { \rasura { a } g \rasura { f } }
   }
   \addlyrics {
@@ -65,6 +78,19 @@
   }
   \header {
     fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a a g \melisma { a b c' } a
+  }
+  \addlyrics {
+    ex -- a -- mi -- na -- sti
+  }
+  \header {
+    fontes = "hr1 21r"
   }
 }
 
@@ -103,7 +129,7 @@
     in -- uen -- ta
   }
   \header {
-    fontes = "hr3 37r"
+    fontes = "hr3 37r; hr1 21r"
   }
 }
 

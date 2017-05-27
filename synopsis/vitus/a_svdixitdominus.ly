@@ -100,6 +100,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    f c
+  }
+  \addlyrics {
+    e -- ius
+  }
+  \header {
+    fontes = "hr1 21r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f g f g \melisma { f e }
   }
   \addlyrics {

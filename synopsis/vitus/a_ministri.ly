@@ -5,10 +5,10 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d c a, } c c \bar "" \melisma { d e } e d \bar ""
-    c \bar "" d \bar "" e \melisma { e d g \strophicus g } e \bar "" \melisma { f e } d \bar "" f \melisma { d c } d \bar "" f \melisma { f e } d d \bar ""
-    f g a \melisma { g f } \bar "" \melisma { g f e } \bar "" f \melisma { d c } d \bar "" f e e \bar ""
-    e \bar "" f \bar "" \melisma { g f } f \bar "" f e \melisma { d f c a, } \bar ""
+    \melisma { d^"a" c a, } c c \bar "" \melisma { d e } e d \bar ""
+    c^"b" \bar "" d \bar "" e \melisma { e d g \strophicus g } e \bar "" \melisma { f e } d \bar "" f \melisma { d c } d \bar "" f \melisma { f e } d d \bar ""
+    f^"c" g a \melisma { g f } \bar "" \melisma { g f e } \bar "" f \melisma { d c } d \bar "" f e e \bar ""
+    e^"d" \bar "" f \bar "" \melisma { g f } f \bar "" f e \melisma { d f c a, } \bar ""
     c f c \melisma { c d } \bar "" d \bar "||"
 
     \melisma { f f f f c d d } \bar "||"
@@ -30,7 +30,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d e } d d
+    \melisma { d^"a" e } d d
   }
   \addlyrics {
     pre -- si -- dis
@@ -87,7 +87,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    f g a g \melisma { a g f } f \melisma { d c } \melisma { d e } f e e \bar "||"
+    f^"c" g a g \melisma { a g f } f \melisma { d c } \melisma { d e } f e e \bar "||"
 
     a g a c' g e \bar "||"
   }
@@ -104,7 +104,20 @@
 \score {
   \transpose c c' {
     \plainchant
-    d f c \melisma { c d } d
+    f^"d" e \melisma { d e c a, }
+  }
+  \addlyrics {
+    pre -- si -- dis
+  }
+  \header {
+    fontes = "hr1 19r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"d" f c \melisma { c d } d
   }
   \addlyrics {
     a -- re -- fac -- ta est

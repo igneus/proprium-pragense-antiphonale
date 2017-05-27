@@ -19,7 +19,7 @@
     Euouae
   }
   \header {
-    fontes = "kol2 5r"
+    fontes = "kol2 5r; hr1 19r"
   }
 }
 

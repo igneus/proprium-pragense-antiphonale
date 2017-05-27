@@ -62,7 +62,7 @@
     iu -- sto -- rum
   }
   \header {
-    fontes = "hr3 35v"
+    fontes = "hr3 35v; hr1 19r"
   }
 }
 

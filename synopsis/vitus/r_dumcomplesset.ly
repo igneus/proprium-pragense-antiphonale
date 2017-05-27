@@ -72,6 +72,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d^"b" a bes } a a
+  }
+  \addlyrics {
+    fac -- ta est
+  }
+  \header {
+    fontes = "hr1 20r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"c" f e f } \melisma { e d }
   }
   \addlyrics {
@@ -86,14 +99,25 @@
   \transpose c c' {
     \plainchant
     \melisma { a^"d" g a }
-    g^"e" f \melisma { f e } g \melisma { g a g }
   }
   \addlyrics {
     sunt
-    o -- ra -- ci -- o -- nes
   }
   \header {
     fontes = "hr3 36v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"e" f \melisma { f e } g \melisma { g a g }
+  }
+  \addlyrics {
+    o -- ra -- ci -- o -- nes
+  }
+  \header {
+    fontes = "hr3 36v; hr1 20r"
   }
 }
 
@@ -113,6 +137,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    c'^"f" \melisma { c' d' } \melisma { d' c' bes bes a g a g }
+  }
+  \addlyrics {
+    san -- cto -- rum
+  }
+  \header {
+    fontes = "hr1 20r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f^"h" g a g } \melisma { g f e d } \melisma { d f e d c d f d } \melisma { f e g a } \melisma { f e } \melisma { d c d f e f } \melisma { e d }
   }
   \addlyrics {
@@ -126,6 +163,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f^"h" g a g } \melisma { g f f e d } \melisma { d e d d c } \melisma { f e g a } \melisma { f e } \melisma { d c d e f } \melisma { e d }
+  }
+  \addlyrics {
+    gau -- di -- o pe -- ci -- e -- runt
+  }
+  \header {
+    fontes = "hr1 20r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f^"k" \melisma { g a } \melisma { a c' } a a
   }
   \addlyrics {
@@ -133,5 +183,31 @@
   }
   \header {
     fontes = "pint 44v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"k" f } \melisma { g a } \melisma { a b } a a
+  }
+  \addlyrics {
+    ho -- no -- ri -- fi -- ce
+  }
+  \header {
+    fontes = "hr1 20r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"k" g a g } \melisma { g f } \melisma { f g a } \melisma { a g f e g a } \melisma { g f }
+  }
+  \addlyrics {
+    se -- pe -- li -- e -- runt
+  }
+  \header {
+    fontes = "hr1 20r"
   }
 }

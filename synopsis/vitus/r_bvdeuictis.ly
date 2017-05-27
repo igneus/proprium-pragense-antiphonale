@@ -48,6 +48,45 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d^"b" e } d \melisma { c d }
+  }
+  \addlyrics {
+    tor -- men -- tis
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"c" a g f g } \melisma { f g f e d e f }
+  }
+  \addlyrics {
+    di -- cens
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"d" e } c d
+  }
+  \addlyrics {
+    cu -- sto -- di
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f^"d" e } \melisma { f g } \melisma { g f e f e d f d }
   }
   \addlyrics {
@@ -55,6 +94,32 @@
   }
   \header {
     fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"d" e } \melisma { f g } \melisma { g f f e d e d }
+  }
+  \addlyrics {
+    do -- mi -- ne
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"d" \melisma { e f g f g d e d c d c }
+  }
+  \addlyrics {
+    o -- mnes
+  }
+  \header {
+    fontes = "hr1 19v"
   }
 }
 
@@ -74,6 +139,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { e^"e" f e } d \melisma { d e c d } \melisma { d e f e f }
+  }
+  \addlyrics {
+    glo -- ri -- fi -- cant
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"f" f e d e }
+  }
+  \addlyrics {
+    Et
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g^"g" a } \melisma { f e }
   }
   \addlyrics {
@@ -81,6 +172,19 @@
   }
   \header {
     fontes = "hr3 36r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"g" a } f \melisma { d e d c d f e f g f d e c a, c d e f e }
+  }
+  \addlyrics {
+    glo -- ri -- am
+  }
+  \header {
+    fontes = "hr1 19v"
   }
 }
 
@@ -100,7 +204,33 @@
 \score {
   \transpose c c' {
     \plainchant
-    d d d \melisma { d f } d
+    \melisma { e^"i" f } \melisma { d e f e } \melisma { e d }
+  }
+  \addlyrics {
+    e -- o -- rum
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"j" e } d
+  }
+  \addlyrics {
+    e -- os
+  }
+  \header {
+    fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"k" d d \melisma { d f } d
   }
   \addlyrics {
     im -- pe -- di -- men -- tis

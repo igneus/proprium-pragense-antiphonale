@@ -77,7 +77,7 @@
     Di -- o -- cle -- ci -- a -- no
   }
   \header {
-    fontes = "pint 44v"
+    fontes = "hr1 20v; pint 44v"
   }
 }
 
@@ -140,6 +140,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    c' \melisma { c' b a g a } b \melisma { g f } f
+  }
+  \addlyrics {
+    qui nos do -- cu -- it
+  }
+  \header {
+    fontes = "hr1 20v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' d' e' d'
   }
   \addlyrics {
@@ -147,6 +160,19 @@
   }
   \header {
     fontes = "olm 63v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    b
+  }
+  \addlyrics {
+    et
+  }
+  \header {
+    fontes = "hr1 20v"
   }
 }
 

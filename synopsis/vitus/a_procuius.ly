@@ -30,6 +30,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g a b }
+  }
+  \addlyrics {
+    Pro
+  }
+  \header {
+    fontes = "hr1 20v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g \rasura { a c' } } \melisma { a c' } a g g g
   }
   \addlyrics {
@@ -154,6 +167,19 @@
   }
   \header {
     fontes = "olm 64v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a b } g g
+  }
+  \addlyrics {
+    man -- su -- ram
+  }
+  \header {
+    fontes = "hr1 20v"
   }
 }
 
