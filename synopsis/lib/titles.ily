@@ -5,6 +5,7 @@
 
 vesperaeI = \markup\hora{in i. vesperis}
 matutinum = \markup\hora{ad matutinum}
+nocturnus = \markup\hora{in (solo) nocturno}
 nocturnusI = \markup\hora{in i. nocturno}
 nocturnusII = \markup\hora{in ii. nocturno}
 nocturnusIII = \markup\hora{in iii. nocturno}

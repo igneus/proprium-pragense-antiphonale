@@ -7,16 +7,16 @@
   fontes = "cbre 310r; nic 264v; kol1 280r; hr4 197r; pint 27r"
 }
 
-\markup{in i. vesperis}
+\markup\vesperaeI
 
 \include "a_benedic.ly"
 \include "a_oqualem.ly"
 
-\markup{ad matutinum}
+\markup\matutinum
 
 \include "i_hodie.ly"
 
-\markup{in nocturno}
+\markup\nocturnus
 
 \include "a_dumvir.ly"
 \include "a_irruebat.ly"
@@ -26,7 +26,7 @@
 \include "r_almepresul.ly"
 \include "r_opresul.ly"
 
-\markup{ad laudes}
+\markup\laudes
 
 \include "a_hicmartyr.ly"
 \include "a_quiquidem.ly"
@@ -36,7 +36,7 @@
 
 \include "a_gloria.ly"
 
-\markup{in ii. vesperis}
+\markup\vesperaeII
 
 \include "a_eleuatis.ly"
 \include "a_beate.ly"
