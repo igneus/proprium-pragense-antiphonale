@@ -129,6 +129,45 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { c'^"f" d' c' a g c' a f g } g^"g" g \melisma { g a } \melisma { a c' d' c' f' d' c' f' c' e' f' e' c' a c' }
+  }
+  \addlyrics {
+    me et ag -- gre -- ga
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"h" a a c' d' c' b a } \melisma { g f g } \melisma { g a a c' a c' } \melisma { a g }
+  }
+  \addlyrics {
+    pa -- trem me -- um
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"i" g a g e } \melisma { f g } \melisma { g a a c' b } \melisma { a g }
+  }
+  \addlyrics {
+    sanc -- ta tu -- a
+  }
+  \header {
+    fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { b^"k" a } \melisma { b c' } \melisma { a b } \melisma { g a b g } \melisma { a g }
   }
   \addlyrics {
@@ -175,5 +214,29 @@
   }
   \header {
     fontes = "hr3 34v"
+  }
+}
+
+\markup{
+  In \bold{plf} versus notatus est neumis adiastematicis tantum.
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \stopStaff
+    g^"j" g \melisma { g f } \melisma { g a g f e } \melisma { f g } g g \bar ""
+    g^"k" \melisma { g f } \melisma { g a } \melisma { g a } \melisma { e f g a g } \melisma { g f } \bar ""
+    g \melisma { g a } g g g \melisma { g a } g \bar ""
+    \melisma { g^"l" a g f g a g } \melisma { g a g } \melisma { f g } \melisma { g a g g a g f } \melisma { g a g f g f }
+  }
+  \addlyrics {
+    Ve -- rum -- pta -- men do -- mi -- ne
+    non vo -- lun -- tas me -- a
+    sed pro -- po -- si -- tum fi -- at
+    gra -- ci -- e tu -- e
+  }
+  \header {
+    fontes = "plf 1r"
   }
 }

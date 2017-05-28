@@ -57,6 +57,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    d^"b" g \melisma { a g a c' } a
+  }
+  \addlyrics {
+    ex -- cla -- ma -- uit
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g a g f f e f } \melisma { e f }
+  }
+  \addlyrics {
+    di -- cens
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a^"b" g } \melisma { a c' }
   }
   \addlyrics {
@@ -79,6 +105,19 @@
   }
   \header {
     fontes = "hr3 35v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d g \melisma { a c' } a a \melisma { a g a c' g a } \melisma { g a g f }
+  }
+  \addlyrics {
+    in au -- xi -- li -- um no -- strum
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 
@@ -111,26 +150,66 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a^"e" g } \melisma { f g a } \melisma { a c' g f g a g } \melisma { e g e f }
+    f^"d" \melisma { e d f a c' } \melisma { g f } f \melisma { e f g f e f e d e } \melisma { f d }
   }
   \addlyrics {
-    et li -- be -- ra
+    in -- ten -- de do -- mi -- ne
   }
   \header {
-    fontes = "hr3 35v"
+    fontes = "plf 1v"
   }
 }
 
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { f g a } \melisma { a b g f g a g } \melisma { e g e f }
+    \melisma { a^"e" g } \melisma { f g a } \melisma { a c' g f g a g } \melisma { e g e f }
+  }
+  \addlyrics {
+    et li -- be -- ra
+  }
+  \header {
+    fontes = "hr3 35v; plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"e" g a } \melisma { a b g f g a g } \melisma { e g e f }
   }
   \addlyrics {
     li -- be -- ra
   }
   \header {
     fontes = "hr1 18v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"e" e }
+  }
+  \addlyrics {
+    \lyrit me \lyrrev
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \stopStaff
+    a^"f" a a a
+  }
+  \addlyrics {
+    li -- be -- ra -- sti
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 
@@ -157,5 +236,19 @@
   }
   \header {
     fontes = "hr1 18v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \stopStaff
+    \melisma { a^"i" b a b a g } \melisma { g a b a } \melisma { a g }
+  }
+  \addlyrics {
+    te -- sti -- um
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }

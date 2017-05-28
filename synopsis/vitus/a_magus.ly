@@ -5,7 +5,7 @@
 \markup\justify{
   Haec antiphona in libris pragensibus non invenitur,
   sed tantum in historia alia de S. Vito, historiae pragensi
-  valde simili, ubi locum ultimum in tertio nocturno,
+  valde simili, ubi locum tertiae antiphonae nocturni tertii,
   post \italic{Ministri presidis} et \italic {Tunc exclamauit,}
   tenet.
 }

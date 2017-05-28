@@ -48,6 +48,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f^"b" e f g } \melisma { d f e d c d } \melisma { d c }
+  }
+  \addlyrics {
+    de -- uic -- tis
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"b" e } d \melisma { c d }
   }
   \addlyrics {
@@ -61,6 +74,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d^"b" f } \melisma { f e } \melisma { c d }
+  }
+  \addlyrics {
+    tor -- men -- tis
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"b" \melisma { d f e f } \melisma { e d }
+  }
+  \addlyrics {
+    o -- mni -- bus
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f^"c" a g f g } \melisma { f g f e d e f }
   }
   \addlyrics {
@@ -68,6 +107,19 @@
   }
   \header {
     fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"c" a f g } \melisma { f g f e d }
+  }
+  \addlyrics {
+    di -- cens
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 
@@ -113,6 +165,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f^"d" e } \melisma { f g } \melisma { g f e c d }
+  }
+  \addlyrics {
+    do -- mi -- ne
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d^"d" \melisma { e f g f g d e d c d c }
   }
   \addlyrics {
@@ -120,6 +185,32 @@
   }
   \header {
     fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d^"d" \melisma { e f g f g d f d c d c }
+  }
+  \addlyrics {
+    o -- mnes
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d f } f
+  }
+  \addlyrics {
+    \lyrit pro \lyrrev me
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 
@@ -152,6 +243,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f^"e" e } c \melisma { d f c d } \melisma { d f d f } \melisma { d c }
+  }
+  \addlyrics {
+    glo -- ri -- fi -- cant te
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d^"f" f e d e }
   }
   \addlyrics {
@@ -159,6 +263,32 @@
   }
   \header {
     fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d^"f" f e d }
+  }
+  \addlyrics {
+    Et
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f^"f" g a g } g
+  }
+  \addlyrics {
+    e -- os
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 
@@ -191,6 +321,33 @@
 \score {
   \transpose c c' {
     \plainchant
+    g^"g" \melisma { g a } \melisma { f e d } \melisma { d f d c d f e f g e e d f e } \melisma { d f d } d
+  }
+  \addlyrics {
+    ad glo -- ri -- am tu -- am
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \stopStaff
+    a a \melisma { a g a f }
+  }
+  \addlyrics {
+    Per -- fi -- ce
+  }
+  \header {
+    fontes = "plf 1v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f^"i" e } \melisma { f g }
   }
   \addlyrics {
@@ -211,6 +368,20 @@
   }
   \header {
     fontes = "hr1 19v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \stopStaff
+    \melisma { a^"i" b } \melisma { a b a } a
+  }
+  \addlyrics {
+    e -- o -- rum
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
 
@@ -250,5 +421,19 @@
   }
   \header {
     fontes = "hr3 36r; pint 42v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \stopStaff
+    \melisma { a g a g } \melisma { a g } \melisma { f g a } \melisma { a g f e g a } \melisma { a g }
+  }
+  \addlyrics {
+    se -- cu -- li hu -- ius
+  }
+  \header {
+    fontes = "plf 1v"
   }
 }
