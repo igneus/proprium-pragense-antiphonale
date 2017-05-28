@@ -47,6 +47,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    c \melisma { d f } \melisma { f e } \melisma { d f } c
+  }
+  \addlyrics {
+    O -- ra -- uit san -- ctus
+  }
+  \header {
+    fontes = "brv 88r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d f } \melisma { d \strophicus d }
   }
   \addlyrics {
@@ -103,6 +116,21 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f e f d } d \melisma { g a g } \melisma { f e } \melisma { d f } \melisma { g f } \melisma { g a g }
+    \melisma { a c' } \melisma { b g } \melisma { a c' }
+  }
+  \addlyrics {
+    \lyrit pa -- ter do -- mi -- ni me -- i
+    re -- spi -- ce \lyrrev
+  }
+  \header {
+    fontes = "brv 88r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a c' } \melisma { b g } \melisma { a b } \melisma { b \strophicus b } g
     d' \melisma { d' e' } \melisma { c' \strophicus c' } \melisma { g a }
   }
@@ -131,6 +159,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    d' c' \melisma { d' e' } \melisma { c' b } \melisma { g a b c' a }
+  }
+  \addlyrics {
+    et \lyrit con -- for -- ta \lyrrev me
+  }
+  \header {
+    fontes = "brv 88r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' d' c' g
   }
   \addlyrics {
@@ -138,6 +179,23 @@
   }
   \header {
     fontes = "pvi2 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' d' \melisma { a g } \melisma { g e }
+    \melisma { d a g f } g \melisma { f e } \melisma { d f } f
+    a \melisma { g a } g f \melisma { g a } f
+  }
+  \addlyrics {
+    pre -- ua -- le -- at
+    dra -- co i -- ni -- qus
+    per -- fi -- ce -- re in me
+  }
+  \header {
+    fontes = "brv 88r"
   }
 }
 
