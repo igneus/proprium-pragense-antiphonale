@@ -68,3 +68,7 @@ brv:
   name: Bratislavský antifonář V
   year: 14xx
   uri: http://cantus.sk/source/6775
+aopc:
+  name: Antiphonarium o[mn]ia pia Canonicarum horarum cantica, secundum ordinem atque usum Ecclesie et diocesis Monasteriensis
+  year: 1537
+  uri: http://daten.digitale-sammlungen.de/bsb00090351/image_1

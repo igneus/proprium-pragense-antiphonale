@@ -47,6 +47,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    f d
+  }
+  \addlyrics {
+    san -- ctus
+  }
+  \header {
+    fontes = "aopc 336r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c \melisma { d f } \melisma { f e } \melisma { d f } c
   }
   \addlyrics {
@@ -66,7 +79,7 @@
     Vi -- tus
   }
   \header {
-    fontes = "pint 43r; pvi2 197v"
+    fontes = "pint 43r; pvi2 197v; aopc 336r"
   }
 }
 
@@ -116,6 +129,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f d f d } d
+  }
+  \addlyrics {
+    me -- i
+  }
+  \header {
+    fontes = "aopc 336r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { f e f d } d \melisma { g a g } \melisma { f e } \melisma { d f } \melisma { g f } \melisma { g a g }
     \melisma { a c' } \melisma { b g } \melisma { a c' }
   }
@@ -146,13 +172,26 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a c' } g \melisma { a c' } c' g
+    \melisma { a c' } g \melisma { a c' }
   }
   \addlyrics {
-    re -- spi -- ce in me
+    re -- spi -- ce
   }
   \header {
     fontes = "pvi2 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a c' } \melisma { a g } \melisma { a c' }
+  }
+  \addlyrics {
+    re -- spi -- ce
+  }
+  \header {
+    fontes = "aopc 336r"
   }
 }
 
@@ -166,6 +205,19 @@
   }
   \header {
     fontes = "brv 88r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    b
+  }
+  \addlyrics {
+    non
+  }
+  \header {
+    fontes = "aopc 336r"
   }
 }
 
@@ -202,6 +254,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    g \melisma { e f } \melisma { e d }
+  }
+  \addlyrics {
+    i -- ni -- quus
+  }
+  \header {
+    fontes = "aopc 336r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { d e } g \melisma { a b } a
   }
   \addlyrics {
@@ -228,5 +293,20 @@
   }
   \header {
     fontes = "pvi2 197v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f } \melisma { g a }
+    f g e f d d
+  }
+  \addlyrics {
+    in me
+    vo -- lun -- ta -- tem su -- am.
+  }
+  \header {
+    fontes = "aopc 336r"
   }
 }
