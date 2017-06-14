@@ -45,6 +45,19 @@
     il -- la -- ta
   }
   \header {
-    fontes = "olm 61r; hr1 16v"
+    fontes = "olm 61r; hr1 16v; pvi2 199r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a g } \melisma { g d' } d'
+  }
+  \addlyrics {
+    me un -- quam
+  }
+  \header {
+    fontes = "pvi2 198v"
   }
 }

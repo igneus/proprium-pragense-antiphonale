@@ -27,3 +27,13 @@ strophicus = {
     \override #'(filled . #t) \path #0.1 #strophicusTailPath
   }
 }
+
+divMinima = {
+  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5)
+  \bar "|"
+}
+
+divMaior = {
+  \once \override Staff.BarLine #'bar-extent = #'(-1.5 . 1.5)
+  \bar "|"
+}

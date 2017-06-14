@@ -30,6 +30,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    g \melisma { \rasura { d' b } d' e' } d' d'
+  }
+  \addlyrics {
+    de -- mo -- ni -- bus
+  }
+  \header {
+    fontes = "pvi2 202v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' c' \melisma { c' d' } \melisma { c' b } g
   }
   \addlyrics {
@@ -52,6 +65,21 @@
   }
   \header {
     fontes = "olm 61r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' g \melisma { \rasura { g } a } a
+    b c' d' \melisma { c' \rasura { b } } a
+  }
+  \addlyrics {
+    sculp -- ti -- li -- bus
+    aut la -- pi -- di -- bus
+  }
+  \header {
+    fontes = "pvi2 202v"
   }
 }
 

@@ -30,7 +30,7 @@
     Ip -- se est e -- nim
   }
   \header {
-    fontes = "hr1 16r"
+    fontes = "hr1 16r; pvi2 198v"
   }
 }
 
@@ -56,7 +56,7 @@
     de -- i
   }
   \header {
-    fontes = "hr1 16r"
+    fontes = "hr1 16r; pvi2 198v"
   }
 }
 
@@ -76,12 +76,38 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g a g \rasura { f g } } \melisma { f e d }
+  }
+  \addlyrics {
+    tol -- lit
+  }
+  \header {
+    fontes = "pvi2 198v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g f } \melisma { g a g } \melisma { f e }
   }
   \addlyrics {
     pec -- ca -- ta
   }
   \header {
-    fontes = "hr1 16r"
+    fontes = "hr1 16r; pvi2 198v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a a g f g a g } \bar "||"
+  }
+  \addlyrics {
+    "Q.re fre."
+  }
+  \header {
+    fontes = "pvi2 198v"
   }
 }

@@ -36,7 +36,7 @@
     \lyrit Cum \lyrrev
   }
   \header {
-    fontes = "hr3 36v; pint 45r"
+    fontes = "hr3 36v; pint 45r; pvi2 213r"
   }
 }
 
@@ -49,7 +49,7 @@
     in cu -- bi -- cu -- lo
   }
   \header {
-    fontes = "hr3 37v"
+    fontes = "hr3 37v; pvi2 213r"
   }
 }
 
@@ -69,6 +69,21 @@
 \score {
   \transpose c c' {
     \plainchant
+    f \melisma { a \rasura { c' b a g } } c' a
+    c' \melisma { b \rasura { a } }
+  }
+  \addlyrics {
+    cir -- cum -- stan -- tes
+    il -- lum
+  }
+  \header {
+    fontes = "pvi2 213r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c' d' b c' a } a
   }
   \addlyrics {
@@ -76,6 +91,25 @@
   }
   \header {
     fontes = "hr3 37v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' a a f g
+    f a g
+    f a c'
+    a g a
+  }
+  \addlyrics {
+    sanc -- ti an -- ge -- li
+    a -- gy -- os
+    a -- gy -- os
+    a -- gy -- os
+  }
+  \header {
+    fontes = "pvi2 213r"
   }
 }
 

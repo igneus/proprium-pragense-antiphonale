@@ -63,3 +63,16 @@
     fontes = "olm 61v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a f } \melisma { g \rasura { a } } a
+  }
+  \addlyrics {
+    fi -- li -- um
+  }
+  \header {
+    fontes = "pvi2 203r"
+  }
+}

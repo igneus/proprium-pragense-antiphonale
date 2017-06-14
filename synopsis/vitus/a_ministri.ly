@@ -62,7 +62,7 @@
     pre -- si -- dis
   }
   \header {
-    fontes = "hr3 35v"
+    fontes = "hr3 35v; pvi2 206v"
   }
 }
 
@@ -75,7 +75,7 @@
     ut in in -- fan -- tem
   }
   \header {
-    fontes = "hr3 35v; olm 62r"
+    fontes = "hr3 35v; olm 62r; pvi2 206v"
   }
 }
 
@@ -89,6 +89,19 @@
   }
   \header {
     fontes = "plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { d \rasura { c } } d
+  }
+  \addlyrics {
+    mit -- te -- re
+  }
+  \header {
+    fontes = "pvi2 206v"
   }
 }
 
@@ -128,6 +141,19 @@
   }
   \header {
     fontes = "olm 62r; plf 1r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f \melisma { d \rasura { c^"?" } } \melisma { d e }
+  }
+  \addlyrics {
+    bra -- chi -- a
+  }
+  \header {
+    fontes = "pvi2 206v"
   }
 }
 
@@ -189,5 +215,18 @@
   }
   \header {
     fontes = "olm 62r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c f c \melisma { \rasura { c } d } d
+  }
+  \addlyrics {
+    a -- re -- fac -- ta est
+  }
+  \header {
+    fontes = "pvi2 206v"
   }
 }

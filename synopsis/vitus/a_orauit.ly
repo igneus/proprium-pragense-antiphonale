@@ -31,6 +31,11 @@
   }
 }
 
+\markup{
+  In \bold{pvi2} in margine huius antiphonae manu valde posteriori notitia:
+  \italic{Tono profundo}
+}
+
 \score {
   \transpose c c' {
     \plainchant

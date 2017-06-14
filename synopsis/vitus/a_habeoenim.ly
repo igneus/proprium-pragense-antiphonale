@@ -67,6 +67,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    a \melisma { a a a } \melisma { c' a }
+  }
+  \addlyrics {
+    do -- mi -- num
+  }
+  \header {
+    fontes = "pvi2 203r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g a } a f \melisma { e d } \melisma { f g } f
     \melisma { f e } d \melisma { c d } d d \bar "||"
   }
@@ -76,6 +89,21 @@
   }
   \header {
     fontes = "hr3 34v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g a } \melisma { a \rasura { g^"?" } } f \melisma { e d } \melisma { f g } f
+    \melisma { e d } c \melisma { c d } d d \bar "||"
+  }
+  \addlyrics {
+    fi -- de -- li -- ter ser -- uit
+    a -- ni -- ma me -- a
+  }
+  \header {
+    fontes = "pvi2 203r"
   }
 }
 

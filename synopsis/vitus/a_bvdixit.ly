@@ -32,6 +32,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { \rasura { a } c' } c'
+  }
+  \addlyrics {
+    ui -- tus
+  }
+  \header {
+    fontes = "pvi2 198v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' g \melisma { a b } \melisma { a b }
   }
   \addlyrics {
@@ -39,6 +52,19 @@
   }
   \header {
     fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' g \melisma { a \rasura { c' } } \melisma { a c' }
+  }
+  \addlyrics {
+    co -- gno -- sce -- res
+  }
+  \header {
+    fontes = "pvi2 198v"
   }
 }
 

@@ -104,6 +104,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g a } a
+  }
+  \addlyrics {
+    he -- u
+  }
+  \header {
+    fontes = "pvi2 207r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    e \melisma { f \rasura { g } } g
+  }
+  \addlyrics {
+    per -- di -- di
+  }
+  \header {
+    fontes = "pvi2 207r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { b c' } a \melisma { g e }
   }
   \addlyrics {

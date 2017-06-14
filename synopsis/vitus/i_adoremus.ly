@@ -54,6 +54,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    c d \melisma { d e f } \melisma { d \rasura { e^"?" } d }
+  }
+  \addlyrics {
+    A -- do -- re -- mus
+  }
+  \header {
+    fontes = "pvi2 198r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f f } \melisma { f f }
+  }
+  \addlyrics {
+    re -- gem
+  }
+  \header {
+    fontes = "pvi2 198r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c d } \melisma { e g f } \melisma { e d }
   }
   \addlyrics {
@@ -61,6 +87,19 @@
   }
   \header {
     fontes = "pint 43r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d d } d \melisma { e \strophicus e } \melisma { e f d } \melisma { c c } d
+  }
+  \addlyrics {
+    mar -- ti -- rum do -- mi -- num
+  }
+  \header {
+    fontes = "pvi2 198r"
   }
 }
 
@@ -87,5 +126,22 @@
   }
   \header {
     fontes = "hr1 16r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a g } \melisma { a c' g g \rasura { a g g f f e e f g } } f
+    \melisma { e g } \melisma { f e } \melisma { d f d } c
+    c d \melisma { d f } \melisma { f \rasura { f e d } } \melisma { e d^"?" } c d \bar "||"
+  }
+  \addlyrics {
+    e -- ter -- na
+    sanc -- tum ui -- tum
+    co -- ro -- na -- uit glo -- ri -- a
+  }
+  \header {
+    fontes = "pvi2 198r"
   }
 }

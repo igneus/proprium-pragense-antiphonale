@@ -43,6 +43,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    g \melisma { g f \rasura { f d } } f \melisma { g a }
+  }
+  \addlyrics {
+    Ue -- ne -- ran -- dus
+  }
+  \header {
+    fontes = "pvi2 206r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a c' } \melisma { c' b }
   }
   \addlyrics {
@@ -56,6 +69,45 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { a c' } a
+  }
+  \addlyrics {
+    pa -- tri
+  }
+  \header {
+    fontes = "pvi2 206r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { \rasura { d' b } d' e' } d' d'
+  }
+  \addlyrics {
+    de -- be -- o
+  }
+  \header {
+    fontes = "pvi2 206r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c' a c' b g g
+  }
+  \addlyrics {
+    con -- gre -- ga -- ci -- o -- nem
+  }
+  \header {
+    fontes = "pvi2 206r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g f } f f
   }
   \addlyrics {
@@ -63,6 +115,19 @@
   }
   \header {
     fontes = "hr3 35v; hr1 19r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g \rasura { f^"?" } } f f
+  }
+  \addlyrics {
+    iu -- sto -- rum
+  }
+  \header {
+    fontes = "pvi2 206r"
   }
 }
 
