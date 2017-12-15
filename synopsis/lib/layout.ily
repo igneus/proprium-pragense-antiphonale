@@ -1,7 +1,7 @@
 \version "2.19.32"
 
 \paper {
-  markup-markup-spacing #'padding = #2
+  markup-markup-spacing.padding = #2
 
   bookTitleMarkup = \markup {
   \override #'(baseline-skip . 3.5)
