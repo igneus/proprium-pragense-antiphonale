@@ -5,7 +5,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    f f \bar "" g f f \bar "'"
+    f4 f \bar "" g f f \bar "'"
     f f f f \bar "" f e \bar "" g a \bar "|"
     a \melisma { a g } \melisma { g f } f \bar "" f \melisma { f g } \melisma { g f } f \bar "||"
     f f \bar "||"
@@ -20,10 +20,10 @@
     Cu -- stó -- di -- am o -- ri me -- o, \set stanza = \markup{"*"}
     Al -- le -- lú -- ia, al -- le -- lú -- ia.
     Po -- ne.
-    \set stanza = \markup{<sp>V.</sp>} Et ó -- sti -- um cir -- cum -- stán -- ti -- ae
+    \set stanza = \markup{V.} Et ó -- sti -- um cir -- cum -- stán -- ti -- ae
     lá -- bi -- is me -- is. \set stanza = \markup{"*"}
     Al -- le -- lú -- ia.
-    \set stanza = \markup{<sp>V.</sp>} Gló -- ri -- a.
+    \set stanza = \markup{V.} Gló -- ri -- a.
     \set stanza = \markup{\italic{Resumitur}} Po -- ne.
   }
   \header {
