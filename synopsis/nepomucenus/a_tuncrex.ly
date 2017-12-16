@@ -26,6 +26,24 @@
   }
 }
 
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 \melisma { g c' b } c' \melisma { c' e' } d' \melisma { c' d' } d' \bar "'"
+    d' \melisma { c' f' } e' d' e' d' e' d' c' \melisma { b c' } \melisma { a b } g \melisma { f g } g4. \bar "||"
+  }
+  \addlyrics {
+    TUnc rex ac -- cén -- sus i -- ra, \set stanza = \markup{"*"}
+    in hunc su -- per om -- nes cru -- dé -- li -- us de -- saé -- vi -- it.
+    % Sic. Alleluia deest.
+  }
+  \header {
+    annotation = "VII c2"
+    fontes = "li93 4"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

@@ -32,6 +32,30 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    a g a \melisma { g f } \melisma { f a } \melisma { c' d' } c' c' \bar "'"
+    d' c' \melisma { c' b } a g a g4. \divMaior
+    g4 \melisma { b d' } c' \melisma { c' b } a g a g g \melisma { g e } f \melisma { e4. d } \bar "|"
+    d4 \melisma { f e } f g a g g f4. \divMaior
+    a4 c' \melisma { c' b } a b a g g g4. \bar "||"
+    \melisma { a4 b } a g4. g \bar "||"
+  }
+  \addlyrics {
+    IN con -- spéc -- tu po -- tén -- ti -- um \set stanza = \markup{"*"}
+    ad -- mi -- rá -- bi -- lis e -- ro,
+    et fá -- ci -- es prín -- ci -- pum mi -- ra -- bún -- tur me:
+    ta -- cén -- tem me su -- sti -- né -- bunt,
+    et lo -- quén -- tem me re -- spí -- ci -- ent.
+    \set stanza = \markup{\italic{T.P. +}} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "VIII G" % impressum est "III G"
+    fontes = "li93 19"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

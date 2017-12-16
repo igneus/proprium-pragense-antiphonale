@@ -29,8 +29,7 @@ strophicus = {
 }
 
 divMinima = {
-  \once \override Staff.BarLine #'bar-extent = #'(1.5 . 2.5)
-  \bar "|"
+  \bar "'"
 }
 
 divMaior = {

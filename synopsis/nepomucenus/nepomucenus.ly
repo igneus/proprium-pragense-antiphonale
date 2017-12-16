@@ -17,7 +17,13 @@
 
 \markup\nocturnusII
 
+\include "a_loquebar.ly"
+
 \markup\nocturnusIII
+
+\include "a_igne.ly"
+\include "a_aquae.ly"
+\include "a_transivi.ly"
 
 \markup\laudes
 

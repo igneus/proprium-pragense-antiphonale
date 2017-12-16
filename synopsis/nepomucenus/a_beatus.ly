@@ -29,6 +29,26 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    a4 \melisma { f g } g
+    g f a c' c' \melisma { c' b } \melisma { a b } g4. g \bar "'"
+    g4 b d' \bar "" \melisma { c' b } \melisma { a c' } b \bar "" \melisma { b c' a } g \melisma { f g } g4. \bar "||"
+    \melisma { a4 b } a g4. 4 \bar "||"
+  }
+  \addlyrics {
+    BE -- á -- tus \set stanza = \markup{"*"}
+    qui lin -- gua su -- a non est lap -- sus,
+    et qui non ser -- ví -- vit in -- dí -- gnis se.
+    \set stanza = \markup{\italic{T.P.}}
+    Al -- le -- lú -- ia.
+  }
+  \header {
+    fontes = "li93 7"
+  }
+}
+
 %{
 \score {
   \transpose c c' {
