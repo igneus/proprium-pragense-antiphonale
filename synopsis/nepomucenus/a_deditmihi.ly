@@ -5,6 +5,30 @@
 \score {
   \transpose c c' {
     \plainchant
+    f4 g a \melisma { g f } g g f \bar "||"
+    \melisma { f e } f e d f \melisma { e d } c \bar "|"
+    f g \melisma { f g a } g \bar "'"
+    g \melisma { f e g } \melisma { a g } f f \bar "||"
+    f g f f \bar "||"
+    a a f \melisma { g a } g f \bar "||"
+  }
+  \addlyrics {
+    De -- dit mi -- hi Dó -- mi -- nus \set stanza = \markup{"*"}
+    lin -- guam mer -- cé -- dem me -- am:
+    et in ip -- sa
+    lau -- dá -- bo e -- um.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+    E u o u a e.
+  }
+  \header {
+    quid = "antiphona ad Magnificat"
+    fontes = "pustet1879 [162]"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 c' b } c' \bar "" d' e' \bar "" b \melisma { c' d' } d' \bar "'"
     \melisma { d' f' } \melisma { f' e' } \bar "" d' \melisma { e' d' } \melisma { c' b } \bar "" \melisma { c' d' } d' \bar "|"
     \melisma { g a g a } \bar "" \melisma { f a } \bar "" \melisma { c' d' } d' \bar "'"

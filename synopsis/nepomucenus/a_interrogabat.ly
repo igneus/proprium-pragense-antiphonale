@@ -5,6 +5,27 @@
 \score {
   \transpose c c' {
     \plainchant
+    c'4 c' c' \melisma { c' b } a g a \melisma { a g } \bar "||"
+    \melisma { b c' } d' \melisma { c' a } c' c' c' \bar "|"
+    c' \melisma { b a } g \melisma { a b c' } b a g \melisma { a b } a g g \bar "||"
+    \melisma { f g } a g g \bar "||"
+    c' c' a c' d' c' \bar "||"
+  }
+  \addlyrics {
+    IN -- ter -- ro -- gá -- bat e -- um rex \set stanza = \markup{"*"}
+    mul -- tis ser -- mó -- ni -- bus:
+    at ip -- se ni -- hil il -- li re -- spon -- dé -- bat.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+    E u o u a e.
+  }
+  \header {
+    fontes = "pustet1879 [159]"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 g } f a c' \melisma { b g } \bar "" \melisma { b c' } a \bar "'"
     a \bar "" \melisma { c' d' } d' \bar "" a \melisma { a d' } \melisma { c' b } g \bar "|"
     \melisma { f e } \bar "" \melisma { f g } \melisma { g f e d } \bar "'"

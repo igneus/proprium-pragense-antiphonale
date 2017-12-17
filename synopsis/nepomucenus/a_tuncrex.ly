@@ -5,6 +5,27 @@
 \score {
   \transpose c c' {
     \plainchant
+    d4 f g \melisma{ g a } g e e \bar "||"
+    f d c d \melisma { f g a } g \bar "'"
+    e \melisma { e g a } g a \melisma { a g } e e e \bar "||"
+    \melisma { c d } \melisma { e g } e e \bar "||"
+    a g a b g e \bar "||"
+  }
+  \addlyrics {
+    Tunc rex, ac -- cén -- sus i -- ra, \set stanza = \markup{"*"}
+    in hunc su -- per om -- nes
+    cru -- dé -- li -- us de -- saé -- vi -- it.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+    E u o u a e.
+  }
+  \header {
+    fontes = "pustet1879 [160]"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c4 d } \bar "" \melisma { f f e d } \bar "" s \bar "" d \melisma { g f } \melisma { g f e } \bar "" \melisma { e g a } a \bar "'"
     a \bar "" a \bar "" g f \bar "" \melisma { g a g g } f \bar "'"
     \melisma { e f } g f \melisma { g a } \bar "" g \melisma { f e } \melisma { d e } e \bar "||"
