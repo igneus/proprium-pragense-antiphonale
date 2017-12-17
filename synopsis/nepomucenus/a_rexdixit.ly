@@ -5,6 +5,31 @@
 \score {
   \transpose c c' {
     \plainchant
+    d4 \melisma { f g } g \bar "||"
+    g \bar "|" g a \melisma { g f } \bar "|" \melisma { g a } \bar "|" g \bar "|" \melisma { a c' } \melisma { a g } \bar "|"
+    a \bar "|" g \bar "|" \melisma { g f } \melisma { g a } g g \bar "|"
+    \melisma { a c' } b \bar "|"
+    c' a g \bar "|" a \melisma { g f } \melisma { g a } g \bar "|"
+    \melisma { a c' } a \melisma { g f } \bar "'" \melisma { g a } a \bar "|" g g \bar "||"
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit, \set stanza = \markup{"*"}
+    Ne ab -- scón -- das a me ver -- bum,
+    quod te in -- tér -- ro -- go,
+    di -- xi:
+    se -- cré -- tum me -- um mi -- hi,
+    se -- cré -- tum me -- um mi -- hi.
+    E u o u a e.
+  }
+  \header {
+    fontes = "eins1774 prop. sanc. 45"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma{ e4 g } \melisma{ g a c' } c' \bar "||"
     c' b \melisma{ a c' } c' b \melisma{ c' d' c' } a a \bar "|"
     g a \melisma{ g f } \melisma{ e f g } g g \bar "|"

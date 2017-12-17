@@ -5,6 +5,30 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { c' b } c' \melisma { d' e' } d' \bar "|" d' \bar "||"
+    \melisma { b c' } \bar "|" d' c' c' \bar "|" b \bar "|" c' d' \melisma { c' b } \melisma { a b } a g \bar "'"
+    g \bar "'" a c' c' c' \bar "|" c' b c' \bar "|" \melisma { d' e' } d' \bar "|"
+    d' \bar "|" e' d' \melisma { c' d' } \bar "|" d' d' \bar "|"
+    b \bar "'" \melisma { c' a } b \bar "|" a \bar "|" g g \bar "||"
+    d' e' d' c' \melisma { b c' } \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- má -- bat Rex,
+    se dí -- vi -- tem et be -- á -- tum
+    fac -- tú -- rum.
+    Non o -- bé -- di -- o prae -- cép -- to re -- gis,
+    sed prae -- cép -- to le -- gis,
+    quae da -- ta est no -- bis.
+    U o u a e.
+  }
+  \header {
+    fontes = "eins1774 prop. sanc. 46"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 c \melisma{ d f } d \melisma{ c d } \bar "||"
     f \melisma{ e f } e d c \melisma{ d f } g f \bar "'"
     \melisma{ d c } \melisma{ e f g } \melisma{ g f } \bar "|"

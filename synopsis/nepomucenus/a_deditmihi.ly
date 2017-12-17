@@ -5,6 +5,28 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f4 d } \melisma { d c } \bar "'" \melisma { f g } g \bar "|" \melisma { g a g } f f \bar "||"
+    \melisma { a c' } a \bar "|" a a \melisma { g f } \bar "|" \melisma { g a } g \bar "|"
+    f \bar "|" f \bar "|" \melisma { f e } \melisma { d c } \bar "|"
+    \melisma { f g } g \melisma { g a g } \bar "|" f f \bar "||"
+    a f \melisma { g a } g f \bar "||"
+  }
+  \addlyrics {
+    De -- dit mi -- hi Dó -- mi -- nus
+    lin -- guam mer -- cé -- dem me -- am:
+    et in ip -- sa
+    lau -- dá -- bo e -- um.
+    E u o u a e.
+  }
+  \header {
+    quid = "antiphona ad Magnificat"
+    fontes = "eins1774 prop. sanc. 44"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f4 g a \melisma { g f } g g f \bar "||"
     \melisma { f e } f e d f \melisma { e d } c \bar "|"
     f g \melisma { f g a } g \bar "'"

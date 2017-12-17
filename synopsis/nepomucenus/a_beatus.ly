@@ -5,6 +5,27 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d a b } \melisma { a g } a \bar "||"
+    g \bar "'" \melisma { g a } g \bar "|" e f \bar "|" g \bar "|" \melisma { f e } \bar "|" d d \bar "|"
+    c \melisma { d f } \bar "'" f \bar "|" f e f \bar "'"
+    g \melisma { f e } d d \bar "||"
+    a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    Be -- á -- tus,
+    qui lin -- gua su -- a non est lap -- sus,
+    et qui non ser -- ví -- vit
+    in -- dí -- gnis se.
+    E u o u a e.
+  }
+  \header {
+    fontes = "eins1774 prop. sanc. 46"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \melisma { a c' } c' \bar "||"
     c' d' \melisma { c' b } a g a \melisma { a b a } g g \bar "|"
     g a b c' \melisma { d' e' } d' \bar "'"

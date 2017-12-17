@@ -90,3 +90,13 @@ pustet1879:
   location: Ratisbonae, Novae Eboraci et Cincinnatii
   publisher: Fridericus Pustet
   year: 1879
+eins1774:
+  name: Antiphonale benedicitnum dispisitum iuxta breviarium Einsidlense cum antiphonis etiam Boemiae propriis congestum a loci professo Fr. Vito A. D. 1774
+  year: 1774
+  # It seems the library doesn't have a RISM siglum assigned.
+  # It's definitely not CZ-Pst
+  # http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003245
+  # The hottest candidate is CZ-Ps
+  # http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30002669 ?
+  library: Knihovna Královské kanonie premonstrátů na Strahově, Praha
+  shelfmark: DE II 28
