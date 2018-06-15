@@ -64,5 +64,8 @@
 
 \include "a_dumesset.ly"
 \include "a_sanctevite.ly"
+
+\markup\hora{ad commemorationem S. Viti infra octavam}
+
 \include "a_domineiesu.ly"
 

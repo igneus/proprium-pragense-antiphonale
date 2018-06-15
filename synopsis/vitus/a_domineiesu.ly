@@ -2,10 +2,6 @@
 
 \include "../lib/synopsis.ily"
 
-\markup\italic{
-  Haec antiphona in breviariis pragensibus non invenitur.
-}
-
 \score {
   \transpose c c' {
     \plainchant
