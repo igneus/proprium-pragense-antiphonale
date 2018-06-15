@@ -264,7 +264,7 @@
 }
 
 \markup\justify\italic{
-  Circa finem antiphonae (ante israhel) scriba antiquus clavem omittisse videtur.
+  Circa finem antiphonae (ante israhel) scriba antiquus clavem omisisse videtur.
 }
 
 \score {
