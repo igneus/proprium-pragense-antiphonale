@@ -1,0 +1,91 @@
+\header
+title: SS. Cyrilli et Methodii, Confessorum et Pontificum
+composer: Indignus Cantor
+
+\markup
+\noindent\emph{Antiphonae ad Magnificat et Benedictus atque hymni
+continentur in Antiphonali Romano.}
+
+\markup\section*{Ad Laudes}
+
+\score
+id: a1
+office-part: antiphona 1
+mode: 2
+annotation: Ant. 1
+annotation: II D
+f2
+g ef f e f h gf e e ;
+h i j i hi h ,
+h h h g h i hg f f ::
+Lau -- dé -- mus vi -- ros glo -- ri -- ó -- sos
+et pa -- rén -- tes no -- stros
+in ge -- ne -- ra -- ti -- ó -- ne su -- a.
+
+\score
+id: a2
+office-part: antiphona 2
+mode: 1
+annotation: Ant. 2
+annotation: I g
+c4
+e c d ixdh!i h ,
+g h g f gh h g g ;
+f g h g h g g h ixi h g h g ;
+g g f e d c ,
+d e f e c e d ::
+Hó -- mi -- nes is -- ti
+ma -- gnae vir -- tú -- tes fu -- é -- runt,
+nun -- ti -- án -- tes pó -- pu -- lis sanc -- tís -- si -- ma ver -- ba,
+et re -- gén -- tes e -- os
+vir -- tú -- te pru -- dén -- ti -- ae.
+
+\score
+id: a3
+office-part: antiphona 3
+mode: 4
+annotation: Ant. 3
+annotation: IV alt. A
+c3
+f e f h h hj i ,
+i i i i h i j ih i i ;
+f i g h fe fe ,
+d e gxfg h gxg f f ::
+In pe -- rí -- ti -- a su -- a
+re -- qui -- rén -- tes li -- te -- rá -- rum mo -- dos,
+qui -- bus nar -- ra -- vé -- runt
+cár -- mi -- na Scri -- ptu -- rá -- rum.
+
+\score
+id: a4
+office-part: antiphona 4
+mode: 8
+annotation: Ant. 4
+annotation: VIII c
+c3
+h h g e g h ,
+h g fe f e e ,
+d f h h hiHF f ;
+f h h g f e e ,
+d e f f e d e f f e e ::
+Be -- ne -- dic -- ti -- ó -- nem
+ó -- mni -- um gén -- ti -- um
+de -- dit il -- lis De -- us,
+et te -- sta -- mén -- tum su -- um
+con -- fir -- má -- vit su -- per ca -- put e -- ó -- rum.
+
+\score
+id: a5
+office-part: antiphona 5
+mode: 6
+annotation: Ant. 5
+annotation: VI F
+c3
+f f g h g h g h g f g gh f f ,
+d f g h g fg g ;
+g g g f e d c ,
+c d f f gh gf f ::
+I -- sti in ge -- ne -- ra -- ti -- ó -- ni -- bus gen -- tis su -- ae
+gló -- ri -- am a -- dép -- ti sunt,
+et in di -- é -- bus su -- is
+ha -- bén -- tur in láu -- di -- bus.
