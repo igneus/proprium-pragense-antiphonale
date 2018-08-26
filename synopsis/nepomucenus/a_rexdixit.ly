@@ -97,6 +97,31 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g4 d} \melisma { f g } g \bar "||"
+    a g a \melisma { g f } g \melisma { g a } f a \melisma { c' b } a g \melisma { a b } a g \bar "|"
+    \melisma { c' d' c' } g \bar "|"
+    b d' c' d' c' c' g \bar "|"
+    a c' b c' a a \melisma { g f } \melisma { g a } a g g \bar "||"
+    g g \bar "||"
+    c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit:
+    Ne ab -- scón -- das a me ver -- bum quod te in -- tér -- ro -- go.
+    Di -- xi:
+    Se -- cré -- tum me -- um mi -- hi,
+    se -- cré -- tum me -- um mi -- hi, al -- le -- lú -- ia.
+    mi -- hi.
+    Eu o u a e.
+  }
+  \header {
+    fontes = "osbpav 2"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

@@ -113,6 +113,34 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 f g \melisma { g a } g f
+  }
+  \addlyrics {
+    mul -- tis ser -- mó -- ni -- bus
+  }
+  \header {
+    fontes = "osbpav 2"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g4 a } \melisma { f e } d \melisma { d c } d \melisma { f e } d d \bar "||"
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    re -- spon -- dé -- bat, al -- le -- lu -- ja.
+    E u o u a e.
+  }
+  \header {
+    fontes = "osbpav 2"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

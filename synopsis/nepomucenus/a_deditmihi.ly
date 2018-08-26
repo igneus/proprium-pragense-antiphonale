@@ -74,6 +74,31 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    d4 \melisma { e f } g \melisma { g e } f e d \bar "||"
+    \melisma { f g a bes } a \melisma { g f } g \melisma { g a g } f f \bar "|"
+    a \melisma { g f } g d \melisma { e f } \melisma { g a } \melisma { f e } d \melisma { d c } d \melisma { f e } d d \bar "||"
+    \melisma { e f } g \melisma { f e } d d \bar "||"
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    De -- dit mi -- hi Dó -- mi -- nus \set stanza = \markup{"*"}
+    lin -- guam mer -- cé -- dem me -- am:
+    et in ip -- sa
+    lau -- dá -- bo e -- um, al -- le -- lú -- ia.
+    lau -- dá -- bo e -- um.
+    E u o u a e.
+  }
+  \header {
+    annotation = "7."
+    mode = "7"
+    office-part = "antiphona ad Magnificat"
+    fontes = "osbpav 1"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

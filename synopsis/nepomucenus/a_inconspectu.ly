@@ -113,6 +113,23 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    c'4 a a g f \melisma { g a } a g g \bar "||"
+    b g g g \bar "||"
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    me re -- spi -- ci -- ent, al -- le -- lu -- ja.
+    re -- spi -- ci -- ent.
+    E u o u a e.
+  }
+  \header {
+    fontes = "osbpav 3"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

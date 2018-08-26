@@ -65,6 +65,27 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c'4 b } a c' \melisma { c' e' } \melisma { e' d' } \melisma { c' d' } d' \bar "||"
+    d' \melisma { c' f' } e' d' e' d'
+    e' f' e' d' c' b a \melisma { g a } b a g g \bar "||"
+    \melisma { c' b } \melisma { a b } g g \bar "||"
+    d' e' d' c' \melisma { d' c' } \bar "||"
+  }
+  \addlyrics {
+    Tunc rex, ac -- cén -- sus i -- ra, \set stanza = \markup{"*"}
+    in hunc su -- per om -- nes
+    cru -- dé -- li -- us de -- saé -- vi -- it, al -- le -- lú -- ia.
+    de -- saé -- vi -- it.
+    Eu o u a e.
+  }
+  \header {
+    fontes = "osbpav 3"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

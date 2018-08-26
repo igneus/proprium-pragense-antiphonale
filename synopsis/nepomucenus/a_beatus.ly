@@ -107,6 +107,23 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    a4 g a \melisma { a c' } a a g g \bar "||"
+    \melisma { g a } a g g \bar "||"
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    in -- díg -- nis se, al -- le -- lú -- ja.
+    in -- díg -- nis se.
+    E u o u a e.
+  }
+  \header {
+    fontes = "osbpav 3"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

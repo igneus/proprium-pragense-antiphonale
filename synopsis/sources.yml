@@ -103,6 +103,19 @@ eins1774:
 einsric:
   name: Antiphonale Romano-Monasticum Breviario novo Einsidlensi accommodatum
   subtitle: VIrgInI In CoeLos assVMptae DICaVIt. AB.
-  year: 1771 # encoded in the subtitle
+  year: 1771 # encoded in the subtitle/dedication
   library: private library of prof. Luca Ricossa
   uri: https://yadi.sk/a/30zaT0_63VxMg8
+osbpav:
+  name: Compendium Antiphonarii Monastici kalendario generali Ordinis Sancti Benedicti accommodatum
+  location: Solesmis
+  publisher: E typographeo Sancti Petri
+  year: 1894
+  notice: |
+    Title page carries owner's signature: "Binder Raimund";
+    the chants of interest are in a handwritten supplement
+    of 8 numbered pages, containing two formularies
+    (S. Joannis Nepom. Mart., S. Wenceslai Mart.),
+    one antiphon for the feast "S. Ursulae et Soc. Vg. M."
+    and a series of collects for Czech (Benedictine) feasts.
+  library: private library of Jakub Pavlík

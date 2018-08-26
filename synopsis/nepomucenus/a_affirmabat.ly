@@ -83,6 +83,32 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 \melisma { g c' } a \melisma { g a c' } \melisma { c' b } \bar "||"
+    c' \melisma { a c' } b g g g a \melisma { g f } d \melisma { e f } e \bar "|"
+    \melisma { d g } g \melisma { g a } g g g a g \melisma { e f g } g \bar "|"
+    g b d' \melisma { c' b } \melisma { a c' } \melisma { c' g } \bar "|"
+    g a g f g \melisma { g a } g \melisma { g f } e e \bar "||"
+    \melisma { f g } e e \bar "||"
+    c' c' a c' \melisma { b a } \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- má -- bat rex,
+    se dí -- vi -- tem et be -- á -- tum
+    fac -- tú -- rum.
+    Non o -- bé -- di -- o prae -- cép -- to re -- gis,
+    sed prae -- cép -- to le -- gis,
+    quae da -- ta est no -- bis, al -- le -- lú -- ia.
+    est no -- bis.
+    E u o u a e.
+  }
+  \header {
+    fontes = "osbpav 2"
+  }
+}
+
 %{
 \score {
   \transpose c c' {
