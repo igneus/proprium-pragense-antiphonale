@@ -5,7 +5,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { d a b } \melisma { a g } a \bar "||"
+    \melisma { d4 a b } \melisma { a g } a \bar "||"
     g \bar "'" \melisma { g a } g \bar "|" e f \bar "|" g \bar "|" \melisma { f e } \bar "|" d d \bar "|"
     c \melisma { d f } \bar "'" f \bar "|" f e f \bar "'"
     g \melisma { f e } d d \bar "||"
@@ -20,6 +20,19 @@
   }
   \header {
     fontes = "eins1774 prop. sanc. 46"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d4 a bes } \melisma { a g } a \bar "|"
+  }
+  \addlyrics {
+    BE -- a -- tus
+  }
+  \header {
+    fontes = "einsric 238"
   }
 }
 

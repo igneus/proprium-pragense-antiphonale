@@ -22,7 +22,7 @@
     U o u a e.
   }
   \header {
-    fontes = "eins1774 prop. sanc. 46"
+    fontes = "eins1774 prop. sanc. 46; einsric 237"
   }
 }
 

@@ -30,6 +30,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    a4 \bar "|" a \bar "|"
+  }
+  \addlyrics {
+    quod te
+  }
+  \header {
+    fontes = "einsric 237"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma{ e4 g } \melisma{ g a c' } c' \bar "||"
     c' b \melisma{ a c' } c' b \melisma{ c' d' c' } a a \bar "|"
     g a \melisma{ g f } \melisma{ e f g } g g \bar "|"

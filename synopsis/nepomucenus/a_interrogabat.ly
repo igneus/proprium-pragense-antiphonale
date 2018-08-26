@@ -5,6 +5,27 @@
 \score {
   \transpose c c' {
     \plainchant
+    f4 a bes c' c' \bar "|"
+    \melisma { c' d' } c' c' \bar "||"
+    c' d' e' \melisma { f' e' d' } c' c' \bar "|"
+    f \bar "'" \melisma { g a } a \bar "'" a f \bar "'" bes a \bar "|"
+    \melisma { g a } g f f \bar "||"
+    c' c' d' bes c' a \bar "||"
+  }
+  \addlyrics {
+    IN -- ter -- ro -- gá -- bat e -- um Rex
+    mul -- tis ser -- mó -- ni -- bus:
+    at ip -- se ni -- hil il -- li re -- spon -- dé -- bat.
+    E u o u a e.
+  }
+  \header {
+    fontes = "einsric 237"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 f g a a \bar "|"
     \melisma { a b } a a \bar "||"
     a b c' \melisma { d' c' b } a a \bar "|"
@@ -15,7 +36,7 @@
   \addlyrics {
     In -- ter -- ro -- gá -- bat e -- um Rex
     mul -- tis ser -- mó -- ni -- bus:
-    at ip -- se il -- li ni -- hil re -- spon -- dé -- bat.
+    at ip -- se \lyrit il -- li ni -- hil \lyrrev re -- spon -- dé -- bat.
     E u o u a e.
   }
   \header {

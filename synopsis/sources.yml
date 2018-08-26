@@ -91,7 +91,7 @@ pustet1879:
   publisher: Fridericus Pustet
   year: 1879
 eins1774:
-  name: Antiphonale benedicitnum dispisitum iuxta breviarium Einsidlense cum antiphonis etiam Boemiae propriis congestum a loci professo Fr. Vito A. D. 1774
+  name: Antiphonale benedictinum dispositum iuxta breviarium Einsidlense cum antiphonis etiam Boemiae propriis congestum a loci professo Fr. Vito A. D. 1774
   year: 1774
   # It seems the library doesn't have a RISM siglum assigned.
   # It's definitely not CZ-Pst
@@ -100,3 +100,9 @@ eins1774:
   # http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30002669 ?
   library: Knihovna Královské kanonie premonstrátů na Strahově, Praha
   shelfmark: DE II 28
+einsric:
+  name: Antiphonale Romano-Monasticum Breviario novo Einsidlensi accommodatum
+  subtitle: VIrgInI In CoeLos assVMptae DICaVIt. AB.
+  year: 1771 # encoded in the subtitle
+  library: private library of prof. Luca Ricossa
+  uri: https://yadi.sk/a/30zaT0_63VxMg8

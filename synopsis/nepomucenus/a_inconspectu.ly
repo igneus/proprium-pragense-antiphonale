@@ -25,7 +25,7 @@
   }
   \header {
     quid = "antiphona ad Magnificat"
-    fontes = "eins1774 prop. sanc. 47"
+    fontes = "eins1774 prop. sanc. 47; einsric 238"
   }
 }
 
