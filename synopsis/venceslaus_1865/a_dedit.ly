@@ -1,0 +1,40 @@
+\version "2.19.32"
+
+\include "../lib/synopsis.ily"
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d4 \melisma { d c } \bar "|" \melisma { f g } g f g \melisma { g a } a a \bar "|"
+    a \bar "|" \melisma { b a } g g \bar "|" \melisma { f a } g \bar "|" \melisma { f g } f f \bar "|"
+    g \bar "|" g g e \melisma { g a } \melisma { f g } e c \bar "|"
+    \melisma { e g } \bar "|" \melisma { e f } e d d \bar "||"
+    a a f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    De -- dit ip -- si for -- ti -- tu -- di -- nem,
+    ut con -- de -- ret do -- mum Do -- mi -- ni
+    et pa -- ra -- vit sanc -- ti -- ta -- tem
+    in sem -- pi -- ter -- num.
+    E u o u a "e 1."
+  }
+  \header {
+    quid = "antiphona"
+    fontes = "einsric [s. p.]"
+  }
+}
+
+%{
+\score {
+  \transpose c c' {
+    \plainchant
+
+  }
+  \addlyrics {
+
+  }
+  \header {
+    fontes = ""
+  }
+}
+%}

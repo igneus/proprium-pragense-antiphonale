@@ -106,11 +106,18 @@ einsric:
   year: 1771 # encoded in the subtitle/dedication
   library: private library of prof. Luca Ricossa
   uri: https://yadi.sk/a/30zaT0_63VxMg8
+  notice: |
+    The formulary of St. John of Nepomuk is included in the main
+    corpus of the antiphonary, the formulary of st. Venceslas
+    is in a later supplement (of course - the texts were created
+    only for the 1865 new edition of the "proprium Bohemiae"),
+    without page numbering.
 osbpav:
   name: Compendium Antiphonarii Monastici kalendario generali Ordinis Sancti Benedicti accommodatum
   location: Solesmis
   publisher: E typographeo Sancti Petri
   year: 1894
+  library: private library of Jakub Pavlík
   notice: |
     Title page carries owner's signature: "Binder Raimund";
     the chants of interest are in a handwritten supplement
@@ -118,4 +125,3 @@ osbpav:
     (S. Joannis Nepom. Mart., S. Wenceslai Mart.),
     one antiphon for the feast "S. Ursulae et Soc. Vg. M."
     and a series of collects for Czech (Benedictine) feasts.
-  library: private library of Jakub Pavlík
