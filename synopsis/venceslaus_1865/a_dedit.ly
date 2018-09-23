@@ -24,6 +24,30 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d4 a } a c' \melisma { a g } \bar "||"
+    a \melisma { g f } \melisma { f g } f f \bar "|"
+    d \melisma { d g } g g \melisma { g a } \melisma { f g f } d \melisma { c d } d \bar "|"
+    c d f e f \melisma { g a } a \melisma { a g a bes a g g } \bar "|"
+    \melisma { e f } g \melisma { f e } d d \bar "||"
+    a a g f g \melisma { g a } \bar "||"
+  }
+  \addlyrics {
+    De -- dit ip -- si
+    for -- ti -- tu -- di -- nem,
+    ut con -- de -- ret do -- mum Do -- mi -- ni
+    et pa -- ra -- vit sanc -- ti -- ta -- tem
+    in sem -- pi -- ter -- num.
+    E u o u a e.
+  }
+  \header {
+    quid = "antiphona"
+    fontes = "osbpav 4"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

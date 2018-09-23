@@ -26,6 +26,32 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 \melisma { g c' } \melisma { a g } a g f \bar "||"
+    \melisma { g a } a g g \bar "|"
+    b c' \melisma { d' a } c' b \bar "|"
+    d' d' b c' \melisma { d' e' d' } \melisma { c' b c' d' c' } \bar "|"
+    a g \melisma { a c' } \melisma { c' b }
+    a \melisma { g f } \melisma { g a } a a g g \bar "||"
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Quae -- si -- vit Do -- mi -- nus
+    si -- bi vi -- rum
+    jux -- ta cor su -- um
+    et prae -- ce -- pit e -- i,
+    ut es -- set dux
+    su -- per po -- pu -- lum su -- um.
+    E u o u a e
+  }
+  \header {
+    quid = "antiphona"
+    fontes = "osbpav 4"
+  }
+}
+
 %{
 \melisma {}
 \score {

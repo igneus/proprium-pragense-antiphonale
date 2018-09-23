@@ -27,6 +27,26 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 a \melisma { g a c' } c' \bar "||"
+    \melisma { c' b } a b c' d' \melisma { c' b } a a \melisma { g f } \melisma { g a } a \bar "|"
+    a a \melisma { a c' } \melisma { g f } e e \bar "||"
+    c' c' c' a c' \melisma { b a } \bar "||"
+  }
+  \addlyrics {
+    Noc -- te sur -- gens
+    ve -- nit a -- do -- ra -- re ad tem -- plum sanc -- tum
+    in ti -- mo -- re De -- i.
+    E u o u a e.
+  }
+  \header {
+    quid = "antiphona"
+    fontes = "osbpav 5"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

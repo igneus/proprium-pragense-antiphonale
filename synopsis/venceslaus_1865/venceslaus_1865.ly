@@ -5,7 +5,7 @@
 \header {
   title = "S. Venceslai, martyris"
   subtitle = "officium novum, anno 1865 editum"
-  fontes = "einsric"
+  fontes = "einsric, osbpav"
 }
 
 \markup\vesperaeI
@@ -14,6 +14,7 @@
 \include "a_dedit.ly"
 \include "a_vir.ly"
 \include "a_sapiens.ly"
+\include "a_data.ly"
 
 \include "a_lauda.ly"
 
@@ -25,6 +26,11 @@
 
 \include "a_nocte.ly"
 \include "a_spiritu.ly"
+\include "a_victimam.ly"
+\include "a_benedicentes.ly"
+\include "a_posuit.ly"
+
+\include "a_benedictus.ly"
 
 \markup\vesperaeII
 
