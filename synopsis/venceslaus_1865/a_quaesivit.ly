@@ -14,7 +14,7 @@
   }
   \addlyrics {
     Quae -- si -- vit Do -- mi -- nus si -- bi
-    vi -- rum jix -- ta cor su -- um
+    vi -- rum jux -- ta cor su -- um
     et prae -- ce -- pit e -- i,
     ut es -- set dux
     su -- per po -- pu -- lum su -- um.
