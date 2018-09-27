@@ -44,7 +44,7 @@
     et prae -- ce -- pit e -- i,
     ut es -- set dux
     su -- per po -- pu -- lum su -- um.
-    E u o u a e
+    E u o u a e.
   }
   \header {
     quid = "antiphona"
