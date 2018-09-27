@@ -1,0 +1,88 @@
+\documentclass[12pt, a5paper, twoside]{book}
+
+% To compile:
+%
+% $ xelatex filename
+% $ biber filename
+% $ xelatex filename
+
+\usepackage{fontspec}
+\setmainfont[Ligatures={TeX}]{TeX Gyre Pagella}
+
+\usepackage[latin]{babel}
+%\usepackage{csquotes}
+%\usepackage[left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm, marginparsep=3mm]{geometry}
+
+%% \usepackage[
+%%   backend=biber,
+%%   style=iso-authoryear,
+%%   sortlocale=cs_CZ,
+%%   maxnames=3,
+%%   firstinits=true,
+%% ]{biblatex}
+
+\usepackage[show]{ed} % editorial annotations
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{changepage}
+\usepackage{filecontents}
+
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\title{Officia propria ecclesiasticae provinciae Pragensis}
+
+\begin{document}
+
+\setlength{\parindent}{0.5cm}
+
+\maketitle
+
+\chapter*{Ratio huius editionis}
+
+Breviarium proprium ecclesiae Pragensis bis\edissue{annos supplere}
+typis impressum est; post Breviarii Romani receptionem
+saeculo XVII. unumquidque saeculum plurimas editiones
+libelli Officia propria ecclesiasticae provinciae Pragensis vidit.
+Sed notae musicae usque ad dies nostros numquam typis sunt impressae
+et tantum magnis cum difficultatibus in libris manu scriptis
+inveniri possunt. Ideo nos antiphonalia vetustissima retentioresque
+invenimus et comparavimus, et quos invenimus, cantus hic offere
+audemus.
+
+Quia antiphonae nonnullae diebus retentioribus mutatae aut de novo
+introductae, immo officia nova nonnulla composita sunt,
+sed pro officii divini in choro cum cantu persoluti desuetudinem
+cantus saepe accommodati aut compositi non sunt,
+aliquos cantus ipsi composuimus aut accommodavimus, pro alios
+textus tantum ponimus.
+
+Liber hic quatuor habet partes.
+Pars prima continet omnia officia hoc numero et ordine disposita
+ut anno 1912, cum Antiphonale novum restitutum
+cum dispositione nova psalterii in lucem editum est.
+Pars secunda continet officia nova, amplificata aut mutata,
+sed etiam praescribit, quomodo alia officia cum
+Calendario Romano anno 1960 reformato adhibenda sunt.
+Quia nonnullae antiphonae aut officia tota plurima cantus versione
+gaudent, pars tertia continet versiones, quae loco eorum,
+quae prima parte impressae sunt, ad libitum adhiberi possunt.
+In quarta parte praesertim de antiphonis responsoriisque,
+quos ipsi notis musicis adornavimus, rationem reddimus.
+
+\part{Proprium Pragense ad Antiphonale Sacrosanctae Romanae Ecclesiae
+  a Pio Papa X. anno 1912 editum}
+
+\part{Accommodationes pro Calendario Romano anno 1960 reformato}
+
+\part{Aliae cantuum versiones ad libitum adhibendae}
+
+\part{Annotationes}
+
+\part{Indices}
+
+%\printbibliography
+
+\end{document}
