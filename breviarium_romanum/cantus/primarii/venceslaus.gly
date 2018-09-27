@@ -1,0 +1,212 @@
+\header
+dies: 09/28
+festum: S. Venceslai
+
+\markup
+\begin{caputFesti}
+\diesFesti{Die 28 Septembris}
+\nomenFesti{S. Venceslai}
+\descriptioFesti{Ducis et Martyris, Patroni principalis Regni}
+\dignitasFesti{Duplex I classis cum Octava}
+\end{caputFesti}
+
+\horaVesperaeI
+
+\score
+mode: 8
+annotation: 1. Ant.
+annotation: VIII. G
+book: osbpav 4
+c3
+e eh fe f e d () ef f e e ;
+g h if h g :
+i i g h iji hg!hih ;
+f e fh hg f ed ef f f e e ::
+h h g h f e ::
+Quae -- sí -- vit Dó -- mi -- nus * si -- bi vi -- rum
+jux -- ta cor su -- um:
+et prae -- cé -- pit e -- i,
+ut es -- set dux su -- per pó -- pu -- lum su -- um.
+\l E u o u a e.
+
+\score
+mode: 1
+annotation: 2. Ant.
+annotation: I. a2
+book: osbpav 4
+c4
+dh h j hg () h gf fg f f ;
+d dg g g gh fgf d cd d :
+c d f e f gh h ixhg/hiHGg ;
+ef g fe d d ::
+h h g f g gh ::
+De -- dit ip -- si * for -- ti -- tú -- di -- nem,
+ut cón -- de -- ret do -- mum Dó -- mi -- ni,
+et pá -- re -- ret sanc -- ti -- tá -- tem
+in sem -- pi -- tér -- num.
+E u o u a e.
+
+\score
+mode: 8
+annotation: 3. Ant.
+annotation: VIII. G
+author: osbpav 4; IC
+ratio: Melodia \emph{et bene} meliorata est.
+c3
+e f h h h ij i i ;
+hi j h i i i :
+i f i g h fe fe ,
+de f h f f ::
+i h i j h f ::
+Vir a -- má -- tor ci -- vi -- tá -- tis, *
+et be -- ne áu -- di -- ens:
+qui pro af -- féc -- tu pa -- ter ap -- pel -- la -- bá -- tur.
+E u o u a e.
+
+\score
+mode: 5
+annotation: 4. Ant.
+annotation: V. a
+author: IC
+ratio: Melodia pro hac antiphona solum in einsric invenitur et non est valde cantabilis, propter quod novam, eiusdem modi ac dispositionis, composuimus.
+c3
+h h h () h hi h e ;
+f e d f e d ef f :
+h f h h hi h ;
+h f h e e fe d d ::
+h h i g h f ::
+Sá -- pi -- ens * in pó -- pu -- lo
+hae -- re -- di -- tá -- vit ho -- nó -- rem,
+et no -- men il -- lí -- us
+e -- rit vi -- vens in ae -- tér -- num.
+E u o u a e.
+
+\score
+mode: 2
+annotation: 5. Ant.
+annotation: II. D
+book: osbpav 4
+f3
+fe f h f f () g ef f ;
+h i j ih ivHG f ;
+gh ij i hg f eg f f ::
+h h h g e f ::
+Da -- ta est e -- i * co -- ró -- na,
+et ex -- í -- vit vin -- cens,
+ut vín -- ce -- ret, al -- le -- lú -- ja.
+E u o u a e.
+
+\markup
+\parsCapitulum{Sap. 6}
+
+\lettrine{A}{d} vos, reges, sunt hi sermónes mei,
+ut discátis sapiéntiam.~\dag{}
+Fácile vidétur ab his, qui díligunt eam,~*
+et invenítur ab his, qui quaerunt illam.
+
+\score
+mode: 5
+annotation: Hymnus
+annotation: V.
+book: choral.sdh.cz TODO
+ratio: Melodia veteris hymni \emph{Dies venit victoriae}, quem editio proprii Pragensis anno 1677 edita pro hoc hymno novo commutavit.
+c4
+c e g g ghg e f g ,
+e g f ed e c d c :
+g g h j ixi hg f ede ,
+c d!ede f ed e c d c ::
+Sal -- ve, de -- cus Bo -- hé -- mi -- ae,
+Flos Prín -- ci -- pum, flos Cóe -- li -- tum:
+Vo -- ces be -- ní -- gnus éx -- ci -- pe
+Te láu -- di -- bus ca -- nén -- ti -- um.
+
+\markup
+\begin{multicols}{2}
+2. Aurum supérstes régium\\
+Quondam gerébas crínibus:\\
+Letho perémptum lúcida\\
+Nunc te corónant sídera.\\
+
+3. Velábat olim fúlgido\\
+Profúsa vestis múrice:\\
+Nunc mél\emph{i}or ambit púrpura,\\
+Tuo rubens de sánguine.\\
+
+4. Quales memor Bohémia\\
+Grates repéndes Númini?\\
+Quam pauca tecum Príncipem\\
+Sortíta regna Mártyrem!\\
+
+5. Te nunc, Redémptor, quáesumus,\\
+Tanti Ducis consórtio\\
+Jungas precántes sérvulos\\
+In sempitérna sáecula. Amen.
+\end{multicols}
+
+\versiculus{Glória et honóre coronásti eum, Dómine.}%
+{Et constituísti eum super ópera mánuum tuárum.}
+
+\score
+mode: 3
+annotation: Ad Magn.
+annotation: III. a
+book: osbpav 4
+ratio: In fonte, qui usu monastico accommodatus est, tres prima verba huius antiphonae sunt \emph{Gaude et laetare.}
+c4
+gj hg h g hj j ,
+j i hi hg g ;
+jj g h g e fg e f e d e f gh g ;
+g h g hj h i j k ji g :
+gh h j hg hg ,
+e f gf gh gf e e ::
+j j j h j ih ::
+Lau -- da et lae -- tá -- re, *
+fí -- li -- a Si -- on:
+ec -- ce ma -- gni -- fi -- cá -- vit Dó -- mi -- nus Re -- gem tu -- um,
+et de -- dit il -- li gló -- ri -- am re -- gni,
+qua -- lem nul -- lus rex
+há -- bu -- it an -- te e -- um.
+E u o u a e.
+
+\markup
+\parsOratio
+
+Deus, qui beátum Vencesláum per martýrii palmam a terréno principátu
+ad coeléstem glóriam transtulísti:
+ejus précibus nos ab omni adversitáte custódi,
+et ejúsdem tríbue gaudére consórtio.
+\perDominum
+
+\horaVesperaeII
+
+\rubrica{Antiphonae et Psalmi, ut in I Vesperis;
+sed loco ultimi Psalmi dicitur 115} Credidi.
+
+\rubrica{Capitulum et Hymnus, ut in I Vesperis.}
+
+\versiculus{Benedíctio Dei super caput justi.}%
+{Benedíctio ejus quasi flúvius inúndans.}
+
+\score
+mode: 1
+annotation: Ad Magn.
+annotation: I. D
+book: osbpav 6
+c4
+d f g ed () f e c de d ;
+ef g g fg dc ,
+f g h g f gh h :
+d dh h , g h g ef g fe d d ::
+h h g f g gvFED ::
+E -- ja er -- go * for -- tis Ath -- lé -- ta,
+dul -- cis Pa -- tró -- ne,
+Ad -- vo -- cá -- te fi -- dé -- lis,
+ex -- súr -- ge in ad -- ju -- tó -- ri -- um no -- bis.
+E u o u a e.
+
+\markup
+\rubrica{Oratio ut in I Vesperis.}
+
+\rubrica{Et fit commemoratio S. Michaelis Archangeli
+ut in Breviario et in dioecesi Litomericensi
+diei Octavae Dedicationis Ecclesiae Cathedralis.}
