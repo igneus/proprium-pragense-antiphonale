@@ -33,6 +33,7 @@ of the abovementioned practical editions.
 * `texts` - edition of the liturgical texts, documenting their development
 * `synopsis` - comparative edition of ancient tunes
 * `neo` - working directory where neo-gregorian chants are being created
+* `web` - sources of the [praga.inadiutorium.cz][website] website (static site built with [middleman][middleman])
 
 ## License
 
@@ -40,3 +41,6 @@ The content is to be considered as two separately licensed works:
 
 * the "scientific" part (`synopsis`, `texts`) CC-BY SA 3.0 Unported
 * the "practical" part (`breviarium_romanum`, `liturgia_horarum`) is in public domain
+
+[website]: http://praga.inadiutorium.cz/
+[middleman]: https://middlemanapp.com/
