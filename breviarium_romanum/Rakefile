@@ -16,7 +16,11 @@ glys = Dir['cantus/*/*.gly'].collect do |gly_path|
   glytex_path
 end
 
-deps = Dir['*.tex'] + Dir['*.*bx'] + Dir['*.bib'] + glys
+file 'annotationes.tex' => Dir['cantus/*/*.gly'] + ['scripts/annotationes.rb'] do |t|
+  sh 'ruby', 'scripts/annotationes.rb', *(t.prerequisites[0..-2])
+end
+
+deps = Dir['*.tex'] + Dir['*.*bx'] + Dir['*.bib'] + glys + ['annotationes.tex']
 
 main = 'officia_propria_pragensia_1912.tex'
 main_noext = main.sub '.tex', ''
