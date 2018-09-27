@@ -20,7 +20,7 @@ festum: Ss. Cosmae et Damiani
 \score
 mode: 8
 annotation: ad Magn.
-annotation: VIII g
+annotation: VIII. g
 author: kol2 184r; IC
 ratio: Melodia abbreviata est ad textum recentiorem, initium adaptatum est ad verba alia.
 c4
@@ -55,7 +55,7 @@ Octavae Dedicationis Ecclesiae.}
 \score
 mode: 1
 annotation: ad Ben.
-annotation: I g
+annotation: I. g
 author: kol2 185v; IC
 ratio: Melodia abbreviata est ad textum recentiorem, melodia \emph{uno ore} minime adaptata est.
 c4
