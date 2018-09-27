@@ -1,0 +1,22 @@
+\newenvironment{caputFesti}{\begin{center}}{\end{center}}
+
+% pieces of the title of a feast
+\newcommand{\diesFesti}[1]{{\small #1} \vspace{2mm}\\}
+\newcommand{\nomenFesti}[1]{\textbf{\Large #1}\vspace{3mm}\\}
+\newcommand{\descriptioFesti}[1]{\textbf{#1}\\}
+\newcommand{\dignitasFesti}[1]{\small #1}
+
+% headings of various parts
+\newcommand{\hora}[1]{\vspace{5mm}\noindent\textbf{#1}\vspace{2mm}}
+\newcommand{\horaVesperaeI}{\hora{In I Vesperis}}
+\newcommand{\horaLaudes}{\hora{In Laudibus}}
+
+\newcommand{\parsHorae}[1]{\textbf{#1}\vspace{1mm}}
+\newcommand{\parsOratio}{\parsHorae{Oratio}}
+
+\newcommand{\rubrica}[1]{{\small \emph{#1}}}
+
+\newcommand{\utInBreviarioPraeter}{%
+  \rubrica{Omnia ut in Antiphonario sub hac die, praeter sequentia.}}
+
+\newcommand{\versiculus}[2]{\noindent ℣. #1\\℟. #2}

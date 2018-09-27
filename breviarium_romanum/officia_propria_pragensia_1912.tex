@@ -7,7 +7,7 @@
 % $ xelatex filename
 
 \usepackage{fontspec}
-\setmainfont[Ligatures={TeX}]{TeX Gyre Pagella}
+\setmainfont[Ligatures={TeX}]{Junicode}
 
 \usepackage[latin]{babel}
 %\usepackage{csquotes}
@@ -28,13 +28,13 @@
 \usepackage{changepage}
 \usepackage{filecontents}
 
-\usepackage{color}
-
 \usepackage{fontspec}
 \usepackage{etoolbox}
 \usepackage{luatextra}
 \usepackage{graphicx} % support the \includegraphics command and options
 \usepackage{gregoriotex} % for gregorio score inclusion
+
+\input{defs}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -86,7 +86,7 @@ In quarta parte praesertim de antiphonis responsoriisque,
 quos ipsi notis musicis adornavimus, rationem reddimus.
 
 \part{Proprium Pragense ad~Antiphonale Sacrosanctae Romanae Ecclesiae
-  a Pio Papa X. anno 1912 editum}
+  a Pio Papa~X anno 1912 editum}
 
 % TODO: calendarium
 
@@ -95,6 +95,8 @@ quos ipsi notis musicis adornavimus, rationem reddimus.
 \part{Accommodationes pro Calendario Romano anno 1960 reformato}
 
 % TODO: calendarium
+
+\input{1960}
 
 \part{Aliae cantuum versiones ad libitum adhibendae}
 

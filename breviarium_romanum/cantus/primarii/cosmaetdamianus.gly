@@ -1,4 +1,21 @@
+\header
+dies: 09/27
+festum: Ss. Cosmae et Damiani
+
 \markup
+\begin{caputFesti}
+\diesFesti{Die 27 Septembris}
+\nomenFesti{Ss. Cosmae et Damiani}
+\descriptioFesti{Martyrum, Patronorum minus principalium Regni}
+\dignitasFesti{Duplex majus}
+\end{caputFesti}
+
+\utInBreviarioPraeter
+
+\horaVesperaeI
+
+\versiculus{Laetámini in Dómino, et exsultáte justi.}%
+{Et gloriámini omnes recti corde.}
 
 \score
 mode: 8
@@ -17,6 +34,22 @@ Co -- sma et Da -- mi -- á -- ne,
 qui Re -- gi cae -- lé -- sti sem -- per ad -- hae -- sí -- stis,
 in -- ter -- cé -- di -- te pro no -- bis ad Dó -- mi -- num.
 \l E u o u a e.
+
+\markup
+\parsOratio{}
+Magníficet te, Dómine,
+sanctórum tuórum Cosmae et Damiáni beáta solémnitas:
+qua et illis glóriam sempitérnam,
+et opem nobis ineffábili providéntia contulísti.
+\perDominum
+
+\rubrica{In dioecesi Litomericensi Commemoratio
+Octavae Dedicationis Ecclesiae.}
+
+\horaLaudes
+
+\versiculus{Exsultábunt sancti in glória.}%
+{Laetabúntur in cubílibus suis.}
 
 \score
 mode: 1
@@ -39,3 +72,9 @@ Bo -- num est con -- fi -- té -- ri Dó -- mi -- no,
 et psál -- le -- re
 nó -- mi -- ni tu -- o, Al -- tís -- si -- me.
 \l E u o u a e.
+
+\markup
+\oratioSupra
+
+\rubrica{In dioecesi Litomericensi Commemoratio
+Octavae Dedicationis Ecclesiae.}
