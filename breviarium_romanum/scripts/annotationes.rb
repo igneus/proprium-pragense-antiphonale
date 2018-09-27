@@ -27,6 +27,7 @@ File.open('annotationes.tex', 'w') do |fw|
                .gsub(/\.\s*$/, '')
       fw.puts "\\emph{#{lyrics}}:"
       fw.puts score.headers['ratio']
+      fw.puts '\vspace{1mm}'
       fw.puts
     end
   end

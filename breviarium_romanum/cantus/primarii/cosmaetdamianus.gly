@@ -21,7 +21,7 @@ festum: Ss. Cosmae et Damiani
 mode: 8
 annotation: ad Magn.
 annotation: VIII g
-author: IC; kol2 184r
+author: kol2 184r; IC
 ratio: Melodia abbreviata est ad textum recentiorem, initium adaptatum est ad verba alia.
 c4
 g g gef!g () gg c d f!ghg g ;
@@ -37,6 +37,7 @@ in -- ter -- cé -- di -- te pro no -- bis ad Dó -- mi -- num.
 
 \markup
 \parsOratio{}
+
 Magníficet te, Dómine,
 sanctórum tuórum Cosmae et Damiáni beáta solémnitas:
 qua et illis glóriam sempitérnam,
@@ -55,8 +56,8 @@ Octavae Dedicationis Ecclesiae.}
 mode: 1
 annotation: ad Ben.
 annotation: I g
-author: IC; kol2 185v
-ratio: Melodia abbreviata est ad textum recentiorem, melodia "uno ore" minime adaptata est.
+author: kol2 185v; IC
+ratio: Melodia abbreviata est ad textum recentiorem, melodia \emph{uno ore} minime adaptata est.
 c4
 dc d e!fgFE d cd d ,
 d f gh hj h g hg f g f fe dg fe dc ;
