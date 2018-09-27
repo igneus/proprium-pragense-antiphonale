@@ -1,0 +1,41 @@
+\markup
+
+\score
+mode: 8
+annotation: ad Magn.
+annotation: VIII g
+author: IC; kol2 184r
+ratio: Melodia abbreviata est ad textum recentiorem, initium adaptatum est ad verba alia.
+c4
+g g gef!g () gg c d f!ghg g ;
+gh g g gh g fef df :
+c d f fg h gf h j hg fg ghg g ;
+gg d f!gh g g g gh ghGF hj g fg g ::
+j j i j h g ::
+Be -- á -- ti * Már -- ty -- res Chri -- sti
+Co -- sma et Da -- mi -- á -- ne,
+qui Re -- gi cae -- lé -- sti sem -- per ad -- hae -- sí -- stis,
+in -- ter -- cé -- di -- te pro no -- bis ad Dó -- mi -- num.
+\l E u o u a e.
+
+\score
+mode: 1
+annotation: ad Ben.
+annotation: I g
+author: IC; kol2 185v
+ratio: Melodia abbreviata est ad textum recentiorem, melodia "uno ore" minime adaptata est.
+c4
+dc d e!fgFE d cd d ,
+d f gh hj h g hg f g f fe dg fe dc ;
+d f gf f gh fd f e d d :
+f gh h f gh hg fg g fe dc ;
+cd fg f f ,
+f!ghg f fe d c dg e fe d ::
+h h g f gh g ::
+Be -- á -- ti Már -- ty -- res *
+cum du -- ce -- rén -- tur ad lo -- cum de -- col -- la -- ti -- ó -- nis,
+u -- no o -- re psal -- lé -- bant, di -- cén -- tes:
+Bo -- num est con -- fi -- té -- ri Dó -- mi -- no,
+et psál -- le -- re
+nó -- mi -- ni tu -- o, Al -- tís -- si -- me.
+\l E u o u a e.
