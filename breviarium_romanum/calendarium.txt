@@ -41,12 +41,12 @@
 
 1 sd : De IV die infra Octavam S. Venceslai ; com: S. Remigii Episcopi et Confessoris
 1<prg> d1+oct : Dedicatio Ecclesiae Metropolitanae
-2 dmaj : Ss. Angelorum Custodum ; com: Octavae S. Venceslai ; com<prg>: etiam Dedicationis
+2 dmaj : Ss. Angelorum Custodum ; com: Octavae S. Venceslai ; <prg>com: etiam Dedicationis
 3 sd : De VI die infra Octavam S. Venceslai
 3<prg> sd : De Octava S. Venceslai ; com: Octavae Dedicationis
-4 dmaj : S. Francisci Confessoris ; com: Octavae ; com<prg>: et Dedicationis
-5 dmaj : Octava S. Venceslai ; com: Ss. Placidi et Sociorum Martyrum ; com<prg>: et Octavae Dedicationis
-6 d : S. Brunonis Confessoris ; com<prg>: Octavae Dedicationis
+4 dmaj : S. Francisci Confessoris ; com: Octavae ; <prg>com: et Dedicationis
+5 dmaj : Octava S. Venceslai ; com: Ss. Placidi et Sociorum Martyrum ; <prg>com: et Octavae Dedicationis
+6 d : S. Brunonis Confessoris ; <prg>com: Octavae Dedicationis
 7 d2 : Sacratissimi Rosarii B. Mariae Virginis ; com: Ss. Marci I Papae et Confessoris; com: Ss. Sergii et Sociorum Martyrum
 8 d : S. Birgittae Viduae
 8<prg> dmaj : Octava Dedicationis Ecclesiae Metropolitanae ; com: S. Birgittae Viduae

@@ -18,15 +18,22 @@ month_names = [
 ]
 
 RANK_NAMES = {
-  nil => 'simplex',
-  :sd => 'semiduplex',
-  :d => 'duplex',
-  :dmaj => 'duplex majus',
-  :d1 => 'duplex I classis',
-  :d2 => 'duplex II classis',
+  nil => 'Simplex',
+  :sd => 'Semiduplex',
+  :d => 'Duplex',
+  :dmaj => 'Duplex majus',
+  :d1 => 'Duplex I classis',
+  :d2 => 'Duplex II classis',
 }
 
-Entry = Struct.new(:date, :title, :rank_code, :commemorations)
+LOCAL_NAMES = {
+  :ltm => 'In dioecesi Litomericensi',
+  :prg => 'In archidioecesi Pragensi',
+  :rgr => 'In dioecesi Reginae Gradecensi',
+}
+
+Entry = Struct.new(:date, :title, :rank_code, :commemorations, :local)
+Commemoration = Struct.new(:title, :local)
 
 class SimpleSanctorale
   def initialize
@@ -126,13 +133,29 @@ class OldSanctoraleLoader
 
     day = m[:day].to_i
     rank_code = m[:rank_code] && m[:rank_code].to_sym
+    local = m[:local] && m[:local].to_sym
     title, commemorations = m[:title].split(/\s*;\s*/)
+
+    commemorations = [] if commemorations.nil?
+    commemorations = [commemorations] if commemorations.is_a? String
+    commemorations = commemorations.collect do |str|
+      n = str.match(/^(<(?<local>\w+)>)?com:\s*(?<title>.+)/)
+      if n.nil?
+        raise RuntimeError.new("Invalid commemoration def '#{str}'")
+      end
+
+      Commemoration.new(
+        n[:title],
+        (n[:local] && n[:local].to_sym)
+      )
+    end
 
     Entry.new(
       CR::AbstractDate.new(month_section, day),
       title.strip,
       rank_code,
-      commemorations
+      commemorations,
+      local
     )
   end
 
@@ -165,7 +188,21 @@ File.open('calendarium.tex', 'w') do |fw|
         fw.puts '\\\\'
     else
       celebrations.each do |celebration|
-        fw.puts "#{celebration.title}"
+        if celebration.local
+          fw.puts "\\emph{#{LOCAL_NAMES[celebration.local]}:}"
+        end
+
+        fw.print "\\textsc{" if celebration.rank_code == :d2
+        fw.print "\\uppercase{" if celebration.rank_code == :d1
+        fw.print "#{celebration.title}."
+        fw.print "}" if [:d1, :d2].include? celebration.rank_code
+        fw.print " \\emph{#{RANK_NAMES[celebration.rank_code]}.}"
+
+        celebration.commemorations.each do |com|
+          fw.puts " \\emph{#{LOCAL_NAMES[com.local]}}" if com.local
+          fw.puts " \\emph{Commemoratio} #{com.title}."
+        end
+
         fw.puts '\\\\'
       end
     end
