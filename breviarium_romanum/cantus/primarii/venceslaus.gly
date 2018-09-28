@@ -27,7 +27,7 @@ Quae -- sí -- vit Dó -- mi -- nus * si -- bi vi -- rum
 jux -- ta cor su -- um:
 et prae -- cé -- pit e -- i,
 ut es -- set dux su -- per pó -- pu -- lum su -- um.
-\l E u o u a e.
+E u o u a e.
 
 \score
 mode: 1
@@ -176,6 +176,149 @@ ad coeléstem glóriam transtulísti:
 ejus précibus nos ab omni adversitáte custódi,
 et ejúsdem tríbue gaudére consórtio.
 \perDominum
+
+\horaLaudesEtHorae
+
+\score
+mode: 3
+annotation: 1. Ant.
+annotation: III. a
+book: osbpav 5
+c4
+g h gh!jv j ()
+ji h i j k ji h h gf gh h ;
+h h hj gf e e ::
+j j j h j ih ::
+Noc -- te sur -- gens, *
+ve -- nit a -- do -- rá -- re ad tem -- plum sanc -- tum
+in ti -- mó -- re De -- i.
+
+\score
+mode: 8
+annotation: 2. Ant.
+annotation: VIII. G
+book: osbpav 5
+c4
+g g g h gf () g gh f e d ;
+d ef g gh g f h ,
+j ij hvGF gh h h g g ::
+j j i j h g ::
+Spí -- ri -- tu ma -- gno * vi -- dit úl -- ti -- ma,
+et in ma -- nus Dó -- mi -- ni
+com -- mén -- dat spí -- ri -- tum su -- um.
+
+\score
+mode: 1
+annotation: 3. Ant.
+annotation: I. f
+book: osbpav 5
+c4
+d c df fe dc , f gh h h h hg/ixhiHGg ;
+f g h g f f f f f ef g fe d d ::
+h h g f gh gf ::
+Víc -- ti -- mam e -- jus * sus -- cé -- pit Dó -- mi -- nus,
+si -- cut mú -- ne -- ra pú -- e -- ri su -- i jus -- ti A -- bel.
+E u o u a e.
+
+\score
+mode: 7
+annotation: 4. Ant.
+annotation: VII. a
+book: osbpav 5
+c3 e g h i i , i i i g ij ih i i i :
+f h h hih hgh , fh h g e e ::
+i i j i h gf ::
+Be -- ne -- di -- cén -- tes * oc -- cur -- ré -- bant e -- i An -- ge -- li,
+sus -- ci -- pi -- én -- tes á -- ni -- mam e -- jus.
+E u o u a e.
+
+\score
+mode: 7
+annotation: 5. Ant.
+annotation: VII. d
+book: osbpav 5
+c3
+ei i i i h g () h i j ih ii e ;
+e ei h g ef f :
+i jk l kj i gh ih fe fg f e e ::
+i i j i h gi ::
+Pó -- su -- it Dó -- mi -- nus * di -- a -- dé -- ma re -- gni
+in cá -- pi -- te e -- jus,
+fe -- cít -- que e -- um re -- gná -- re in ae -- tér -- num.
+E u o u a e.
+
+\markup
+\rubrica{Capitulum ut in I Vesperis.}
+
+\score
+mode: 5
+annotation: Hymnus
+annotation: V.
+book: choral.sdh.cz TODO
+ratio: Melodia veteris hymni \emph{Dies venit victoriae}.
+c4
+c e g g ghg e f g ,
+e g f ed e c d c :
+g g h j ixi hg f ede ,
+c d!ede f ed e c d c ::
+Ad -- es bo -- nus Dux ín -- cly -- te,
+Quem lau -- re -- á -- tum tém -- po -- ra
+Coe -- lo di -- es haec ín -- tu -- lit,
+Tu -- o tri -- úm -- pho nó -- bi -- lis.
+
+\markup
+\begin{multicols}{2}
+Non tu beátae práemia\\
+Vit\emph{ae} empta parvo póssides;\\
+Regno tibi stant sídera,\\
+Fuso tibi stant sánguine.\\
+
+Jussit necári bárbara\\
+Mater, novérca sáevior:\\
+Frater necávit ímpius,\\
+Quovis tyránn\emph{o} immánior.\\
+
+Sacrát\emph{a} in aede pérfidus\\
+Mactat vacántem Númini:\\
+Sic caes\emph{a} ad aras víctima\\
+Prec\emph{e} expiáta cóncidit.\\
+
+Ades tuae Bohémiae,\\
+Princeps, benígno lúmine:\\
+Pac\emph{e} expetíta gáudeat,\\
+Fid\emph{e} innocénti flóreat.\\
+
+Praesta, Pater piíssime,\\
+Patríque compar Unice,\\
+Cum Spíritu Paráclito\\
+Regnans per omne sáeculum. Amen.
+\end{multicols}
+
+\versiculus{Ego primogénitum ponam illum.}%
+{Excélsum prae régibus terrae.}
+
+\score
+mode: 7
+annotation: Ad Ben.
+annotation: VII. a
+book: osbpav 6
+c3
+e e hg h ij i i ,
+jk j i g hi hg ef ;
+d fhGF hi iji h h f hih hgh ;
+f h g e f ed ef f e e e ::
+i i j i h gf ::
+Be -- ne -- díc -- tus Dó -- mi -- nus *
+De -- us pa -- trum no -- stró -- rum,
+qui de -- dit hoc in cor -- de Re -- gis,
+ut glo -- ri -- fi -- cá -- ret do -- mum Dó -- mi -- ni.
+E u o u a e.
+
+\markup
+\rubrica{Oratio ut in I Vesperis.}
+
+\rubrica{In dioecesi Litomericensi Commemoratio
+diei Octavae Dedicationis Ecclesiae Cathedralis.}
 
 \horaVesperaeII
 
