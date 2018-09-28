@@ -202,6 +202,7 @@ j j j h j ih ::
 Noc -- te sur -- gens, *
 ve -- nit a -- do -- rá -- re ad tem -- plum sanc -- tum
 in ti -- mó -- re De -- i.
+E u o u a e.
 
 \score
 office-part: antiphona
@@ -217,6 +218,7 @@ j j i j h g ::
 Spí -- ri -- tu ma -- gno * vi -- dit úl -- ti -- ma,
 et in ma -- nus Dó -- mi -- ni
 com -- mén -- dat spí -- ri -- tum su -- um.
+E u o u a e.
 
 \score
 office-part: antiphona
@@ -284,27 +286,27 @@ Tu -- o tri -- úm -- pho nó -- bi -- lis.
 
 \markup
 \begin{multicols}{2}
-Non tu beátae práemia\\
+2. Non tu beátae práemia\\
 Vit\emph{ae} empta parvo póssides;\\
 Regno tibi stant sídera,\\
 Fuso tibi stant sánguine.\\
 
-Jussit necári bárbara\\
+3. Jussit necári bárbara\\
 Mater, novérca sáevior:\\
 Frater necávit ímpius,\\
 Quovis tyránn\emph{o} immánior.\\
 
-Sacrát\emph{a} in aede pérfidus\\
+4. Sacrát\emph{a} in aede pérfidus\\
 Mactat vacántem Númini:\\
 Sic caes\emph{a} ad aras víctima\\
 Prec\emph{e} expiáta cóncidit.\\
 
-Ades tuae Bohémiae,\\
+5. Ades tuae Bohémiae,\\
 Princeps, benígno lúmine:\\
 Pac\emph{e} expetíta gáudeat,\\
 Fid\emph{e} innocénti flóreat.\\
 
-Praesta, Pater piíssime,\\
+6. Praesta, Pater piíssime,\\
 Patríque compar Unice,\\
 Cum Spíritu Paráclito\\
 Regnans per omne sáeculum. Amen.
@@ -336,6 +338,55 @@ E u o u a e.
 
 \rubrica{In dioecesi Litomericensi Commemoratio
 diei Octavae Dedicationis Ecclesiae Cathedralis.}
+
+\horaTertia
+
+\rubrica{Capitulum}
+Ad vos, reges.
+\rubrica{ut ad Laudes.}
+
+℟. br. Introíbo in domum tuam, * Dómine.
+Introíbo.\\
+℣. Adorábo ad templum sanctum tuum in timóre tuo.
+Dómine.
+Glória Patri.
+Introíbo.
+
+\versiculus{Dedit ei Dóminus sapiéntiam.}%
+{Assistrícem sédium suárum.}
+
+\horaSexta
+
+\parsCapitulum{Sap. 6}
+\lettrine{C}{ogitare} de sapiéntia, sensus est consummátus:~\dag{}
+et qui vigiláverit propter illam,~* cito secúrus erit.
+
+℟. br. Dedit ei Dóminus * Sapiéntiam.
+Dedit.\\
+℣. Assistrícem sédium suárum.
+Sapiéntiam.
+Glória Patri.
+Dedit.
+
+\versiculus{Dómine, in virtúte tua laetábitur rex.}%
+{Et super salutáre tuum exultábit veheménter.}
+
+\horaNona
+
+\parsCapitulum{Sap. 6}
+\lettrine{C}{oncupiscentia} sapiéntiae dedúcit ad regnum perpétuum.~\dag{}
+Si ergo delectámini sédibus et sceptris, o reges pópuli,~*
+dilígite sapiéntiam, ut in perpétuum regnétis.
+
+℟. br. Dómine, in virtúte tua * Laetábitur rex.
+Dómine.\\
+℣. Et super salutáre tuum exultábit veheménter.
+Laetábitur.
+Glória Patri.
+Dómine.
+
+\versiculus{Benedíctio Dei super caput justi.}%
+{Benedíctio ejus quasi flúvius inúndans.}
 
 \horaVesperaeII
 
