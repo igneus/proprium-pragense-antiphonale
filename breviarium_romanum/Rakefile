@@ -16,11 +16,15 @@ glys = Dir['cantus/*/*.gly'].collect do |gly_path|
   glytex_path
 end
 
-file 'annotationes.tex' => Dir['cantus/*/*.gly'] + ['scripts/annotationes.rb'] do |t|
-  sh 'ruby', 'scripts/annotationes.rb', *(t.prerequisites[0..-2])
+file 'annotationes.tex' => ['scripts/annotationes.rb'] + Dir['cantus/*/*.gly'] do |t|
+  sh 'ruby', *t.prerequisites
 end
 
-deps = Dir['*.tex'] + Dir['*.*bx'] + Dir['*.bib'] + glys + ['annotationes.tex']
+file 'calendarium.tex' => ['scripts/calendarium.rb', 'calendarium.txt'] do |t|
+  sh 'ruby', *t.prerequisites
+end
+
+deps = Dir['*.tex'] + Dir['*.*bx'] + Dir['*.bib'] + glys + ['annotationes.tex', 'calendarium.tex']
 
 main = 'officia_propria_pragensia_1912.tex'
 main_noext = main.sub '.tex', ''

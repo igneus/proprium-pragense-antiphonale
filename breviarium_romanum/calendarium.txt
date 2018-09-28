@@ -1,0 +1,68 @@
+# from a 1912 pars autumnalis:
+
+= 8
+
+29 dmaj : Decollatio S. Joannis Baptistae ; com: S. Sabinae Martyris
+30 d : S Rosae Limanae Virginis ; com: Ss. Felicis et Audacii Martyrum
+31 d : S. Raymundi Nonnati Confessoris
+
+= 9
+
+1 : S. Aegidii Abbatis ; com: Ss. Duodecim Fratrum Martyrum
+2 sd: S. Stephani Regis, Confessoris
+5 sd : S. Laurentii Justiniani Episcopi et Confessoris
+5<ltm> d : S. Victorini Episcopi et Martyris ; com: S. Laurentii Justiniani Episcopi et Confessoris
+8 d2+oct : Nativitas B. Mariae Virginis ; com: S. Hadriani Martyris
+9 : S. Gorgonii Martyris
+10 d : S. Nicolai a Tolentino Conf
+11 : Ss. Proti et Hyacinthi Martyrum
+12 dmaj : Ssmi Nominis Mariae
+14 dmaj : Exaltatio S. Crucis
+15 d2 : Septem Dolorum B. Mariae Virginis ; com: S. Nicomedis Martyris
+16 d2 : S. Ludmilae Viduae et Martyris, Patronae minus principalis Regni ; com: Ss. Cornelii Papae et Cypriani Episcopi, Martyrum ; com: Ss. Euphemiae et Sociorum Martyrum
+17 d : Impressio sacrorum Stigmatum S. Francisci Confessoris
+18 d : S. Josephi a Cupertino Confessoris
+19 d : Ss. Januarii Episcopi et Sociorum Martyrum
+20 d : Ss. Eustachii et Sociorum Martyrum ; com: Vigiliae
+21 d2 : S. Matthaei Apostoli et Evangelistae
+21<ltm> d1+oct : Dedicatio Ecclesiae Cathedralis
+22 d : S. Thomae de Villanova Episcopi et Confessoris ; com: Ss. Mauritii et Sociorum Martyrum
+23 sd : S. Lini Papae et Martyris ; com: S. Theclae Virginis et Martyris ; <ltm>com: Octavae Dedicationis et S. Theclae
+24 dmaj : B. Mariae de Mercede ; <ltm>com: Octavae
+25<ltm> sd : De Octava
+26 : Ss. Cypriani et Justinae Virginis, Martyrum
+26<ltm> sd : De Octava ; com: Ss. Cypriani et Justinae Virginis, Martyrum
+27 dmaj : Ss. Cosmae et Damiani Martyrum, Patronorum minus principalium Regni ; <ltm>com: Octavae
+28 d1+oct : S. Venceslai Ducis Martyris et Patroni principalis Regni ; <ltm>com: diei Octavae Dedicationis
+29 d2 : Dedicatio S. Michaelis Archangeli
+30 d : S. Hieronymi Presbyteri, Confessoris et Ecclesiae Doctoris ; com: Octavae S. Venceslai
+
+= 10
+
+1 sd : De IV die infra Octavam S. Venceslai ; com: S. Remigii Episcopi et Confessoris
+1<prg> d1+oct : Dedicatio Ecclesiae Metropolitanae
+2 dmaj : Ss. Angelorum Custodum ; com: Octavae S. Venceslai ; com<prg>: etiam Dedicationis
+3 sd : De VI die infra Octavam S. Venceslai
+3<prg> sd : De Octava S. Venceslai ; com: Octavae Dedicationis
+4 dmaj : S. Francisci Confessoris ; com: Octavae ; com<prg>: et Dedicationis
+5 dmaj : Octava S. Venceslai ; com: Ss. Placidi et Sociorum Martyrum ; com<prg>: et Octavae Dedicationis
+6 d : S. Brunonis Confessoris ; com<prg>: Octavae Dedicationis
+7 d2 : Sacratissimi Rosarii B. Mariae Virginis ; com: Ss. Marci I Papae et Confessoris; com: Ss. Sergii et Sociorum Martyrum
+8 d : S. Birgittae Viduae
+8<prg> dmaj : Octava Dedicationis Ecclesiae Metropolitanae ; com: S. Birgittae Viduae
+9 sd : Ss. Dionysii Episcopi, Rustici et Eleutherii Martyrum
+10 sd : S. Francisci Borgiae Confessoris
+13 sd : S. Eduardi Regis et Confessoris
+14 d : S. Callisti I Papae et Martyris
+15 d : S. Teresiae Virginis
+17 sd : S. Hedwigis Viduae
+18 d2 : S. Lucae Evangelistae
+19 d : S. Petri de Alcantara Confessoris
+20 d : S. Joannis Cantii Confessoris
+21 sd : S. Hilarionis Abbatis ; com: Ss. Ursulae ac Sociarum Virginum et Martyrum
+25 : Ss. Chrysanthi et Dariae Martyrum
+26 : S. Evaristi Papae et Martyris
+27 : Vigilia
+28 d2 : Ss. Simonis et Judae Apostolorum
+30<rgr> d1+oct : Dedicatio Ecclesiae Cathedralis
+31 d : S. Wolfgangi Episcopi et Confessoris ; com: Vigiliae ; com<rgr>: et Octavae
