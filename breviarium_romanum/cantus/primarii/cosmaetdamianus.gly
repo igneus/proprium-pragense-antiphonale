@@ -18,6 +18,8 @@ festum: Ss. Cosmae et Damiani
 {Et gloriámini omnes recti corde.}
 
 \score
+office-part: antiphona
+name: Beati Martyres Christi
 mode: 8
 annotation: ad Magn.
 annotation: VIII. g
@@ -53,6 +55,8 @@ Octavae Dedicationis Ecclesiae.}
 {Laetabúntur in cubílibus suis.}
 
 \score
+office-part: antiphona
+name: Beati Martyres cum
 mode: 1
 annotation: ad Ben.
 annotation: I. g

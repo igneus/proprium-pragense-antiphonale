@@ -19,12 +19,20 @@ File.open('annotationes.tex', 'w') do |fw|
     fw.puts
 
     with_annotations.each do |score|
-      lyrics = score
-               .lyrics
-               .readable
-               .gsub(/\s+\*\s+/, ' ')
-               .gsub(/e u o u a e\.?/i, '')
-               .gsub(/\.\s*$/, '')
+      if score.headers['office-part']
+        fw.puts score.headers['office-part']
+      end
+      lyrics =
+        if score.headers['name']
+          score.headers['name']
+        else
+          score
+            .lyrics
+            .readable
+            .split(/\s*\*\s*/)[0]
+            .gsub(/e u o u a e\.?/i, '')
+            .gsub(/[\.,;:]\s*$/, '')
+        end
       fw.puts "\\emph{#{lyrics}}:"
       fw.puts score.headers['ratio']
       fw.puts '\vspace{1mm}'

@@ -13,6 +13,7 @@ festum: S. Venceslai
 \horaVesperaeI
 
 \score
+office-part: antiphona
 mode: 8
 annotation: 1. Ant.
 annotation: VIII. G
@@ -30,6 +31,7 @@ ut es -- set dux su -- per pó -- pu -- lum su -- um.
 E u o u a e.
 
 \score
+office-part: antiphona
 mode: 1
 annotation: 2. Ant.
 annotation: I. a2
@@ -47,6 +49,7 @@ in sem -- pi -- tér -- num.
 E u o u a e.
 
 \score
+office-part: antiphona
 mode: 8
 annotation: 3. Ant.
 annotation: VIII. G
@@ -64,6 +67,7 @@ qui pro af -- féc -- tu pa -- ter ap -- pel -- la -- bá -- tur.
 E u o u a e.
 
 \score
+office-part: antiphona
 mode: 5
 annotation: 4. Ant.
 annotation: V. a
@@ -82,6 +86,7 @@ e -- rit vi -- vens in ae -- tér -- num.
 E u o u a e.
 
 \score
+office-part: antiphona
 mode: 2
 annotation: 5. Ant.
 annotation: II. D
@@ -105,6 +110,8 @@ Fácile vidétur ab his, qui díligunt eam,~*
 et invenítur ab his, qui quaerunt illam.
 
 \score
+office-part: hymnus
+name: Salve, decus Bohemiae
 mode: 5
 annotation: Hymnus
 annotation: V.
@@ -147,6 +154,7 @@ In sempitérna sáecula. Amen.
 {Et constituísti eum super ópera mánuum tuárum.}
 
 \score
+office-part: antiphona
 mode: 3
 annotation: Ad Magn.
 annotation: III. a
@@ -180,6 +188,7 @@ et ejúsdem tríbue gaudére consórtio.
 \horaLaudesEtHorae
 
 \score
+office-part: antiphona
 mode: 3
 annotation: 1. Ant.
 annotation: III. a
@@ -194,6 +203,7 @@ ve -- nit a -- do -- rá -- re ad tem -- plum sanc -- tum
 in ti -- mó -- re De -- i.
 
 \score
+office-part: antiphona
 mode: 8
 annotation: 2. Ant.
 annotation: VIII. G
@@ -208,6 +218,7 @@ et in ma -- nus Dó -- mi -- ni
 com -- mén -- dat spí -- ri -- tum su -- um.
 
 \score
+office-part: antiphona
 mode: 1
 annotation: 3. Ant.
 annotation: I. f
@@ -221,6 +232,7 @@ si -- cut mú -- ne -- ra pú -- e -- ri su -- i jus -- ti A -- bel.
 E u o u a e.
 
 \score
+office-part: antiphona
 mode: 7
 annotation: 4. Ant.
 annotation: VII. a
@@ -233,6 +245,7 @@ sus -- ci -- pi -- én -- tes á -- ni -- mam e -- jus.
 E u o u a e.
 
 \score
+office-part: antiphona
 mode: 7
 annotation: 5. Ant.
 annotation: VII. d
@@ -251,6 +264,8 @@ E u o u a e.
 \rubrica{Capitulum ut in I Vesperis.}
 
 \score
+office-part: hymnus
+name: Ades bonus Dux inclyte
 mode: 5
 annotation: Hymnus
 annotation: V.
@@ -298,6 +313,7 @@ Regnans per omne sáeculum. Amen.
 {Excélsum prae régibus terrae.}
 
 \score
+office-part: antiphona
 mode: 7
 annotation: Ad Ben.
 annotation: VII. a
@@ -331,6 +347,7 @@ sed loco ultimi Psalmi dicitur 115} Credidi.
 {Benedíctio ejus quasi flúvius inúndans.}
 
 \score
+office-part: antiphona
 mode: 1
 annotation: Ad Magn.
 annotation: I. D
