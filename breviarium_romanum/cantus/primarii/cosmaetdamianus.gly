@@ -13,6 +13,7 @@ festum: Ss. Cosmae et Damiani
 \utInBreviarioPraeter
 
 \horaVesperaeI
+\label{cosma:vesperae1}
 
 \versiculus{Laetámini in Dómino, et exsultáte justi.}%
 {Et gloriámini omnes recti corde.}
@@ -50,6 +51,7 @@ et opem nobis ineffábili providéntia contulísti.
 Octavae Dedicationis Ecclesiae.}
 
 \horaLaudes
+\label{cosma:laudes}
 
 \versiculus{Exsultábunt sancti in glória.}%
 {Laetabúntur in cubílibus suis.}

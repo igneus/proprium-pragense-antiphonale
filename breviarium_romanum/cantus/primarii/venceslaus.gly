@@ -11,6 +11,7 @@ festum: S. Venceslai
 \end{caputFesti}
 
 \horaVesperaeI
+\label{venceslaus:vesperae1}
 
 \score
 office-part: antiphona
