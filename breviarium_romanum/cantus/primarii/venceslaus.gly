@@ -51,9 +51,9 @@ E u o u a e.
 
 \score
 office-part: antiphona
-mode: 8
+mode: 4
 annotation: 3. Ant.
-annotation: VIII. G
+annotation: IV. A
 author: osbpav 4; IC
 ratio: Melodia \emph{et bene} meliorata est.
 c3
