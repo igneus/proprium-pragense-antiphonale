@@ -27,9 +27,10 @@ main_noext = main.sub '.tex', ''
 main_pdf = main.sub '.tex', '.pdf'
 
 file main_pdf => deps do |t|
-  sh 'lualatex', '--interaction=nonstopmode', main_noext
-  #sh 'biber', main_noext
-  #sh 'xelatex', main_noext
+  texargs = ['lualatex', '--interaction=nonstopmode', main_noext]
+  sh *texargs
+  sh 'biber', main_noext
+  sh *texargs
 end
 
 task :default => [main_pdf]

@@ -13,13 +13,13 @@
 %\usepackage{csquotes}
 \usepackage[left=2cm, right=1.5cm, top=1.5cm, bottom=1.5cm, marginparsep=3mm]{geometry}
 
-%% \usepackage[
-%%   backend=biber,
-%%   style=iso-authoryear,
-%%   sortlocale=cs_CZ,
-%%   maxnames=3,
-%%   firstinits=true,
-%% ]{biblatex}
+\usepackage[
+  backend=biber,
+  style=authortitle,
+  sortlocale=la_LA,
+  maxnames=3,
+  firstinits=true,
+]{biblatex}
 
 \usepackage[show]{ed} % editorial annotations
 \usepackage[hidelinks]{hyperref}
@@ -33,6 +33,8 @@
 \usepackage{gregoriotex} % for gregorio score inclusion
 
 \input{defs}
+
+\bibliography{bibliography}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -53,7 +55,8 @@
 
 \chapter*{Ratio huius editionis}
 
-Breviarium proprium ecclesiae Pragensis bis\edissue{annos supplere}
+Breviarium proprium ecclesiae Pragensis ter
+(1502, 1509, 1517)\footcite[242]{bohatta}
 typis impressum est; post Breviarii Romani receptionem
 saeculo XVII unumquidque saeculum plurimis editionibus
 libelli \emph{Officia propria ecclesiasticae provinciae Pragensis} gaudebat.
@@ -63,26 +66,26 @@ inveniri possunt. Ideo nos antiphonalia vetustissima recentioresque
 invenimus et comparavimus, et quos in illis invenimus,
 cantus hic offere audemus.
 
-Quia antiphonae nonnullae diebus recentioribus mutatae aut de novo
-introductae, immo officia nova nonnulla composita sunt,
-sed pro officii divini in choro cum cantu persoluti desuetudinem
-cantus saepe accommodati aut compositi non sunt,
-aliquos cantus ipsi composuimus aut accommodavimus, pro alios
-textus tantum ponimus.
-
 \section*{De textibus et calendario}
 Calendarium atque textus officiorum sumuntur de editionibus
 \emph{Officiorum propriorum ecclesiasticae provinciae Pragensis}
 anno 1912 et ultra editis.
 Ubi post annum 1912 festum novum indultum, promotum, demotum
-aut officium vetus mutatum est, hoc semper annotatum,
+aut officium vetus mutatum est, hoc semper annotatum est,
 cum anno quo mutatio haec occurrit.
 
+Quia post annum 1960, quo Calendarium Breviariumque Romanum
+graviter reformata sunt, nova \emph{Officia propria Pragensia}
+pro adversitate temporis non sunt edita,
+in secunda parte libri officia propria huic novo ordine Breviarii
+accommodata proponimus. Sed nota quod propositio haec nullam habet
+ecclesiasticam approbationem.
+
 \section*{De fontibus musicis adhibitis}
-Officia nonnulla, e. g. S. Viti, S. Adalberti, Ss. Cosmae et Damiani,
+Officia nonnulla, ex. g. S. Viti, S. Adalberti, Ss. Cosmae et Damiani,
 etiam post omnes instaurationes mutationesque, quibus
 Breviarii proprium Pragense a saeculo XVII usque ad dies nostros
-subiectum est, ex toto aut ex parte cantus vetustissimos
+subiectum est, ex toto aut ex parte textus vetustissimos
 continent.
 Eorum melodiae de antiphonariis antiquis sumpsimus,
 ut pro unaquaque antiphona et hymno proprio loco annotatur.
@@ -105,18 +108,18 @@ A saeculo XVII unaquaeque fere editio \emph{Officiorum propriorum}
 mutationes aliquas in officia vetera introduxit.
 Permultae antiphonae vetustissimae abbreviatae sunt aut
 alio modo immutatae.
-In melodiis pro textibus immutatis accommodandis semper studuimus
+In melodiis ad textus immutatos accommodandis semper studuimus
 maximam partem melodiae veteris praeservare.
 De omnibus immutationibus proprio loco rationem reddimus.
 
 \section*{De cantibus componendis}
 Officia nonnulla, praesertim saeculo XIX composita et indulta,
 notis musicis numquam instructa sunt.
-Pro his modulationes proprias partim composuimus,
-partim componere volumus, in stylo cantus gregoriani
+Pro his modulationes proprias composuimus, in stylo cantus gregoriani
 et/aut cantuum veterorum Ecclesiae Pragensis.
+Ubi melodia propria nondum composita est, textum saltem reddimus.
 
-\section*{Libri huius partes}
+\section*{De libri huius partibus}
 Liber hic quatuor habet partes.
 Pars prima continet omnia officia hoc numero et ordine disposita
 ut anno 1912, cum Antiphonale novum restitutum
@@ -156,6 +159,6 @@ quos ipsi notis musicis adornavimus, rationem reddimus.
 
 %\part{Indices}
 
-%\printbibliography
+\printbibliography
 
 \end{document}
