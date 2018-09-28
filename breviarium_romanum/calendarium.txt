@@ -65,4 +65,43 @@
 27 : Vigilia
 28 d2 : Ss. Simonis et Judae Apostolorum
 30<rgr> d1+oct : Dedicatio Ecclesiae Cathedralis
-31 d : S. Wolfgangi Episcopi et Confessoris ; com: Vigiliae ; com<rgr>: et Octavae
+31 d : S. Wolfgangi Episcopi et Confessoris ; com: Vigiliae ; <rgr>com: et Octavae
+
+= 11
+
+1 d1+oct : Omnium Sanctorum
+2 d : Commemoratio Omnium Fidelium Defunctorum
+3 sd : De Octava Omnium Sanctorum ; <rgr>com: Dedicationis
+4 d : S. Caroli Episcopi et Confessoris ; com: Octavae Omnium Sanctorum ; com: Ss. Vitalis et Agricolae Martyrum ; <rgr>com: Dedicationis
+5 dmaj : Sacrarum Reliquiarum, quae in Ecclesiis Dioeceseos asservantur ; com: Octavae Omnium Sanctorum ; <rgr>com: Dedicationis
+6 sd : De Octava Omnium Sanctorum
+6<rgr> dmaj : Octava Dedicationis Ecclesiae Cathedralis ; com: Octavae Omnium Sanctorum
+7 sd : De Octava Omnium Sanctorum
+8 dmaj : Octava Omnium Sanctorum ; com: Ss. Quatuor Coronatorum Martyrum
+9 d2 : Dedicatio Archibasilicae Ssmi Salvatoris ; com: S. Theodori Martyris
+10 d : S. Andreae Avellini Confessoris ; com: Ss. Tryphonis et Sociorum Martyrum
+11 d : S. Martini Episcopi et Confessoris ; com: S. Mennae Martyris
+12 dmaj : Ss. Benedicti et fratrum Martyrum ; com: S. Martini I Papae et Martyris
+13 sd : S. Didaci Confessoris
+14 d : S. Josaphat Episcopi et Martyris
+15 d : S. Gertrudis Virginis
+16 d : Translatio S. Ludmilae Viduae et Martyris (dies ass. ex 10 hujus)
+17 sd : S. Gregorii Thaumaturgi Episcopi et Confessoris
+18 dmaj : Dedicatio Basilicarum Ss. Petri et Pauli Apostolorum
+19 d : S. Elisabeth Viduae ; com: S. Pontiani Papae et Martyris
+20 d : S. Felicis de Valois Confessoris
+21 dmaj : Praesentatio B. Mariae Virginis
+22 d : S. Caeciliae Virginis et Martyris
+23 d : S. Clementis I Papae et Martyris ; com: S. Felicitatis Martyris
+23<rgr> dmaj : S. Clementis I Papae et Martyris, Patroni minus principalis Dioeceseos ; com: S. Felicitatis Martyris
+24 d : S. Joannis a Cruce Confessoris ; com: S. Chrysogoni Martyris
+25 d : S. Catharinae Virginis et Martyris
+26 d : S. Silvestri Abbatis ; com: S. Petri Alexandrini Episcopi et Martyris
+29 : Vigilia ; com: S. Saturnini Martyris
+30 d2 : S. Andreae Apostoli
+
+= 12
+
+1<prg> sd : B. Edmundi Campion Martyris
+2 sd : S. Bibianae Virginis et Martyris
+3 dmaj : S. Francisci Xaverii Confessoris

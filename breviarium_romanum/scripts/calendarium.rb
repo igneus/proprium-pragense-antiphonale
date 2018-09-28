@@ -134,7 +134,7 @@ class OldSanctoraleLoader
     day = m[:day].to_i
     rank_code = m[:rank_code] && m[:rank_code].to_sym
     local = m[:local] && m[:local].to_sym
-    title, commemorations = m[:title].split(/\s*;\s*/)
+    (title, *commemorations) = m[:title].split(/\s*;\s*/)
 
     commemorations = [] if commemorations.nil?
     commemorations = [commemorations] if commemorations.is_a? String
@@ -196,7 +196,10 @@ File.open('calendarium.tex', 'w') do |fw|
         fw.print "\\uppercase{" if celebration.rank_code == :d1
         fw.print "#{celebration.title}."
         fw.print "}" if [:d1, :d2].include? celebration.rank_code
-        fw.print " \\emph{#{RANK_NAMES[celebration.rank_code]}.}"
+
+        unless celebration.rank_code.nil? && celebration.title =~ /vigilia/i
+          fw.print " \\emph{#{RANK_NAMES[celebration.rank_code]}.}"
+        end
 
         celebration.commemorations.each do |com|
           fw.puts " \\emph{#{LOCAL_NAMES[com.local]}}" if com.local
