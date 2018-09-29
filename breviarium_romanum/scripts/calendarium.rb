@@ -31,6 +31,13 @@ LOCAL_NAMES = {
   :prg => 'In archidioecesi Pragensi',
   :rgr => 'In dioecesi Reginae Gradecensi',
   :bud => 'In dioecesi Budvicensi',
+  :gla => 'In Comitatu Glacensi Regni Prussiae',
+}
+
+OCTAVE_NAMES = {
+  :oct => 'cum Octava',
+  :oct_com => 'cum Octava communi',
+  :oct_priv1 => 'cum Octava privilegiata I ordinis',
 }
 
 Entry = Struct.new(:date, :title, :rank_code, :commemorations, :local)
@@ -116,7 +123,7 @@ class OldSanctoraleLoader
 
         Regexp.new(
           '^(?<day>\d+)(<(?<local>\w+)>)?' + # date
-          '(\s+(?<rank_code>' + rank_options + ')(?<octave>\+oct)?)?' + # rank (optional)
+          '(\s+(?<rank_code>' + rank_options + ')(?<octave>\+oct(_(com|priv1))?)?)?' + # rank (optional)
           '\s*:\s*(?<title>.*)$', # title
           Regexp::IGNORECASE
         )

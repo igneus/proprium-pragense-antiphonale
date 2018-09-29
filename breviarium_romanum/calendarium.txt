@@ -3,6 +3,10 @@
 # books used:
 # 1915 Officia propria, pars hiemalis (Kotrba)
 # 1915 Officia propria, pars autumnalis (Kotrba)
+# 1928 Officia propria, pars verna (Pustet)
+#
+# It would be most desirable to have the calendar based on the same
+# (1915) edition, but for now this is the best I have.
 
 # from a 1915 pars hiemalis (Kotrba-printed appendix to a Pustet breviary)
 
@@ -53,7 +57,7 @@
 8 d : S. Joannis de Matha Confessoris
 9 d : S. Cyrilli Episcopi Alexandrini, Confessoris et Ecclesiae Doctoris ; com: S. Apolloniae Virginis et Martyris
 10 d : S. Scholasticae Virginis
-11 dmaj : Appariti B. Mariae Virginis Immaculatae
+11 dmaj : Apparitio B. Mariae Virginis Immaculatae
 12 d : Ss. Septem Fundatorum Ordinis Servorum B. M. V., Confessorum
 14 : S. Valentini Presbyteri et Martyris
 15 : Ss. Faustini et Jovitae Martyrum
@@ -61,6 +65,8 @@
 22 dmaj : Cathedra S. Petri Antiochiae ; com: S. Pauli Apostoli
 23 d : S. Petri Damiani Episcopi, Confessoris et Ecclesiae Doctoris ; com: Vigiliae
 24 d2 : S. Matthiae Apostoli
+
+# from a 1928 pars verna (Pustet-printed breviary appendix)
 
 = 3
 
@@ -73,6 +79,89 @@
 9 d : S. Franciscae Romanae Viduae
 10 sd : Ss. Quadraginta Martyrum
 12 d : S. Gregorii I Papae, Confessoris et Ecclesiae Doctoris
+17 d : B. Joannis Sarcander Martyris ; com: S. Patricii Episcopi et Confessoris
+18 d : S. Cyrilli Episcopi Hierosolymitani, Confessoris et Ecclesiae Doctoris
+19 d1 : S. Joseph, Sponsi B. M. V., Confessoris
+21 dmaj : S. Benedicti Abbatis
+24 dmaj : S. Gabrielis Archangeli
+25 d1 : Annuntiatio B. Mariae Virginis
+27 d : S. Joannis Damasceni Confessoris et Ecclesiae Doctoris
+28 d1 : S. Joannis a Capistrano Confessoris
+# TODO [Feria VI post Dominicam Passionis] dmaj : Septem Dolorum B. Mariae Virginis ; com: Feriae
+
+= 4
+
+2 d : S. Francisci de Paula Confessoris
+4 d : S. Isidori Episcopi, Confessoris et Ecclesiae Doctoris
+5 d : S. Vincentii Ferrerii Confessoris
+11 d : S. Leonis I Papae, Confessoris et Ecclesiae Doctoris
+13 sd : S. Hermenegildi Martyris
+14 d : S. Justini Martyris ; com: Ss. Tiburtii, Valeriani et Maximi Martyrum
+17 : S. Aniceti Papae et Martyris
+21 d : S. Anselmi Episcopi, Confessoris et Ecclesiae Doctoris
+22 sd : Ss. Soteris et Caji Paparum et Martyrum
+23 d2 : S. Adalberti Episcopi et Martyris, Patroni minus principalis Regni ; com: S. Georgii Martyris
+24 d : S. Fidelis a Sigmaringa Martyris
+25 d2 : S. Marci Evangelistae
+26 sd : Ss. Cleti et Marcellini Paparum et Martyrum
+27 d : S. Petri Canisii Confessoris et Ecclesiae Doctoris
+28 d : S. Pauli a Cruce Confessoris
+29 d : S. Petri Martyris
+30 d : S. Catharinae Senensis Martyris
+# TODO [Feria IV infra hebdomadam II post Octavam Paschae] d1+oct_com : Sollemnitas S. Joseph, Sponsi B. Mariae Virginis, Confessoris et Ecclesiae universalis Patroni
+# TODO [Feria IV infra hebdomadam III post Octavam Paschae] dmaj : Octava S. Joseph
+
+= 5
+
+1 d2 : Ss. Philippi et Jacobi Apostolorum
+2 dmaj : S. Sigismundi Regis Martyris, Patroni minus principalis Regni ; com: S. Athanasii Episcopi, Confessoris et Ecclesiae Doctoris
+3 d2 : Inventio S. Crucis ; com: Ss. Alexandri I Papae et Sociorum Martyrum ; com: Juvenalis Episcopi et Confessoris
+4 d : S. Monicae Viduae
+5 d : S. Pii V. Papae et Confessoris
+6 dmaj : S. Joannis Apostoli et Evangelistae ante Portam Latinam
+7 d : S. Stanislai Episcopi et Martyris
+8 dmaj : Apparitio S. Michaelis Archangeli
+9 d : S. Gregorii Nazianzeni Episcopi, Confessoris et Ecclesiae Doctoris
+10 d : S. Antonini Episcopi et Confessoris ; com: Ss. Gordiani et Epimachi Martyrum
+12 sd : Ss. Nerei, Achillei et Domitillae Virginis ac Pancratii Martyrum
+14 : S. Bonifatii Martyris
+15 d : S. Joannis Baptistae de la Salle Confessoris
+16 d1+oct_com : S. Joannis Nepomuceni Martyris, Patroni principalis Regni ; com: S. Ubaldi Episcopi et Confessoris
+17 d : S. Paschalis Baylon Confessoris ; com: Octavae
+18 d : S. Venantii Martyris ; com: Octavae
+19 d : S. Petri Caelestini Papae et Confessoris ; com: Octavae ; com: S. Pudentianae Virginis
+20 sd : S. Bernardini Senensis Confessoris ; com: Octavae
+21 sd : De VI die infra Octavam S. Joannis Nepomuceni
+22 sd : De VII die infra Octavam S. Joannis Nepomuceni
+23 dmaj : Octava S. Joannis Nepomuceni
+25 d : S. Gregorii VII Papae et Confessoris ; com: S. Urbani I Papae et Martyris
+26 d : S. Philippi Nerii Confessoris ; com: S. Eleutherii Papae et Martyris
+27 d : S. Bedae Venerabilis Confessoris et Ecclesiae Doctoris ; com: S. Joannis I Papae et Martyris
+28 d : S. Augustini Episcopi et Confessoris
+29 sd : S. Mariae Magdalenae de Pazzis Virginis
+30 d : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
+31 d : S. Angelae Mericiae Virginis ; com: S. Petronillae Virginis
+# TODO [Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
+
+= 6
+
+2 : Ss. Marcellini, Petri atque Erasmi Episcopi, Martyrum
+4 d : S. Francisci Caracciolo Confessoris
+5 d : S. Bonifatii Episcopi et Martyris
+5<gla> d2 : S. Bonifatii Episcopi et Martyris
+6 dmaj : S. Norberti Episcopi et Confessoris, Patroni minus principalis Regni
+9 : Ss. Primi et Feliciani Martyrum
+10 sd : S. Margaritae Reginae, Viduae
+11 dmaj : S. Barnabae Apostoli
+12 d : S. Joannis a S. Facundo Confessoris ; com: Ss. Basilidis, Cyrini, Naboris et Nazarii Martyrum
+13 d : S. Antonii de Padua Confessoris
+14 d : S. Basilii Magni Episcopi, Confessoris et Ecclesiae Doctoris
+15 d2 : S. Viti Martyris, Patroni minus principalis Regni ; com: Ss. Modesti et Crescentiae Martyrum
+15<prg> d1+oct_com : S. Viti Martyris, Titularis S. Metropolitanae Ecclesiae ac Patroni minus principalis Regni
+16<prg> sd : De II diei infra Octavam S. Viti
+17<prg> sd : De III diei infra Octavam S. Viti
+18 d : S. Ephraem Syri Diaconi, Confessoris et Ecclesiae Doctoris ; com: Ss. Marci et Marcelliani Martyrum ; <prg>com: S. Viti
+19 d : S. Julianae de Falconeriis Virginis ; com: Ss. Gervasii et Protasii Martyrum ; <prg>com: S. Viti
 
 # from a 1915 pars autumnalis (Kotrba-printed appendix to a Pustet breviary)
 
