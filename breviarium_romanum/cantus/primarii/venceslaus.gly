@@ -117,7 +117,7 @@ mode: 5
 annotation: Hymnus
 annotation: V.
 book: choral.sdh.cz TODO
-ratio: Melodia veteris hymni \emph{Dies venit victoriae}, quem editio proprii Pragensis anno 1677 edita pro hoc hymno novo commutavit.
+ratio: Melodia veteris hymni \emph{Dies venit victoriae}, quem editio proprii Pragensis anno 1677 edita pro hoc textu novo commutavit.
 c4
 c e g g ghg e f g ,
 e g f ed e c d c :
@@ -160,7 +160,7 @@ mode: 3
 annotation: Ad Magn.
 annotation: III. a
 book: osbpav 4
-ratio: In fonte, qui usu monastico accommodatus est, tres prima verba huius antiphonae sunt \emph{Gaude et laetare.}
+ratio: In fonte, qui usu monastico accommodatus est, tres prima verba huius antiphonae leguntur \emph{Gaude et laetare.}
 c4
 gj hg h g hj j ,
 j i hi hg g ;

@@ -281,7 +281,7 @@
 9 sd : De Octava Conceptionis Immaculatae ; <bud>com: Octavae S. Nicolai
 10 sd : De Octava Conceptionis Immaculatae ; com: S. Melchiadis Papae et Martyris ; <bud>com: Octavae S. Nicolai
 11 sd : S. Damasi I Papae et Confessoris ; com: Octavae Conceptionis Immaculatae ; <bud>com: et S. Nicolai
-12 sd : sd : De Octava Conceptionis Immaculatae ; <bud>com: S. Nicolai
+12 sd : De Octava Conceptionis Immaculatae ; <bud>com: S. Nicolai
 13 d : S. Luciae Virginis et Martyris ; com: Octavae
 13<bud> dmaj : Octava S. Nicolai ; com: S. Luciae Virginis et Martyris ; com: Octavae Conceptionis Immaculatae
 14 sd : De Octava
