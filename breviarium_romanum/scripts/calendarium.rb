@@ -30,6 +30,7 @@ LOCAL_NAMES = {
   :ltm => 'In dioecesi Litomericensi',
   :prg => 'In archidioecesi Pragensi',
   :rgr => 'In dioecesi Reginae Gradecensi',
+  :bud => 'In dioecesi Budvicensi',
 }
 
 Entry = Struct.new(:date, :title, :rank_code, :commemorations, :local)
