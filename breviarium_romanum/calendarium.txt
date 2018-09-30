@@ -4,6 +4,7 @@
 # 1915 Officia propria, pars hiemalis (Kotrba)
 # 1915 Officia propria, pars autumnalis (Kotrba)
 # 1928 Officia propria, pars verna (Pustet)
+# 1928 Officia propria, pars aestiva (Pustet)
 #
 # It would be most desirable to have the calendar based on the same
 # (1915) edition, but for now this is the best I have.
@@ -143,6 +144,10 @@
 31 d : S. Angelae Mericiae Virginis ; com: S. Petronillae Virginis
 # TODO [Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
 
+# from a 1928 pars aestiva
+
+# TODO [Feria VI post Octavam Ssmi Corporis Christi] d1+oct_com : Sacratissimi Cordis Jesu
+
 = 6
 
 2 : Ss. Marcellini, Petri atque Erasmi Episcopi, Martyrum
@@ -162,14 +167,89 @@
 17<prg> sd : De III diei infra Octavam S. Viti
 18 d : S. Ephraem Syri Diaconi, Confessoris et Ecclesiae Doctoris ; com: Ss. Marci et Marcelliani Martyrum ; <prg>com: S. Viti
 19 d : S. Julianae de Falconeriis Virginis ; com: Ss. Gervasii et Protasii Martyrum ; <prg>com: S. Viti
+20 : S. Silverii Papae et Martyris
+20<prg> sd : De VI die infra Octavam S. Viti ; com: S. Silverii Papae et Martyris
+21 d : S. Aloisii Gonzagae Confessoris ; <prg>com: Octavae
+22 d : S. Paulini Episcopi et Confessoris
+22<prg> dmaj : Octava S. Viti Martyris ; com: S. Paulini Episcopi et Confessoris
+23 : Vigilia
+23<ltm> dmaj : Translatio S. Felicis Martyris ; com: Vigiliae
+24 d1+oct_com : Nativitas S. Joannis Baptistae
+25 d : S. Gulielmi Abbatis ; com: Octavae
+26 d : Ss. Joannis et Pauli Martyrum ; com: Octavae
+27 sd : De IV die infra Octavam S. Joannis Baptistae
+28 d : S. Irenaei Episcopi et Martyris ; com: Octavae ; com: Vigiliae
+29 d1+oct_com : Ss. Petri et Pauli Apostolorum
+30 dmaj : Commemoratio S. Pauli Apostoli ; com: S. Petri Apostoli ; com: Octavae S. Joannis Baptistae
 
-# from a 1915 pars autumnalis (Kotrba-printed appendix to a Pustet breviary)
+= 7
+
+1 d2 : Pretiosissimi Sanguinis D. N. J. C. ; com: diei Octavae S. Joannis Baptistae
+2 d2 : Visitatio B. Mariae Virginis ; com: Ss. Processi et Martiniani Martyrum
+3 sd : S. Leonis II Papae et Confessoris ; com: Octavae Ss. Apostolorum
+4 dmaj : S. Procopii Abbatis, Patroni minus principalis Regni ; com: Octavae
+5 d2 : Ss. Cyrilli et Methodii Episcoporum et Confessorum, Patronorum minus principalium Regni ; com: S. Antonii Mariae Zaccaria Confessoris
+6 dmaj : Octava Ss. Petri et Pauli Apostolorum
+8 sd : S. Elisabeth Reginae, Viduae
+10 sd : Ss. septem Fratrum Martyrum et Ss. Rufinae ac Secundae Virginum et Martyrum
+11 : S. Pii I Papae et Martyris
+12 d : S. Joannis Gualberti Abbatis ; com: Ss. Naboris et Felicis Martyrum
+13 sd : S. Anacleti Papae et Martyris
+14 d : B. Hroznatae Martyris ; com: S. Bonaventurae Episcopi, Confessoris et Ecclesiae Doctoris
+15 sd : S. Henrici Imperatoris, Confessoris
+16 dmaj : Commemoratio B. Mariae Virginis de Monte Carmelo
+17 sd : S. Alexii Confessoris
+18 d : S. Camilli de Lellis Confessoris ; com: Ss. Symphorosae et septem Filiorum ejus Martyrum
+19 d : S. Vincentii a Paulo Confessoris
+20 d : S. Hieronymi AEmiliani Confessoris ; com: S. Margaritae Virginis et Martyris
+21 : S. Praxedis Virginis
+22 d : S. Laurentii a Brundisio Confessoris ; com: S. Mariae Magdalenae Paenitentis
+23 d : S. Apollinaris Episcopi et Martyris ; com: S. Liborii Episcopi et Confessoris
+24 : Vigilia ; com: S. Christinae Virginis et Martyris
+25 d2 : S. Jacobi Apostoli ; com: S. Christophori Martyris
+26 d2 : S. Annae Matris B. M. V.
+27 : S. Pantaleonis Martyris
+28 sd : Ss. Nazarii et Celsi Martyrum, Victoris I Papae et Martyris ac Innocentii I Papae et Confessoris
+29 sd : S. Marthae Virginis ; com: Ss. Felicis II Papae, Simplicii, Faustini et Beatricis Martyrum
+30 : Ss. Abdon et Sennen Martyrum
+31 dmaj : S. Ignatii Confessoris
 
 = 8
 
+1 dmaj : S. Petri Apostoli ad Vincula ; com: S. Pauli Apostoli ac Ss. Machabaeorum Martyrum
+2 d : S. Alphonsi Mariae de Ligorio Episcopi, Confessoris et Ecclesiae Doctoris ; com: S. Stephani I Papae et Martyris
+3 sd : Inventio S. Stephani Protomartyris
+3<ltm> d1+oct_com : Inventio S. Stephani Protomartyris, Titularis Ecclesiae Cathedralis
+4 dmaj : S. Dominici Confessoris ; <ltm>com: Octavae
+5 dmaj : Dedicatio S. Mariae ad Nives ; <ltm>com: Octavae
+6 d2 : Transfiguratio D. N. J. C. ; com: Ss. Xysti II Papae, Felicissimi et Agapiti Martyrum
+7 d : S. Cajetani Confessoris ; com: S. Donati Episcopi et Martyris ; <ltm>com: Octavae
+8 sd : Ss. Cyriaci, Largi et Smaragdi Martyrum ; <ltm>com: Octavae
+9 d : S. Joannis Mariae Vianney Confessoris ; com: Vigiliae ; com: S. Romani Martyris ; <ltm>com: Octavae
+10 d2+oct_sim : S. Laurentii Martyris ; <ltm>com: diei Octavae Inventionis S. Stephani Protomartyris
+11 : Ss. Tiburtii et Susannae Virginis, Martyrum
+12 d : S. Clarae Virginis
+13 : Ss. Hippolyti et Cassiani Martyrum
+14 : Vigilia ; com: S. Eusebii Confessoris
+15 d1+oct_com : Assumptio B. Mariae Virginis
+16 d2 : S. Joachim, Patris B. M. V., Confessoris
+17 d : S. Hyacinthi Confessoris ; com: Octavae Assumptionis ; com: diei Octavae S. Laurentii Martyris
+18 sd : De IV die infra Octavam Assumptionis B. M. V. ; com: S. Agapiti Martyris
+19 d : S. Joannis Eudes Confessoris ; com: Octavae Assumptionis
+20 d : S. Bernardi Abbatis, Confessoris et Ecclesiae Doctoris ; com: Octavae Assumptionis
+21 d : S. Joannae Franciscae Fremiot de Chantal Viduae ; com: Octavae Assumptionis
+22 dmaj : Octava Assumptionis B. Mariae Virginis ; com: Ss. Timothei et Sociorum Martyrum
+23 d : S. Philippi Benitii Confessoris ; com: Vigiliae
+24 d2 : S. Bartholomaei Apostoli
+25 d : Translatio Ss. Adalberti Episcopi et Gaudentii et Quinque Fratrum Martyrum ; com: S. Ludovici Regis, Confessoris
+26 : S. Zephyrini Papae et Martyris
+27 d : S. Josephi Calasanctii Confessoris
+28 d : S. Augustini Episcopi, Confessoris et Ecclesiae Doctoris ; com: S. Hermetis Martyris
 29 dmaj : Decollatio S. Joannis Baptistae ; com: S. Sabinae Martyris
 30 d : S Rosae Limanae Virginis ; com: Ss. Felicis et Audacii Martyrum
 31 d : S. Raymundi Nonnati Confessoris
+
+# from a 1915 pars autumnalis (Kotrba-printed appendix to a Pustet breviary)
 
 = 9
 

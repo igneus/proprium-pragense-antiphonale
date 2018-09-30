@@ -38,6 +38,7 @@ OCTAVE_NAMES = {
   :oct => 'cum Octava',
   :oct_com => 'cum Octava communi',
   :oct_priv1 => 'cum Octava privilegiata I ordinis',
+  :oct_sim => 'cum Octava simplici',
 }
 
 Entry = Struct.new(:date, :title, :rank_code, :commemorations, :local)
@@ -120,10 +121,11 @@ class OldSanctoraleLoader
     @line_regexp ||=
       begin
         rank_options = RANK_NAMES.keys.select {|i| !i.nil? }.collect(&:to_s).join('|')
+        octave_options = OCTAVE_NAMES.keys.collect(&:to_s).join('|')
 
         Regexp.new(
           '^(?<day>\d+)(<(?<local>\w+)>)?' + # date
-          '(\s+(?<rank_code>' + rank_options + ')(?<octave>\+oct(_(com|priv1))?)?)?' + # rank (optional)
+          '(\s+(?<rank_code>' + rank_options + ')(?<octave>\+(' + octave_options + ')?)?)?' + # rank (optional)
           '\s*:\s*(?<title>.*)$', # title
           Regexp::IGNORECASE
         )
