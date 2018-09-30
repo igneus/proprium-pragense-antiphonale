@@ -1,0 +1,75 @@
+# Proper feasts of the province of Prague
+#
+# books used:
+# 1949 Officia propria, pars hiemalis (Gottmer)
+# 1949 Officia propria, pars verna (Gottmer)
+# 1949 Officia propria, pars autumnalis (Gottmer)
+
+= 3
+
+2 d : B. Agnetis de Bohemia Virginis
+4 dmaj : Translatio S. Venceslai Regis, Martyris ; com: S. Casimiri Confessoris ; com: S. Lucii I Papae et Martyris
+15 d : S. Clementis Mariae Hofbauer Confessoris
+17 d : B. Joannis Sarcander Martyris ; com: S. Patricii Episcopi et Confessoris
+
+= 4
+
+23 d2 : S. Adalberti Episcopi Pragensis, Martyris et Patroni minus principalis Bohemiae ; com: S. Georgii Martyris
+
+= 5
+
+2 dmaj : S. Sigismundi Regis, Martyris et Patroni secundarii Bohemiae ; com: S. Athanasii Episcopi, Confessoris et Ecclesiae Doctoris
+12<prg> d1+oct_com : Dedicatio Ecclesiae Metropolitanae ; com: Ss. Nerei, Achillei et Domitillae Virginis atque Pancratii Martyrum
+16 d1+oct_com: S. Joannis Nepomuceni Martyris, Patroni principalis Bohemiae ; com: S. Ubaldi Episcopi et Confessoris
+19<prg> dmaj : Octava Dedicationis Ecclesiae Metropolitanae ; com: S. Petri Caelestini Papae et Confessoris ; com: Octavae S. Joannis Nepomuceni ; com: S. Pudentianae Virginis
+21 sd : De VI die infra Octavam S. Joannis Nepomuceni Martyris
+22 sd : De VII die infra Octavam S. Joannis Nepomuceni Martyris
+23 dmaj : Octava S. Joannis Nepomuceni Martyris
+30 d : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
+30<Jablonae> d2 : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
+31 dmaj : B. Mariae Virginis omnium gratiarum Mediatricis ; com: S. Angelae Mericiae Virginis ; com: S. Petronillae Virginis
+# TODO [Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
+
+= 6
+
+5<gla> d2 : S. Bonifatii Episcopi et Martyris
+6 dmaj : S. Norberti Episcopi et Confessoris, Patroni minus principalis Bohemiae
+15 : com: Ss. Modesti atque Crescentiae Martyrum
+
+= 9
+
+5<ltm> d : S. Victorini Episcopi et Martyris ; com: S. Laurentii Justiniani Episcopi et Confessoris
+16 d2 : S. Ludmilae Viduae et Martyris, Patronae minus principalis Bohemiae ; com: Ss. Cornelii Papae et Cypriani Episcopi, Martyrum ; com: Ss. Euphemiae Virginis, Luciae et Geminiani Martyrum
+21<ltm> d1+oct_com : Dedicatio Ecclesiae Cathedralis
+22<ltm> d2 : S. Matthaei Ap. et Ev. ; com: S. Thomae de Villanova Episcopi et Confessoris ; com: Ss. Mauritii et Sociorum Martyrum
+25<ltm> sd : De V die infra Octavam Dedicationis
+26<ltm> sd : De VI die infra Octavam Dedicationis
+27 dmaj : Ss. Cosmae et Damiani Martyrum, Patronorum minus principalium Bohemiae ; <ltm>com: Octavae Dedicationis Ecclesiae Cathedralis
+28 d1+oct_com : S. Venceslai Ducis et Martyris, Patroni principalis Bohemiae ; <ltm>com: diei Octavae Dedicationis Ecclesiae Cathedralis
+
+= 10
+
+1 sd : De IV die infra Octavam S. Venceslai Ducis et Martyris ; com: S. Remigii Episcopi et Confessoris
+5 dmaj : Octava S. Venceslai Ducis et Martyris ; com: Ss. Placidi et Sociorum Martyrum
+16<prg> d1+oct_com : Dedicatio omnium Ecclesiarum consecratarum archidioecesis ; com: S. Hedwigis Viduae
+21<prg> sd : De VI die infra Octavam Dedicationis omnium Ecclesiarum consecratarum ; com: S. Hilarionis Abbatis ; com: Ss. Ursulae et Sociarum Virginum et Martyrum
+22<prg> sd : De VII die infra Octavam Dedicationis omnium Ecclesiarum consecratarum
+23<prg> dmaj : Octava Dedicationis omnium Ecclesiarum consecratarum
+30<rgr> d1+oct_com : Dedicatio Ecclesiae Cathedralis
+31 d : S. Wolfgangi Episcopi et Confessoris ; com: Vigiliae Omnium Sanctorum ; <rgr>com: Octavae Dedicationis Ecclesiae Cathedralis
+
+= 11
+
+5 dmaj : Sacrarum Reliquiarum, quae in ecclesiis dioecesis asservantur ; com: Octavae Omnium Sanctorum ; <rgr>com: Octavae Dedicationis Ecclesiae Cathedralis
+6<rgr> dmaj: Octava Dedicationis Ecclesiae Cathedralis
+12 dmaj : Ss. Benedicti et Fratrum Martyrum, Patronorum minus principalium Bohemiae ; com: S. Martini I Papae et Martyris
+23<rgr> dmaj : S. Clementis I Papae et Martyris, Patroni minus principalis dioeceseos
+27 d : Translatio S. Ludmilae Viduae et Martyris
+
+= 12
+
+1<prg> sd : B. Edmundi Campion Martyris
+6<bud> d1+oct_com : S. Nicolai Episcopi et Confessoris, Titularis Ecclesiae Cathedralis
+13<bud> dmaj : Octava S. Nicolai Episcopi et Confessoris ; com: S. Luciae Virginis et Martyris ; com: Octavae Conceptionis Immaculatae
+22<bud> d1+oct_com : Dedicatio Ecclesiae Cathedralis
+29<bud> dmaj : Octava Dedicationis Ecclesiae Cathedralis ; com: S. Thomae Episcopi et Martyris ; com: Octavae Nativitatis

@@ -175,12 +175,13 @@ class OldSanctoraleLoader
 end
 
 data_path = ARGV[0]
+target_path = data_path.sub('.txt', '.tex')
 
 sanctorale = SimpleSanctorale.new
 OldSanctoraleLoader.new.load(File.read(data_path), sanctorale)
 
 year = CR::Util::Year.new 2000 # leap year to have all possible dates
-File.open('calendarium.tex', 'w') do |fw|
+File.open(target_path, 'w') do |fw|
   month = nil
   year.each_day do |date|
     if date.month != month

@@ -20,11 +20,24 @@ file 'annotationes.tex' => ['scripts/annotationes.rb'] + Dir['cantus/*/*.gly'] d
   sh 'ruby', *t.prerequisites
 end
 
-file 'calendarium.tex' => ['scripts/calendarium.rb', 'calendarium.txt'] do |t|
-  sh 'ruby', *t.prerequisites
+['calendarium.txt', 'calendarium_1947.txt'].each do |src|
+  target = src.sub('.txt', '.tex')
+
+  file target => ['scripts/calendarium.rb', src] do |t|
+    sh 'ruby', *t.prerequisites
+  end
 end
 
-deps = Dir['*.tex'] + Dir['*.*bx'] + Dir['*.bib'] + glys + ['annotationes.tex', 'calendarium.tex']
+deps =
+  Dir['*.tex'] +
+  Dir['*.*bx'] +
+  Dir['*.bib'] +
+  glys +
+  %w(
+    annotationes.tex
+    calendarium.tex
+    calendarium_1947.tex
+  )
 
 main = 'officia_propria_pragensia_1912.tex'
 main_noext = main.sub '.tex', ''
