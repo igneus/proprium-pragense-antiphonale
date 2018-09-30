@@ -184,20 +184,29 @@ File.open('calendarium.tex', 'w') do |fw|
   month = nil
   year.each_day do |date|
     if date.month != month
+      # close parcolumns and group
+      fw.puts '\end{parcolumns} }' if month != nil
+
       # month heading
       month = date.month
       fw.puts "\\calMonth{#{month_names[month]}}\n\n"
+
+      fw.puts '{ \setlength{\parindent}{0pt}' # suppress indentation in group
+      fw.puts '\begin{parcolumns}[rulebetween=true,colwidths={1=5mm}]{2}'
     end
 
     # day
-    fw.print '\\noindent'
-    fw.puts date.day
+    fw.puts "\\colchunk{{\\hfill #{date.day}}}"
 
     celebrations = sanctorale[date]
-    if celebrations.empty?
-        fw.puts '\\\\'
-    else
-      celebrations.each do |celebration|
+    unless celebrations.empty?
+      fw.print '\colchunk{'
+      celebrations.each_with_index do |celebration, ci|
+        if ci > 0
+          fw.puts '\\\\'
+          #fw.print '\hspace*{0.5cm}'
+        end
+
         if celebration.local
           fw.puts "\\emph{#{LOCAL_NAMES[celebration.local]}:}"
         end
@@ -215,9 +224,10 @@ File.open('calendarium.tex', 'w') do |fw|
           fw.puts " \\emph{#{LOCAL_NAMES[com.local]}}" if com.local
           fw.puts " \\emph{Commemoratio} #{com.title}."
         end
-
-        fw.puts '\\\\'
       end
+      fw.puts '}' # close colchunk
     end
+
+    fw.puts '\colplacechunks'
   end
 end
