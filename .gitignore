@@ -1,2 +1,11 @@
 *~
 *.pdf
+*.bbl
+*.bcf
+*.blg
+*.gaux
+*.run.xml
+*.out
+*.gabc
+*.gtex
+*.log
