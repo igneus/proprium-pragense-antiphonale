@@ -231,4 +231,6 @@ File.open(target_path, 'w') do |fw|
 
     fw.puts '\colplacechunks'
   end
+
+  fw.puts '\end{parcolumns} }' # close last parcolumns environment
 end
