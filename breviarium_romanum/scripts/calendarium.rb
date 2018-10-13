@@ -24,6 +24,12 @@ RANK_NAMES = {
   :dmaj => 'Duplex majus',
   :d1 => 'Duplex I classis',
   :d2 => 'Duplex II classis',
+
+  # 1960 ranks
+  :'1' => 'I. classis',
+  :'2' => 'II. classis',
+  :'3' => 'III. classis',
+  :'4' => 'IV. classis',
 }
 
 LOCAL_NAMES = {

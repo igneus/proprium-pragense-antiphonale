@@ -21,7 +21,7 @@ file 'annotationes.tex' => ['scripts/annotationes.rb'] + Dir['cantus/*/*.gly'] d
 end
 
 calendars =
-  ['1915.txt', '1947.txt'].collect do |src|
+  ['1915.txt', '1947.txt', '1960.txt'].collect do |src|
   target = src.sub('.txt', '.tex')
 
   file target => ['scripts/calendarium.rb', 'calendarium/' + src] do |t|

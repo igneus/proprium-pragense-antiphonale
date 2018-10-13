@@ -1,0 +1,84 @@
+# Proper feasts of the province of Prague
+#
+# books used:
+# 1962 Directorium (Česká katolická Charita v Ústředním církevním nakladatelství v Praze)
+# 1964 Directorium (Česká katolická Charita v Ústředním církevním nakladatelství v Praze)
+
+= 3
+
+2 3 : B. Agnetis de Bohemia Virginis
+
+# TODO the three following feasts were suppressed by lenten ferials
+# in both 1962 and 1964, but the fact that they were commemorated
+# suggests that they were 3rd class
+
+4 3 : Translatio S. Venceslai Regis, Martyris ; com: S. Casimiri Confessoris ; com: S. Lucii I Papae et Martyris
+15 3 : S. Clementis Mariae Hofbauer Confessoris
+17 3 : B. Joannis Sarcander Martyris ; com: S. Patricii Episcopi et Confessoris
+
+= 4
+
+# TODO the rank is only a qualified guess (based on the pre-1960 rank),
+# as both in 1962 and 1964 S. Adalbert was suppressed by either
+# Easter Octave or the Holy Week
+23 2 : S. Adalberti Episcopi Pragensis, Martyris et Patroni minus principalis Bohemiae ; com: S. Georgii Martyris
+
+= 5
+
+2 3 : S. Sigismundi Regis, Martyris et Patroni Bohemiae ; com: S. Athanasii Episcopi, Confessoris et Ecclesiae Doctoris
+12<prg> 1 : Anniversarium Dedicationis Ecclesiae Metropolitanae
+16 1 : S. Joannis Nepomuceni Martyris, Patroni principalis Bohemiae ; com: S. Ubaldi Episcopi et Confessoris
+30 3 : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
+
+= 6
+
+# 1956 "BMV Reginae" was set on May 31th for the universal
+# church, proper feast "BMV ... Mediatricis" was thus moved to June 2nd
+
+2 3 : B. Mariae Virginis omnium gratiarum Mediatricis ; com: Ss. Marcellini, Petri atque Erasmi Episcopi, Martyrum
+6 3 : S. Norberti Episcopi et Confessoris # title of a patron disappeared
+15 2 : S. Viti Martyris, Patroni secundarii Bohemiae ; com: Ss. Modesti et Crescentiae Martyrum
+23 2 : Vigilia Nativitatis S. Ioannis Baptistae ; <ltm>com: Translatio S. Felicis Martyris
+
+= 7
+
+4 3 : S. Procopii Abbatis, Patroni Bohemiae
+5 2 : Ss. Cyrilli et Methodii Episcoporum et Confessorum, Patronorum Bohemiae ; com: S. Antonii Mariae Zaccaria Confessoris
+14 3 : B. Hroznatae Martyris ; com: S. Bonaventurae Episcopi, Confessoris et Ecclesiae Doctoris
+
+= 8
+
+# TODO seems that "Inventio S. Stephani Protomartyris", 3.8.,
+# was first limited to the Litomerice cathedral (1962 ordo) and then
+# dropped altogether (1964 ordo)
+
+25 3 : Translatio Reliquiarum Ss. Adalberti Episcopi et Gaudentii et Quinque Fratrum Martyrum ; com: S. Ludovici Regis, Confessoris
+
+= 9
+
+5<ltm> 3 : S. Victorini Episcopi et Martyris ; com: S. Laurentii Justiniani Episcopi et Confessoris
+16 2 : S. Ludmilae Viduae et Martyris, Patronae Bohemiae ; com: Ss. Cornelii Papae et Cypriani Episcopi, Martyrum
+21<ltm> 1 : Anniversarium Dedicationis Ecclesiae Cathedralis
+27 3 : Ss. Cosmae et Damiani Martyrum # never more patrons
+28 1 : S. Venceslai Ducis et Martyris, Patroni principalis Bohemiae
+
+= 10
+
+15<rgr> 1 : Anniversarium Dedicationis omnium Ecclesiarum consecratarum dioecesis
+16<prg> 1 : Anniversarium Dedicationis omnium Ecclesiarum consecratarum archidioecesis
+30<rgr> 1 : Anniversarium Dedicationis Ecclesiae Cathedralis
+31 3 : S. Wolfgangi Episcopi et Confessoris
+
+= 11
+
+# TODO dioeceseos?
+5 3 : Sacrarum Reliquiarum, quae in ecclesiis dioecesis asservantur ; com: Octavae Omnium Sanctorum
+12 3 : Ss. Benedicti et Fratrum Martyrum, Patronorum Bohemiae ; com: S. Martini I Papae et Martyris
+23<rgr> 3 : S. Clementis I Papae et Martyris, Patroni dioeceseos ; com: S. Felicitatis Martyris
+27 3 : Translatio S. Ludmilae Viduae et Martyris
+
+= 12
+
+1<prg> 3 : B. Edmundi Campion Martyris
+6<bud> 1 : S. Nicolai Episcopi et Confessoris, Tituli Ecclesiae Cathedralis
+22<bud> 1 : Anniversarium Dedicationis Ecclesiae Cathedralis
