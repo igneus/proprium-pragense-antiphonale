@@ -72,7 +72,7 @@
 = 11
 
 # TODO dioeceseos?
-5 3 : Sacrarum Reliquiarum, quae in ecclesiis dioecesis asservantur ; com: Octavae Omnium Sanctorum
+5 3 : Sacrarum Reliquiarum, quae in ecclesiis dioecesis asservantur
 12 3 : Ss. Benedicti et Fratrum Martyrum, Patronorum Bohemiae ; com: S. Martini I Papae et Martyris
 23<rgr> 3 : S. Clementis I Papae et Martyris, Patroni dioeceseos ; com: S. Felicitatis Martyris
 27 3 : Translatio S. Ludmilae Viduae et Martyris
