@@ -4,11 +4,21 @@
 \newcommand{\diesFesti}[1]{{\small #1} \vspace{2mm}\\}
 \newcommand{\nomenFesti}[1]{\textbf{\Large #1}\vspace{3mm}\\}
 \newcommand{\descriptioFesti}[1]{\textbf{#1}\\}
+
 \newcommand{\dignitasFesti}[1]{\small #1}
+\newcommand{\dignitasI}{\dignitasFesti{I Classis}}
+\newcommand{\dignitasII}{\dignitasFesti{II Classis}}
+\newcommand{\dignitasIII}{\dignitasFesti{III Classis}}
+
+\newcommand{\dioecesis}[1]{\emph{#1}\\}
+\newcommand{\dioecPraga}{\dioecesis{In archidioecesi Pragensi}}
 
 % headings of various parts
 \newcommand{\hora}[1]{\vspace{5mm}\noindent\textbf{#1}\vspace{2mm}}
 \newcommand{\horaVesperaeI}{\hora{In I Vesperis}}
+\newcommand{\horaNocturnusII}{\hora{In I Nocturno}}
+\newcommand{\horaNocturnusII}{\hora{In II Nocturno}}
+\newcommand{\horaNocturnusII}{\hora{In III Nocturno}}
 \newcommand{\horaLaudes}{\hora{In Laudibus}}
 \newcommand{\horaLaudesEtHorae}{\hora{Ad Laudes et per Horas}}
 \newcommand{\horaTertia}{\hora{Ad Tertiam}}
@@ -19,13 +29,21 @@
 \newcommand{\parsHorae}[1]{\textbf{#1}\vspace{1mm}}
 \newcommand{\parsOratio}{\begin{center}\emph{Oratio}\end{center}}
 \newcommand{\parsCapitulum}[1]{\hspace{1.2cm}\textsc{Capitulum.}\hfill #1\hspace{1cm}}
+\newcommand{\parsLectio}[1]{\begin{center}\emph{Lectio #1}\end{center}}
+\newcommand{\parsLectioEv}[1]{\emph{Lectio vii \hfill #1}}
+\newcommand{\parsHomilia}[2]{\begin{center}Homilía #1\\{\footnotesize\emph{#2}}\end{center}}
+\newcommand{\parsTeDeum}{\textbf{T}e Deum.}
 
 \newcommand{\rubrica}[1]{{\small \emph{#1}}}
+\newcommand{\rubRespDeCommuni}[1]{%
+  \rubrica{Responsoria} #1 \rubrica{etc. de Communi.}}
 
 \newcommand{\utInBreviarioPraeter}{%
   \rubrica{Omnia ut in Antiphonario sub hac die, praeter sequentia.}}
 \newcommand{\perDominum}{Per Dóminum.}
 
+\newcommand{\vv}{℣.}
+\newcommand{\rr}{℟.}
 \newcommand{\versiculus}[2]{\noindent ℣. #1\\℟. #2}
 
 % calendar
