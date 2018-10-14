@@ -1,3 +1,5 @@
+# type: proper; calendar: 1960
+
 # Proper feasts of the province of Prague
 #
 # books used:

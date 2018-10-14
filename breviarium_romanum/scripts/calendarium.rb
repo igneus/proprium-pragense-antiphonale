@@ -17,15 +17,16 @@ month_names = [
   'December'
 ]
 
-RANK_NAMES = {
+RANK_NAMES_PRE_1960 = {
   nil => 'Simplex',
   :sd => 'Semiduplex',
   :d => 'Duplex',
   :dmaj => 'Duplex majus',
   :d1 => 'Duplex I classis',
   :d2 => 'Duplex II classis',
+}
 
-  # 1960 ranks
+RANK_NAMES_POST_1960 = {
   :'1' => 'I. classis',
   :'2' => 'II. classis',
   :'3' => 'III. classis',
@@ -68,10 +69,18 @@ class SimpleSanctorale
     adate = date.is_a?(CR::AbstractDate) ? date : CR::AbstractDate.from_date(date)
     @days[adate] || []
   end
+
+  def each_date
+    @days.each_key {|k| yield k }
+  end
 end
 
 # Loads custom data file for the early 20th c. liturgical calendar
 class OldSanctoraleLoader
+  def initialize(rank_names)
+    @rank_names = rank_names
+  end
+
   # dest should be a Sanctorale,
   # src anything with #each_line
   def load(src, dest)
@@ -126,7 +135,7 @@ class OldSanctoraleLoader
   def line_regexp
     @line_regexp ||=
       begin
-        rank_options = RANK_NAMES.keys.select {|i| !i.nil? }.collect(&:to_s).join('|')
+        rank_options = @rank_names.keys.select {|i| !i.nil? }.collect(&:to_s).join('|')
         octave_options = OCTAVE_NAMES.keys.collect(&:to_s).join('|')
 
         Regexp.new(
@@ -184,12 +193,36 @@ data_path = ARGV[0]
 target_path = data_path.sub('.txt', '.tex')
 
 sanctorale = SimpleSanctorale.new
-OldSanctoraleLoader.new.load(File.read(data_path), sanctorale)
+file_contents = File.read(data_path)
+
+config_line = file_contents.lines[0]
+calendar_type =
+  if config_line.include? 'proper'
+    :proper
+  else
+    :complete
+  end
+rank_names =
+  if config_line.include? '1960'
+    RANK_NAMES_POST_1960
+  else
+    RANK_NAMES_PRE_1960
+  end
+
+OldSanctoraleLoader.new(rank_names).load(file_contents, sanctorale)
 
 year = CR::Util::Year.new 2000 # leap year to have all possible dates
+
+date_enumerator =
+  if calendar_type == :proper
+    sanctorale.to_enum(:each_date)
+  else
+    year.to_enum(:each_day)
+  end
+
 File.open(target_path, 'w') do |fw|
   month = nil
-  year.each_day do |date|
+  date_enumerator.each do |date|
     if date.month != month
       # close parcolumns and group
       fw.puts '\end{parcolumns} }' if month != nil
@@ -224,7 +257,7 @@ File.open(target_path, 'w') do |fw|
         fw.print "}" if [:d1, :d2].include? celebration.rank_code
 
         unless celebration.rank_code.nil? && celebration.title =~ /vigilia/i
-          fw.print " \\emph{#{RANK_NAMES[celebration.rank_code]}.}"
+          fw.print " \\emph{#{rank_names[celebration.rank_code]}.}"
         end
 
         celebration.commemorations.each do |com|

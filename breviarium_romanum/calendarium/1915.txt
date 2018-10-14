@@ -1,3 +1,5 @@
+# type: complete
+
 # Combined calendar of all dioceses of the province of Prague
 #
 # books used:

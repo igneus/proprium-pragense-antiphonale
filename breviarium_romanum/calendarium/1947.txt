@@ -1,3 +1,5 @@
+# type: proper
+
 # Proper feasts of the province of Prague
 #
 # books used:
