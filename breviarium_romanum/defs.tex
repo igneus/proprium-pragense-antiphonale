@@ -12,6 +12,7 @@
 
 \newcommand{\dioecesis}[1]{\emph{#1}\\}
 \newcommand{\dioecPraga}{\dioecesis{In archidioecesi Pragensi}}
+\newcommand{\dioecBud}{\dioecesis{In dioecesi Budvicensi}}
 
 % headings of various parts
 \newcommand{\hora}[1]{\vspace{5mm}\noindent\textbf{#1}\vspace{2mm}}
@@ -30,8 +31,14 @@
 \newcommand{\parsOratio}{\begin{center}\emph{Oratio}\end{center}}
 \newcommand{\parsCapitulum}[1]{\hspace{1.2cm}\textsc{Capitulum.}\hfill #1\hspace{1cm}}
 \newcommand{\parsLectio}[1]{\begin{center}\emph{Lectio #1}\end{center}}
+\newcommand{\parsLectioAnnot}[2]{\begin{center}\emph{Lectio #1}\\\footnotesize{#2}\end{center}}
 \newcommand{\parsLectioEv}[1]{\emph{Lectio vii \hfill #1}}
-\newcommand{\parsHomilia}[2]{\begin{center}Homilía #1\\{\footnotesize\emph{#2}}\end{center}}
+\newcommand{\parsEvangelium}[1]{%
+  \vspace{3mm}Léctio sancti Evangélii secúndum #1.}
+\newcommand{\parsHomilia}[2]{%
+  \begin{center}Homilía #1\\{\footnotesize\emph{#2}}\end{center}}
+\newcommand{\parsSermo}[2]{%
+  \begin{center}Sermo #1\\{\footnotesize\emph{#2}}\end{center}}
 \newcommand{\parsTeDeum}{\textbf{T}e Deum.}
 
 \newcommand{\rubrica}[1]{{\small \emph{#1}}}
