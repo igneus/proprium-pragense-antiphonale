@@ -31,6 +31,7 @@
 12<prg> 1 : Anniversarium Dedicationis Ecclesiae Metropolitanae
 16 1 : S. Joannis Nepomuceni Martyris, Patroni principalis Bohemiae ; com: S. Ubaldi Episcopi et Confessoris
 30 3 : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
+[Dominica Pentecostes]<rgr> 1+oct : Titularis Ecclesiae Cathedralis
 
 = 6
 

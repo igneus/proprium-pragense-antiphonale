@@ -30,7 +30,7 @@
 30 d : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
 30<Jablonae> d2 : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
 31 dmaj : B. Mariae Virginis omnium gratiarum Mediatricis ; com: S. Angelae Mericiae Virginis ; com: S. Petronillae Virginis
-# TODO [Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
+[Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
 
 = 6
 

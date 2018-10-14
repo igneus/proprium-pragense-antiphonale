@@ -16,7 +16,7 @@
 = 1
 
 1 d2 : Circumcisio Domini et Octava Nativitatis
-# TODO: [Dominica inter Circumcisionem et Epiphaniam] d2 : Ssmi Nominis Jesu
+[Dominica inter Circumcisionem et Epiphaniam] d2 : Ssmi Nominis Jesu
 2 : Octava S. Stephani Protomartyris
 3 : Octava S. Joannis Apostoli et Evangelistae
 4 : Octava Ss. Innocentium Martyrum
@@ -90,7 +90,7 @@
 25 d1 : Annuntiatio B. Mariae Virginis
 27 d : S. Joannis Damasceni Confessoris et Ecclesiae Doctoris
 28 d1 : S. Joannis a Capistrano Confessoris
-# TODO [Feria VI post Dominicam Passionis] dmaj : Septem Dolorum B. Mariae Virginis ; com: Feriae
+[Feria VI post Dominicam Passionis] dmaj : Septem Dolorum B. Mariae Virginis ; com: Feriae
 
 = 4
 
@@ -111,8 +111,8 @@
 28 d : S. Pauli a Cruce Confessoris
 29 d : S. Petri Martyris
 30 d : S. Catharinae Senensis Martyris
-# TODO [Feria IV infra hebdomadam II post Octavam Paschae] d1+oct_com : Sollemnitas S. Joseph, Sponsi B. Mariae Virginis, Confessoris et Ecclesiae universalis Patroni
-# TODO [Feria IV infra hebdomadam III post Octavam Paschae] dmaj : Octava S. Joseph
+[Feria IV infra hebdomadam II post Octavam Paschae] d1+oct_com : Sollemnitas S. Joseph, Sponsi B. Mariae Virginis, Confessoris et Ecclesiae universalis Patroni
+[Feria IV infra hebdomadam III post Octavam Paschae] dmaj : Octava S. Joseph
 
 = 5
 
@@ -144,11 +144,11 @@
 29 sd : S. Mariae Magdalenae de Pazzis Virginis
 30 d : B. Zdislavae Berkianae Viduae ; com: S. Felicis I Papae et Martyris
 31 d : S. Angelae Mericiae Virginis ; com: S. Petronillae Virginis
-# TODO [Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
+[Dominica Pentecostes]<rgr> d1+oct_priv1 : S. Spiritus, Titularis Ecclesiae Cathedralis
 
 # from a 1928 pars aestiva
 
-# TODO [Feria VI post Octavam Ssmi Corporis Christi] d1+oct_com : Sacratissimi Cordis Jesu
+[Feria VI post Octavam Ssmi Corporis Christi] d1+oct_com : Sacratissimi Cordis Jesu
 
 = 6
 

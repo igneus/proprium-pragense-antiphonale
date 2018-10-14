@@ -50,14 +50,29 @@ OCTAVE_NAMES = {
 
 Entry = Struct.new(:date, :title, :rank_code, :commemorations, :local)
 Commemoration = Struct.new(:title, :local)
+StringDate = Struct.new(:month, :day)
+
+class YearWithMovables
+  extend Forwardable
+
+  def initialize(year, movable_feasts)
+    @dates =
+      (CR::Util::Year.new(year).to_enum(:each).to_a + movable_feasts)
+      .sort_by {|date| [date.month, (date.day.is_a?(Fixnum) ? date.day.to_s : 'Z')] }
+    # ^___ sorts both (Abstract)Date and StringDate so that StringDates
+    # follow after all Dates of the same month,
+    # (hopefully) in their original order
+  end
+
+  def_delegator :@dates, :each
+end
 
 class SimpleSanctorale
   def initialize
     @days = {}
   end
 
-  def add(month, day, celebration)
-    date = CR::AbstractDate.new(month, day)
+  def add(date, celebration)
     unless @days.has_key? date
       @days[date] = []
     end
@@ -66,7 +81,7 @@ class SimpleSanctorale
   end
 
   def [](date)
-    adate = date.is_a?(CR::AbstractDate) ? date : CR::AbstractDate.from_date(date)
+    adate = date.is_a?(Date) ? CR::AbstractDate.from_date(date) : date
     @days[adate] || []
   end
 
@@ -121,8 +136,7 @@ class OldSanctoraleLoader
       end
 
       dest.add(
-        celebration.date.month,
-        celebration.date.day,
+        celebration.date,
         celebration
       )
     end
@@ -139,7 +153,7 @@ class OldSanctoraleLoader
         octave_options = OCTAVE_NAMES.keys.collect(&:to_s).join('|')
 
         Regexp.new(
-          '^(?<day>\d+)(<(?<local>\w+)>)?' + # date
+          '^(?<day>(\d+|\[[\w\s]+\]))(<(?<local>\w+)>)?' + # date
           '(\s+(?<rank_code>' + rank_options + ')(?<octave>\+(' + octave_options + ')?)?)?' + # rank (optional)
           '\s*:\s*(?<title>.*)$', # title
           Regexp::IGNORECASE
@@ -156,7 +170,7 @@ class OldSanctoraleLoader
       raise RuntimeError.new("Syntax error, line skipped '#{line}'")
     end
 
-    day = m[:day].to_i
+    day = m[:day]
     rank_code = m[:rank_code] && m[:rank_code].to_sym
     local = m[:local] && m[:local].to_sym
     (title, *commemorations) = m[:title].split(/\s*;\s*/)
@@ -175,8 +189,16 @@ class OldSanctoraleLoader
       )
     end
 
+    date =
+      if day.start_with? '['
+        # movable feast, "date" as string
+        StringDate.new(month_section, day[1..-2])
+      else
+        CR::AbstractDate.new(month_section, day.to_i)
+      end
+
     Entry.new(
-      CR::AbstractDate.new(month_section, day),
+      date,
       title.strip,
       rank_code,
       commemorations,
@@ -211,19 +233,23 @@ rank_names =
 
 OldSanctoraleLoader.new(rank_names).load(file_contents, sanctorale)
 
-year = CR::Util::Year.new 2000 # leap year to have all possible dates
-
 date_enumerator =
   if calendar_type == :proper
     sanctorale.to_enum(:each_date)
   else
-    year.to_enum(:each_day)
+    movable_feasts_by_month =
+      sanctorale
+      .to_enum(:each_date)
+      .select {|d| d.is_a? StringDate }
+
+    # leap year to have all possible dates
+    YearWithMovables.new(2000, movable_feasts_by_month).to_enum(:each)
   end
 
 File.open(target_path, 'w') do |fw|
   month = nil
   date_enumerator.each do |date|
-    if date.month != month
+    if date.respond_to?(:month) && date.month != month
       # close parcolumns and group
       fw.puts '\end{parcolumns} }' if month != nil
 
@@ -236,7 +262,13 @@ File.open(target_path, 'w') do |fw|
     end
 
     # day
-    fw.puts "\\colchunk{{\\hfill #{date.day}}}"
+    day =
+      if date.is_a? StringDate
+        '❧'
+      else
+        date.day
+      end
+    fw.puts "\\colchunk{{\\hfill #{day}}}"
 
     celebrations = sanctorale[date]
     unless celebrations.empty?
@@ -245,6 +277,10 @@ File.open(target_path, 'w') do |fw|
         if ci > 0
           fw.puts '\\\\'
           #fw.print '\hspace*{0.5cm}'
+        end
+
+        if date.is_a? StringDate
+          fw.puts "#{date.day}:"
         end
 
         if celebration.local
