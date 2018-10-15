@@ -1,4 +1,16 @@
-\newenvironment{caputFesti}{\begin{center}}{\end{center}}
+\newcommand{\hruleIfNotPageBeginning}{%
+  % https://tex.stackexchange.com/a/114862/13146
+  \par
+  \cleaders\vbox to 2\baselineskip{%
+    \vss
+    \hrule width\linewidth
+    \vss
+  }\vskip2\baselineskip
+}
+
+\newenvironment{caputFesti}{%
+  \hruleIfNotPageBeginning
+  \begin{center}}{\end{center}}
 
 % pieces of the title of a feast
 \newcommand{\diesFesti}[1]{{\small #1} \vspace{2mm}\\}
@@ -32,9 +44,10 @@
 \newcommand{\parsCapitulum}[1]{\hspace{1.2cm}\textsc{Capitulum.}\hfill #1\hspace{1cm}}
 \newcommand{\parsLectio}[1]{\begin{center}\emph{Lectio #1}\end{center}}
 \newcommand{\parsLectioAnnot}[2]{\begin{center}\emph{Lectio #1}\\\footnotesize{#2}\end{center}}
-\newcommand{\parsLectioEv}[1]{\emph{Lectio vii \hfill #1}}
+\newcommand{\parsLectioEv}[1]{\noindent\emph{Lectio vii \hfill #1}}
 \newcommand{\parsEvangelium}[1]{%
   \vspace{3mm}Léctio sancti Evangélii secúndum #1.}
+\newcommand{\inIlloTempore}{\lettrine{I}{n} illo témpore:}
 \newcommand{\parsHomilia}[2]{%
   \begin{center}Homilía #1\\{\footnotesize\emph{#2}}\end{center}}
 \newcommand{\parsSermo}[2]{%
