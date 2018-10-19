@@ -27,8 +27,11 @@
 \newcommand{\dioecBud}{\dioecesis{In dioecesi Budvicensi}}
 
 % headings of various parts
-\newcommand{\hora}[1]{\vspace{5mm}\noindent\textbf{#1}\vspace{2mm}}
+\newcommand{\hora}[1]{%
+  \vspace{5mm}
+  \begin{center}\textbf{#1}\end{center}}
 \newcommand{\horaVesperaeI}{\hora{In I Vesperis}}
+\newcommand{\horaMatutinum}{\hora{Ad Matutinum}}
 \newcommand{\horaNocturnusI}{\hora{In I Nocturno}}
 \newcommand{\horaNocturnusII}{\hora{In II Nocturno}}
 \newcommand{\horaNocturnusIII}{\hora{In III Nocturno}}
@@ -53,6 +56,8 @@
 \newcommand{\parsSermo}[2]{%
   \begin{center}Sermo #1\\{\footnotesize\emph{#2}}\end{center}}
 \newcommand{\parsTeDeum}{\textbf{T}e Deum.}
+
+\newcommand{\parsAntMag}{\textbf{Ad Magnificat Ant.}}
 
 \newcommand{\rubrica}[1]{{\small \emph{#1}}}
 \newcommand{\rubRespDeCommuni}[1]{%

@@ -1,0 +1,414 @@
+\header
+dies: 04/23
+festum: S. Adalberti
+
+\markup
+\begin{caputFesti}
+\diesFesti{Die 23 Aprilis}
+\nomenFesti{S. Adalberti}
+\descriptioFesti{Episcopi Pragensis, Martyris et Patroni Regni}
+\dignitasFesti{Duplex II classis}
+\end{caputFesti}
+
+\rubrica{Omnia de Communi unius Martyris Tempore Paschali,
+  praeter ea, quae hic habentur propria.}
+
+\horaVesperaeI
+
+\score
+office-part: hymnus
+name: Praesulum salve
+mode: 8
+annotation: Hymnus
+annotation: VIII
+book: AR1912 [37]
+ratio: Hymnus tono proprio caret. Cantetur in tono hymni eiusdem metri de Communi Confessoris Pontificis. (Commune Martyrum enim nullum habet hymnum istius metri -- nec in Breviario Romano, nec in veteri Breviario Pragensi.)
+c4 ghg e f g g , h f h j ih g ;
+j h j ih g , h g e f g g :
+g e g fe dc c d e f gh h ,
+h!iwjh i h g g ::
+Praé -- su -- lum sal -- ve cé -- le -- bris co -- ró -- na,
+Et de -- cus nos -- trum, Pa -- ter et Pa -- tró -- ne,
+Gáu -- di -- um, vir -- tus, á -- ni -- mi vo -- lúp -- tas
+Má -- xi -- ma sal -- ve.
+
+\markup
+{ \setlength{\parindent}{0pt}
+\begin{multicols}{2}
+2. Tu Deo vitam téneram dicásti\\
+Tu graves casus, nímios labóres\\
+Pro fide sancta patiénter usque\\
+Sustinuísti.\\
+
+3. Te suum laudat pia gens Bohéma,\\
+Te Polonórum célebrat catérva,\\
+Húngari lucis páriter salútant\\
+Laude Magístrum.\\
+
+4. Vota cultórum cápias tuórum:\\
+Semper exúltent húmiles cliéntes,\\
+Qui tuum nomen célebrent, ab omni\\
+Hoste remóti.
+
+5. O Pater, clerum réfove precátu;\\
+Sed nec afflígi patiáre gentem:\\
+Esto Patrónus bonus invocánti\\
+Omnibus horis.\\
+
+6. In fide recta sociémur omnes,\\
+In fide recta moriámur omnes;\\
+Quodque firmásti róseo cruóre,\\
+Duret in aevum.\\
+
+7. Laus Deo Patri, paritérque Nato,\\
+Morte qui victa célebri triúmpho\\
+Spíritum sanctum tríbuit poténtem,\\
+Omne per aevum. Amen.
+\end{multicols}
+}
+
+\versiculus{Sancti et justi, in Dómino gaudéte, allelúja.}%
+{Vos elégit Deus in haereditátem sibi, allelúja.}
+
+\parsAntMag{}
+Ipsum elégit Dóminus ab omni vivénte,
+offérre sacrifícium Deo,
+incénsum et bonum odórem,
+in memóriam placáre pro pópulo suo, allelúja.
+
+\parsOratio
+Deus, qui beátum Adalbértum Mártyrem tuum atque Pontíficem,
+glória et honóre coronáre dignátus es:
+tríbue quáesumus;
+ut quem salútis aetérnae minístrum habúimus in terris,
+intercessórem habére mereámur in coelis.
+Per Dóminum.
+
+\rubrica{Et fit Commemoratio S. Georgii Martyris per Antiphonam}
+Lux perpétua.
+\rubrica{et Versum}
+Pretiósa in conspéctu Dómini, all.
+
+\parsOratio
+Deus, qui nos beáti Geórgii Mártyris tui méritis et intercessióne laetíficas:
+concéde propítius;
+ut, qui tua per eum benefícia póscimus,
+dono tuae grátiae consequámur.
+Per Dóminum.
+
+\rubrica{Completorium de Dominica.}
+
+\horaMatutinum
+
+\rubrica{Invitatorium}
+Exsúltent in Dómino Sancti, Allelúja.
+\rubrica{de Communi Martyrum Tempore Paschali.}
+
+\score
+office-part: hymnus
+name: Quam pulchra, qui te diligunt
+mode: 3
+annotation: Hymnus
+annotation: III
+book: AR1912 [20]
+ratio: Hymnus tono proprio caret. Cantetur in tono paschali pro hymnos eiusdem metri de Communi.
+c4 e!fwg fe de e dc d fd efe ;
+evDC g h i j hg j ivHG :
+ih g hg fvED e!fg f e d ;
+h g h ivHG h gvFD/e!fg fe e ::
+Quam pul -- chra, qui te dí -- li -- gunt,
+O Chri -- ste, li -- bant gáu -- di -- a,
+Mun -- do re -- líc -- to qui Tu -- o
+Sac -- ro qui -- és -- cunt ó -- ti -- o.
+
+\markup
+
+\begin{multicols}{2}
+2. Amóre sancto Póntifex,\\
+Quem grata gens nunc práedicat,\\
+Mundána quaeque próterens,\\
+Sinu Tuo recónditur.\\
+
+3. Noctis nigrae calígine\\
+Tuo beátus lúmine,\\
+Psalmis et hymnis Cóelitum\\
+Choris se laetus ággregat.\\
+
+4. Mentis volátu líbero\\
+Percúrrit arcem síderum,\\
+Et quae negat mortálibus,\\
+Tibi vovet commércia.\\
+
+5. Deo Patri sit glória,\\
+Et Fílio, qu\emph{i} a mórtuis\\
+Surréxit, ac Paráclito,\\
+In sempitérna sáecula. Amen.
+\end{multicols}
+
+\horaNocturnusII
+
+\parsLectio{iv}
+
+\lettrine{A}{dalbértus,} nobilíssimis in Bohémia paréntibus
+Slavníco Libicénsi Cómite ac Střezíslava natus,
+Vojtěchus ántea pátrio sermóne dictus fuit.
+Adhuc infans gráviter cum aegrotáret, Beátae Vírginis ope,
+cui illum paréntes devóverant, mire conváluit.
+Ad acquiréndas liberáles disciplínas Magdebúrgum missus,
+ab ejúsdem urbis Epíscopo Adalbérto álterum nomen accépit:
+et praestans ingénio, pie ac honestíssime educátus est.
+Revérsus ad suos, Ditmáro mórtuo, summo ómnium consénsu
+Epíscopus Pragénsis creátur.
+Quo in múnere dum oratióne, verbo et exémplo gregem pascit,
+singulári vitae continéntia, pietáte pauperúmque cura éminens,
+omnes óptimi Antístitis partes sanctíssime implévit.
+
+\rubRespDeCommuni{Lux perpétua}
+
+\parsLectio{v}
+
+\lettrine{P}{ropter} contumáciam gentis ac Cómitum detrectántium,
+renuntiáre antíquis erróribus, rítibus sacrílegis atque peccátis,
+cum parum se profícere animadvérteret:
+Hierosólymam petitúrus, ad Sedem Apostólicam Romam se cóntulit.
+Digréssus inde ad Cassinénse monastérium,
+beáti Nili mónitu in Urbem revértitur:
+et Leóni Abbáti sancti Bonifácii commendátus,
+misso sacrae peregrinatiónis consílio,
+mónachus effícitur.
+Ibi cum triénnium incredíbili humilitáte, pietáte ac religióne
+exegísset: missis ad Summum Pontíficem legatióne Pragénsi,
+et Archiepíscopi Moguntíni núntiis, in Bohémiam revocátur.
+Jussus revérti, páruit: et redux cum máxima pópuli laetítia recéptus,
+monastérium Břevnoviénse eréxit.
+Cum vero populáres sacrílegi, íterum spretis óptimi Pastóris
+mónitis ac précibus, sacras invasíssent aedes,
+eásque ímpie contaminássent:
+vir Dei pátriae valedícens, Romam ad monastérium, unde discésserat,
+remigrávit.
+
+\parsLectio{vi}
+
+\lettrine{N}{ec} diu Romae quiéscere pótuit:
+cum, repeténtibus Pastórem et grege et Moguntíno Antístite,
+Póntifex ipsum íterum ad suos redíre jussísset.
+Ille vero de trucidátis in pátria frátribus ínterim cértior factus,
+mentésque prócerum a se alienátas esse videns,
+ad gentes, quae Christum nondum nóverant, converténdas,
+Summo Pontífice approbánte, ánimum adjécit.
+Piis, quas ántea jam in Polónia et Hungária fídei causa suscéperat,
+labóribus non conténtus: in Prússiam idólis adhuc serviéntem proficíscitur,
+Evangélium Christi disseminatúrus, Male accéptus ab íncolis,
+mox ab iísdem inter sacrificándum confóssus,
+et in partes disséctus est.
+Corpus Mártyris a Bolesláo Polóniae Duce aequáli auri póndere
+redémptum, prius Gneznam, deínde Pragam honorífice translátum est;
+ibíque summa religióne cólitur.
+
+\horaNocturnusIII
+
+\parsEvangelium{Joánnem}
+
+\parsLectioEv{Cap. 10, 11-16}
+\inIlloTempore{}
+Dixit Jesus pharisaéis:
+Ego sum pastor bonus.
+Bonus pastor ánimam suam dat pro óvibus suis.
+Et réliqua.
+
+\parsHomilia{sancti Augustíni Epíscopi}{Serm. 138 De verb. Domini}
+
+\lettrine{A}{udívimus} Dóminum Jesum commendántem nobis boni
+pastóris offícium.
+In qua commendatióne admónuit nos útique, ut intéllegi datur,
+bonos esse pastóres.
+Et tamen ne intellegerétur pervérso modo multitúdo pastórum:
+ego sum, inquit, pastor bonus.
+Et unde sit pastor bonus, consequénter osténdit:
+pastor, inquit, bonus ánimam suam ponit pro óvibus.
+Pastor ergo bonus Christus. Quid Petrus? nonne bonus pastor?
+nonne et ipse ánimam suam pro óvibus pósuit?
+Quid Paulus? Quid céteri Apóstoli?
+Quid eórum témpora consequéntes beáti Epíscopi Mártyres?
+nonne omnes pastóres boni?
+
+\rubRespDeCommuni{Ego sum vitis vera}
+
+\parsLectio{viii}
+
+\lettrine{O}{mnes} ergo isti pastóres boni,
+non solum quia sánguinem fudérunt.
+Non enim fudérunt elatióne, sed caritáte.
+Quómodo autem habet vel exíguam caritátem,
+qui étiam convíctus non amat unitátem?
+Hanc Dóminus unitátem comméndans pastóribus bonis,
+nóluit multos appelláre pastóres.
+Neque enim, ut dixi, jam non erat pastor bonus Petrus, Paulus,
+Apóstoli céteri, et posterióres sancti Epíscopi.
+Omnes hi pastóres boni; et tamen ille pastóribus bonis
+non commendávit pastóres bonos, sed pastórem bonum.
+
+\parsLectio{ix}
+
+\lettrine{Q}{uid} est ergo, quod pastóribus bonis comméndas unum pastórem,
+nisi quia in uno pastóre doces unitátem?
+Et expónit apértius ipse Dóminus per ministérium nostrum
+ex ipso Evangélio commémorans caritátem vestram,
+et dicens (audíte, quid commendávit):
+Ego sum pastor bonus, dixi; quia omnes céteri,
+omnes pastóres boni membra mea sunt.
+Unum caput, unum corpus, unus Christus.
+Ergo et pastor pastórum, et pastóres pastóris,
+et oves cum pastóribus sub pastóre.
+Mérito Christus in se habens omnes pastóres bonos,
+unum comméndat, dicens:
+Ego sum, unus sum, mecum omnes in unitáte unum sunt.
+Qui extra me pascit, contra me pascit.
+Qui mecum non cólligit, spargit.
+
+\parsTeDeum
+
+\horaLaudes
+
+\score
+office-part: hymnus
+name: Jam grata nos illuminat
+mode: 3
+annotation: Hymnus
+annotation: III
+book: AR1912 [20]
+ratio: Hymnus tono proprio caret. Cantetur in tono paschali pro hymnos eiusdem metri de Communi.
+c4 e!fwg fe de e dc d fd efe ;
+evDC g h i j hg j ivHG :
+ih g hg fvED e!fg f e d ;
+h g h ivHG h gvFD/e!fg fe e ::
+Jam gra -- ta nos il -- lú -- mi -- nat
+Di -- es sa -- crá -- ta Már -- ty -- ris,
+Qui lu -- ce so -- lis clá -- ri -- or,
+Cael<i>o</i> al -- li -- gá -- bat pá -- tri -- am.
+
+\markup
+\begin{multicols}{2}
+2. Salve triúmpho spléndido\\
+Adjúncte victor nóbilis\\
+Coelo chorísque Cóelitum:\\
+Nostris adésto vócibus.\\
+
+3. Virtútis Elíae áemulus,\\
+Terram rigábas áridam:\\
+Nostras supérna pérfice\\
+Mentes rigári grátia.\\
+
+4. Ad tuta per te páscua\\
+Oves vocátae pródeant;\\
+Et vitis almae pálmites\\
+Largis premántur frúctibus.
+
+5. Seges tuis sudóribus\\
+Tuóque nata sánguine,\\
+Matúra Patris lúmine,\\
+Matris sacrae sit gáudium.\\
+
+6. Ut qui canentes psállimus\\
+Deum tuámque glóriam,\\
+Te prosequámur áuspicem,\\
+Tua assequámur gáudia.\\
+
+7. Deo Patri sit glória,\\
+Et Fílio, qui a mórtuis\\
+Surréxit, ac Paráclito,\\
+In sempitérna sáecula. Amen.
+\end{multicols}
+
+\versiculus{Pretiósa in conspéctu Dómini, allelúja.}%
+{Mors Sanctórum ejus, allelúja.}
+
+\score
+office-part: antiphona
+mode: 8
+annotation: Ad Ben.
+annotation: VIII. G
+book: cbre 312v, IC
+ratio: In textibus approbatis legitur \emph{testem suae passionis.} Nos hic ordinem verborum praeservavimus secundum codices vetustissimos: \emph{suae passionis testem.} Melodia \emph{Deus Israel} adaptata est ad textum longiorem. Divisiones additae sunt.
+c4 f!ghg hfg g () f ghg hg hfg g ;
+g gh h g g h ji hg h hg fg g ;
+g g g g h g h g ghGF f :
+f g h ji hg g g g gh hg fg ;
+fe fg hg f g gh gh g gvFED
+e fg g g ::
+j j i j h g ::
+Gló -- ri -- a * Chri -- sto Dó -- mi -- no,
+qui be -- á -- tum A -- dal -- bér -- tum E -- pí -- sco -- pum
+su -- ae Pas -- si -- ó -- nis tes -- tem fe -- cit:
+de cu -- jus mé -- ri -- tis et mi -- rá -- cu -- lis
+be -- ne -- díc -- tus De -- us Is -- ra -- el,
+al -- le -- lú -- ja.
+E u o u a e.
+
+\markup
+\rubrica{Oratio ut supra.}
+
+\rubrica{Et fit Commemoratio S. Georgii Martyris per antiphonam}
+Fíliae Jerúsalem.
+\rubrica{et Versum}
+Sancti et justi.
+\rubrica{Oratio ut supra.}
+
+\horaVesperaeII
+
+\rubrica{Hymnus ut supra in I Vesperis.}
+
+\versiculus{Pretiósa in conspéctu Dómini, allelúja.}%
+{Mors Sanctórum ejus, allelúia.}
+
+\score
+office-part: antiphona
+mode: 4
+annotation: Ad Mag.
+annotation: IV. E
+book: cbre 313r, IC
+ratio: Melodia adaptata est ad textum valde breviorem, \emph{et ... civitate} nova est.
+c4 efe dc de e e ,
+f d f e!fgf!e!f d d ;
+f d f gh g g ,
+f g gh g e e :
+gh!jij hg hjh g fg g ,
+gf gh gf e e ;
+dc d f fg f ,
+gh g f g fe dc ,
+d d!ef e e ::
+h g h ih gf e ::
+In -- cly -- te Mar -- tyr, *
+Pas -- tor e -- gré -- gi -- e,
+de -- cus Bo -- he -- mó -- rum,
+sanc -- te A -- dal -- bér -- te:
+o -- ra pro pó -- pu -- lo
+ti -- bi de -- vó -- to,
+et u -- ni -- vér -- sa
+sanc -- ta ci -- vi -- tá -- te,
+al -- le -- lú -- ja.
+E u o u a e.
+
+\markup
+\rubrica{Et fit Commemoratio sequentis (S. Fidelis Martyris)
+  per Antiphonam}
+Lux perpétua.
+\rubrica{et Versum}
+Sancti et justi.
+
+\parsOratio
+Deus, qui beátum Fidélem, seráphico spíritus ardóre succénsum,
+in verae fídei propagatióne martýrii palma et gloriósis
+miráculis decoráre dignátus es:
+ejus, quaésumus, méritis et intercessióne,
+ita nos per grátiam tuam in fide et caritáte confírma;
+ut in servítio tuo fidéles usque ad mortem inveníri mereámur.
+
+\rubrica{Deinde fit Commemoratio S. Georgii Martyris
+  per Antiphonam}
+Sancti et justi.
+\rubrica{et Versum}
+Lux perpétua.
+\rubrica{Oratio ut supra.}
+
+\rubrica{Completorium de Dominica.}
