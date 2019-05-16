@@ -95,3 +95,30 @@
     fontes = "nic 268v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e f g } f e \melisma { d e } e \bar "|"
+    \melisma { g a } g a \melisma { a c' } a a \divMaior
+    a \melisma { g f } \melisma { g a } \melisma { g f } e e \bar "|"
+    f e d c \melisma { d e } e \bar "|"
+    \melisma { e g a } g a \melisma { a bes } a a
+    \melisma { g f } \melisma { g a } \melisma { g f } e e \divMaior
+    \melisma { d a bes } a \melisma { g f } \melisma { g a } g
+    \melisma { g f } \melisma { e f } \melisma { g a } \melisma { g f } e e \bar "||"
+  }
+  \addlyrics {
+    In -- cly -- te Mar -- tyr,_*
+    Pa -- stor e -- gré -- gi -- e,
+    de -- cus Bo -- he -- mó -- rum,
+    sanc -- te A -- dal -- bér -- te,
+    o -- ra pro pó -- pu -- lo
+    ti -- bi de -- vó -- to,
+    et u -- ni -- vér -- sa
+    sanc -- ta ci -- vi -- tá -- te.
+  }
+  \header {
+    fontes = "prosch 460"
+  }
+}

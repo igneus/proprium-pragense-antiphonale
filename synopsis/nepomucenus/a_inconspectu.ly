@@ -62,6 +62,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    d \melisma { f g } g f
+  }
+  \addlyrics {
+    \lyrit et \lyrrev fá -- ci -- es
+  }
+  \header {
+    fontes = "prosch 459"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \bar "" \melisma { f d } e f \bar "" g \melisma { a g } \melisma { f g } g \bar "'"
     g \melisma { a c' } \melisma { c' c' b } \melisma { a g } \melisma { f g } \bar "" g g \bar "|"
     g \bar "" \melisma { g a } g \melisma { a c' } \bar "" \melisma { d' e' d' } \melisma { c' d' } d' \bar "'"

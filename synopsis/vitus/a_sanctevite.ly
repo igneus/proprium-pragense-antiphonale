@@ -275,3 +275,32 @@
     fontes = "pvi2 212v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { c d } d \melisma { d e f d } d \bar "|"
+    f g e f d \melisma { f e } d d \bar "|"
+    d \melisma { e f } g e \melisma { g a } g f e d
+    g f e \melisma { d e } d c
+    d f e f g e \melisma { f e } d \melisma { c d } d \bar "|"
+    c \melisma { d e } \melisma { e d } f e d
+    d e f g f e \melisma { g b } \melisma { f e } d d
+    \melisma { d g } f \melisma { f e } d e d c
+    \melisma { e g } e \melisma { a g } \melisma { f e } d d \bar "||"
+  }
+  \addlyrics {
+    San -- cte Vi -- te,_*
+    pre -- ti -- ó -- se Chri -- sti Mar -- tyr,
+    tu -- o sanc -- to pa -- tro -- cí -- ni -- o
+    nos fá -- mu -- los tu -- os
+    u -- bí -- que tu -- é -- re gu -- ber -- nán -- do:
+    ut tu -- is mé -- ri -- tis
+    con -- cés -- sa vé -- ni -- a de -- li -- ctó -- rum
+    pla -- cé -- re va -- le -- á -- mus
+    Re -- gi sae -- cu -- ló -- rum.
+  }
+  \header {
+    fontes = "prosch 461"
+  }
+}

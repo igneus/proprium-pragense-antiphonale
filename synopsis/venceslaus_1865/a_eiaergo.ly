@@ -50,6 +50,19 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e a } g
+  }
+  \addlyrics {
+    dul -- cis
+  }
+  \header {
+    fontes = "prosch 459"
+  }
+}
+
 %{
 \score {
   \transpose c c' {
