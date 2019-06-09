@@ -54,7 +54,7 @@ StringDate = Struct.new(:month, :day, :sort_number)
 
 # Sorts both (Abstract)Date and StringDate so that StringDates
 # follow after all Dates of the same month, in their original order
-DATE_SORT = proc {|date| 10000 * date.month + (date.is_a?(StringDate) ? date.sort_number : date.day) }
+DATE_SORT = proc {|date| 10000 * date.month + (date.is_a?(StringDate) ? (date.sort_number + 100) : date.day) }
 
 class YearWithMovables
   extend Forwardable
