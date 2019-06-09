@@ -5,7 +5,7 @@
 \header {
   title = "S. Venceslai, martyris"
   subtitle = "officium novum, anno 1865 editum"
-  fontes = "einsric, osbpav"
+  fontes = "einsric; osbpav; prosch"
 }
 
 \markup\vesperaeI
