@@ -50,7 +50,11 @@ OCTAVE_NAMES = {
 
 Entry = Struct.new(:date, :title, :rank_code, :commemorations, :local)
 Commemoration = Struct.new(:title, :local)
-StringDate = Struct.new(:month, :day)
+StringDate = Struct.new(:month, :day, :sort_number)
+
+# Sorts both (Abstract)Date and StringDate so that StringDates
+# follow after all Dates of the same month, in their original order
+DATE_SORT = proc {|date| 10000 * date.month + (date.is_a?(StringDate) ? date.sort_number : date.day) }
 
 class YearWithMovables
   extend Forwardable
@@ -58,10 +62,7 @@ class YearWithMovables
   def initialize(year, movable_feasts)
     @dates =
       (CR::Util::Year.new(year).to_enum(:each).to_a + movable_feasts)
-      .sort_by {|date| [date.month, (date.day.is_a?(Fixnum) ? date.day.to_s : 'Z')] }
-    # ^___ sorts both (Abstract)Date and StringDate so that StringDates
-    # follow after all Dates of the same month,
-    # (hopefully) in their original order
+      .sort_by(&DATE_SORT)
   end
 
   def_delegator :@dates, :each
@@ -86,7 +87,10 @@ class SimpleSanctorale
   end
 
   def each_date
-    @days.each_key {|k| yield k }
+    @days
+      .each_key
+      .sort(&DATE_SORT)
+      .each {|k| yield k }
   end
 end
 
@@ -99,6 +103,8 @@ class OldSanctoraleLoader
   # dest should be a Sanctorale,
   # src anything with #each_line
   def load(src, dest)
+    @counter = 0
+    
     in_front_matter = false
     month_section = nil
     src.each_line.with_index(1) do |l, line_num|
@@ -164,6 +170,8 @@ class OldSanctoraleLoader
   # parses a line containing celebration record,
   # returns a single Celebration
   def load_line(line, month_section = nil)
+    @counter += 1
+    
     # celebration record
     m = line.match(line_regexp)
     if m.nil?
@@ -192,7 +200,7 @@ class OldSanctoraleLoader
     date =
       if day.start_with? '['
         # movable feast, "date" as string
-        StringDate.new(month_section, day[1..-2])
+        StringDate.new(month_section, day[1..-2], @counter)
       else
         CR::AbstractDate.new(month_section, day.to_i)
       end
