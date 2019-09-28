@@ -1,7 +1,13 @@
+# This project uses a custom calendar data file format,
+# resembling, but not identical to, the one used
+# by the `calendarium-romanum` gem.
+# This script loads such a data file and transforms it
+# to LaTeX source.
+
 require 'calendarium-romanum'
 CR = CalendariumRomanum
 
-month_names = [
+MONTH_NAMES = [
   nil,
   'Januarius',
   'Februarius',
@@ -263,7 +269,7 @@ File.open(target_path, 'w') do |fw|
 
       # month heading
       month = date.month
-      fw.puts "\\calMonth{#{month_names[month]}}\n\n"
+      fw.puts "\\calMonth{#{MONTH_NAMES[month]}}\n\n"
 
       fw.puts '{ \setlength{\parindent}{0pt}' # suppress indentation in group
       fw.puts '\begin{parcolumns}[rulebetween=true,colwidths={1=5mm}]{2}'

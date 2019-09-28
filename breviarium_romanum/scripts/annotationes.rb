@@ -1,3 +1,7 @@
+# Crawls gly files, extracts `ratio` header fields,
+# generates the book part describing sources of individual chants
+# and editorial measures taken.
+
 require 'gly'
 
 parser = Gly::Parser.new
