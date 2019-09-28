@@ -89,7 +89,7 @@ class SimpleSanctorale
   def each_date
     @days
       .each_key
-      .sort(&DATE_SORT)
+      .sort_by(&DATE_SORT)
       .each {|k| yield k }
   end
 end
