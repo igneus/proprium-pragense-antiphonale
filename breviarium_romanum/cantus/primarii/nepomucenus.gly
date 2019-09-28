@@ -1,0 +1,183 @@
+\header
+dies: 05/16
+festum: S. Joannis Nepomuceni
+
+\markup
+\begin{caputFesti}
+  \diesFesti{Die 16 Maji}
+  \nomenFesti{S. Joannis Nepomuceni}
+  \descriptioFesti{Martyris, Patroni Principalis Regni}
+  \dignitasFesti{Duplex I classis cum Octava communi}
+\end{caputFesti}
+
+\horaVesperaeI
+
+\rubrica{Antiphonae de Laudibus;
+  Psalmi ut in I Vesperis de Communi Apostolorum.}
+
+\parsCapitulum{Eccli. 21, 28-29}
+\lettrine{L}{ábia} imprudéntium stulta narrábunt,
+verba autem prudéntium statéra ponderabúntur: in ore fatuórum
+cor illórum, et in corde sapiéntium os illórum.
+
+\score
+office-part: hymnus
+name: Invictus heros Numinis
+mode: 3
+annotation: Hymnus
+annotation: III
+book: pustet1879 [161]
+c4 e e ed g h j i h ;
+j i h h g h!iji!h g g :
+gh j i h g i g h ;
+g!hig h g f d e!fg f e ::
+In -- víc -- tus He -- ros Nú -- mi -- nis,
+Mer -- gén -- dus un -- da flú -- mi -- nis,
+Stat for -- tis et si -- lén -- ti -- o,
+Dum fit Si -- gíl -- li mén -- ti -- o.
+
+\markup
+
+\begin{multicols}{2}
+2. Hinc Rex minátur fúnera,\\
+Hinc tortor infert vúlnera;\\
+Manus ligántur fúnibus,\\
+Artus cremántur ígnibus.\\
+
+3. Sed haec Joánnes déspicit,\\
+Nec Regis iram réspicit:\\
+Secréta non vult pándere,\\
+Horret Sigíllum frángere.\\
+
+4. Stat mutus agnus ínnocens,\\
+Nil de tegéndis próferens;\\
+Stat: dumque Rex nil élicit,\\
+E ponte justum déjicit.\\
+
+5. Praeceps ab alto stérnitur,\\
+Undis profúndis mérgitur:\\
+Mersum sed applaudéntibus\\
+Undae salútant ígnibus.\\
+
+6. Stellae natant in flúmine,\\
+Illi paréntant lúmine:\\
+Docétque coeli cláritas,\\
+Quae sit Joánnis cháritas.\\
+
+7. Da, sempitérna Trínitas,\\
+Ut in bono sit fírmitas;\\
+Aut lacrymárum flúmina\\
+Mergant cadéntum crímina. Amen.
+\end{multicols}
+
+\versiculus{Sacraméntum regis abscóndere bonum est, allelúja.}%
+{Opera autem Dei reveláre honoríficum, allelúja.}
+
+\score
+office-part: antiphona
+name: Dedit mihi Dominus
+mode: 6
+annotation: Ad Magn.
+annotation: VI. F
+book: eins1774 prop. sanc. 44, IC
+ratio: Alleluja, quod in fonte non notatur, additum est.
+c4 fd dc fg g ghg f f ,
+hj h h h gf gh g ;
+f f fe dc ,
+fg g ghg f f ::
+g ghg f f ::
+h h f gh g f ::
+De -- dit mi -- hi Dó -- mi -- nus *
+lin -- guam mer -- cé -- dem me -- am:
+et in ip -- sa
+lau -- dá -- bo e -- um.
+!<i>T.P.</i> Al -- le -- lú -- ja.
+E u o u a e.
+
+\markup
+
+\parsOratio
+Deus, qui ob invíctum beáti Joánnis
+sacramentále siléntium
+nova Ecclésiam tuam martýrii coróna decorásti:
+da, ut ejus exémplo et intercessióne,
+ori nostro custódiam ponéntes,
+beátis, qui lingua non sunt lapsi,
+annumerémur.
+Per Dóminum.
+
+\rubrica{Completorium de Dominica.}
+
+\horaMatutinum
+
+\rubrica{Invitatorium}
+Exsúltent in Dómino.
+\rubrica{de Communi.}
+
+\score
+office-part: hymnus
+name: In profunda noctis umbra
+mode: 2
+annotation: Hymnus
+annotation: II
+book: osbpav 1
+f3 e f h gvFE g h g f ;
+c ef fe hi i h h :
+j h i i f h gf e ;
+g i j hg f e f ::
+In pro -- fún -- da noc -- tis um -- bra
+Et gra -- vi ca -- lí -- gi -- ne
+Lu -- strat ae -- dem flam -- ma mun -- da,
+Sic ju -- bén -- te Nú -- mi -- ne.
+
+\markup
+
+\begin{multicols}{2}
+2. Nocte náscitur Joánnes,\\
+Astra coelo dévolant:\\
+Nocte mérgitur Joánnes,\\
+Astra funus ápparant.\\
+
+3. Hinc cor ejus igne flagrans,\\
+Fortis urit cháritas:\\
+Hinc ab ejus ore manans\\
+Mira prodit suávitas.\\
+
+4. Nunc amóre cor bonórum\\
+Ad salútem pértrahit:\\
+Nunc timóre cor malórum\\
+A gehénna rétrahit.\\
+
+5. Páuperes solátur aere,\\
+Derelíctis súbvenit:\\
+Nin sinit justos jacére,\\
+Damna famae práepedit.\\
+
+6. Per Joánnis sanctitátem,\\
+O beáta Trínitas,\\
+Méntibus da puritátem,\\
+Corde regnet cháritas. Amen.
+\end{multicols}
+
+\horaNocturnusI
+
+\parsAnt{1} Erit lumen Israel in igne,
+et Sanctus ejus in flamma (allelúja).
+
+\rubrica{Psalmi trium Nocturnorum de Communi unius Martyris.}
+
+\rubrica{Tempore Paschali Psalmi cujuslibet Nocturni
+  dicuntur sub una, et quidem prima Antiphona.}
+
+\parsAnt{2} Sanávit Dóminus púerum,
+et réddidit illum patri ejus.
+
+\parsAnt{3} Puer autem erat miníster
+in conspéctu Dómini
+ante fáciem Sacerdótis.
+
+\versiculus{Sacraméntum Regis abscóndere bonum est (allelúja).}%
+{Opera autem Dei reveláre honoríficum (allelúja).}
+
+{\Large \textsc{Lacuna usque ad finem Matutini.}}
+
