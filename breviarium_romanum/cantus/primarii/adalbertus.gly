@@ -346,13 +346,13 @@ al -- le -- lú -- ja.
 E u o u a e.
 
 \markup
-\rubrica{Oratio ut supra.}
+\oratioSupra
 
 \rubrica{Et fit Commemoratio S. Georgii Martyris per antiphonam}
 Fíliae Jerúsalem.
 \rubrica{et Versum}
 Sancti et justi.
-\rubrica{Oratio ut supra.}
+\oratioSupra
 
 \horaVesperaeII
 
@@ -409,6 +409,6 @@ ut in servítio tuo fidéles usque ad mortem inveníri mereámur.
 Sancti et justi.
 \rubrica{et Versum}
 Lux perpétua.
-\rubrica{Oratio ut supra.}
+\oratioSupra
 
 \rubrica{Completorium de Dominica.}
