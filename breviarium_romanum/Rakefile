@@ -61,4 +61,11 @@ task :clean do
       sh "rm *."+s
     end
   end
+
+  # TODO: copied chode chunk
+  Dir['cantus/*/*.gly'].collect do |gly_path|
+    glytex_path = File.basename(gly_path).sub('.gly', '.tex')
+
+    sh 'rm', glytex_path
+  end
 end
