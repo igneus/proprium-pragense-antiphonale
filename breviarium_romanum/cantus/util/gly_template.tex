@@ -1,0 +1,44 @@
+% `gly preview` template which allows building a preview of
+% each feast separately (which builds *much* faster than the whole book)
+
+\documentclass[12pt, a5paper, twoside]{book}
+
+% To compile:
+%
+% $ gly preview -t path/to/gly_template.tex path/to/file.gly
+
+\usepackage{fontspec}
+\setmainfont[Ligatures={TeX}]{Junicode}
+
+\usepackage{csquotes}
+\usepackage[latin]{babel}
+\usepackage[left=2cm, right=1.5cm, top=1.5cm, bottom=1.5cm, marginparsep=3mm]{geometry}
+
+\usepackage[
+  backend=biber,
+  style=authortitle,
+  sortlocale=la_LA,
+  maxnames=3,
+  firstinits=true,
+]{biblatex}
+
+\usepackage[show]{ed} % editorial annotations
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+\usepackage{parcolumns}
+\usepackage{lettrine}
+
+\usepackage{etoolbox}
+\usepackage{luatextra}
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{gregoriotex} % for gregorio score inclusion
+
+\input{defs}
+
+{{glyvars}}
+
+\begin{document}
+
+{{body}}
+
+\end{document}
