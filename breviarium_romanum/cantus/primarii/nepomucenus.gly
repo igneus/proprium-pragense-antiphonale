@@ -70,8 +70,8 @@ Aut lacrymárum flúmina\\
 Mergant cadéntum crímina. Amen.
 \end{multicols}
 
-\versiculus{Sacraméntum regis abscóndere bonum est, allelúja.}%
-{Opera autem Dei reveláre honoríficum, allelúja.}
+\versiculus{Sacraméntum regis abscóndere bonum est. \tpAlleluia}%
+{Opera autem Dei reveláre honoríficum, allelúja. \tpAlleluia}
 
 \score
 office-part: antiphona
@@ -110,9 +110,10 @@ Per Dóminum.
 
 \horaMatutinum
 
-\rubrica{Invitatorium}
+\rubrica{Invitatorium de communi: per annum}
+Regem Mártyrum Dóminum,
+\rubrica{tempore paschali autem}
 Exsúltent in Dómino.
-\rubrica{de Communi.}
 
 \score
 office-part: hymnus
@@ -176,8 +177,338 @@ et réddidit illum patri ejus.
 in conspéctu Dómini
 ante fáciem Sacerdótis.
 
-\versiculus{Sacraméntum Regis abscóndere bonum est (allelúja).}%
-{Opera autem Dei reveláre honoríficum (allelúja).}
+\versiculus{Sacraméntum regis abscóndere bonum est. \tpAlleluia}%
+{Opera autem Dei reveláre honoríficum, allelúja. \tpAlleluia}
 
-{\Large \textsc{Lacuna usque ad finem Matutini.}}
+De libro Ecclesiástici.
 
+\parsLectioAnnot{i}{Cap. 21.}
+
+\lettrine{S}{tultus} a fenéstra respíciet in domum:
+vir autem erudítus foris stabit.
+Stultítia hóminis auscultáre per óstium:
+et prudens gravábitur contumélia.
+Lábia imprudéntium stulta narrábunt:
+verba autem prudéntium statéra ponderabúntur.
+In ore fatuórum cor illórum:
+et in corde sapiéntium os illórum.
+Dum maledícit ímpius diábolum, maledícit ipse ánimam suam.
+Susúrro coinquinábit ánimam suam, et in ómnibus odiétur:
+et qui cum eo mánserit, odiósus erit.
+Tácitus et sensátus honorábitur.
+
+\score
+office-part: responsorium
+name: Metuebat rex Joannem
+mode: 2
+annotation: 1. Resp.
+annotation: II
+book: propraem32 2
+f3 f f!gwh/hv f!gw!hvGFg gf ,
+ME -- tu -- é -- bat *
+h/hg/ij j h!jli/hvGF h/hif ;
+Rex Jo -- án -- nem,
+jijIH/kxikJI/jk j jl lvKJ ,
+Sci -- ens e -- um
+jij hi g!hi ihi ,
+vi -- rum ju -- stum
+h f/fef c!ece/fg/gf ::
+et san -- ctum.
+() fg~ ehGF fh/igh gf ::
+<i>T._P.</i> Al -- le -- lú -- ia.
+f f f f ef/h/hi h ij i ,
+!<sp>V/</sp>. Et cu -- sto -- di -- é -- bat e -- um,
+h hg~ hi gh fg f/fe ,
+et au -- dí -- to e -- o
+h hg hi gh f!gw!h!g gf ;
+mul -- ta fa -- ci -- é -- bat,
+f fe fg f ,
+et li -- bén -- ter
+f f!gw!hvGFE f hg/hih hvGFg f/fe ::
+e -- um au -- di -- é -- bat.
+jijIH/kxikJI/jk j ::
+Sci -- ens.
+
+\markup
+\parsLectioAnnot{ii}{Cap. 28.}
+
+\lettrine{F}{lagélli} plaga livórem facit:
+plaga autem linguae commínuet ossa.
+Multi cecidérunt in ore gládii;
+sed non sic quasi qui interiérunt per linguam suam.
+Beátus, qui tectus est a lingua nequam,
+qui in iracúndiam illíus non transívit,
+et qui non attráxit jugum illíus,
+et in vínculis ejus non est ligátus.
+Jugum enim illíus jugum férreum est:
+et vínculum illíus vínculum aéreum est.
+Mors illíus mors nequíssima:
+et útilis pótius inférnus, quam illa.
+
+\rr{} Lex veritátis fuit in ore ejus, et iníquitas non est invénta
+in lábiis ejus: in pace et in aequitáte ambulávit mecum: *
+Et multos avértit ab iniquitáte. \tpAlleluia{}
+\vv{} Lábia enim Sacerdótis custódient sciéntiam,
+et legem requírent ex ore ejus.
+Et multos.
+
+\parsLectio{iii}
+
+Perseverántia illíus non permanébit, sed obtinébit vias injustórum:
+et in flamma sua non combúret justos.
+Qui relínquunt Deum, íncident in illam, et exardébit in illis,
+et non extinguétur:
+et immittétur in illos quasi leo, et quasi pardus laedet illos.
+Sepi aures tuas spinis; linguam nequam noli audíre;
+et ori tuo fácito óstia et seras.
+Aurum tuum et argéntum tuum confla, et verbis tuis fácito statéram,
+et frenos ori tuo rectos.
+Et atténde, ne forte labáris in lingua, et cadas in conspéctu
+inimicórum insidiántium tibi, et sit casus tuus insanábilis in mortem.
+
+\rr{} Sepívi aures meas spinis, *
+Et ori meo feci óstia et seras. \tpAlleluia{}
+\vv{} Beátus, qui lingua sua non est lapsus, et qui non servívit
+indígnis se.
+Et ori. Glória Patri. Et ori.
+
+\horaNocturnusII
+
+\parsAnt{4}
+Non quaesívit a Dómino ducátum, neque a Rege cáthedram honóris. \tpAlleluia
+
+\score
+office-part: antiphona
+name: Loquebar
+mode: 4
+annotation: 5. Ant.
+annotation: IV A
+book: li93 10
+ratio: Textus correctus est, sine cantus mutatione (Dei/tuis).
+c3 ef hi i_ () i h i j i h i. i. ,
+f i h g fe f_ e de f h f. f. ::
+LO -- qué -- bar * de te -- sti -- mó -- ni -- is tu -- is
+in con -- spéc -- tu re -- gum et non con -- fun -- dé -- bar.
+% Alleluia non est
+i h i j h f ::
+\l E u o u a e.
+
+\markup
+\parsAnt{6}
+Amplius non vidébitis fáciem meam vos,
+per quos transívi praédicans regnum Dei.
+% Alleluia non est
+
+\versiculus{Pone, Dómine, custódiam ori meo. \tpAlleluia}%
+{Et óstium circumstántiae lábiis meis. \tpAlleluia}
+
+\parsLectio{iv}
+
+\lettrine{J}{oánnes} Nepomúci, Bohémiae óppido,
+unde Nepomucéni cognómen duxit, a paréntibus aetáte provéctis,
+non sine futúrae sanctitátis praeságio,
+flammis supra nascéntis domum mirabíliter collucéntibus, ortus est.
+Cum infans in gravem morbum incidísset,
+Beátae Vírginis ope, cui natum paréntes referébant accéptum,
+e vitae perículo evásit incólumis.
+Egrégia índole, piáque institutióne coeléstibus indíciis obsequénte,
+inter sanctas religiosásque exercitatiónes puerítiam egit.
+Nam Ecclésiam frequénter adíre, ac Sacerdótibus ad aras operántibus
+ministráre in delíciis habébat.
+Pragae gravióribus disciplínis excúltus, Philosophíae,
+Theologíae sacrorúmque Cánonum magistérium et láuream eméruit.
+Sacerdótio initiátus, atque a sciéntia sanctórum
+ad lucra animárum rite comparátus, ministério verbi Dei
+se pénitus addíxit.
+Cum ígitur in vítiis extirpándis, et revocándis in viam salútis errántibus
+eloquéntia et pietáte úberes éderet fructus,
+inter Canónicos Metropolitánae Ecclésiae Pragénsis cooptátus,
+mox sibi demandátam Evangélii coram Rege Vencesláo Quarto
+praedicándi provínciam suscépit, eo succéssu,
+ut Joánnis suasu multa Rex fáceret, magnóque in honóre ejus virtútes habéret.
+Conspícuas tamen, quas ille óbtulit, dignitátes Dei servus,
+ne a divíni verbi praecónio avocarétur,
+constantíssime recusávit.
+
+\rr{} Instans oratióni et ministério Verbi,
+hortabátur omnes, in propósito cordis permanére in Dómino: *
+Quia erat vir bonus, et plenus Spíritu sancto. \tpAlleluia
+\vv{} Et apponebátur multa turba Dómino.
+Quia erat.
+
+\parsLectio{v}
+
+\lettrine{R}{egiis} illum eleemósynis in páuperes erogándis praeféctum,
+Regína consciéntiae sibi moderatórem adscívit.
+Cum autem Vencesláus ab offício institutóque decessísset,
+atque in vítia praeceps abriperétur, piae autem cónjugis obtestatiónes et mónita
+aegre ferret; conténdere ausus est, ut in Sacramentáli judício crédita
+Regínae arcána sibi a Joánne panderéntur.
+At Dei miníster blandítiis primum, minis deínde tentátus,
+nefáriae Regis cupiditáti fórtiter óbstitit.
+Furéntem tamen Venceslái ánimum cum ab execrándo propósito nec humána
+nec divína jura deterrérent; suprémum agónem, quem instáre sibi athléta Christi nóverat,
+pópulo in concióne de impendéntibus étiam regni calamitátibus admónito,
+non obscúre praenuntiávit.
+Bolesláviam proféctus ad Beátae Vírginis imáginem, antíquo cultu célebrem,
+coeléste praesídium ad certándum bonum certámen fusis précibus implorávit.
+Cum Rex veheméntius urgéret, et próximam in aquis, si obluctári pérgeret,
+submersiónem intentáret; Joánnes invícta constántia terróres minásque refutávit.
+Itaque Regis império torméntis et cárceris squalóre conféctus,
+in Móldavam flumen, Pragae intérfluens, noctu dejícitur,
+et illústri Mártyrum láurea coronátur.
+
+\rr{} Dispérsit, dedit paupéribus: *
+Justítia ejus manet in sáeculum sáeculi. \tpAlleluia
+\vv{} Beátus, qui intélligit super egénum et páuperem. Justítia.
+
+\parsLectio{vi}
+
+\lettrine{S}{acrílegum} fácinus clam patrátum, et Mártyris glóriam insígne prodígium
+divínitus patefécit. Ubi enim exánime corpus secúndo flúmine vehi coepit,
+ardéntes faces aquis supernatántes et discurréntes apparuérunt.
+Quamóbrem ex aréna postrídie mane corpus elátum, Canónici deínde,
+Regis iram nihil timéntes, in Metropolitánam Ecclésiam solémni pompa
+intulérunt, et sepultúrae mandárunt.
+Cum autem in dies invícti Sacerdótis memória miráculis
+et máxima fidélium, eórum praecípue, qui fama periclitántur,
+veneratióne crésceret;
+post annos demum ámplius trecéntos, in jurídica recognitióne córporis,
+quod sub humo támdiu jacúerat, lingua ejus incorrúpta et vívida
+repérta est: quae sexto post anno judícibus a Sede Apostólica delegátis
+exhíbita, novo prodígio repénte intúmuit,
+et subobscúrum rubórem in purpúreum commutávit.
+His ítaque aliísque signis rite probátis, Benedíctus Décimus tértius
+Póntifex Máximus die décima nona mensis Mártii,
+anno salútis millésimo septingentésimo vigésimo nono,
+primum hunc Sacramentális Sigílli assertórem, arcáni fidem sánguine
+obsignántem, sanctórum Mártyrum catálogo adscrípsit.
+
+\rr{} Ego scio, quóniam intrábunt post discessiónem meam
+lupi rapáces in vos, non parcéntes gregi: *
+Propter quod vigiláte. \tpAlleluia
+\vv{} Et ex vobis ipsis exsúrgent viri loquéntes pervérsa,
+ut abdúcant discípulos post se.
+Propter.
+Glória Patri.
+Propter.
+
+\horaNocturnusIII
+
+\score
+office-part: antiphona
+name: Igne me examinasti
+mode: 8
+annotation: 7. Ant.
+annotation: VIII G
+book: li93 13
+c4 g g' g g' h h' g_ g.f. ,
+g' h j' i h_j i_h_ ,
+g_ h h i' h g. ::
+hi h g. g. ::
+Ig -- ne me e -- xa -- mi -- ná -- sti,
+et non est in -- vén -- ta
+in me i -- ní -- qui -- tas.
+!<i>T._P.</i> Al -- le -- lú -- ja.
+j j i j h g ::
+\l E u o u a e.
+
+\markup
+\parsAnt{8}
+Aquae multae non potuérunt extínguere charitátem,
+nec flúmina óbruent illam.
+% non est Alleluia
+
+\score
+office-part: antiphona
+name: Transivi per ignem et aquam
+mode: 1
+annotation: 9. Ant.
+annotation: I D
+book: li93 16
+c4 c cd d () d fe d_ de dd c. ,
+dc~ f g h g f_ ef g fe d d d. ::
+Trans -- í -- vi * per ig -- nem et a -- quam,
+et e -- du -- xí -- sti me in re -- fri -- gé -- ri -- um.
+% non est Alleluia
+h h g f gh gvFED ::
+\l E u o u a e.
+
+\markup
+\versiculus{Dixi: Custódiam vias meas. \tpAlleluia}%
+{Ut non delínquam in lingua mea. \tpAlleluia}
+
+Léctio sancti Evangélii secúndum Matthaéum.
+
+\parsLectioAnnot{vii}{Cap. 11.}
+
+\lettrine{I}{n} illo témpore:
+Cum audísset Joánnes in vínculis ópera Christi,
+mittens duos de discípulis suis, ait illi:
+Tu es, qui ventúrus es, an álium expectámus?
+Et réliqua.
+
+Homilía sancti Gregórii Papae.
+
+% TODO needs special command
+\rubrica{In Evangel. Homilia 6.}
+
+\lettrine{D}{imíssis} Joánnis discípulis, quid de eódem Joánne
+turbis dicat, audiámus.
+Quid exístis vidére in desérto? Arúndinem vento agitátam?
+Quod vidélicet non asseréndo, sed negándo íntulit.
+Arúndinem quippe mox ut aura contígerit,
+in partem álteram infléctit.
+Et quid per arúndinem, nisi carnális ánimus designátur?
+qui mox ut favóre vel detractióne tángitur, in partem quámlibet inclinátur.
+Si enim ab humáno ore aura favóris fláverit, hilaréscit, et extóllitur:
+sed si inde ventus detractiónis erúperit, unde aura laudis veniébat,
+mox hunc quasi in partem álteram ad vim furóris inclínat.
+
+\rr{} Cum corriperétur ab illo de ómnibus malis,
+quae fecit Rex, adjécit et hoc: *
+Et inclúsit Joánnem in cárcere. \tpAlleluia
+\vv{} Labóro usque ad víncula, quasi male óperans;
+sed verbum Dei non est alligátum.
+Et inclúsit.
+
+\parsLectio{viii}
+
+\lettrine{S}{ed} arúndo agitáta vento Joánnes non erat:
+quia hunc nec blandum grátia, nec cujúslibet detractiónis
+ira ásperum faciébat;
+nec próspera hunc erígere, nec advérsa nóverant inclináre.
+Arúndo ergo vento agitáta non erat, quem ab status sui
+rectitúdine nulla rerum varíetas inflectébat.
+Discámus ergo, fratres charíssimi, arúndo vento agitáta non esse:
+solidémus ánimum inter auras linguárum pósitum:
+stet inflexíbilis status mentis.
+Nulla nos detráctio ad iram próvocet, atque ad remissiónem
+inútilis grátiae nullus favor inclínet.
+Non nos próspera élevent, non advérsa pertúrbent:
+ut qui in soliditáte fídei fígimur,
+nequáquam rerum transeúntium mobilitáte moveámur.
+
+\rr{} Réddidit Deus justo mercédem labórum suórum,
+et dedúxit illum in via mirábili: *
+Et fuit illi in velaménto diéi,
+et in luce stellárum per noctem. \tpAlleluia{}
+\vv{} Transvéxit illum per aquam nímiam,
+inimícos autem illíus demérsit.
+Et fuit.
+Glória Patri.
+Et fuit.
+
+\parsLectio{ix}
+
+\lettrine{A}{dhuc} autem de ejus expressióne subjúngitur:
+Sed quid exístis vidére in desérto? hóminem móllibus vestítum?
+Ecce, qui móllibus vestiúntur, in dómibus regum sunt.
+Camelórum enim pilis, ut scitis, vestítus Joánnes fuísse descríbitur.
+Et quid est dícere: Ecce, qui móllibus vestiúntur,
+in dómibus regum sunt; nisi apérta senténtia demonstráre,
+quia non coelésti, sed terréno regi mílitant ii,
+qui pro Deo pérpeti áspera fúgiunt, et solis exterióribus déditi,
+praeséntis vitae mollítiem ed delectatiónem quaerunt?
+
+\parsTeDeum

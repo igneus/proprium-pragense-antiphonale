@@ -77,9 +77,17 @@ opraem34:
     Supplementum Antiphonarii pro eclesiis Montis Sion,
     Siloensi et Neorisensi,
     in: Antiphonarium ad usum ... Ordinis Praemonstratensis
-  location: Parisiis - Tornacii - Romae
+  location: Parisiis - Tornaci - Romae
   publisher: Desclée
   year: 1934
+propraem32:
+  name: |
+    Supplementum Processionalis pro ecclesiis Montis Sion,
+    Siloensi et Neorisensi,
+    in: Processionale ad usum ... Ordinis Praemonstratensis
+  location: Parisiis - Tornaci - Romae
+  publisher: Desclée
+  year: 1932
 li93:
   name: S. Joannis Nepomuceni Sacerdotis et Martyris Ad Laudes matutinas et ad Vesperas
   location: Praha
