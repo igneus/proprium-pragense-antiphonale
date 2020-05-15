@@ -512,3 +512,188 @@ qui pro Deo pérpeti áspera fúgiunt, et solis exterióribus déditi,
 praeséntis vitae mollítiem ed delectatiónem quaerunt?
 
 \parsTeDeum
+
+\horaLaudesEtPerHoras
+
+\score
+office-part: antiphona
+name: Interrogabat eum rex
+mode: 5
+annotation: 1. Ant.
+annotation: V a
+book: einsric 237, IC
+ratio: Alleluja additum est.
+c3 d f gxg h h () hi h h ,
+h i j kvJI h h ;
+d ef f , f d gxg f ef e d d ::
+ef e d d ::
+IN -- ter -- ro -- gá -- bat * e -- um Rex
+mul -- tis ser -- mó -- ni -- bus;
+at ip -- se ni -- hil il -- li re -- spon -- dé -- bat.
+!<i>T._P.</i> Al -- le -- lú -- ja.
+h h i g h f ::
+\l E u o u a e.
+
+\score
+office-part: antiphona
+name: Rex dixit
+mode: 8
+annotation: 2. Ant.
+annotation: VIII G
+book: eins1774 prop. sanc. 45, IC
+ratio: Alleluja additum est.
+c4 d fg g ,
+g g h gf gh g ,
+hj hg h g gf gh g g ;
+hj i , j h g h gf gh g ,
+hj h gf gh h g g ::
+hi h g g ::
+REX di -- xit: *
+Ne ab -- scón -- das a me
+ver -- bum, quod te in -- tér -- ro -- go.
+Di -- xi:
+Se -- cré -- tum me -- um mi -- hi,
+se -- cré -- tum me -- um mi -- hi.
+!<i>T._P.</i> Al -- le -- lú -- ja.
+j j i j h g ::
+\l E u o u a e.
+
+\score
+office-part: antiphona
+name: Affirmabat rex
+mode: 7
+annotation: 3. Ant.
+annotation: VII c
+book: eins1774 prop. sanc. 46, IC
+ratio: Alleluja additum est.
+c3 hg h ij i i ,
+gh i h h g h i hg fg f e :
+e f h h h h g h ij i ,
+i j i hi i i ,
+g hf g f e e ::
+fg f e e ::
+AF -- fir -- má -- bat Rex, *
+se dí -- vi -- tem et be -- á -- tum fac -- tú -- rum.
+Non o -- bé -- di -- o prae -- cép -- to Re -- gis,
+sed prae -- cép -- to Le -- gis,
+quae da -- ta est no -- bis.
+!<i>T._P.</i> Al -- le -- lú -- ja.
+i i j i h gh ::
+\l E u o u a e.
+
+\score
+office-part: antiphona
+name: Tunc rex
+mode: 7
+annotation: 4. Ant.
+annotation: VII c2
+book: osbpav 3
+c3 hg f h hj ji hi i ;
+i hk j i j i ,
+j k j i () hg fg e e ::
+h g f ef g f e e ::
+Tunc Rex ac -- cén -- sus i -- ra, *
+in hunc su -- per o -- mnes
+cru -- dé -- li -- us <sp>+</sp> de -- saé -- vi -- it.
+!<i>T._P.</i> de -- saé -- vi -- it, al -- le -- lú -- ja.
+i i j i h gh ::
+\l E u o u a e.
+
+\score
+office-part: antiphona
+name: Beatus, qui lingua sua
+mode: 1
+annotation: 5. Ant.
+annotation: I f
+book: einsric 238, IC
+ratio: Alleluja additum est.
+c4 ixdh!i hg h ,
+g gh g e f g fe d d ;
+c df f f e f ,
+g fe d d ::
+ef e d d ::
+BE -- á -- tus, *
+qui lin -- gua su -- a non est lap -- sus,
+et qui non ser -- ví -- vit
+in -- dí -- gnis se.
+!<i>T._P.</i> Al -- le -- lú -- ja.
+h h g f gh gf ::
+\l E u o u a e.
+
+\markup
+% ut in vesperis; repetitum hic propter longitudinem matutini
+\parsCapitulum{Eccli. 21, 28-29}
+\lettrine{L}{ábia} imprudéntium stulta narrábunt,
+verba autem prudéntium statéra ponderabúntur: in ore fatuórum
+cor illórum, et in corde sapiéntium os illórum.
+
+\score
+office-part: hymnus
+name: Vix in sepulchro
+mode: 3
+annotation: Hymnus
+annotation: III
+ratio: tonus hymni de primis Vesperis
+c4 e e ed g h j i h ;
+j i h h g h!iji!h g g :
+gh j i h g i g h ;
+g!hig h g f d e!fg f e ::
+Vix in se -- púl -- chro cón -- di -- tur,
+Sig -- nis Jo -- án -- nes pró -- di -- tur;
+Per crá -- ti -- um re -- pá -- gu -- la
+In -- tér -- mi -- cant mi -- rá -- cu -- la.
+
+\markup
+
+\begin{multicols}{2}
+2. Hic ejus hostes íllico\\
+Pudóre moesti público,\\
+Ultríce dextra Núminis,\\
+Poenas repéndunt críminis.\\
+
+3. Hic damna rerum fléntibus,\\
+Famáeve conqueréntibus,\\
+Abdúcta res revértitur,\\
+Abláta fama rédditur.\\
+
+4. Hic corpus aegritúdines,\\
+Tempus vicissitúdines,\\
+Perículum secúritas,\\
+Mortem fugit mortálitas.\\
+
+5. Hic viva lingua Mártyris,\\
+Sed muta, voce sánguinis\\
+Clamans, ut Abel, ímprobat,\\
+Regíque crimen éxprobrat.\\
+
+6. Uníus o da Trínitas,\\
+Triúmque simplex Unitas,\\
+Ut qui Joánni súpplicant,\\
+Id ímpetrent, quod flágitant. Amen.
+\end{multicols}
+
+\versiculus{Pósui ori meo custódiam. \tpAlleluia}%
+{Cum consísteret peccátor advérsum me. \tpAlleluia}
+
+\score
+office-part: antiphona
+name: Quicumque glorificaverit me
+mode: 4
+annotation: Ad Ben.
+annotation: IV E
+book: osbpav 3
+c4 f df f () f e f g f g gh ;
+f e fg gf de e e :
+g gh h h hj hg h ;
+gh hg () f de e e ::
+f df f ef g gf e e ::
+Qui -- cúm -- que * glo -- ri -- fi -- cá -- ve -- rit me,
+glo -- ri -- fi -- cá -- bo e -- um:
+qui au -- tem con -- tém -- nunt me,
+e -- runt <sp>+</sp> i -- gnó -- bi -- les.
+!<i>T._P.</i> i -- gnó -- bi -- les, al -- le -- lú -- ja.
+
+\l E u o u a e.
+
+\markup
+\rubrica{Oratio ut in primis Vesperis.}
