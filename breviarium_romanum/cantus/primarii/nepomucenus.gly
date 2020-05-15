@@ -697,3 +697,267 @@ e -- runt <sp>+</sp> i -- gnó -- bi -- les.
 
 \markup
 \rubrica{Oratio ut in primis Vesperis.}
+
+\horaTertia
+
+\rubrica{Ant.} Rex dixit.
+
+\rubrica{Capitulum ut in Laudibus.}
+
+\score
+office-part: responsorium breve
+name: Sacramentum regis
+mode: 6
+annotation: ℟. br.
+book: opraem34 5
+c4 f f g f gh hg ,
+f!gh g f g g f f ::
+f f g f ::
+h h h h h h g g g h g ,
+g f g gh hg ::
+f!gh g f g ::
+h h h ::
+f f g f ::
+SA -- cra -- mén -- tum Re -- gis *
+Ab -- scón -- de -- re bo -- num est.
+Sa -- cra -- mén -- tum.
+!<sp>V/</sp>. O -- pe -- ra au -- tem De -- i re -- ve -- lá -- re
+ho -- no -- rí -- fi -- cum.
+Ab -- scón -- de -- re.
+Gló -- ri -- a.
+Sa -- cra -- mén -- tum.
+
+\markup
+\versiculus{Pone, Dómine, custódiam ori meo.}%
+{Et óstium circumstántiae lábiis meis.}
+
+\rubTemporePaschali
+
+\score
+office-part: responsorium breve
+name: Sacramentum regis
+mode: 6
+annotation: ℟. br.
+book: opraem34 6
+c4 f f f f g f ,
+f f f e g g h ;
+h hg gf~ f f fg gf~ f ::
+f f f f ::
+f f f f f f f f f g f ,
+f e g g h ::
+h hg gf~ f ::
+f f e ::
+f f f f ::
+SA -- cra -- mén -- tum Re -- gis
+Ab -- scón -- de -- re bo -- num est, *
+Al -- le -- lú -- ja, al -- le -- lú -- ja.
+Sa -- cra -- mén -- tum.
+!<sp>V/</sp>. O -- pe -- ra au -- tem De -- i re -- ve -- lá -- re
+ho -- no -- rí -- fi -- cum.
+Al -- le -- lú -- ja.
+Gló -- ri -- a.
+Sa -- cra -- mén -- tum.
+
+\markup
+\versiculus{Pone, Dómine, custódiam ori meo, allelúja.}%
+{Et óstium circumstántiae lábiis meis, allelúja.}
+
+\horaSexta
+
+\rubrica{Ant.} Affirmábat Rex.
+
+\parsCapitulum{Eccl. 28.}
+
+\lettrine{S}{epi} aures tuas spinis:
+linguam nequam noli audíre;
+et ori tuo fácito óstia et seras.
+
+\score
+office-part: responsorium breve
+name: Pone, Domine
+mode: 6
+annotation: ℟. br.
+book: opraem34 6
+c4 f f g gh h ,
+g f!gh g fd f g g f ::
+f f ::
+h h h h h g h g g ,
+h g f gh h ::
+g f!gh g fd ::
+h h h ::
+f f ::
+PO -- ne, Dó -- mi -- ne, *
+Cu -- stó -- di -- am o -- ri me -- o.
+Po -- ne.
+!℣. Et ó -- sti -- um cir -- cum -- stán -- ti -- ae lá -- bi -- is me -- is.
+Cu -- stó -- di -- am.
+Gló -- ri -- a.
+Po -- ne.
+
+\markup
+\versiculus{Dixi: Custódiam vias meas.}%
+{Ut non delínquam in lingua mea.}
+
+\rubTemporePaschali
+
+\score
+office-part: responsorium breve
+name: Pone, Domine
+mode: 6
+annotation: ℟. br.
+book: opraem34 7
+c4 f f g f f ,
+f f f f f e g h ;
+h hg gf~ f f fg gf~ f ::
+f f ::
+f f f f f f g f f ,
+f f e g h ::
+h hg gf~ f ::
+f f e ::
+f f ::
+PO -- ne, Dó -- mi -- ne,
+cu -- stó -- di -- am o -- ri me -- o, *
+Al -- le -- lú -- ja, al -- le -- lú -- ja.
+Po -- ne.
+!℣. Et ó -- sti -- um cir -- cum -- stán -- ti -- ae lá -- bi -- is me -- is.
+Al -- le -- lú -- ja.
+Gló -- ri -- a.
+Po -- ne.
+
+\markup
+\versiculus{Dixi: Custódiam vias meas, allelúja.}%
+{Ut non delínquam in lingua mea, allelúja.}
+
+\horaNona
+
+\parsCapitulum{Eccl. 28}
+
+\lettrine{A}{urum} tuum et argéntum tuum confla,
+et verbis tuis fácito statéram, et frenos ori tuo rectos:
+et atténde, ne forte labáris in lingua.
+
+\score
+office-part: responsorium breve
+name: Dixi: custodiam
+mode: 6
+annotation: ℟. br.
+book: opraem34 7
+c4 f!gh h ,
+g f!gh g fd f g g f ::
+f!gh h ::
+h h g h g , g g f gh h ::
+g f!gh g fd ::
+h h h ::
+f!gh h ::
+DI -- xi: *
+Cu -- stó -- di -- am vi -- as me -- as.
+Di -- xi.
+!℣. Ut non de -- lín -- quam in lin -- gua me -- a.
+Cu -- stó -- di -- am.
+Gló -- ri -- a.
+Di -- xi.
+
+\markup
+\versiculus{Pósui ori meo custódiam.}%
+{Cum consísteret peccátor advérsum me.}
+
+\rubTemporePaschali
+
+\score
+office-part: responsorium breve
+name: Dixi: custodiam
+mode: 6
+annotation: ℟. br.
+book: opraem34 8
+c4 f f , f f f f f e g h ;
+h hg gf~ f f fg gf~ f ::
+f f ::
+f f f g f , f f e g h ::
+h hg gf~ f ::
+f f e ::
+f f ::
+DI -- xi: *
+Cu -- stó -- di -- am vi -- as me -- as,
+Al -- le -- lú -- ja, al -- le -- lú -- ja.
+Di -- xi.
+!℣. Ut non de -- lín -- quam in lin -- gua me -- a.
+Al -- le -- lú -- ja.
+Gló -- ri -- a.
+Di -- xi.
+
+\markup
+\horaVesperaeII
+
+\rubrica{Psalmi de Communi, Antiphonae et Capitulum ut in I. Vesperis.}
+
+\score
+office-part: responsorium breve
+name: Jam faces lictor ferat
+mode: 2
+annotation: Hymnus
+annotation: II
+book: pustet1879 [164]
+f3 f e fh h fg f f e f h h ;
+ih i j ih i , i h f g f e :
+e!fhf!g e f h h , i j i hi ih fe ;
+h g h fe f ::
+JAM fa -- ces lic -- tor fe -- rat, et mi -- nán -- tem
+Jam fe -- rox en -- sem, ra -- bi -- dúm -- que tor -- tis
+Vín -- cu -- lis fer -- rum, sa -- cra ni Sa -- cér -- dos
+Ab -- di -- ta pan -- dat.
+
+\markup
+\begin{multicols}{2}
+2. Séntiet vires, animáeque magnae\\
+Pródigum pectus: violéntus ira\\
+Non quatit recti sólida tenácem\\
+Mente satélles.\\
+
+3. En ruit praeceps tumulátus unda\\
+Martyr, et fluctu plácido siléntem\\
+Náufragus linguam melióris aevi\\
+Servat in usum.\\
+
+4. Ac superjéctae fácili natántes\\
+Amne discúrrunt, rutilántque circa\\
+Mártyrem flammae: bene gesta plaudens\\
+Ornat Olýmpus.\\
+
+5. Ornat: et linguam, rósei instar ignis,\\
+Vívidam servans et adhuc rubéntem,\\
+Indicat, quaenam fúerit tacéntis\\
+Grátia linguae.\\
+
+6. Sit decus Patri, genitáeque Proli,\\
+Spíritum laudent, ab utróque puris\\
+Qui calet flammis, sine fine psallens\\
+Orbis utérque. Amen.
+\end{multicols}
+
+\versiculus{Pósui ori meo custódiam. \tpAlleluia}%
+{Cum consísteret peccátor advérsum me. \tpAlleluia}
+
+\score
+office-part: antiphona
+name: In conspectu potentium
+mode: 8
+annotation: Ad Magn.
+annotation: VIII G
+book: osbpav 3
+c4 h g h gf fh jk j j ,
+k j ji h g h g ;
+g ik j ji h g h g g ge f ed :
+d fe f g h g g f ,
+h j ji h () j i g g g ::
+j h h g f gh h g g ::
+IN con -- spéc -- tu po -- tén -- ti -- um *
+ad -- mi -- rá -- bi -- lis e -- ro,
+et fá -- ci -- es prín -- ci -- pum mi -- ra -- bún -- tur me:
+ta -- cén -- tem me su -- sti -- né -- bunt,
+et lo -- quén -- tem <sp>+</sp> me re -- spí -- ci -- ent.
+!<i>T._P.</i> me re -- spí -- ci -- ent, al -- le -- lú -- ja.
+j j i j h g ::
+E u o u a e.
+
+\markup
+\rubrica{Oratio ut in Laudibus.}
