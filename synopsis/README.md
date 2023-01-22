@@ -18,8 +18,8 @@
 
 ## Structure and building
 
-Each feast has it's own directory.
+Each feast has its own directory.
 It contains a main document, named like the directory with `.ly`
 extension added, containing all pieces and their variants.
-Each piece is described in it's own file, which can be compiled
+Each piece is described in its own file, which can be compiled
 both included in the main file and standalone.
