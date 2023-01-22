@@ -32,6 +32,7 @@
   scoreTitleMarkup = \markup\small{
     \fill-line {
       " "
+      \fromproperty #'header:annotation
       \fromproperty #'header:fontes
     }
   }
