@@ -47,6 +47,23 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 \bar "|" \melisma { g c' } \bar "|" a \melisma { a g } f \bar "|" \melisma { g a } g \bar "|"
+    b \bar "|" c' \bar "|" d' b \bar "|" \melisma { c' d' } b \bar "|"
+    e' \melisma { b d' e' } b b \bar "|" c' \melisma { b a } g g \bar "||"
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Tunc Rex ac -- cen -- sus i -- ra,
+    in hunc su -- per om -- nes
+    cru -- de -- li -- us de -- sae -- vi -- it.
+  }
+  \header {
+    fontes = "vilsecker cl"
+  }
+}
 
 \score {
   \transpose c c' {

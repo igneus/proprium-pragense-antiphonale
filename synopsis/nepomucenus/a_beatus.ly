@@ -39,6 +39,26 @@
 \score {
   \transpose c c' {
     \plainchant
+    g4 \melisma { b c' d' e' } d' \bar "|"
+    b \bar "|" \melisma { d' e' } d' \bar "|" \melisma { c' d' } c' \bar "|" \melisma { e' f' } \bar "|" d' \bar "|" c' \melisma { b a } \bar "|"
+    a \bar "|" \melisma { b c' } \bar "|" c' \bar "|" c' \melisma { c' d' } a \bar "|"
+    g \melisma { a c' } \melisma { a g } \bar "|" g \bar "||"
+    d' d' e' d' c' b a \bar "||"
+  }
+  \addlyrics {
+    Be -- a -- tus,
+    qui lin -- gua su -- a non est lap -- sus,
+    et qui non ser -- vi -- vit
+    in -- di -- gnis se.
+  }
+  \header {
+    fontes = "vilsecker cl"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \melisma { a c' } c' \bar "||"
     c' d' \melisma { c' b } a g a \melisma { a b a } g g \bar "|"
     g a b c' \melisma { d' e' } d' \bar "'"

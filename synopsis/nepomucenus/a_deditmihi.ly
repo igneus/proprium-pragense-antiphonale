@@ -27,6 +27,27 @@
 \score {
   \transpose c c' {
     \plainchant
+    d4 \melisma { d c } \bar "|" f g \bar "|" \melisma { f g a } a a \bar "|"
+    \melisma { bes a } g \bar "|" f \melisma { g a } g \bar "|" g g \bar "|"
+    g \bar "|" e \bar "|" g \melisma { a g } \bar "|"
+    \melisma { f g } \melisma { f e } \melisma { f e } \bar "|" d d \bar "||"
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    De -- dit mi -- hi Do -- mi -- nus
+    lin -- guam mer -- ce -- dem me -- am,
+    et in ip -- sa
+    lau -- da -- bo e -- um.
+  }
+  \header {
+    quid = "antiphona ad Magnificat"
+    fontes = "vilsecker cli"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f4 g a \melisma { g f } g g f \bar "||"
     \melisma { f e } f e d f \melisma { e d } c \bar "|"
     f g \melisma { f g a } g \bar "'"

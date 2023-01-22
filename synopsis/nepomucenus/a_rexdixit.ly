@@ -43,6 +43,29 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { c4 d } \bar "|" \melisma { d a bes} a \bar "|"
+    a \bar "|" g \melisma { f a } g \bar "|" a \bar "|" g \bar "|" \melisma { f g } f \bar "|"
+    e \bar "|" f \bar "|" e d d d \bar "|"
+    \melisma { f g } d \bar "|" e d \melisma { d c } \bar "|" d e \bar "|" f f \bar "|"
+    e \melisma { f g } a \bar "|" \melisma { e f g } \melisma { f e } \bar "|" d d \bar "||"
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit:
+    Ne ab -- scon -- das a me ver -- bum,
+    quod te in -- ter -- ro -- go.
+    Di -- xi:
+    Se -- cre -- tum me -- um mi -- hi,
+    se -- cre -- tum me -- um mi -- hi.
+  }
+  \header {
+    fontes = "vilsecker cxlix"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma{ e4 g } \melisma{ g a c' } c' \bar "||"
     c' b \melisma{ a c' } c' b \melisma{ c' d' c' } a a \bar "|"
     g a \melisma{ g f } \melisma{ e f g } g g \bar "|"

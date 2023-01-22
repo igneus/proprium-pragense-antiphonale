@@ -29,6 +29,30 @@
 \score {
   \transpose c c' {
     \plainchant
+    d4 \melisma { c d } d d \bar "|" \melisma { e f } \bar "|"
+    \melisma { g a } \bar "|" f e e \bar "|" d \bar "|" \melisma { e f } g \melisma { a g } \bar "|"
+    f \melisma { g f } e \bar "|"
+    \melisma { g a } \bar "|" e g g g \bar "|" \melisma { d e } f c \bar "|" \melisma { d f } f \bar "|"
+    \melisma { f a } \bar "|" f \melisma { g f } e \bar "|" \melisma { f g } f \bar "|"
+    \melisma { e f } \bar "|" g e \bar "|" \melisma { f e } \bar "|" d d \bar "||"
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- ma -- bat Rex,
+    se di -- vi -- tem, et be -- a -- tum
+    fac -- tu -- rum.
+    Non o -- be -- di -- o prae -- cep -- to Re -- gis,
+    sed prae -- cep -- to le -- gis,
+    quae da -- ta est no -- bis.
+  }
+  \header {
+    fontes = "vilsecker cl"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 c \melisma{ d f } d \melisma{ c d } \bar "||"
     f \melisma{ e f } e d c \melisma{ d f } g f \bar "'"
     \melisma{ d c } \melisma{ e f g } \melisma{ g f } \bar "|"
