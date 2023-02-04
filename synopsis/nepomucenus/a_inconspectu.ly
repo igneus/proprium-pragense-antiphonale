@@ -57,6 +57,22 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g4 c' } \melisma { a g f } \melisma { g a } g \bar "||"
+
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    In con -- spéc -- tu
+  }
+  \header {
+    annotation = "8"
+    fontes = "schlecht 232"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c4 d f f f \melisma { g a } g g \bar "||"
     e f \melisma { g a f g } e f \melisma { d c } d \bar "|"
     \melisma { f g } g f \melisma { g a } g g \bar "'"

@@ -41,7 +41,7 @@
   }
   \header {
     quid = "antiphona ad Magnificat"
-    fontes = "vilsecker cli"
+    fontes = "vilsecker cli; schlecht 231 (incipit)"
   }
 }
 

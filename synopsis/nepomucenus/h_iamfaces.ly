@@ -25,6 +25,29 @@
 }
 
 \score {
+  \relative c'' {
+    % \clef "soprano"
+    \cadenzaOn
+    g1 e2 f g1 g \bar "|" a2 g a b c1 g \bar "|"
+    c a2 c b a1 \bar "|" a g2 e f g1 g \bar "|"
+    g e2 f d c1 \bar "|" g' g a2 b a1 g2 \bar "|"
+    a( c1) c2 b a1 g \bar "|."
+    g g-\fermata \bar "|."
+  }
+  \addlyrics {
+    Jam fa -- ces Li -- ctor fe -- rat, et mi -- nan -- tem
+    jam fe -- rox en -- sem ra -- bi -- dum -- que tor -- tis
+    vin -- cu -- lis fer -- rum, sa -- cra ni Sa -- cer -- dos
+    ab -- di -- ta pan -- dat.
+    A -- men.
+  }
+  \header {
+    quid = "hymnus"
+    fontes = "schlecht 231"
+  }
+}
+
+\score {
   \transpose c c' {
     \plainchant
     d4 c \melisma { d f } f \melisma { d e } \bar "'" d d c d f f \bar "|"

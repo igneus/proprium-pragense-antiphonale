@@ -162,3 +162,20 @@ vilsecker:
     https://katalog.cbvk.cz/arl-cbvk/cs/detail-cbvk_us_cat-0578778-Vesperae-breviarii-romani-cantu-chorali-auctae-cum-officiis-sanctorum-per-summos-pontifices-novissi/
     So there's a chance that the chants were actually used
     (at least in this one institution) in Czech lands.
+schlecht:
+  author: Raymund Schlecht
+  name: Die Vespern nach dem römischen Breviere
+  location: Nördlingen
+  publisher: C. H. Beck
+  year: 1852
+  uri: https://books.google.cz/books?id=drFIAAAAcAAJ
+  notice: |
+    The author was active and the book received approbation
+    in the German diocese Eichstätt.
+    Chant tunes are simplified for the sake of a more lively singing
+    with organ accompaniment, as explained in the preface.
+    For antiphons only incipits are notated,
+    "da dieselben nach dem allgemeinen Gebrauche immer nur
+    angestimmt und mit der Orgel fortgesetzt werden;
+    die vollständinge Aufnahme der Gesangsweisen das Werk zu sehr
+    vergrößerte und vertheuerte." (preface, p. V)

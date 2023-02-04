@@ -123,6 +123,22 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g4 f e d } \melisma { g a g } g \bar "||"
+
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit:
+  }
+  \header {
+    annotation = "8"
+    fontes = "schlecht 229"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 d} \melisma { f g } g \bar "||"
     a g a \melisma { g f } g \melisma { g a } f a \melisma { c' b } a g \melisma { a b } a g \bar "|"
     \melisma { c' d' c' } g \bar "|"

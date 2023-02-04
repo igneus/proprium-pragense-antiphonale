@@ -68,6 +68,22 @@
 \score {
   \transpose c c' {
     \plainchant
+    c'4 a \melisma { a g } f a \melisma { c' d' } c' \bar "||"
+
+    c' c' d' bes c' a \bar "||"
+  }
+  \addlyrics {
+    Tunc Rex ac -- cén -- sus i -- ra
+  }
+  \header {
+    annotation = "5"
+    fontes = "schlecht 230"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \melisma { g c' b } c' \melisma { c' e' } d' \melisma { c' d' } d' \bar "'"
     d' \melisma { c' f' } e' d' e' d' e' d' c' \melisma { b c' } \melisma { a b } g \melisma { f g } g4. \bar "||"
   }

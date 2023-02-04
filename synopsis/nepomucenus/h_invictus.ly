@@ -25,6 +25,29 @@
 }
 
 \score {
+  \relative c'' {
+    % \clef "soprano"
+    \cadenzaOn
+    g2 g g a b c a b1 \bar "|"
+    a2 b c a g a c b1 \bar "|"
+    a2 b c d b c c b1 \bar "|"
+    a2 b c b a b a g1 \bar "|."
+    g g \bar "|."
+  }
+  \addlyrics {
+    In -- vic -- tus he -- ros nu -- mi -- nis
+    mer -- gen -- dus un -- da flu -- mi -- nis
+    stat for -- tis in si -- len -- ti -- o,
+    dum fit si -- gil -- li men -- ti -- o.
+    A -- men.
+  }
+  \header {
+    quid = "hymnus"
+    fontes = "schlecht 230"
+  }
+}
+
+\score {
   \transpose c c' {
     \plainchant
     e4 e \melisma { e d } g a c' b a \bar "|"

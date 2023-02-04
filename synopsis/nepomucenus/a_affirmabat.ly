@@ -53,6 +53,22 @@
 \score {
   \transpose c c' {
     \plainchant
+    d4 d \melisma { c d } d \melisma { f e f } \bar "||"
+
+    f f e c d \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- má -- bat Rex,
+  }
+  \header {
+    annotation = "2"
+    fontes = "schlecht 229"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 c \melisma{ d f } d \melisma{ c d } \bar "||"
     f \melisma{ e f } e d c \melisma{ d f } g f \bar "'"
     \melisma{ d c } \melisma{ e f g } \melisma{ g f } \bar "|"
