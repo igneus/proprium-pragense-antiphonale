@@ -93,6 +93,16 @@ li93:
   location: Praha
   publisher: Liturgický institut
   year: 1993
+pustet1875:
+  name: Vesperale Romanum juxta ordinem Breviarii Romani cum cantu emendato
+  location: Ratisbonae, Neo Eboraci et Cincinnatii
+  publisher: Fridericus Pustet
+  year: 1875
+  uri: https://books.google.cz/books?id=Xc4HAAAAQAAJ
+  notice: |
+    Chants of St. John Nepomuk in the same extent and with the same tones
+    as in pustet1879, except of the pieces transcribed
+    and not having notated alleluia at the antiphons.
 pustet1879:
   name: Vesperale Romanum juxta ordinem Breviarii Romani cum cantu emendato
   location: Ratisbonae, Novae Eboraci et Cincinnatii

@@ -4,6 +4,7 @@
 		     (markup #:large #:bold arg)))
 
 vesperaeI = \markup\hora{in i. vesperis}
+completorium = \markup\hora{ad completorium}
 matutinum = \markup\hora{ad matutinum}
 nocturnus = \markup\hora{in (solo) nocturno}
 nocturnusI = \markup\hora{in i. nocturno}

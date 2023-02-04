@@ -4,7 +4,7 @@
 
 \header {
   title = "S. Joannis Nepomuceni, martyris"
-  fontes = "einsric; eins1774; vilsecker; schlecht; zsass; pustet1879; opraem34; osbpav; li93; prosch"
+  fontes = "einsric; eins1774; vilsecker; schlecht; zsass; pustet1875; pustet1879; opraem34; osbpav; li93; prosch"
 }
 
 \markup\vesperaeI
@@ -12,6 +12,10 @@
 \include "h_invictus.ly"
 
 \include "a_deditmihi.ly"
+
+\markup\completorium
+
+\include "h_telucis.ly"
 
 \markup\matutinum
 

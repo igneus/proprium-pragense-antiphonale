@@ -25,6 +25,22 @@
 }
 
 \score {
+  \transpose c c' {
+    \plainchant
+    b a g
+  }
+  \addlyrics {
+    mén -- ti -- o.
+  }
+  \header {
+    fontes = "pustet1875 [142] (ut tonus pro tempore paschali)"
+  }
+}
+% except of the Eastertide tone,
+% pustet1875 also has notated tone "Infra Octavam Ascensionis", p. [143]
+% Doesn't seem to be proper in the true sense and so I'm leaving it out for now.
+
+\score {
   \relative c'' {
     % \clef "soprano"
     \cadenzaOn
@@ -84,7 +100,33 @@
   }
   \header {
     quid = "hymnus"
-    fontes = "pustet1879 [161]"
+    fontes = "pustet1875 [141]; pustet1879 [161]"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 a g a
+  }
+  \addlyrics {
+    si -- lén -- ti -- o
+  }
+  \header {
+    fontes = "pustet1875 [141]"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d4 e f e d e } e \bar "||"
+  }
+  \addlyrics {
+    A -- men.
+  }
+  \header {
+    fontes = "pustet1875 [142]"
   }
 }
 
