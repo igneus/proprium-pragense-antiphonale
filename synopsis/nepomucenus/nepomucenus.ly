@@ -4,7 +4,7 @@
 
 \header {
   title = "S. Joannis Nepomuceni, martyris"
-  fontes = "einsric; eins1774; vilsecker; schlecht; pustet1879; opraem34; osbpav; li93; prosch"
+  fontes = "einsric; eins1774; vilsecker; schlecht; zsass; pustet1879; opraem34; osbpav; li93; prosch"
 }
 
 \markup\vesperaeI

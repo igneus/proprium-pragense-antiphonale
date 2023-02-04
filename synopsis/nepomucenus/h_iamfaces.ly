@@ -48,6 +48,27 @@
 }
 
 \score {
+  \relative c'' {
+    \key f \major
+    \time 2/2
+    a2 g f e d\fermata r g2. g4 g2 a bes a\fermata
+    c2 c4 d c2 a c4 d c bes a( g) f2\fermata
+    a2 g f e d\fermata r g2. g4 g2 a bes a\fermata
+    a g f e d1\fermata \bar "|."
+  }
+  \addlyrics {
+    Jam fa -- ces Li -- ctor fe -- rat et mi -- nan -- tem,
+    jam fe -- rox en -- sem, ra -- bi -- dum -- que tor -- tis,
+    vin -- cu -- lis fer -- rum, sa -- cra ni Sa -- cer -- dos,
+    ab -- di -- ta pan -- dat.
+  }
+  \header {
+    quid = "hymnus"
+    fontes = "zsass 197+196"
+  }
+}
+
+\score {
   \transpose c c' {
     \plainchant
     d4 c \melisma { d f } f \melisma { d e } \bar "'" d d c d f f \bar "|"

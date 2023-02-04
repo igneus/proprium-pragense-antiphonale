@@ -171,7 +171,7 @@ schlecht:
   uri: https://books.google.cz/books?id=drFIAAAAcAAJ
   notice: |
     The author was active and the book received approbation
-    in the German diocese Eichstätt.
+    in the German diocese of Eichstätt.
     Chant tunes are simplified for the sake of a more lively singing
     with organ accompaniment, as explained in the preface.
     For antiphons only incipits are notated,
@@ -179,3 +179,16 @@ schlecht:
     angestimmt und mit der Orgel fortgesetzt werden;
     die vollständinge Aufnahme der Gesangsweisen das Werk zu sehr
     vergrößerte und vertheuerte." (preface, p. V)
+zsass:
+  author: Franciscus Zsasskovszky
+  name: Manuale musico-liturgicum (Chorálna kniha obriadov cirkewných)
+  location: Agriae
+  publisher: Lyceum Archi-episcopale
+  year: 1853
+  uri: https://books.google.cz/books?id=1alIAAAAcAAJ
+  notice: |
+    Latin-Slovak chant book of the diocese of Eger (lat. Agria), Hungary.
+    This is a book with very limited liturgical repertory,
+    for the feast we are interested in only proper hymns are included
+    and the tunes are not really proper, but shared by a whole group
+    of structurally similar hymns.

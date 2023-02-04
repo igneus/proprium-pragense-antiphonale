@@ -48,6 +48,27 @@
 }
 
 \score {
+  \relative c'' {
+    \key bes \major
+    \time 2/2
+    bes2 a c bes es d d4( c) bes2\fermata
+    bes2 a bes c d4( bes) a2 g f\fermata
+    c'2 c d c bes c bes a\fermata
+    bes g a bes d4( c) bes2( a4) a bes2\fermata \bar "|."
+  }
+  \addlyrics {
+    In -- vic -- tus He -- ros Nu -- mi -- nis,
+    mer -- gen -- dus un -- da flu -- mi -- nis,
+    stat for -- tis in si -- len -- ti -- o,
+    dum fit si -- gil -- li men -- ti -- o.
+  }
+  \header {
+    quid = "hymnus"
+    fontes = "zsass 200+199"
+  }
+}
+
+\score {
   \transpose c c' {
     \plainchant
     e4 e \melisma { e d } g a c' b a \bar "|"
