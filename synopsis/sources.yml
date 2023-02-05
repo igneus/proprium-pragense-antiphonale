@@ -191,6 +191,17 @@ vilsecker:
     https://katalog.cbvk.cz/arl-cbvk/cs/detail-cbvk_us_cat-0578778-Vesperae-breviarii-romani-cantu-chorali-auctae-cum-officiis-sanctorum-per-summos-pontifices-novissi/
     So there's a chance that the chants were actually used
     (at least in this one institution) in Czech lands.
+    The author was director of music in the St. Paul parish church, Passau.
+vilsecker1856:
+  author: F. J. Vilsecker
+  name: Vesperae Breviarii Romani cantu chorali auctae
+  location: Landishuti
+  publisher: J. G. Wölfle
+  year: 1856
+  uri: https://books.google.cz/books?id=SVUwAQAAIAAJ
+  notice: |
+    The formulary of St. John Nepomuk is an identical
+    re-edition from vilsecker.
 schlecht:
   author: Raymund Schlecht
   name: Die Vespern nach dem römischen Breviere

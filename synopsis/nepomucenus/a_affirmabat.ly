@@ -32,7 +32,7 @@
     d4 \melisma { c d } d d \bar "|" \melisma { e f } \bar "|"
     \melisma { g a } \bar "|" f e e \bar "|" d \bar "|" \melisma { e f } g \melisma { a g } \bar "|"
     f \melisma { g f } e \bar "|"
-    \melisma { g a } \bar "|" e g g g \bar "|" \melisma { d e } f c \bar "|" \melisma { d f } f \bar "|"
+    \melisma { g a } \bar "|" e f f f \bar "|" \melisma { d e } f c \bar "|" \melisma { d f } f \bar "|"
     \melisma { f a } \bar "|" f \melisma { g f } e \bar "|" \melisma { f g } f \bar "|"
     \melisma { e f } \bar "|" g e \bar "|" \melisma { f e } \bar "|" d d \bar "||"
     a a g f \melisma { g a } \melisma { g f } \bar "||"
