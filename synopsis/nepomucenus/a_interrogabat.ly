@@ -108,7 +108,7 @@
     Al -- le -- lú -- ja.
   }
   \header {
-    fontes = "pustet1882 [122]"
+    fontes = "pustet1882 [122]; orgpustet1890 [79]"
   }
 }
 
