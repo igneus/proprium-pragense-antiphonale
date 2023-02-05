@@ -102,6 +102,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f a } a g g \bar "||"
+  }
+  \addlyrics {
+    Al -- le -- lú -- ja.
+  }
+  \header {
+    fontes = "pustet1882 [122]"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 g } f a c' \melisma { b g } \bar "" \melisma { b c' } a \bar "'"
     a \bar "" \melisma { c' d' } d' \bar "" a \melisma { a d' } \melisma { c' b } g \bar "|"
     \melisma { f e } \bar "" \melisma { f g } \melisma { g f e d } \bar "'"

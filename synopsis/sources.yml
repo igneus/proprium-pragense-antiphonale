@@ -108,6 +108,15 @@ pustet1879:
   location: Ratisbonae, Novae Eboraci et Cincinnatii
   publisher: Fridericus Pustet
   year: 1879
+pustet1882:
+  name: Vesperale Romanum juxta ordinem Breviarii Romani cum cantu emendato
+  location: Ratisbonae, Neo Eboraci et Cincinnatii
+  publisher: Fridericus Pustet
+  year: 1882
+  uri: https://books.google.cz/books?id=qtVDQ122UxEC
+  notice: |
+    Chants of St. John Nepomuk in the same extent and with the same tones
+    as in pustet1879, except of the pieces transcribed.
 eins1774:
   name: Antiphonale benedictinum dispositum iuxta breviarium Einsidlense cum antiphonis etiam Boemiae propriis congestum a loci professo Fr. Vito A. D. 1774
   year: 1774

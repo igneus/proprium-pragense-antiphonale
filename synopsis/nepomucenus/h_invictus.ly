@@ -126,7 +126,7 @@
     A -- men.
   }
   \header {
-    fontes = "pustet1875 [142]"
+    fontes = "pustet1875 [142]; pustet1882 [125]"
   }
 }
 
