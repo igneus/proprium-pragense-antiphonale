@@ -128,6 +128,7 @@ orgpustet1890:
     Chants of St. John Nepomuk in the same extent and with the same tones
     as in pustet1879, except of the pieces transcribed.
 eins1774:
+  type: manuscript
   name: Antiphonale benedictinum dispositum iuxta breviarium Einsidlense cum antiphonis etiam Boemiae propriis congestum a loci professo Fr. Vito A. D. 1774
   year: 1774
   # It seems the library doesn't have a RISM siglum assigned.
@@ -138,6 +139,7 @@ eins1774:
   library: Knihovna Královské kanonie premonstrátů na Strahově, Praha
   shelfmark: DE II 28
 einsric:
+  type: manuscript
   name: Antiphonale Romano-Monasticum Breviario novo Einsidlensi accommodatum
   subtitle: VIrgInI In CoeLos assVMptae DICaVIt. AB.
   year: 1771 # encoded in the subtitle/dedication

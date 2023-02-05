@@ -15,8 +15,7 @@ title: Officia propria ecclesiasticae provinciae pragensis cum cantu
   resp. vůbec pro svátky
   vlastní kalendáři pražské církevní provincie, je tu správně,
   ale poněkud brzy: přípravné práce jsou na samém začátku.
-  Níže je možné prohlížet začátky pracovní srovnávací edice nápěvů
-  ze středověkých antifonářů,
+  Níže je možné prohlížet začátky pracovní srovnávací edice nalezených nápěvů,
   na základě níž budou později připraveny noty v podobě vhodné
   pro liturgický zpěv. Materiály budou průběžně doplňovány
   a aktualisovány.
@@ -25,12 +24,15 @@ title: Officia propria ecclesiasticae provinciae pragensis cum cantu
   Primárním cílem je vydat nápěvy k textům vlastních svátků
   pražské církevní provincie v podobě (těsně) před liturgickou
   reformou Druhého vatikánského koncilu.
-  Později je v plánu totéž udělat i pro latinské texty
-  pokoncilního společného propria českých a moravských diecésí.
+  Později je v plánu totéž udělat i pro <a href="https://kpmk.eu/kpmkeu/index.php/liturgie/liturgicke-texty/147-texty-narodniho-propria-latinsky">latinské texty
+  pokoncilního společného propria českých a moravských diecésí</a>.
 </p>
 <p>
   Pro podrobnější představení celého záměru viz článek
   <a href="http://www.inadiutorium.cz/blog/20170509-latinske-zpevy-pro-vlastni-svatky-prazske-cirkevni-provincie">Latinské zpěvy pro vlastní svátky pražské církevní provincie</a>.
+  Pro o něco úplnější přehled vývoje dotyčných liturgických textů
+  v 19. a první polovině 20. stol.
+  viz <a href="https://theses.cz/id/6itpzp/">Pavlík: Hodinky církevní</a>, s. 17-19.
 </p>
 
 <h2>
@@ -46,8 +48,12 @@ title: Officia propria ecclesiasticae provinciae pragensis cum cantu
 </p>
 
 <h3>
-  Pracovní edice nápěvů ze středověkých pramenů
+  Pracovní edice nápěvů
 </h3>
+
+<p>
+  <a href="/sources.html">Použité prameny a jejich zkratky</a>
+</p>
 
 <ul>
   <li><a href="/files/synopsis/adalbertus.pdf">S. Adalbertus / Sv. Vojtěch</a></li>
@@ -90,6 +96,22 @@ title: Officia propria ecclesiasticae provinciae pragensis cum cantu
     na webu je také přehled všech dostupných zhudebnění
     částí oficia v češtině od dalších autorů
   </li>
+</ul>
+
+<h2>
+  Liturgické texty online
+</h2>
+
+<p>
+  (Přehled digitalisovaných oficiálních vydání těch textů, pro které zde pilně a zcela neoficiálně shromažďujeme nápěvy)
+</p>
+
+<ul>
+<% data.editions.sort_by(&:year).each do |e| %>
+<li>
+  <a href="<%= e.uri %>"><%= e.year %> <%= e.location %></a>
+</li>
+<% end %>
 </ul>
 
 <h2>
