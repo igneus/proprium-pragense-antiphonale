@@ -157,6 +157,14 @@ manbas1785:
   location: Bruntruti
   year: 1785
   uri: https://books.google.cz/books?id=j6kfnMMluFAC
+manbas1842:
+  name: Manuale chori seu Vesperale Romanum una cum officio trium posteriorum dierum hebdomadae majoris editum ad usum dioecesis basileensis
+  edition: 2
+  location: Bruntruti
+  publisher: Victor Michel
+  year: 1842
+  uri: https://books.google.cz/books?id=lqI-AAAAcAAJ
+  notice: All chants of interest identical to the first edition.
 osbpav:
   name: Compendium Antiphonarii Monastici kalendario generali Ordinis Sancti Benedicti accommodatum
   location: Solesmis
