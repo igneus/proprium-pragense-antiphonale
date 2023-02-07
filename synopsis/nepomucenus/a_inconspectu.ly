@@ -32,6 +32,36 @@
 \score {
   \transpose c c' {
     \plainchant
+    f4 \bar "|" \melisma { e f } d c \bar "||" f \melisma { f g a bes } a a \bar "|"
+    \melisma { a c' d' c' } \melisma { bes a } \melisma { g a } a a \bar "|" a a \bar "|"
+    \melisma { f a } g g \bar "|" a g \melisma { f e } \bar "|"
+    d \melisma { f e } d \melisma { c d } \bar "|" d \bar "|"
+    f a g \bar "|" a \bar "|" \melisma { f g } \melisma { a g } a a \bar "|"
+    f \bar "|" g a g \bar "|" \melisma { f e f g } \bar "|" \melisma { f e } \melisma { d c } d d \bar "||"
+    g \melisma { f e } \melisma { e d } d \bar "||"
+
+    a a f g \melisma { f e } d \bar "||"
+  }
+  \addlyrics {
+    In con -- spec -- tu po -- ten -- ti -- um
+    ad -- mi -- ra -- bi -- lis e -- ro,
+    fa -- ci -- es prin -- ci -- pum
+    mi -- ra -- bun -- tur me:
+    ta -- cen -- tem me su -- sti -- ne -- bunt,
+    et lo -- quen -- tem me
+    re -- spi -- ci -- ent.
+    \set stanza = \markup{T.P.} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "1"
+    quid = "antiphona ad Magnificat"
+    fontes = "manbas1785 358"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 \bar "|" \melisma { e f } g g \bar "|" \melisma { g e } \melisma { f g a } g g \bar "|"
     \melisma { f g } e f e e \bar "|" d d \bar "|"
     e f g \bar "|" a g f \bar "|" \melisma { g f } e \melisma { g a } f \bar "|" g \bar "|"

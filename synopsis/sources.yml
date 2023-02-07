@@ -151,6 +151,12 @@ einsric:
     is in a later supplement (of course - the texts were created
     only for the 1865 new edition of the "proprium Bohemiae"),
     without page numbering.
+manbas1785:
+  name: Manuale chori seu Vesperale Romanum una cum officio trium posteriorum dierum hebdomadae majoris editum ad usum diocesis basileensis
+  edition: 1
+  location: Bruntruti
+  year: 1785
+  uri: https://books.google.cz/books?id=j6kfnMMluFAC
 osbpav:
   name: Compendium Antiphonarii Monastici kalendario generali Ordinis Sancti Benedicti accommodatum
   location: Solesmis

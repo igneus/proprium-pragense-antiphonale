@@ -28,20 +28,43 @@
   \transpose c c' {
     \plainchant
     d4 \melisma { d c } \bar "|" f g \bar "|" \melisma { f g a } a a \bar "|"
-    \melisma { bes a } g \bar "|" f \melisma { g a } g \bar "|" g g \bar "|"
-    g \bar "|" e \bar "|" g \melisma { a g } \bar "|"
-    \melisma { f g } \melisma { f e } \melisma { f e } \bar "|" d d \bar "||"
-    a a g f \melisma { g a } \melisma { g f } \bar "||"
+    \melisma { a c' } g \bar "|" f \melisma { g a } \melisma { f e } \bar "|" d d \bar "|"
+    \melisma { g e } \bar "|" g \bar "|" \melisma { a g } f \bar "|"
+    \melisma { e f } g \melisma { f e } \bar "|" d d \bar "||"
+    g \melisma { f e } \melisma { e d } d \bar "||"
+
+    a a g f g a g \bar "||"
   }
   \addlyrics {
     De -- dit mi -- hi Do -- mi -- nus
     lin -- guam mer -- ce -- dem me -- am,
     et in ip -- sa
     lau -- da -- bo e -- um.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "1"
+    quid = "antiphona ad Magnificat"
+    fontes = "manbas1785 357; schlecht 231 (incipit)"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { bes a } g \bar "|" f \melisma { g a } g \bar "|" g g \bar "|"
+    g \bar "|" e \bar "|" g \melisma { a g } \bar "|"
+    \melisma { f g } \melisma { f e } \melisma { f e } \bar "|" d d \bar "||"
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    lin -- guam mer -- ce -- dem me -- am,
+    et in ip -- sa
+    lau -- da -- bo e -- um.
   }
   \header {
     quid = "antiphona ad Magnificat"
-    fontes = "vilsecker cli; schlecht 231 (incipit)"
+    fontes = "vilsecker cli"
   }
 }
 

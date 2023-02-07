@@ -43,6 +43,33 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d' b } \bar "|" \melisma { d' e' } d' \bar "||"
+    \melisma { d' e' d' } \melisma c' \melisma { b c' } d' \bar "|" a \bar "|" g \bar "|" c' c' \bar "|"
+    c' \bar "|" b \bar "|" a c' c' c' \bar "|"
+    \melisma { c' d' } c' \bar "|"
+    c' c' \melisma { b c' } d' a \bar "|" g g \bar "||"
+    b \melisma { a b a } \melisma { a g } g \bar "||"
+
+    d' d' e' d' c' b c' \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit:
+    non ab -- scon -- das a me ver -- bum
+    quod te in -- ter -- ro -- go,
+    di -- xi
+    % Se -- cre -- tum me -- um mi -- hi, % lyrics shorter than the ones usual in Prague
+    se -- cre -- tum me -- um mi -- hi.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "7"
+    fontes = "manbas1785 355"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c4 d } \bar "|" \melisma { d a bes} a \bar "|"
     a \bar "|" g \melisma { f a } g \bar "|" a \bar "|" g \bar "|" \melisma { f g } f \bar "|"
     e \bar "|" f \bar "|" e d d d \bar "|"

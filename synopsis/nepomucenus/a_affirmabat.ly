@@ -29,6 +29,31 @@
 \score {
   \transpose c c' {
     \plainchant
+    f4 \melisma { c d } \melisma { d a bes } a \bar "||" a \bar "|"
+    g \bar "|" a g a \bar "|" f \bar "|" g a \melisma { g a } \bar "|" \melisma { f e } d d \bar "|"
+    \melisma { g e } \bar "|" g a g a \bar "|" f \melisma { g a } \melisma { f e } \bar "|" d d \bar "|"
+    \melisma { g e } \bar "|" g a g \bar "|" \melisma { f g } f \bar "|"
+    \melisma { g a } \bar "|" \melisma { g a } g \bar "|" \melisma { f e } \bar "|" d d \bar "||"
+    g \melisma { f e } \melisma { e d } d \bar "||"
+    a a g f g a g \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- ma -- bat Rex
+    se di -- vi -- tem et be -- a -- tum fac -- tu -- rum;
+    non o -- be -- di -- o prae -- cep -- to Re -- gis,
+    sed prae -- cep -- to le -- gis,
+    quae da -- ta est no -- bis.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "1"
+    fontes = "manbas1785 355"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 \melisma { c d } d d \bar "|" \melisma { e f } \bar "|"
     \melisma { g a } \bar "|" f e e \bar "|" d \bar "|" \melisma { e f } g \melisma { a g } \bar "|"
     f \melisma { g f } e \bar "|"

@@ -5,6 +5,28 @@
 \score {
   \transpose c c' {
     \plainchant
+    f4 \melisma { g a g a } bes \melisma { a g } f \melisma { g f } e f \bar "|"
+    \melisma { f a } c' bes a c' \melisma { bes a } g f \bar "|"
+    f g e f d \melisma { e d } c c \bar "|"
+    f \melisma { g a g a } bes \melisma { a g } f \melisma { g f } e \melisma { e f } \bar "||"
+    \melisma { f g f e f } f \bar "||"
+  }
+  \addlyrics {
+    In -- vic -- tus He -- ros Nu -- mi -- nis,
+    mer -- gen -- dus un -- da flu -- mi -- nis,
+    stat for -- tis in si -- len -- ti -- o,
+    dum fit si -- gil -- li men -- ti -- o.
+    A -- men.
+  }
+  \header {
+    quid = "hymnus"
+    fontes = "manbas1785 356"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 a g a b c' a b \bar "|"
     a b c' a g a c' \melisma { b c' d' c' b } \bar "|"
     a b c' d' b c' c' b \bar "|"

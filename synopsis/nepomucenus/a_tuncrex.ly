@@ -5,6 +5,28 @@
 \score {
   \transpose c c' {
     \plainchant
+    f4 \bar "|" d \bar "|" c \melisma { d e } f \bar "|" e e \bar "||"
+    e \bar "|" \melisma { g a } \bar "|" a a \bar "|" a g \bar "|"
+    f \melisma { g a } g g \bar "|" g \melisma { f e } e \bar "||"
+    g \melisma { g f } \melisma { f e } e \bar "||"
+
+    a a g a c' g e \bar "||"
+  }
+  \addlyrics {
+    Tunc Rex ac -- cen -- sus i -- ra
+    in hunc su -- per om -- nes
+    cru -- de -- li -- us de -- sae -- vit.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "4"
+    fontes = "manbas1785 355"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d4 f g \melisma{ g a } g e e \bar "||"
     f d c d \melisma { f g a } g \bar "'"
     e \melisma { e g a } g a \melisma { a g } e e e \bar "||"

@@ -47,6 +47,28 @@
 \score {
   \transpose c c' {
     \plainchant
+    d4 d \melisma { d c } f g \bar "|" \melisma { f g a } a \bar "||"
+    a \bar "|" \melisma { a c' d' } c' \bar "|" a \melisma { g a } a a \bar "|"
+    f \bar "|" a g \bar "|" a f \bar "|" \melisma { g f } \melisma { e d } \bar "|" \melisma { e f g e } \melisma { f e } d d \bar "||"
+    \melisma { e f g e } \melisma { f e } \melisma { e d } d \bar "||"
+
+    a a g f g a g \bar "||"
+  }
+  \addlyrics {
+    In -- ter -- ro -- ga -- bat e -- um
+    Rex mul -- tis ser -- mo -- ni -- bus,
+    at il -- le ni -- hil il -- li re -- spon -- de -- bat.
+    \set stanza = \markup{\italic{T.P.}} Al -- le -- lú -- ia.
+  }
+  \header {
+    annotation = "1"
+    fontes = "manbas1785 354"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d'4 d' b c' e' \bar "|" \melisma { d' e' } d' \bar "|" d' \bar "|"
     d' b \bar "|" \melisma { c' d' } c' g g \bar "|"
     c' \bar "|" c' c' \bar "|" \melisma { a c' } b \bar "|" a g \bar "|" \melisma { a c' } \melisma { b a } g g \bar "||"
