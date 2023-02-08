@@ -133,6 +133,20 @@
 \score {
   \transpose c c' {
     \plainchant
+    % \clef "soprano"
+    g4 a a g
+  }
+  \addlyrics {
+    po -- ten -- ti -- um
+  }
+  \header {
+    fontes = "mettenleiter 625"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     d \melisma { f g } g f
   }
   \addlyrics {
@@ -140,6 +154,38 @@
   }
   \header {
     fontes = "orgpustet1890 [82]; prosch 459"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    % \clef "soprano"
+    bes4 g f \melisma { g a } a g \divMaior
+    g d \melisma { f e } d c \bar "|"
+  }
+  \addlyrics {
+    fa -- ci -- es prin -- ci -- pum
+    mi -- ra -- bun -- tur me:
+  }
+  \header {
+    fontes = "mettenleiter 625"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    % \clef "soprano"
+    e f \melisma { g a } \melisma { a g } \bar "|"
+    bes g \melisma { a g f g } f \divMaior \melisma { e f g } f d d d \bar "||"
+  }
+  \addlyrics {
+    su -- sti -- ne -- bunt,
+    et lo -- quen -- tem me re -- spi -- ci -- ent.
+  }
+  \header {
+    fontes = "mettenleiter 625"
   }
 }
 

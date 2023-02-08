@@ -47,6 +47,20 @@
 }
 
 \score {
+  \transpose c c' {
+    \plainchant
+    % \clef "soprano"
+    \melisma { f4 g a g f g } g \bar "||"
+  }
+  \addlyrics {
+    A -- men.
+  }
+  \header {
+    fontes = "mettenleiter 624"
+  }
+}
+
+\score {
   \relative c'' {
     % \clef "soprano"
     \cadenzaOn

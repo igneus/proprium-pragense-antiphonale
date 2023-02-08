@@ -116,6 +116,25 @@
 \score {
   \transpose c c' {
     \plainchant
+    % \clef "soprano"
+    \melisma { f g a } f \melisma { bes a g } a \divMaior
+    f \melisma { f e g } a \melisma { a g } f \bar "||"
+
+    a a f \melisma { g a } g f \bar "||"
+  }
+  \addlyrics {
+    et in ip -- sa
+    lau -- da -- bo e -- um.
+  }
+  \header {
+    quid = "antiphona ad Magnificat"
+    fontes = "mettenleiter 624"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 c' b } c' \bar "" d' e' \bar "" b \melisma { c' d' } d' \bar "'"
     \melisma { d' f' } \melisma { f' e' } \bar "" d' \melisma { e' d' } \melisma { c' b } \bar "" \melisma { c' d' } d' \bar "|"
     \melisma { g a g a } \bar "" \melisma { f a } \bar "" \melisma { c' d' } d' \bar "'"

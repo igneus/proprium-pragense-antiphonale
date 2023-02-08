@@ -192,6 +192,33 @@
 \score {
   \transpose c c' {
     \plainchant
+    % \clef "soprano"
+    \melisma { d4 a, } \melisma { c d } d \bar "|"
+    f e f d \melisma { g f } \melisma { g f } d d \bar "|"
+    \melisma { f e f } c c d d c \bar "|"
+    \melisma { c d f g } f \bar "|"
+    a a f g e f d \bar "|"
+    e c b, \melisma { c d e } d \melisma { f e } d \bar "||"
+
+    f f f e c d \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit:
+    Ne ab -- scon -- das a me ver -- bum,
+    quod te in -- ter -- ro -- go.
+    Di -- xi:
+    Se -- cre -- tum me -- um mi -- hi,
+    se -- cre -- tum me -- um mi -- hi.
+  }
+  \header {
+    annotation = "II"
+    fontes = "mettenleiter 622"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 d} \melisma { f g } g \bar "||"
     a g a \melisma { g f } g \melisma { g a } f a \melisma { c' b } a g \melisma { a b } a g \bar "|"
     \melisma { c' d' c' } g \bar "|"

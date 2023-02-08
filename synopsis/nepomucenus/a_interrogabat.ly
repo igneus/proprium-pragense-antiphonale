@@ -122,6 +122,27 @@
 \score {
   \transpose c c' {
     \plainchant
+    % \clef "soprano"
+    d4 d c d f \melisma { e f } g a \bar "||"
+    bes g a \melisma { f g } g f \bar "||"
+    \melisma { c d } \melisma { f g } f e f \melisma { g a } g e \melisma { f e } d d \bar "||"
+
+    a a g f \melisma { g a } \melisma { g f } \bar "||"
+  }
+  \addlyrics {
+    In -- ter -- ro -- ga -- bat e -- um Rex
+    mul -- tis ser -- mo -- ni -- bus;
+    at ip -- se ni -- hil il -- li re -- spon -- de -- bat.
+  }
+  \header {
+    annotation = "I/1"
+    fontes = "mettenleiter 621"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c'4 c' c' \melisma { c' b } a g a \melisma { a g } \bar "||"
     \melisma { b c' } d' \melisma { c' a } c' c' c' \bar "|"
     c' \melisma { b a } g \melisma { a b c' } b a g \melisma { a b } a g g \bar "||"

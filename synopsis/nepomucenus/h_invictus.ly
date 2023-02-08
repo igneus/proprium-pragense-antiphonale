@@ -55,12 +55,25 @@
     mén -- ti -- o.
   }
   \header {
-    fontes = "pustet1875 [142] (ut tonus pro tempore paschali)"
+    fontes = "mettenleiter 623; pustet1875 [142] (ut tonus pro tempore paschali)"
   }
 }
 % except of the Eastertide tone,
 % pustet1875 also has notated tone "Infra Octavam Ascensionis", p. [143]
 % Doesn't seem to be proper in the true sense and so I'm leaving it out for now.
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g4 a g } g \bar "||"
+  }
+  \addlyrics {
+    A -- men.
+  }
+  \header {
+    fontes = "mettenleiter 623"
+  }
+}
 
 \score {
   \relative c'' {

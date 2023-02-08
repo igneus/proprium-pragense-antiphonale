@@ -93,6 +93,17 @@ li93:
   location: Praha
   publisher: Liturgický institut
   year: 1993
+mettenleiter:
+  author: J. Georgius Mettenleiter
+  name: Enchiridion chorale, sive selectus locupletissimus cantionum liturgicarum juxta ritum S. Romanae Ecclesiae per totius anni circulum praescriptarum
+  location: Ratisbonae
+  publisher: Fridericus Pustet
+  year: 1853
+  uri: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10590984-3
+  notice: |
+    This chant edition was used in Bohemia, there are testimonies
+    of choir directors purchasing and perusing it in early years
+    of the Cecilie/Cyrill journal.
 pustet1875:
   name: Vesperale Romanum juxta ordinem Breviarii Romani cum cantu emendato
   location: Ratisbonae, Neo Eboraci et Cincinnatii

@@ -75,6 +75,26 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f4 a } \melisma { c' d' } c' \bar "||"
+    c' d' d' f' c' d' \melisma { c' b } a a \bar "|"
+    d' d' c' a \melisma { bes g } a c' \melisma { g a f } g f \bar "||"
+
+    c' c' d' b c' a \bar "||"
+  }
+  \addlyrics {
+    Be -- a -- tus
+    qui lin -- gua su -- a non est lap -- sus,
+    et qui non ser -- vi -- vit in -- di -- gnis se.
+  }
+  \header {
+    annotation = "V"
+    fontes = "mettenleiter 623"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \melisma { g c' } a g a \melisma { g f } \melisma { g a } g \bar "|"
     \melisma { f a } c' \melisma { c' b c' d' } c' \bar "|"
     c' c' b c' \melisma { d' e' } d' \bar "|"

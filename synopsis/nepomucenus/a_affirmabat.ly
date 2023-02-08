@@ -199,6 +199,33 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    % \clef "soprano"
+    e4 g g \melisma { a c' } c' \bar "|"
+    \melisma { b c' } d' d' c' \bar "|"
+    c' b \melisma { c' a } c' b a g \bar "|"
+    c' a \melisma { d' c' } b c' \divMinima a c' g b a \bar "|"
+    b c' d' c' \melisma { a b c' a b a } g \bar "|"
+    f g g f \melisma { g f } e \bar "||"
+
+    c' c' a c' \melisma { b a } \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- ma -- bat Rex,
+    se di -- vi -- tem,
+    et be -- a -- tum fac -- tu -- rum.
+    Non o -- be -- di -- o prae -- cep -- to Re -- gis,
+    sed prae -- cep -- to Le -- gis,
+    quae da -- ta est no -- bis.
+  }
+  \header {
+    annotation = "III/1"
+    fontes = "mettenleiter 622"
+  }
+}
+
 %{
 \score {
   \transpose c c' {

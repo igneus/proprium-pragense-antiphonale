@@ -41,7 +41,7 @@
     E u o u a e.
   }
   \header {
-    fontes = "pustet1879 [160]"
+    fontes = "pustet1879 [160]; mettenleiter 623 (sine alleluia)"
   }
 }
 
