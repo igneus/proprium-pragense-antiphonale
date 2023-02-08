@@ -41,6 +41,8 @@
 \include "a_tuncrex.ly"
 \include "a_beatus.ly"
 
+\include "h_vixin.ly"
+
 \include "a_quicumque.ly"
 
 \markup\tertia
