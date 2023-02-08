@@ -153,7 +153,7 @@
     \lyrit et \lyrrev fá -- ci -- es
   }
   \header {
-    fontes = "orgpustet1890 [82]; prosch 459"
+    fontes = "orgpustet1890 [82]; pustet1900 [71]; prosch 459"
   }
 }
 

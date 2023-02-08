@@ -138,6 +138,15 @@ orgpustet1890:
   notice: |
     Chants of St. John Nepomuk in the same extent and with the same tones
     as in pustet1879, except of the pieces transcribed.
+pustet1900:
+  name: Römisches Vesperbuch. Die Antiphonen, Psalmen und Hymnen des offiziellen Vesperale Romanum mit deutscher Übersetzung der Rubriken und Texte
+  location: Regensburg, Rom & New York
+  publisher: Friedrich Pustet
+  year: 1900
+  uri: http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00068493-3
+  notice: |
+    Chants of St. John Nepomuk in the same extent and with the same tones
+    as in pustet1879, except of the pieces transcribed.
 eins1774:
   type: manuscript
   name: Antiphonale benedictinum dispositum iuxta breviarium Einsidlense cum antiphonis etiam Boemiae propriis congestum a loci professo Fr. Vito A. D. 1774
