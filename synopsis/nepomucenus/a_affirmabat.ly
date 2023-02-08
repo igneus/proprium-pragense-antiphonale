@@ -151,6 +151,31 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g4 c' } a \melisma { a g a c' } c' \melisma { c' b } \bar "|"
+    \melisma { b c' } d' c' \melisma { c' b } a g \melisma { b c' } a \melisma { b a } g g \bar "|"
+    \melisma { g c' } a \melisma { a g a c' } c' c' \bar "|" c' \melisma { c' b } g \melisma { a g } f \bar "|"
+    \melisma { f a } g a g \melisma { f e } d \bar "|"
+    \melisma { e f } \melisma { g f g a } g \melisma { g f } e e \bar "||"
+
+    c' c' c' a c' \melisma { b a } \bar "||"
+  }
+  \addlyrics {
+    Af -- fir -- ma -- bat rex,
+    se di -- vi -- tem et be -- a -- tum
+    fac -- tu -- rum.
+    Non o -- be -- di -- o prae -- cep -- to Re -- gis,
+    sed prae -- cep -- to le -- gis,
+    quae da -- ta est no -- bis.
+  }
+  \header {
+    annotation = "3"
+    fontes = "psal1742 219"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \melisma { g c' } a \melisma { g a c' } \melisma { c' b } \bar "||"
     c' \melisma { a c' } b g g g a \melisma { g f } d \melisma { e f } e \bar "|"
     \melisma { d g } g \melisma { g a } g g g a g \melisma { e f g } g \bar "|"

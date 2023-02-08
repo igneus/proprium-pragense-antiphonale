@@ -75,6 +75,28 @@
 \score {
   \transpose c c' {
     \plainchant
+    g4 \melisma { g c' } a g a \melisma { g f } \melisma { g a } g \bar "|"
+    \melisma { f a } c' \melisma { c' b c' d' } c' \bar "|"
+    c' c' b c' \melisma { d' e' } d' \bar "|"
+    c' \melisma { c' a b } a \melisma { a g } \bar "||"
+
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Be -- a -- tus qui lin -- gua su -- a
+    non est lap -- sus,
+    et qui non ser -- vi -- vit
+    in -- di -- gnis se.
+  }
+  \header {
+    annotation = "8"
+    fontes = "psal1742 219"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \melisma { g c' } \melisma { a g } \bar "||"
     g \bar "|" a \melisma { g a } \bar "|" \melisma { b a } b \bar "|" \melisma { a b } \bar "|" a \bar "|" g g \bar "|"
     \melisma { d' b } \bar "|" d' \bar "|" \melisma { e' d' } \bar "|" c' \melisma { c' d' } c' \bar "|"

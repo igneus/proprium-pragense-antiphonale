@@ -72,13 +72,31 @@
 \score {
   \transpose c c' {
     \plainchant
-    g4 \bar "|" \melisma { g c' } \bar "|" a \melisma { a g } f \bar "|" \melisma { g a } g \bar "|"
+    g4 \melisma { g c' } a \melisma { a g } f \melisma { g a } g \bar "|"
+    g g b c' \melisma { d' e' d' c' b c' d' } c' \bar "|"
+    a a g a \melisma { c' b } g g \bar "||"
+
+    c' c' b c' a g \bar "||"
+  }
+  \addlyrics {
+    Tunc rex ac -- cen -- sus i -- ra,
+    in hunc su -- per om -- nes
+    cru -- de -- li -- us de -- sae -- vit.
+  }
+  \header {
+    annotation = "8"
+    fontes = "psal1742 219"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     b \bar "|" c' \bar "|" d' b \bar "|" \melisma { c' d' } b \bar "|"
     e' \melisma { b d' e' } b b \bar "|" c' \melisma { b a } g g \bar "||"
     c' c' b c' a g \bar "||"
   }
   \addlyrics {
-    Tunc Rex ac -- cen -- sus i -- ra,
     in hunc su -- per om -- nes
     cru -- de -- li -- us de -- sae -- vi -- it.
   }

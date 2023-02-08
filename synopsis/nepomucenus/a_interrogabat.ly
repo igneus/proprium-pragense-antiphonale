@@ -87,6 +87,25 @@
 \score {
   \transpose c c' {
     \plainchant
+    g4 \melisma { c d } d \melisma { d a bes } a \melisma { a g a b } \melisma { a g } \bar "|"
+    \melisma { f g } a g \melisma { f g } \melisma { g f g } d d \bar "|"
+    g g g \melisma { a g } f \bar "|" f \melisma { e f } g \melisma { f e } d d \bar "||"
+    a a g f \melisma { g a } g \bar "||"
+  }
+  \addlyrics {
+    In -- ter -- ro -- ga -- bat e -- um
+    rex mul -- tis ser -- mo -- ni -- bus:
+    at ip -- se ni -- hil re -- spon -- de -- bat il -- li.
+  }
+  \header {
+    annotation = "1"
+    fontes = "psal1742 218"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { c4 d } d d \melisma { d a bes } a \bar "||"
 
     a a g f \melisma { g a } g \bar "||"

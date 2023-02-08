@@ -151,6 +151,16 @@ einsric:
     is in a later supplement (of course - the texts were created
     only for the 1865 new edition of the "proprium Bohemiae"),
     without page numbering.
+psal1742:
+  name: Psalterio-antiphonale Romanum de tempore, et sanctis
+  location: Viennae Austriae
+  publisher: Joannes Ignatius Heyinger
+  year: 1742
+  uri: https://books.google.cz/books?id=chZkAAAAcAAJ
+  notice: |
+    The book is present in the National library of Czech Republic,
+    coming from the Prague convent of Trinitarians.
+    Another one is at the Strahov abbey.
 manbas1785hd:
   name: Manuale chori seu Horae diurnae Breviarii Romani una cum Matutinis Nativitatis Domini, Tenebrarum, ac Dominicae Resurrectionis editum ad usum dioecesis basileensis
   location: Bruntruti

@@ -146,6 +146,37 @@
 \score {
   \transpose c c' {
     \plainchant
+    c4 \melisma { d f } \melisma { f e } d \melisma { e f } \melisma { g a } g g \bar "|"
+    g f \melisma { g a } g \melisma { g f } e e \bar "|"
+    \melisma { d a } a a \melisma { a g a bes } a a \bar "|"
+    a \melisma { g f } \melisma { g a } g \melisma { g f e d } \bar "|"
+    d \melisma { f g a } g \melisma { f g f } \bar "|"
+    \melisma { f e } d \melisma { f e d } \melisma { d c } \bar "|"
+    c d \melisma { f g } f \melisma { e f g } \melisma { f e } \melisma { d e } e e \bar "||"
+
+    a g a b g e \bar "||"
+  }
+  \addlyrics {
+    In con -- spec -- tu po -- ten -- ti -- um
+    ad -- mi -- ra -- bi -- lis e -- ro,
+    fa -- ci -- es prin -- ci -- pum
+    mi -- ra -- bun -- tur me:
+    ta -- cen -- tem me
+    su -- sti -- ne -- bunt,
+    et lo -- quen -- tem me re -- spi -- ci -- ent.
+
+    E v o v a e.
+  }
+  \header {
+    annotation = "4"
+    quid = "antiphona ad Magnificat"
+    fontes = "psal1742 220"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     g4 \bar "" \melisma { f d } e f \bar "" g \melisma { a g } \melisma { f g } g \bar "'"
     g \melisma { a c' } \melisma { c' c' b } \melisma { a g } \melisma { f g } \bar "" g g \bar "|"
     g \bar "" \melisma { g a } g \melisma { a c' } \bar "" \melisma { d' e' d' } \melisma { c' d' } d' \bar "'"

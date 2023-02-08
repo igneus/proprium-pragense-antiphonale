@@ -150,6 +150,32 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { d4 c a, } \melisma { c d } d \bar "|"
+    d d \melisma { d c } d f \melisma { f d } \melisma { f g } f \bar "|"
+    \melisma { f a g } a f \melisma { g a f e } d \melisma { d c } \bar "|"
+    \melisma { e c d } d \bar "|"
+    f \melisma { f e } d e f \melisma { g a g a bes } a \bar "|"
+    a a g \melisma { e f g } \melisma { f e } d d \bar "||"
+
+    f f f e c d \bar "||"
+  }
+  \addlyrics {
+    Rex di -- xit:
+    Ne ab -- scon -- das a me ver -- bum,
+    quod te in -- ter -- ro -- go.
+    Di -- xi:
+    Se -- cre -- tum me -- um mi -- hi,
+    se -- cre -- tum me -- um mi -- hi.
+  }
+  \header {
+    annotation = "2"
+    fontes = "psal1742 218"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g4 f e d } \melisma { g a g } g \bar "||"
 
     c' c' b c' a g \bar "||"
