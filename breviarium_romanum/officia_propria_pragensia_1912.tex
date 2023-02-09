@@ -38,6 +38,7 @@
 \input{defs}
 
 \bibliography{bibliography}
+\bibliography{sources}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -138,6 +139,10 @@
 
 %\part{Indices}
 
-\printbibliography
+\input{sourcesused}
+\printbibliography[title=Fontes manuscripti, keyword=source, keyword=manuscript, heading=subbibliography]
+\printbibliography[title=Fontes typis impressi, keyword=source, notkeyword=manuscript, heading=subbibliography]
+
+\printbibliography[notkeyword=source, heading=subbibliography]
 
 \end{document}

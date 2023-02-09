@@ -25,16 +25,25 @@ calendars =
   target = src.sub('.txt', '.tex')
 
   file target => ['scripts/calendarium.rb', 'calendarium/' + src] do |t|
-    sh 'ruby', *t.prerequisites
+    ruby *t.prerequisites
   end
 
   target
+end
+
+file 'sources.bib' => ['scripts/sources_bib.rb', '../synopsis/sources.yml'] do |t|
+  ruby *t.prerequisites, out: t.name
+end
+
+file 'sourcesused.tex' => ['scripts/sources_used.rb'] + Dir['cantus/**/*.gly'] do |t|
+  ruby *t.prerequisites, out: t.name
 end
 
 deps =
   Dir['*.tex'] +
   Dir['*.*bx'] +
   Dir['*.bib'] +
+  ['sources.bib', 'sourcesused.tex'] +
   glys +
   calendars +
   %w(
