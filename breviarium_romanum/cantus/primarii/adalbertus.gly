@@ -328,7 +328,7 @@ office-part: antiphona
 mode: 8
 annotation: Ad Ben.
 annotation: VIII. G
-book: cbre 312v, IC
+book: *cbre 312v
 ratio: In textibus approbatis legitur \emph{testem suae passionis.} Nos hic ordinem verborum praeservavimus secundum codices vetustissimos: \emph{suae passionis testem.} Melodia \emph{Deus Israel} adaptata est ad textum longiorem. Divisiones additae sunt.
 c4 f!ghg hfg g () f ghg hg hfg g ;
 g gh h g g h ji hg h hg fg g ;
@@ -366,7 +366,7 @@ office-part: antiphona
 mode: 4
 annotation: Ad Mag.
 annotation: IV. E
-book: cbre 313r, IC
+book: *cbre 313r
 ratio: Melodia adaptata est ad textum valde breviorem, \emph{et ... civitate} nova est.
 c4 efe dc de e e ,
 f d f e!fgf!e!f d d ;

@@ -24,7 +24,7 @@ name: Beati Martyres Christi
 mode: 8
 annotation: ad Magn.
 annotation: VIII. g
-author: kol2 184r; IC
+book: *kol2 184r
 ratio: Melodia abbreviata est ad textum recentiorem, initium adaptatum est ad verba alia.
 c4
 g g gef!g () gg c d f!ghg g ;
@@ -62,7 +62,7 @@ name: Beati Martyres cum
 mode: 1
 annotation: ad Ben.
 annotation: I. g
-author: kol2 185v; IC
+book: *kol2 185v
 ratio: Melodia abbreviata est ad textum recentiorem, melodia \emph{uno ore} minime adaptata est.
 c4
 dc d e!fgFE d cd d ,

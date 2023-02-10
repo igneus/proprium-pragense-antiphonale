@@ -79,7 +79,7 @@ name: Dedit mihi Dominus
 mode: 6
 annotation: Ad Magn.
 annotation: VI. F
-book: eins1774 prop. sanc. 44, IC
+book: *eins1774 prop. sanc. 44
 ratio: Alleluja, quod in fonte non notatur, additum est.
 c4 fd dc fg g ghg f f ,
 hj h h h gf gh g ;
@@ -521,7 +521,7 @@ name: Interrogabat eum rex
 mode: 5
 annotation: 1. Ant.
 annotation: V a
-book: einsric 237, IC
+book: *einsric 237
 ratio: Alleluja additum est.
 c3 d f gxg h h () hi h h ,
 h i j kvJI h h ;
@@ -540,7 +540,7 @@ name: Rex dixit
 mode: 8
 annotation: 2. Ant.
 annotation: VIII G
-book: eins1774 prop. sanc. 45, IC
+book: *eins1774 prop. sanc. 45
 ratio: Alleluja additum est.
 c4 d fg g ,
 g g h gf gh g ,
@@ -564,7 +564,7 @@ name: Affirmabat rex
 mode: 7
 annotation: 3. Ant.
 annotation: VII c
-book: eins1774 prop. sanc. 46, IC
+book: *eins1774 prop. sanc. 46
 ratio: Alleluja additum est.
 c3 hg h ij i i ,
 gh i h h g h i hg fg f e :
@@ -605,7 +605,7 @@ name: Beatus, qui lingua sua
 mode: 1
 annotation: 5. Ant.
 annotation: I f
-book: einsric 238, IC
+book: *einsric 238
 ratio: Alleluja additum est.
 c4 ixdh!i hg h ,
 g gh g e f g fe d d ;

@@ -54,7 +54,7 @@ office-part: antiphona
 mode: 4
 annotation: 3. Ant.
 annotation: IV. A
-author: osbpav 4; IC
+book: *osbpav 4
 ratio: Melodia \emph{et bene} meliorata est.
 c3
 e f h h h ij i i ;
@@ -72,7 +72,6 @@ office-part: antiphona
 mode: 5
 annotation: 4. Ant.
 annotation: V. a
-author: IC
 ratio: Melodia pro hac antiphona solum in einsric invenitur et non est valde cantabilis, propter quod novam, eiusdem modi ac dispositionis, composuimus.
 c3
 h h h () h hi h e ;
