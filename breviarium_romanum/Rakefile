@@ -17,15 +17,17 @@ glys = Dir['cantus/*/*.gly'].collect do |gly_path|
 end
 
 file 'annotationes.tex' => ['scripts/annotationes.rb'] + Dir['cantus/*/*.gly'] do |t|
-  sh 'ruby', *t.prerequisites
+  ruby *t.prerequisites, out: t.name
 end
 
 calendars =
-  ['1915.txt', '1947.txt', '1960.txt'].collect do |src|
+  %w(1915 1947 1960)
+    .collect {|i| "calendarium/#{i}.txt" }
+    .collect do |src|
   target = src.sub('.txt', '.tex')
 
-  file target => ['scripts/calendarium.rb', 'calendarium/' + src] do |t|
-    ruby *t.prerequisites
+  file target => ['scripts/calendarium.rb', src] do |t|
+    ruby *t.prerequisites, out: t.name
   end
 
   target
