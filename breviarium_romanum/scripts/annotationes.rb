@@ -30,7 +30,7 @@ documents.each do |(path, document)|
 
   with_annotations.each do |score|
     if score.headers['office-part']
-      puts score.headers['office-part']
+      puts score.headers['office-part'].strip[0]&.yield_self {|x| "\\textsc{#{x}.}" }
     end
     lyrics =
       if score.headers['name']
