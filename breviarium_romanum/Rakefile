@@ -16,8 +16,9 @@ glys = Dir['cantus/*/*.gly'].collect do |gly_path|
   glytex_path
 end
 
-file 'annotationes.tex' => ['scripts/annotationes.rb'] + Dir['cantus/*/*.gly'] do |t|
-  ruby *t.prerequisites, out: t.name
+annotations_sources = ['scripts/annotationes.rb'] + Dir['cantus/*/*.gly']
+file 'annotationes.tex' => annotations_sources + Dir['annotationes/*.tex'] do |t|
+  ruby *annotations_sources, out: t.name
 end
 
 calendars =
