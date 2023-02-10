@@ -292,3 +292,10 @@ zsass:
     for the feast we are interested in only proper hymns are included
     and the tunes are not really proper, but shared by a whole group
     of structurally similar hymns.
+esimmacu:
+  siglum: E-Mn MPCANT/26 # not 100% sure the siglum is correct
+  name: Oficio y misa para la Inmaculada Concepción
+  year: 1750+
+  uri: http://www2.bne.es/CANT_web/verFichaCantoral.do?idBibliografica=14676
+  notice: |
+    Iberian Franciscan antiphonal-gradual for the feast of Immaculate Conception.

@@ -25,6 +25,33 @@
   }
 }
 
+\markup{
+  (Antiphona de officio hispanico Immaculatae Conceptionis.)
+}
+\score {
+  \transpose c c' {
+    \plainchant
+    c'4 c' \melisma { d' c' } \melisma { a b c' c' } \bar ""
+    \melisma { c' d' f' } c' d' \melisma { f' e' } \melisma { d' c' } \bar ""
+    d' c' a g a g f f \bar ""
+    \melisma { f a } \melisma { c' c' d' } c' d' a g a a \bar ""
+    c' g a g f f \bar "||"
+
+    c' c' d' b c' a \bar "||"
+  }
+  \addlyrics {
+    Aq -- uae mul -- tae
+    non po -- tu -- e -- runt
+    ex -- tin -- gue -- re cha -- ri -- ta -- tem,
+    nec flu -- mi -- na pec -- ca -- to -- rum
+    ob -- ru -- ent Ma -- ri -- am.
+  }
+  \header {
+    quid = "antiphona"
+    fontes = "esimmacu 7r"
+  }
+}
+
 %{
 \score {
   \transpose c c' {
