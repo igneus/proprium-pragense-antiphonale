@@ -4,7 +4,7 @@
 
 \header {
   title = "SS. Cosmae et Damiani, martyrum"
-  fontes = "kol2 184r"
+  fontes = "kol2 184r; khg 233v"
 }
 
 \markup\vesperaeI

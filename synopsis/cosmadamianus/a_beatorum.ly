@@ -30,3 +30,29 @@
     fontes = "kol2 185v"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d4
+  }
+  \addlyrics {
+    \lyrit dum \lyrrev
+  }
+  \header {
+    fontes = "khg 234r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f g a g } e \melisma { f e }
+  }
+  \addlyrics {
+    no -- mi -- ni
+  }
+  \header {
+    fontes = "khg 234r"
+  }
+}

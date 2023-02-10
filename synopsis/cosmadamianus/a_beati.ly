@@ -30,3 +30,57 @@
     fontes = "kol2 184r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { f4 g } c d
+  }
+  \addlyrics {
+    mar -- ti -- res
+  }
+  \header {
+    fontes = "khg 233v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d4 d f \melisma { f g } g \melisma { g f }
+    a \melisma { c' b }
+  }
+  \addlyrics {
+    qui re -- gi ce -- les -- ti
+    sem -- per
+  }
+  \header {
+    fontes = "khg 233v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a4 a \melisma { a g } a \melisma { g a } f f
+  }
+  \addlyrics {
+    o -- pi -- tu -- la -- ci -- o -- ne
+  }
+  \header {
+    fontes = "khg 233v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g4 a \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
+    blan -- di -- men -- ta
+  }
+  \header {
+    fontes = "khg 233v"
+  }
+}
