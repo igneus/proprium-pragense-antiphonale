@@ -1,17 +1,12 @@
 ---
-title: Prameny
+title: Prameny / Sources
 ---
 
-<h1>Prameny</h1>
+<h1><%= current_page.data.title %></h1>
 
 <p><a href="/">&lt; Zpět na homepage</a></p>
 
-<p>
-  Seznam obsahuje všechny prameny nápěvů zahrnuté do srovnávací edice.
-  Menší výběr z nich je základem edice praktické.
-</p>
-
-<h2>Rukopisy</h2>
+<h2>Rukopisy / Manuscripts</h2>
 
 <p>
   Místa uložení jsou kódována <a href="https://rism.info/community/sigla.html">RISM sigly</a>.
@@ -31,7 +26,7 @@ title: Prameny
 <% end %>
 </ul>
 
-<h2>Tisky</h2>
+<h2>Tisky / Printed Books</h2>
 
 <ul>
 <% data.sources.select {|k,v| !is_manuscript(v) }.each_pair.sort_by {|k,v| [v.year, v.name] }.each do |k,v| %>
