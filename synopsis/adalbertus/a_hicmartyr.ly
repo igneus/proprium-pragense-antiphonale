@@ -44,12 +44,10 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { e f g f e } \melisma { d \strophicus d } d \melisma { d f } f c \melisma { d f d f } \melisma { d c }
-    g \melisma { g \strophicus g } f
+    \melisma { e f g f e } \melisma { d \strophicus d } d \melisma { d f } f
   }
   \addlyrics {
-    sed in me -- li -- us na -- ta -- le
-    tri -- um -- pho
+    sed in me -- li -- us
   }
   \header {
     fontes = "cbre 312r"
