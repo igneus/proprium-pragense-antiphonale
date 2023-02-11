@@ -5,6 +5,7 @@
 \header {
   title = "S. Venceslai, martyris"
   subtitle = "officium novum, anno 1865 editum"
+  shorttitle = "Venceslaus 1865"
   fontes = "einsric; osbpav; prosch"
 }
 

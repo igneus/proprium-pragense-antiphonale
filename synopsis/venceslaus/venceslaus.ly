@@ -4,6 +4,7 @@
 
 \header {
   title = "S. Venceslai, martyris"
+  shorttitle = "Venceslaus"
   fontes = "kol2 186r"
 }
 

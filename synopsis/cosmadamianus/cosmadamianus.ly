@@ -4,6 +4,7 @@
 
 \header {
   title = "SS. Cosmae et Damiani, martyrum"
+  shorttitle = "Cosma et Damianus"
   fontes = "kol2 184r; khg 233v"
 }
 
