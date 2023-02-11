@@ -51,6 +51,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { f a } \melisma { c' d' } c' d' \melisma { f' d' \strophicus d' } c'
+  }
+  \addlyrics {
+    ac -- ce -- pit ta -- len -- tum
+  }
+  \header {
+    fontes = "khg 118v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { a bes a g } f a \melisma { c' d' c' } c' d' \melisma { f' e' d' c' d' } \melisma { c' \strophicus c' }
   }
   \addlyrics {
@@ -61,11 +74,39 @@
   }
 }
 
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { b a g } f
+  }
+  \addlyrics {
+    su -- o
+  }
+  \header {
+    fontes = "khg 118v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g \melisma { g a } f f
+  }
+  \addlyrics {
+    al -- le -- lu -- ia
+  }
+  \header {
+    fontes = "khg 118v"
+  }
+}
+
 \markup\italic{
   Textus \upright{alleluia} in \bold{cbre} deest, sed valde certum
   est hoc tantum scribae errorem esse.
 }
 
+% TODO this variant should probably be moved up to kol1,
+%   as it uses the same transposition.
 \score {
   \transpose c c' {
     \plainchant

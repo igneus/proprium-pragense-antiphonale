@@ -38,3 +38,16 @@
     fontes = "cbre 312r"
   }
 }
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g e } d e \melisma { f d c }
+  }
+  \addlyrics {
+    est in e -- o
+  }
+  \header {
+    fontes = "khg 118v"
+  }
+}

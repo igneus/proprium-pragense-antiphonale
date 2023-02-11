@@ -51,21 +51,93 @@
 \score {
   \transpose c c' {
     \plainchant
-    e^"a" \melisma { g a } a \bar ";"
-    \melisma { g^"c" g f e f } \melisma { d \strophicus d } \melisma { d e } e \bar ";"
-    \melisma { a^"e" \strophicus a } \melisma { g f e } e \bar ";"
-    \melisma { g g f e f } \melisma { d \strophicus d } e
-    \melisma { g^"f" d } \melisma { d e f } e \bar ";"
-    \melisma { e^"g" \strophicus e } \melisma { g a } \melisma { c' b a g } \melisma { a b c' b } \melisma { a \strophicus a } \melisma { c' b a g \strophicus g } \bar ";"
-    c^"h" d
+    e^"a" \melisma { g a } a
   }
   \addlyrics {
     pon -- ti -- fex
+  }
+  \header {
+    fontes = "cbre 312v; khg 119r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"c" g f e f } \melisma { d \strophicus d } \melisma { d e } e
+  }
+  \addlyrics {
     ad -- al -- ber -- te
+  }
+  \header {
+    fontes = "cbre 312v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"d" \melisma { a b } \melisma { c' a a g }
+  }
+  \addlyrics {
+    do -- mi -- num
+  }
+  \header {
+    fontes = "khg 119r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"e" \strophicus a } \melisma { g f e } e \bar ";"
+    \melisma { g g f e f } \melisma { d \strophicus d } e
+    \melisma { g^"f" d } \melisma { d e f } e
+  }
+  \addlyrics {
     o -- mni -- a
     re -- lin -- quens
     cen -- tup -- lum
-    et vi -- tam e -- ter -- nam
+  }
+  \header {
+    fontes = "cbre 312v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e^"g" \strophicus e } \melisma { g a } \melisma { c' b a g }
+  }
+  \addlyrics {
+    et vi -- tam
+  }
+  \header {
+    fontes = "cbre 312v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e^"g" \strophicus f } \melisma { g a } \melisma { b }
+  }
+  \addlyrics {
+    et vi -- tam
+  }
+  \header {
+    fontes = "khg 119v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"g" b c' b } \melisma { a \strophicus a } \melisma { c' b a g \strophicus g } \bar ";"
+    c^"h" d
+  }
+  \addlyrics {
+    e -- ter -- nam
     gre -- gem
   }
   \header {
@@ -76,7 +148,7 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { g g f e } \melisma { d e } \melisma { f e } e \bar ""
+    \melisma { g^"h" g f e } \melisma { d e } \melisma { f e } e \bar ""
     \melisma { g a } \bar "" \melisma { b c' b } \melisma { a g a b } b \bar ""
     \melisma { c' \strophicus c' }
   }
@@ -93,13 +165,27 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a g } \melisma { e d } \melisma { e f e } e
+    \melisma { a^"h" g } \melisma { e d } \melisma { e f e } e
   }
   \addlyrics {
     do -- cu -- i -- sti
   }
   \header {
     fontes = "cbre 312v; nic 268r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"h" g } \melisma { f e d } \melisma { f e } e \bar ";" % the bar...
+    % ...has no meaning here - it just mysteriously prevents mysterious crash when engraving using LilyPond 2.19.83
+  }
+  \addlyrics {
+    do -- cu -- i -- sti
+  }
+  \header {
+    fontes = "khg 119v"
   }
 }
 
@@ -115,5 +201,22 @@
   }
   \header {
     fontes = "cbre 312v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e^"j" b c' } a \melisma { g g f e } d
+    c^"k" d \melisma { e f e } d
+    \melisma { e f e d g g f e d c e } e \melisma { f e d }
+  }
+  \addlyrics {
+    au -- xi -- li -- o
+    pa -- ci -- a -- ris
+    or -- ba -- ri
+  }
+  \header {
+    fontes = "khg 119v"
   }
 }

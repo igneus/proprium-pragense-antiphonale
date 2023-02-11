@@ -37,19 +37,58 @@
     Bo -- he -- mo -- rum
   }
   \header {
-    fontes = "pint 27v"
+    fontes = "pint 27v; khg 118v"
   }
 }
 
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { e f g f e } \melisma { d \strophicus d } d \melisma { d f } f
+    \melisma { e f g f e }
   }
   \addlyrics {
-    sed in me -- li -- us
+    sed
   }
   \header {
     fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d \strophicus d } d \melisma { d f } f
+  }
+  \addlyrics {
+    in me -- li -- us
+  }
+  \header {
+    fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { d \strophicus d } \melisma { d e } e e
+  }
+  \addlyrics {
+    in me -- li -- us
+  }
+  \header {
+    fontes = "khg 118v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    d e \melisma { f d c }
+  }
+  \addlyrics {
+    pur -- ga -- tus
+  }
+  \header {
+    fontes = "khg 118v"
   }
 }

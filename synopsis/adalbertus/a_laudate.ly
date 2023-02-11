@@ -51,7 +51,7 @@
     do -- mi -- num
   }
   \header {
-    fontes = "cbre 312r"
+    fontes = "cbre 312r; khg 119r"
   }
 }
 
@@ -65,6 +65,19 @@
   }
   \header {
     fontes = "nic 267v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"a" g f
+  }
+  \addlyrics {
+    \lyrit de \lyrrev ce -- lis
+  }
+  \header {
+    fontes = "khg 119r"
   }
 }
 
@@ -90,7 +103,7 @@
     vir -- tu -- tes
   }
   \header {
-    fontes = "nic 267v"
+    fontes = "nic 267v; khg 119r"
   }
 }
 
@@ -116,20 +129,68 @@
     qui uo -- bis
   }
   \header {
-    fontes = "nic 267v"
+    fontes = "nic 267v; khg 119r"
   }
 }
 
 \score {
   \transpose c c' {
     \plainchant
-    g^"d" \melisma { f d } \melisma { f g } \melisma { a g } \melisma { f g } \bar ";"
-    a^"h" c' \melisma { c' b } \melisma { a g } \bar ";"
-    f^"i" \melisma { e d } d
+    g^"d" \melisma { f d } \melisma { f g } \melisma { a g } \melisma { f g }
   }
   \addlyrics {
     de bo -- he -- mi -- a
+  }
+  \header {
+    fontes = "cbre 312r; khg 119r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"f" a c' \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
+    pro -- mo -- ci -- o -- ne
+  }
+  \header {
+    fontes = "khg 119r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a^"h" c' \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
     sed pru -- zi -- e
+  }
+  \header {
+    fontes = "cbre 312r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"h" a \melisma { c' b } \melisma { a g }
+  }
+  \addlyrics {
+    sed pru -- sy -- e
+  }
+  \header {
+    fontes = "khg 119r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    f^"i" \melisma { e d } d
+  }
+  \addlyrics {
     bra -- chi -- is
   }
   \header {
@@ -146,7 +207,7 @@
     de -- um
   }
   \header {
-    fontes = "cbre 312r; nic 267v"
+    fontes = "cbre 312r; nic 267v; khg 119r"
   }
 }
 
@@ -159,6 +220,6 @@
     per va -- ri -- a
   }
   \header {
-    fontes = "cbre 312r; nic 267v"
+    fontes = "cbre 312r; nic 267v; khg 119r"
   }
 }

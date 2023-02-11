@@ -37,7 +37,20 @@
     in ce -- lum
   }
   \header {
-    fontes = "nic 268v"
+    fontes = "nic 268v; khg 118v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g f } \melisma { a c' } a
+  }
+  \addlyrics {
+    \lyrit o -- ra -- bat \lyrrev % loco "clamabat"
+  }
+  \header {
+    fontes = "khg 118v"
   }
 }
 
