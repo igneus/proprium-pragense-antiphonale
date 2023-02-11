@@ -101,7 +101,20 @@
     ma -- la
   }
   \header {
-    fontes = "cbre 311v; nic 266v"
+    fontes = "cbre 311v; nic 266v; khg 117v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { e^"e" f g f g } \melisma { a g }
+  }
+  \addlyrics {
+    pos -- ce
+  }
+  \header {
+    fontes = "khg 117v"
   }
 }
 

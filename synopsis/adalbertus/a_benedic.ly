@@ -67,6 +67,47 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { a^"b" c' } c' \melisma { a b }
+    \melisma { c' c' b a g }
+  }
+  \addlyrics {
+    con -- uer -- sa
+    gens
+  }
+  \header {
+    fontes = "khg 116r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"c" a g \melisma { c' d' } c'
+  }
+  \addlyrics {
+    il -- lu -- mi -- na -- uit
+  }
+  \header {
+    fontes = "khg 116r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'^"d" d' e' f' e' \melisma { d' c' } \melisma { a c' } c'
+  }
+  \addlyrics {
+    quem o -- ri -- ens de -- sti -- na -- uit
+  }
+  \header {
+    fontes = "khg 116r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f'^"d" \melisma { e' d' c' } \melisma { a b } c'
   }
   \addlyrics {
@@ -86,7 +127,7 @@
     a -- dal -- ber -- tus
   }
   \header {
-    fontes = "hr4 197r"
+    fontes = "hr4 197r; khg 116r"
   }
 }
 
@@ -139,5 +180,18 @@
   }
   \header {
     fontes = "hr4 197r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    c'4 \melisma { a b c' } c' \melisma { a g f e } \bar "" g \melisma { g a g } f f
+  }
+  \addlyrics {
+    a -- e -- u -- ia a -- e -- u -- ia
+  }
+  \header {
+    fontes = "khg 116r"
   }
 }

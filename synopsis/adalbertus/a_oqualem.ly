@@ -44,7 +44,7 @@
     O qua -- lem
   }
   \header {
-    fontes = "nic 265r, pint 27r"
+    fontes = "nic 265r, pint 27r; khg 116r"
   }
 }
 

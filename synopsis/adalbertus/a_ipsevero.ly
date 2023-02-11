@@ -33,11 +33,22 @@
 \score {
   \transpose c c' {
     \plainchant
-    \melisma { a \strophicus a } g \melisma { a b c' } a a g \bar ";"
-    a a \melisma { a c' a }
+    \melisma { a \strophicus a } g \melisma { a b c' } a a g
   }
   \addlyrics {
     ir -- ru -- en -- tem \markup\italic{quid} vis
+  }
+  \header {
+    fontes = "cbre 310v; khg 116v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a a \melisma { a c' a }
+  }
+  \addlyrics {
     sang -- ui -- ne
   }
   \header {

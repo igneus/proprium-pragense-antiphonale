@@ -63,7 +63,7 @@
     a -- dal -- ber -- te
   }
   \header {
-    fontes = "cbre 311r"
+    fontes = "cbre 311r; khg 117r"
   }
 }
 
@@ -102,7 +102,7 @@
     dis -- si -- mi -- les
   }
   \header {
-    fontes = "cbre 311r; nic 266r"
+    fontes = "cbre 311r; nic 266r; khg 117r"
   }
 }
 
@@ -115,7 +115,20 @@
     te
   }
   \header {
-    fontes = "nic 266r"
+    fontes = "nic 266r; khg 117r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"e" \melisma { g a c' } a
+  }
+  \addlyrics {
+    pre -- ca -- mur
+  }
+  \header {
+    fontes = "khg 117r"
   }
 }
 
@@ -129,6 +142,19 @@
   }
   \header {
     fontes = "cbre 311r"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a^"e" \melisma { a g a g f f g a g a b a } \melisma { g f } f
+  }
+  \addlyrics {
+    tan -- tum -- mo -- do
+  }
+  \header {
+    fontes = "khg 117r"
   }
 }
 
@@ -168,7 +194,7 @@
     di -- lu -- e
   }
   \header {
-    fontes = "nic 266v"
+    fontes = "nic 266v; khg 117r"
   }
 }
 
@@ -229,13 +255,63 @@
 \score {
   \transpose c c' {
     \plainchant
+    g^"l" \melisma { g a c' a } \melisma { a g } \bar ";"
+  }
+  \addlyrics {
+    o -- pe -- re
+  }
+  \header {
+    fontes = "khg 117v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     f^"m" g g g
-    g^"n" g g g \melisma { g a } g
-    g^"o" f g g g g
+    g^"n" g g g
   }
   \addlyrics {
     quip -- pe fe -- lix
-    glo -- ri -- fi -- cat pal -- ma
+    glo -- ri -- fi -- cat
+  }
+  \header {
+    fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { g^"n" a } g
+  }
+  \addlyrics {
+    pal -- ma
+  }
+  \header {
+    fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"n" g
+  }
+  \addlyrics {
+    pal -- ma
+  }
+  \header {
+    fontes = "khg 117v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    g^"o" f g g g g
+  }
+  \addlyrics {
     noc con -- tra in -- fe -- lix
   }
   \header {
@@ -266,5 +342,18 @@
   }
   \header {
     fontes = "nic 266v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    \melisma { a^"p" c' a g a b a } \melisma { g a f } \melisma { g a } \melisma { a c' b c' d' c' b a } \melisma { a b a g a g }
+  }
+  \addlyrics {
+    con -- sci -- en -- ci -- a
+  }
+  \header {
+    fontes = "khg 117v"
   }
 }

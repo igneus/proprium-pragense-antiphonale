@@ -46,6 +46,19 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { g f d }
+  }
+  \addlyrics {
+    \markup\italic{Cum}
+  }
+  \header {
+    fontes = "khg 116v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     \melisma { g f } a \melisma { a c' }
   }
   \addlyrics {
@@ -78,6 +91,19 @@
     dul -- cem
   }
   \header {
-    fontes = "cbre 310v; hr4 197v"
+    fontes = "cbre 310v; hr4 197v; khg 116v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
+    a4 \melisma { a c' }
+  }
+  \addlyrics {
+    vi -- tam
+  }
+  \header {
+    fontes = "khg 116v"
   }
 }

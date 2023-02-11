@@ -45,6 +45,20 @@
 \score {
   \transpose c c' {
     \plainchant
+    c' c' \melisma { c' b } \melisma { a g } a \melisma { a c' a } g g
+  }
+  \addlyrics {
+    \set stanza = #"cbre"
+    in e -- um \lyrit ig -- ne -- us si -- co \lyrrev
+  }
+  \header {
+    fontes = "khg 116v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     c' c' \melisma { c' b } \melisma { a c' \strophicus c' } \melisma { a g } g
   }
   \addlyrics {
@@ -71,12 +85,25 @@
 \score {
   \transpose c c' {
     \plainchant
+    \melisma { e f g f e d c } d
+  }
+  \addlyrics {
+    cor -- dis
+  }
+  \header {
+    fontes = "khg 116v"
+  }
+}
+
+\score {
+  \transpose c c' {
+    \plainchant
     a \melisma { a c' } g \melisma { g f e d }
   }
   \addlyrics {
     a -- dal -- ber -- ti
   }
   \header {
-    fontes = "hr4 197v"
+    fontes = "hr4 197v; khg 116v"
   }
 }
