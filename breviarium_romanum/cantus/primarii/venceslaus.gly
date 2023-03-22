@@ -186,6 +186,50 @@ ejus précibus nos ab omni adversitáte custódi,
 et ejúsdem tríbue gaudére consórtio.
 \perDominum
 
+\horaMatutinum
+
+\horaNocturnusI
+
+\score
+office-part: antiphona
+mode: 6
+annotation: 3. Ant.
+annotation: VI. F
+cantus-id: cf. 201674
+book: *Liber usualis 1961, p. 936
+ratio: Melodia abbreviata est ad textum alium.
+c4
+f gh f f ixfg/ih!ij ivHGF ghGF f ;
+f!hj j ixkvJI j ixih gf fe dc , gf/ghg f f ::
+Ex al -- tá -- ri * Chris -- tum su -- mit,
+in quem cor et ca -- ro e -- jus ex -- súl -- tant.
+
+\markup
+\horaNocturnusII
+
+\horaNocturnusIII
+
+\score
+office-part: antiphona
+mode: 7
+annotation: 9. Ant.
+annotation: VII. a
+cantus-id: 001711
+book: Liber antiphonarius 1960, p. 2
+% note: shared with the BMV Omnium Gratiarum Mediatricis
+c3
+e e g h i j ih f g h fe e. ,
+e f h g f h g. ;
+g i i h h iji hghih_ ,
+f e f f f f h g e. e. ::
+i i j i h gf.. ::
+BE -- ne -- di -- cti -- ó -- nem ó -- mni -- um gén -- ti -- um *
+de -- dit il -- li Dó -- mi -- nus,
+et te -- sta -- mén -- tum su -- um
+con -- fir -- má -- vit su -- per cá -- put e -- jus.
+E u o u a e.
+
+\markup
 \horaLaudesEtHorae
 
 \score
