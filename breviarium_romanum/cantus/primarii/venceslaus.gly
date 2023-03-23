@@ -188,6 +188,25 @@ et ejúsdem tríbue gaudére consórtio.
 
 \horaMatutinum
 
+\score
+name: Regem regum
+office-part: invitatorium
+mode: 4
+annotation: Invit.
+annotation: IV.
+book: *Nocturnale Romanum 2002, p. 176
+ratio: Melodia invitatorii de officio S. Stephani abbreviata est ad textum.
+c4
+d dfd~ e efgfeeo0fvded ;
+dfe fg g gh h g fg g , gh g gf efEDdo~ ;
+c cdwefv ed -dfe fg ghGFg fe ::
+dh gh gfgffe ::
+Re -- gem re -- gum,
+qui be -- á -- tum co -- ro -- ná -- vit Ven -- ce -- slá -- um, *
+Ve -- ní -- te, ad -- o -- ré -- mus.
+Ve -- ní -- te.
+
+\markup
 \horaNocturnusI
 
 \score
@@ -197,7 +216,7 @@ annotation: 3. Ant.
 annotation: VI. F
 cantus-id: cf. 201674
 book: *Liber usualis 1961, p. 936
-ratio: Melodia antiphonae de officio Corporis Christi abbreviata est ad textum alium.
+ratio: Melodia antiphonae de officio Corporis Christi abbreviata est ad textum.
 c4
 f gh f f () ixfg/ih!ij ivHGF ghGF f ;
 f!hj j ixkvJI j ixih gf fe dc , gf/ghg f f ::
