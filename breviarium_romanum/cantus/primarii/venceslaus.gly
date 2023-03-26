@@ -207,6 +207,10 @@ Ve -- ní -- te, ad -- o -- ré -- mus.
 Ve -- ní -- te.
 
 \markup
+% TODO: it would be desirable to generate code like this from score headers
+%   rather than maintain it manually. This way it's easier to get out of sync with the tune.
+\venitePaginaSandhofe{XXXVI}
+
 \horaNocturnusI
 
 \score
