@@ -67,9 +67,9 @@ end
 
 task :default => [main_pdf]
 
-desc 'smazat vedlejsi produkty sazby latexem'
+desc 'smazat vedlejsi produkty sazby'
 task :clean do
-  %w{aux bbl dvi bcf blg log out pdf run.xml *~}.each do |s|
+  %w{gabc gtex aux bbl dvi bcf blg log out pdf run.xml *~}.each do |s|
     unless Dir['*.'+s].empty?
       sh "rm *."+s
     end
@@ -78,6 +78,7 @@ task :clean do
   # TODO: copied chode chunk
   Dir['cantus/*/*.gly'].collect do |gly_path|
     glytex_path = File.basename(gly_path).sub('.gly', '.tex')
+    next unless File.exists? glytex_path
 
     sh 'rm', glytex_path
   end
