@@ -6,7 +6,7 @@
   \transpose c c' {
     \plainchant
     c4 d f \melisma { e d c } e f e d \bar "|"
-    a \melisma { c d } \melisma { d c } \melisma { f g } g f f \bar "|"
+    a, \melisma { c d } \melisma { d c } \melisma { f g } g f f \bar "|"
     a f g g d f \melisma { e d } c \bar "|"
     e g a \melisma { f e } d c d \bar "||"
   }
@@ -18,7 +18,7 @@
   }
   \header {
     quid = "hymnus"
-    fontes = ""
+    fontes = "osbpav 1"
   }
 }
 
